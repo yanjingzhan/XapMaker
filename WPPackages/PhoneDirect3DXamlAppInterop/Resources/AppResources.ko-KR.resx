@@ -1,0 +1,1126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RenamePageTitle" xml:space="preserve">
+    <value>이름 바꾸기</value>
+  </data>
+  <data name="CancelButtonText" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="RenameMenuItemText" xml:space="preserve">
+    <value>이름 바꾸기</value>
+  </data>
+  <data name="LinkTypeText" xml:space="preserve">
+    <value>연결 종류</value>
+  </data>
+  <data name="RestorePageTitle" xml:space="preserve">
+    <value>세이브 가져오기</value>
+  </data>
+  <data name="VirtualControllerButtonStyle" xml:space="preserve">
+    <value>가상 컨트롤러 단추 스타일</value>
+  </data>
+  <data name="SecondGameText" xml:space="preserve">
+    <value>두 번째 게임 (첫번째 게임과 동일해도 됩니다.)</value>
+  </data>
+  <data name="ProductNotAvailableText" xml:space="preserve">
+    <value>제품이 현재 사용 불가능합니다</value>
+  </data>
+  <data name="RenameEmptyString" xml:space="preserve">
+    <value>이름을 입력해야합니다.</value>
+  </data>
+  <data name="GuidesHeader" xml:space="preserve">
+    <value>도움말</value>
+  </data>
+  <data name="ButtonScaleSettings" xml:space="preserve">
+    <value>가상 버튼 크기</value>
+  </data>
+  <data name="CablePeerText" xml:space="preserve">
+    <value>케이블-블루투스</value>
+  </data>
+  <data name="AboutSnes9xLink" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ReviewText" xml:space="preserve">
+    <value>리뷰</value>
+  </data>
+  <data name="OverNetworkText" xml:space="preserve">
+    <value>블루투스/와이파이 (사용할 수 없음)</value>
+  </data>
+  <data name="AboutSnes9xLicenseText" xml:space="preserve">
+    <value>http://www.gnu.org/licenses/gpl.html</value>
+  </data>
+  <data name="UploadProgressText" xml:space="preserve">
+    <value>'{0}'을(를) 내보내는 중입니다.</value>
+  </data>
+  <data name="WirelessLinkText" xml:space="preserve">
+    <value>무선 어댑터 (사용할 수 없음)</value>
+  </data>
+  <data name="RenamePromptMessage" xml:space="preserve">
+    <value>롬의 이름 변경:</value>
+  </data>
+  <data name="PowerFrameSkipText" xml:space="preserve">
+    <value>프레임스킵 (같은 에뮬레이션 속도)</value>
+  </data>
+  <data name="EnableSoundSetting" xml:space="preserve">
+    <value>소리 켜기</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ko-KR</value>
+  </data>
+  <data name="FrameSkipAutoSetting" xml:space="preserve">
+    <value>자동</value>
+  </data>
+  <data name="SkyDriveGeneralError" xml:space="preserve">
+    <value>OneDrive에 액세스 하는 동안 오류가 발생 했습니다: {0}</value>
+  </data>
+  <data name="DPadStandard" xml:space="preserve">
+    <value>4방향</value>
+  </data>
+  <data name="LinkTimeoutText" xml:space="preserve">
+    <value>연결 제한 시간 (밀리초)</value>
+  </data>
+  <data name="ContactHeader" xml:space="preserve">
+    <value>연락</value>
+  </data>
+  <data name="ImportFromSkyDriveButtonText" xml:space="preserve">
+    <value>가져오기</value>
+  </data>
+  <data name="Msg_ChatPrompt" xml:space="preserve">
+    <value>{0}과 연결  하시겠습니까?</value>
+  </data>
+  <data name="StartLinkTitle" xml:space="preserve">
+    <value>연결 시작</value>
+  </data>
+  <data name="MogaGDR3Note" xml:space="preserve">
+    <value>참고: MOGA 컨트롤러는 GDR3 업데이트가 필요할 수도 있습니다.</value>
+  </data>
+  <data name="ManageSavestateMenuItem" xml:space="preserve">
+    <value>저장슬롯 관리</value>
+  </data>
+  <data name="PurchaseText" xml:space="preserve">
+    <value>구입하기</value>
+  </data>
+  <data name="DeviceIDText" xml:space="preserve">
+    <value>장치 ID: {0}</value>
+  </data>
+  <data name="ImportWaitComplete" xml:space="preserve">
+    <value>다운로드 완료를 위해 기다려 주세요.</value>
+  </data>
+  <data name="ImportSaveInstructionsText" xml:space="preserve">
+    <value>세이브데이터를 복원하기 위해선:
+1. 롬과 세이브파일의 이름이  정확하게 일치하는지 확인하세요.
+2. "가져오기" 버튼을 누르고 세이브 파일을 선택 하세요.
+3. 게임을 시작 합니다.</value>
+  </data>
+  <data name="RenameLabel" xml:space="preserve">
+    <value>새롭게 표시될 이름을 입력하세요:</value>
+  </data>
+  <data name="LightText" xml:space="preserve">
+    <value>밝게</value>
+  </data>
+  <data name="AlreadyDownloadingText" xml:space="preserve">
+    <value>이 항목은 이미 다운로드중 입니다.</value>
+  </data>
+  <data name="ContextTitle" xml:space="preserve">
+    <value>옵션</value>
+  </data>
+  <data name="ImportingProgressText" xml:space="preserve">
+    <value>{0}을(를) 가져오는 중</value>
+  </data>
+  <data name="RenameOkButton" xml:space="preserve">
+    <value>이름 바꾸기</value>
+  </data>
+  <data name="ResetROMButton" xml:space="preserve">
+    <value>초기화</value>
+  </data>
+  <data name="BackupButton" xml:space="preserve">
+    <value>내보내기</value>
+  </data>
+  <data name="ShowLastPlayedGameText" xml:space="preserve">
+    <value>마지막 게임의 스냅숏 보기</value>
+  </data>
+  <data name="SelectState8" xml:space="preserve">
+    <value>슬롯 8</value>
+  </data>
+  <data name="SelectState9" xml:space="preserve">
+    <value>슬롯 9</value>
+  </data>
+  <data name="SelectState2" xml:space="preserve">
+    <value>슬롯 2</value>
+  </data>
+  <data name="SelectState3" xml:space="preserve">
+    <value>슬롯 3</value>
+  </data>
+  <data name="SelectState0" xml:space="preserve">
+    <value>슬롯 0</value>
+  </data>
+  <data name="SelectState1" xml:space="preserve">
+    <value>슬롯 1</value>
+  </data>
+  <data name="SelectState6" xml:space="preserve">
+    <value>슬롯 6</value>
+  </data>
+  <data name="SelectState7" xml:space="preserve">
+    <value>슬롯 7</value>
+  </data>
+  <data name="SelectState4" xml:space="preserve">
+    <value>슬롯 4</value>
+  </data>
+  <data name="SelectState5" xml:space="preserve">
+    <value>슬롯 5</value>
+  </data>
+  <data name="TapDownloadSnes8xText" xml:space="preserve">
+    <value>Snes8x를 다운로드 하시려면 여기를 탭해주세요</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>도움말</value>
+  </data>
+  <data name="NoMatchingNameText" xml:space="preserve">
+    <value>세이브파일의 이름이 롬파일의 이름과 일치하는지 확인해주세요</value>
+  </data>
+  <data name="CheatListUnknownGame" xml:space="preserve">
+    <value>알 수 없음</value>
+  </data>
+  <data name="Err_NoChatNameCaption" xml:space="preserve">
+    <value>이름이 비어 있습니다.</value>
+  </data>
+  <data name="HelpHowToHeader" xml:space="preserve">
+    <value>도움말</value>
+  </data>
+  <data name="ImageEditorTitle" xml:space="preserve">
+    <value>이미지 편집기</value>
+  </data>
+  <data name="Err_NoSendTitle" xml:space="preserve">
+    <value>보낼 수 없음</value>
+  </data>
+  <data name="EnterNewCheatText" xml:space="preserve">
+    <value>새로운 치트 코드를 입력 합세요.</value>
+  </data>
+  <data name="GuideBlankScreenText" xml:space="preserve">
+    <value>가이드: 빈 화면 문제를 해결합니다</value>
+  </data>
+  <data name="NeverPlayedText" xml:space="preserve">
+    <value>사용 안함</value>
+  </data>
+  <data name="CheatMenuItemText" xml:space="preserve">
+    <value>치트코드</value>
+  </data>
+  <data name="OKText" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="LinkErrorText" xml:space="preserve">
+    <value>오류가 발생 했습니다. 앱을 재시작 한후 다시 시도 해주세요.</value>
+  </data>
+  <data name="SyncSoundSetting" xml:space="preserve">
+    <value>소리 동기화 (더 나은 품질)</value>
+  </data>
+  <data name="HelpImportEmailHeader" xml:space="preserve">
+    <value>방법 2: 메일에서 가져오기</value>
+  </data>
+  <data name="LinkConnectedText" xml:space="preserve">
+    <value>연결되었습니다. 아재 이 창을 닫고 게임을 계속하실 수 있습니다.</value>
+  </data>
+  <data name="ManageSavestatesTitle" xml:space="preserve">
+    <value>상태 저장</value>
+  </data>
+  <data name="RenameNameAlreadyExisting" xml:space="preserve">
+    <value>해당 이름 가진 롬이 이미 존재합니다.</value>
+  </data>
+  <data name="ImageScaleSetting" xml:space="preserve">
+    <value>화면 크기 (가로화면만)</value>
+  </data>
+  <data name="DarkText" xml:space="preserve">
+    <value>어둡게</value>
+  </data>
+  <data name="PleaseWaitROMLoadingText" xml:space="preserve">
+    <value>ROM의 로딩이 완료 될 때까지 기다려 주세요</value>
+  </data>
+  <data name="RestartPromptTitle" xml:space="preserve">
+    <value>재시작 해주세요.</value>
+  </data>
+  <data name="ImportCompleteText" xml:space="preserve">
+    <value>파일 ' {0} ' 가져오기를 완료</value>
+  </data>
+  <data name="Err_BluetoothOff" xml:space="preserve">
+    <value>블루투스가 꺼졌습니다. 현재 블루투스 설정을 보시려면 '확인'을 눌러주세요</value>
+  </data>
+  <data name="ManageSlotLabel" xml:space="preserve">
+    <value>슬롯</value>
+  </data>
+  <data name="SettingsButtonText" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="SkyDriveInternetLost" xml:space="preserve">
+    <value>OneDrive에 연결할 수 없습니다. 인터넷 연결을 확인해주세요.</value>
+  </data>
+  <data name="BackupUploadProgressText" xml:space="preserve">
+    <value>'{0}' 을 내보내는중입니다.</value>
+  </data>
+  <data name="AutoIncSavestateSetting" xml:space="preserve">
+    <value>자동으로 상태저장</value>
+  </data>
+  <data name="InputSettingsPageTitle" xml:space="preserve">
+    <value>입력</value>
+  </data>
+  <data name="GuideImportROMText" xml:space="preserve">
+    <value>도움말: ROM을 가져오는 4가지 방법</value>
+  </data>
+  <data name="PremiumText" xml:space="preserve">
+    <value>프리미엄 기능이 포함되어있습니다: 
+-MOGA 컨트롤러 지원. 
+-게임 배경 색상을 지정할 수 있습니다.
+-당신만의 배경 이미지를 선택하세요.
+
+이제 VBA8 및 VGBC8은 구매내역 확인기능이 추가되었습니다. 하나의 앱에서만 프리미엄기능을 구매해야합니다.
+
+* * * 읽어주세요 * * *: Snes8x에서 MOGA 컨트롤러 지원이 무료입니다. 프리미엄 기능을 구입하시기 전, Snes8x를 먼저 다운로드하셔서 컨트롤러가 당신의 기기와 잘 작동되는지 확인 하시기 바랍니다.</value>
+  </data>
+  <data name="HelpImportSkyDriveHeader" xml:space="preserve">
+    <value>방법 1: OneDrive에서 가져오기</value>
+  </data>
+  <data name="TapStartServerIPText" xml:space="preserve">
+    <value>서버의 IP주소를 얻으시려면 서버시작을 탭해주세요.</value>
+  </data>
+  <data name="BuyWaitForDownloadText" xml:space="preserve">
+    <value>다운로드중인 항목이 완료 될때까지 기다려주세요.</value>
+  </data>
+  <data name="SameDeviceText" xml:space="preserve">
+    <value>동일한 장치</value>
+  </data>
+  <data name="CheatNoSelection" xml:space="preserve">
+    <value>치트 코드를 먼저 선택 해야 합니다.</value>
+  </data>
+  <data name="RestoreButton" xml:space="preserve">
+    <value>가져오기</value>
+  </data>
+  <data name="OrientationSettingText" xml:space="preserve">
+    <value>화면회전</value>
+  </data>
+  <data name="ConfirmButtonText" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="CheatNoCodeEntered" xml:space="preserve">
+    <value>코드를 먼저 입력 해야 합니다.</value>
+  </data>
+  <data name="NotSignedInError" xml:space="preserve">
+    <value>로그인 하지않으셨습니다. OneDrive에서 Rom을 가져오시려면 먼저 로그인해주세요.</value>
+  </data>
+  <data name="ErrorReadingSDCardText" xml:space="preserve">
+    <value>SD 카드 내용 읽는 중 오류 발생</value>
+  </data>
+  <data name="AddCheatButtonText" xml:space="preserve">
+    <value>추가</value>
+  </data>
+  <data name="CopyRightText" xml:space="preserve">
+    <value>이 프로그램은 자유 소프트웨어입니다; 당신은 이것을 재배포하거나 또는 Free Software Foundation에 의해 만들어진 GNU General Public License의 약관아래서 수정할수 있습니다; 버전 3이나, 또는 당신의 주관에 따라 더 나중버전도 가능합니다.
+
+이 프로그램은 더 유용할것이라는 가정하에 재배포될수 있으나 아무런 보증을 할수 없습니다; 상품성 또는 특정 목적에 대한 적합성의 묵시적 보증도하지 않습니다. 자세한 내용은 GNU General Public License를 참고하십시요.
+
+이 프로그램과 함께 GNU General Public License의 사본을 받으셨을 것입니다; 그렇지 않을 경우, Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA 에 연락해주세요</value>
+  </data>
+  <data name="ResetImageText" xml:space="preserve">
+    <value>이미지 초기화</value>
+  </data>
+  <data name="MoreLicenseButton" xml:space="preserve">
+    <value>라이선스 정보</value>
+  </data>
+  <data name="CheatCodesListPivotTitle" xml:space="preserve">
+    <value>목록</value>
+  </data>
+  <data name="ImportTitle" xml:space="preserve">
+    <value>데이터</value>
+  </data>
+  <data name="HideConfirmationSetting" xml:space="preserve">
+    <value>자징힐때 확인할림 해제</value>
+  </data>
+  <data name="LicenseCopyRightTitle" xml:space="preserve">
+    <value>저작권</value>
+  </data>
+  <data name="AspectRatioStretchSetting" xml:space="preserve">
+    <value>늘이기</value>
+  </data>
+  <data name="PowerFrameSkipText2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheatPageTitle" xml:space="preserve">
+    <value>치트</value>
+  </data>
+  <data name="HideConfirmationLoadSetting" xml:space="preserve">
+    <value>불러올때 확인알림 해제</value>
+  </data>
+  <data name="Err_NoChatName" xml:space="preserve">
+    <value>가입하시려면 이름을 입력해주세요</value>
+  </data>
+  <data name="RenamePromptTitle" xml:space="preserve">
+    <value>롬의 이름 바꾸기</value>
+  </data>
+  <data name="DeadzoneHeader" xml:space="preserve">
+    <value>반응영역 (아날로그 스틱)</value>
+  </data>
+  <data name="AspectRatioOneSetting" xml:space="preserve">
+    <value>1:1</value>
+  </data>
+  <data name="DeleteConfirmTitle" xml:space="preserve">
+    <value>삭제 확인</value>
+  </data>
+  <data name="SkyDriveFileFormatHint" xml:space="preserve">
+    <value>지원되는 파일:</value>
+  </data>
+  <data name="SDCardHeader" xml:space="preserve">
+    <value>SD 카드</value>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="InvalidCodeText" xml:space="preserve">
+    <value>잘못된 코드입니다</value>
+  </data>
+  <data name="RenameCancelButton" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="FullscreenStretchOption" xml:space="preserve">
+    <value>전체화면</value>
+  </data>
+  <data name="ConfirmLoadText" xml:space="preserve">
+    <value>정말로 마지막으로 저장된 상태를 불러오시겠습니까?</value>
+  </data>
+  <data name="aboutText" xml:space="preserve">
+    <value>정보</value>
+  </data>
+  <data name="BackupUploadUnsuccessful" xml:space="preserve">
+    <value>업로드 완료 되었으나 오류가 있습니다.</value>
+  </data>
+  <data name="HelpTIpsPerformanceText" xml:space="preserve">
+    <value>-비디오 설정을 열고 "프레임스킵 (같은 에뮬레이션 속도)" 옵션의 값을 올려주세요. 이 옵션 에뮬레이터가 표시 해야 하는 프레임을 낮춰 속도를 올립니다. 다만 프레임스킵값을 올리면 덜 부드럽게 보일수 있습니다.
+-소리설정을 열고 오디오동기화를 꺼주세요. 다만 성능은 향상 시킬 수 있지만, 사운드 품질은 저하될 수 있습니다.
+-소리설정을 열고 소리를 완전히 낮춰주세요.</value>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>정보</value>
+  </data>
+  <data name="HelpImportSDCardText" xml:space="preserve">
+    <value>메인 페이지의 데이터 탭에서 SD 카드에서 가져오기를 탭하고 지시에 따라주세요.</value>
+  </data>
+  <data name="RomListTroubleshootNote" xml:space="preserve">
+    <value>참고: 만약 다운로드가 시작되지 않는다면 "문제들" 항목의 도움말 페이지를 참고해주세요.</value>
+  </data>
+  <data name="TileOpenError" xml:space="preserve">
+    <value>타일과 연결된 롬을 여는데 오류가 발생했습니다.</value>
+  </data>
+  <data name="LicenseTitle" xml:space="preserve">
+    <value>라이선스</value>
+  </data>
+  <data name="ConfirmSaveText" xml:space="preserve">
+    <value>정말로 저장하시겠습니까? 이전의 저장을 덮어씌우게 됩니다.</value>
+  </data>
+  <data name="AllHeader" xml:space="preserve">
+    <value>전체</value>
+  </data>
+  <data name="VideoSettingsPageTitle" xml:space="preserve">
+    <value>영상</value>
+  </data>
+  <data name="AboutContact" xml:space="preserve">
+    <value>store.support@outlook.com</value>
+  </data>
+  <data name="HelpTipsSoundText" xml:space="preserve">
+    <value>-사운드 설정을 열고 소리 동기화를 켭니다.소리품질은 향상 되지만 성능이 저하될 수 있습니다.
+-에뮬레이션 속도 너무 낮은 경우, 음질 또한 않 좋아질 수 있습니다. 느리게 실행되는 경우 위의 도움말을 따라주세요.</value>
+  </data>
+  <data name="PinToStartText" xml:space="preserve">
+    <value>시작화면에 고정</value>
+  </data>
+  <data name="AspectRatioSetting" xml:space="preserve">
+    <value>가로 세로 비율</value>
+  </data>
+  <data name="HostText" xml:space="preserve">
+    <value>호스트</value>
+  </data>
+  <data name="ManualSnapshotSetting" xml:space="preserve">
+    <value>타일 사진을 직접만들기</value>
+  </data>
+  <data name="DownloadErrorText" xml:space="preserve">
+    <value>'{0}'을 다운로드 하는 동안 오류가 발생 했습니다. :{1}</value>
+  </data>
+  <data name="CheatInvalidFormat2" xml:space="preserve">
+    <value>잘못된 코드 형식입니다. 코드 형식은 XXX XXX XXX, XXX XXX  또는 8 자리 16 진수 숫자 여야 합니다.</value>
+  </data>
+  <data name="IPAddressText" xml:space="preserve">
+    <value>서버 IP 주소</value>
+  </data>
+  <data name="MaximumTilesPinned" xml:space="preserve">
+    <value>선택된 롬이 이미 고정되어있거나 최대타일 수에 도달하였습니다.</value>
+  </data>
+  <data name="HelpImportWebHeader" xml:space="preserve">
+    <value>방법 3: 웹 브라우저에서 가져오기</value>
+  </data>
+  <data name="DPadAnalogueFixed" xml:space="preserve">
+    <value>고정된 아날로그 스틱</value>
+  </data>
+  <data name="MogaMappingTitle" xml:space="preserve">
+    <value>Moga 키설정</value>
+  </data>
+  <data name="FrameSkipSetting" xml:space="preserve">
+    <value>프레임 스킵 (에뮬레이션 속도 증가)</value>
+  </data>
+  <data name="BuyNowButtonText" xml:space="preserve">
+    <value>구입하기</value>
+  </data>
+  <data name="EnterCodeTitle" xml:space="preserve">
+    <value>코드를 입력해주세요</value>
+  </data>
+  <data name="ControllerScaleSettings" xml:space="preserve">
+    <value>가상 조이스틱 크기</value>
+  </data>
+  <data name="HelpDownloadROMsHeader" xml:space="preserve">
+    <value>롬을 가져오는 방법</value>
+  </data>
+  <data name="TapMogaInstructionText" xml:space="preserve">
+    <value>MOGA 컨트롤러 도움말을 보시려면 여기를 탭해주세요</value>
+  </data>
+  <data name="Msg_ChatPromptTitle" xml:space="preserve">
+    <value>링크 요청</value>
+  </data>
+  <data name="FirstGameText" xml:space="preserve">
+    <value>첫 번째 게임</value>
+  </data>
+  <data name="AspectRatio4to3Setting" xml:space="preserve">
+    <value>4:3</value>
+  </data>
+  <data name="AboutSnes9xLinkLabel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SettingsPageTitle" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="CheatRestoreValuesOption" xml:space="preserve">
+    <value>치트를 쓴뒤 이전 값 복원 (GBA)</value>
+  </data>
+  <data name="VideoMogaText" xml:space="preserve">
+    <value>동영상: MOGA 컨트롤러 지침</value>
+  </data>
+  <data name="SourceHeader" xml:space="preserve">
+    <value>소스</value>
+  </data>
+  <data name="CheatInvalidFormat" xml:space="preserve">
+    <value>잘못 된 코드 형식입니다. 코드는 라인마다 6, 8, 9, 12 또는 16 진수 값 이어야 합니다.</value>
+  </data>
+  <data name="VControllerLargeSetting" xml:space="preserve">
+    <value>섞기</value>
+  </data>
+  <data name="CableSocketText" xml:space="preserve">
+    <value>Wifi TCP/IP</value>
+  </data>
+  <data name="ImportSDCardText" xml:space="preserve">
+    <value>SD 카드에서 가져오기</value>
+  </data>
+  <data name="BuyNowImportText" xml:space="preserve">
+    <value>평가판 버전에선 최대 2개의 롬을 기기에 저장할 수 있습니다. 앱을 구매하여 이 제한을 제거할 수 있습니다.</value>
+  </data>
+  <data name="BackupWaitForUpload" xml:space="preserve">
+    <value>완료될때까지 기다려주세요.</value>
+  </data>
+  <data name="RestoreLastStateSetting" xml:space="preserve">
+    <value>9 슬롯을 자동 저장/불러오기에 사용</value>
+  </data>
+  <data name="Err_NoPeerConnected" xml:space="preserve">
+    <value>피어에 연결되지 않았습니다.</value>
+  </data>
+  <data name="PurchaseSuccessText" xml:space="preserve">
+    <value>성공적으로 구매하였습니다.</value>
+  </data>
+  <data name="ShowThreeDotsSetting" xml:space="preserve">
+    <value>컨텍스트 메뉴 도움말 보기</value>
+  </data>
+  <data name="ManageAutoSlotLabel" xml:space="preserve">
+    <value>자동</value>
+  </data>
+  <data name="SelectStateAuto" xml:space="preserve">
+    <value>자동저장</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenTextContact" xml:space="preserve">
+    <value>-아무것도 도움이 안된다면, 개발자에게 연락해주세요. :</value>
+  </data>
+  <data name="RecentHeader" xml:space="preserve">
+    <value>최근</value>
+  </data>
+  <data name="OrientationLandscape" xml:space="preserve">
+    <value>가로고정</value>
+  </data>
+  <data name="CustomizeButtonMappingText" xml:space="preserve">
+    <value>버튼 위치 사용자 지정...</value>
+  </data>
+  <data name="SDCardMissingText" xml:space="preserve">
+    <value>SD카드가 인식되지 않습니다. SD카드를 삽인한뒤 다시 시도해주세요.</value>
+  </data>
+  <data name="EmailSubjectText" xml:space="preserve">
+    <value>VBA8/VGBC 버그 보고서나 기능 제안</value>
+  </data>
+  <data name="StartServerOtherText" xml:space="preserve">
+    <value>서버의 IP주소를 얻기위해선 다른장치에서 서버를 시작해주세요.</value>
+  </data>
+  <data name="DownloadingProgressText" xml:space="preserve">
+    <value>{0} 다운로드 중...</value>
+  </data>
+  <data name="ValidCodeText" xml:space="preserve">
+    <value>코드가 적용되었습니다. 앱을 재시작해주세요.</value>
+  </data>
+  <data name="SkyDriveImportTitle" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="CheatsDescription" xml:space="preserve">
+    <value>GBA 게임에는 GameShark와 CodeBreaker GB/GBC 게임에는 GameShark와 GameGenie코드를 입력할 수 있습니다.</value>
+  </data>
+  <data name="PreLinkTitle" xml:space="preserve">
+    <value>연결 설정</value>
+  </data>
+  <data name="GPLv3" xml:space="preserve">
+    <value>http://www.gnu.org/licenses/gpl-3.0.txt</value>
+  </data>
+  <data name="PremiumFeaturePromptText" xml:space="preserve">
+    <value>이것은 프리미엄 기능입니다. 구입페이지로 가시겠습니까?</value>
+  </data>
+  <data name="CreateBackupFolderError" xml:space="preserve">
+    <value>백업 폴더를 만드는 동안 오류가 발생 했습니다.</value>
+  </data>
+  <data name="RestartPromptText" xml:space="preserve">
+    <value>새로운 설정을 적용 하려면 응용 프로그램을 재시작해주세요.</value>
+  </data>
+  <data name="BuyNowCancelButtonText" xml:space="preserve">
+    <value>평가판 사용</value>
+  </data>
+  <data name="DPad8way" xml:space="preserve">
+    <value>8 방향</value>
+  </data>
+  <data name="HelpButtonText" xml:space="preserve">
+    <value>도움말</value>
+  </data>
+  <data name="InfoCaption" xml:space="preserve">
+    <value>정보</value>
+  </data>
+  <data name="RefreshRate30" xml:space="preserve">
+    <value>30Hz</value>
+  </data>
+  <data name="RefreshRate60" xml:space="preserve">
+    <value>60Hz</value>
+  </data>
+  <data name="OrientationPortrait" xml:space="preserve">
+    <value>세로고정</value>
+  </data>
+  <data name="CameraAssignLR" xml:space="preserve">
+    <value>L 버튼과 R 버튼</value>
+  </data>
+  <data name="Err_BluetoothOffCaption" xml:space="preserve">
+    <value>블루투스 꺼짐</value>
+  </data>
+  <data name="RoleText" xml:space="preserve">
+    <value>역할</value>
+  </data>
+  <data name="CameraAssignTurbo" xml:space="preserve">
+    <value>터보 모드</value>
+  </data>
+  <data name="StatusNotSignedIn" xml:space="preserve">
+    <value>로그인되어 있지 않음</value>
+  </data>
+  <data name="UseMogaControllerText" xml:space="preserve">
+    <value>Moga 컨트롤러를 사용</value>
+  </data>
+  <data name="SaveStateButton" xml:space="preserve">
+    <value>저장하기</value>
+  </data>
+  <data name="StatusLabelContent" xml:space="preserve">
+    <value>상태</value>
+  </data>
+  <data name="CreateSnapshotMenuItem" xml:space="preserve">
+    <value>타일을 위한 미리보기만들기</value>
+  </data>
+  <data name="OneDriveHeader" xml:space="preserve">
+    <value>ONEDRIVE</value>
+  </data>
+  <data name="VideoCheatText" xml:space="preserve">
+    <value>동영상: 치트코드 길잡이</value>
+  </data>
+  <data name="AudioSettingsPageTitle" xml:space="preserve">
+    <value>소리</value>
+  </data>
+  <data name="PurchaseSuccessNoAdsText" xml:space="preserve">
+    <value>성공적으로 구매되었습니다, 다음부터 앱을 실행할때 광고가 더이상 표시되지 않을것입니다.</value>
+  </data>
+  <data name="TurboFrameSkipText" xml:space="preserve">
+    <value>터보 모드 프레임스킵</value>
+  </data>
+  <data name="CheatDefaultDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OKButtonText" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="OpacitySetting" xml:space="preserve">
+    <value>가상 컨트롤러 불투명도</value>
+  </data>
+  <data name="AspectRatio5to4Setting" xml:space="preserve">
+    <value>5:4</value>
+  </data>
+  <data name="BackupUploadSuccessful" xml:space="preserve">
+    <value>업로드가 완료되었습니다.</value>
+  </data>
+  <data name="VirtualControllerButtonColored" xml:space="preserve">
+    <value>컬러</value>
+  </data>
+  <data name="GPLv3Title" xml:space="preserve">
+    <value>GPLv3</value>
+  </data>
+  <data name="CodeText" xml:space="preserve">
+    <value>코드</value>
+  </data>
+  <data name="DPadAnalogueDynamic" xml:space="preserve">
+    <value>동적 아날로그 스틱</value>
+  </data>
+  <data name="ChoosePortraitBackgroundColorText" xml:space="preserve">
+    <value>세로모드 배경 색상 선택...</value>
+  </data>
+  <data name="DescriptionText" xml:space="preserve">
+    <value>설명:</value>
+  </data>
+  <data name="ImportSavestateInvalidFormat" xml:space="preserve">
+    <value>Savestate 파일 형식이 잘못 되었습니다. 파일 이름은 0에서에서 사이의 숫자 9 (예: demo0.sgm)로 끝나야 합니다.</value>
+  </data>
+  <data name="StartServerText" xml:space="preserve">
+    <value>서버 시작</value>
+  </data>
+  <data name="EnterCodeText" xml:space="preserve">
+    <value>프로모션 코드 입력</value>
+  </data>
+  <data name="FindButtonCaption" xml:space="preserve">
+    <value>피어 새로고침</value>
+  </data>
+  <data name="UseRealisticButtonsText" xml:space="preserve">
+    <value>현실적인 버튼색 사용하기</value>
+  </data>
+  <data name="DeleteSavesEntry" xml:space="preserve">
+    <value>게임안의 세이브데이터 삭제</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>버전</value>
+  </data>
+  <data name="FileAssociationError" xml:space="preserve">
+    <value>롬파일을 가져오고 여는데 오류가 발생했습니다.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenText" xml:space="preserve">
+    <value>-다운로드가 Onedrive 들여오기 페이지에서 떠나기전에 완료됬는지 확인해주세요(확인알림을 기다려주세요). 너무 일찍 떠나 롬이 손상되어 제대로 불러올수 없을지도 모릅니다.이런 경우 탭 하고 홀드히야 롬 목록에서 삭제 하고 다시 다운로드해주세요.
+-OneDrive에서 가져오기가 제대로 작동 하지 않으면, 다른 방법을 시도해주세요. 
+-다른방법으로 다운로드하기전에 제대로 작동하지 않는 파일을 삭제하는것을 잊지 말아주세요.</value>
+  </data>
+  <data name="ErrorCaption" xml:space="preserve">
+    <value>오류</value>
+  </data>
+  <data name="EmailLinkText" xml:space="preserve">
+    <value>이메일: store.support@outlook.com</value>
+  </data>
+  <data name="ClientText" xml:space="preserve">
+    <value>클라이언트</value>
+  </data>
+  <data name="DeleteCheatButtonText" xml:space="preserve">
+    <value>제거</value>
+  </data>
+  <data name="Err_NoMessageToSend" xml:space="preserve">
+    <value>보낼 메시지를 입력 해 주시기 바랍니다.</value>
+  </data>
+  <data name="ResumeButtonText" xml:space="preserve">
+    <value>돌아가기</value>
+  </data>
+  <data name="VControllerSmallSetting" xml:space="preserve">
+    <value>나누기</value>
+  </data>
+  <data name="DPadStyleHeader" xml:space="preserve">
+    <value>D-패드 스타일</value>
+  </data>
+  <data name="AddCheatsTitle" xml:space="preserve">
+    <value>치트 추가</value>
+  </data>
+  <data name="ImportButtonText" xml:space="preserve">
+    <value>가져오기</value>
+  </data>
+  <data name="PurchasedThankYouText" xml:space="preserve">
+    <value>구입되었습니다, 감사합니다!</value>
+  </data>
+  <data name="AboutSnes9x" xml:space="preserve">
+    <value>어떤 버그든지 편하게 알려주세요
+
+저자는이 소프트웨어의 불법 사용에 대한 책임이 없습니다. 또한,이 소프트웨어에 대한 어떠한 보증도 하지않으며 사용자의 손해에 대해 책임을 지지 않습니다.
+
+크레딧:
+-로고 디자인 Eddi Bento.
+-깜짝선물 MOGA company.
+- Translation: Sergy Ortiz Puerto (Spanish), André Queiroz (Portuguese), Arda Ozkal (Turkish), Alexandros Melissas (Greek), Łukasz Deptuła (Polish), Junfan Yao (Simplifed Chinese), wphone08 (French), Jesper Svensson (Swedish), Alexander Kolosov (Russian), Usama Jawad (Urdu), Mathias Haugsbø (Norwegian Nynorsk), Leutrim Shabani (German), Giordano Piacentini (Italian),  Sami Piispanen (Finnish), Shay Livyatan (Hebrew), Adam Yowanda (Indonesian), Krit Visitstump (Thai), Sebastian van den Oever (Dutch), Latvian (DÄvis KalniÅ†Å¡), 재훈 정 (Korean).</value>
+  </data>
+  <data name="BackupInstructions" xml:space="preserve">
+    <value>내보낼 게임데이터를 선택하세요.</value>
+  </data>
+  <data name="SDCardImportTitle" xml:space="preserve">
+    <value>SD 카드</value>
+  </data>
+  <data name="HelpImportWebText" xml:space="preserve">
+    <value>브라우저에서 롬다운로드를 제공하는 페이지를 열고 원하는 게임을 다운로드합니다.만약 zip파일이라면 안의 gba파일을 탭하여 여시고 gba파일이면 탭하여 엽니다. 그러면 에뮬레이터는 자동으로 파일을 들여옵니다.</value>
+  </data>
+  <data name="EditText" xml:space="preserve">
+    <value>편집</value>
+  </data>
+  <data name="VirtualControllerButtonGray" xml:space="preserve">
+    <value>회색</value>
+  </data>
+  <data name="HelpTipsTurboText" xml:space="preserve">
+    <value>-터보 모드로 전환하시려면 카메라 버튼을 반만누르십시오.
+-카메라 반버튼을 누르는 동안 터보 모드가 활성화 됩니다.</value>
+  </data>
+  <data name="ManageSaveTimeLabel" xml:space="preserve">
+    <value>만든 날짜</value>
+  </data>
+  <data name="HelpImportSkyDriveText" xml:space="preserve">
+    <value>당신의 롬파일을 OneDrive에 있는 폴더안에 저장합니다. 에뮬레이터의 메인페이지의 롬 목록에서 왼쪽으로 슬라이드하여 OneDrive 섹션으로 이동합니다. 만약 아직 로그인하지 않으셨다면, 먼저 "로그인"을 탭하세요. 그 다음 "롬 가져오기" 라는 버튼을 클릭 합니다. OneDrive에 롬 또는 zip을 넣은 폴더에 들어가 파일을 탭하면 다운로드가 시작됩니다. 다운로드가 완료될때까지 나가지말고 기다려주세요. 다운로드가 완료 되면 알림이 표시 됩니다.
+참고: 경우에 따라 OneDrive에서 다운로드된 롬들을 열면 그냥 빈화면이 나올수있습니다. 만약 그러시다면 방법 2 또는 3을 사용해주세요.</value>
+  </data>
+  <data name="HelpTipsTurboHeader" xml:space="preserve">
+    <value>터보 모드 활성화</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>장치 ID: {0}</value>
+  </data>
+  <data name="HostIPAddressText" xml:space="preserve">
+    <value>호스트의 IP 주소: {0}. 클라이언트를 기다리는 중입니다.</value>
+  </data>
+  <data name="HelpTipsSoundHeader" xml:space="preserve">
+    <value>소리 째짐</value>
+  </data>
+  <data name="DeleteMenuItemText" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="CableLinkText" xml:space="preserve">
+    <value>게임보이 케이블</value>
+  </data>
+  <data name="OrientationBoth" xml:space="preserve">
+    <value>가로 또는 세로</value>
+  </data>
+  <data name="GuidePerformanceText" xml:space="preserve">
+    <value>도움말: 성능을 향상 하는 방법</value>
+  </data>
+  <data name="GPLButtonText" xml:space="preserve">
+    <value>GNU Public License v3로 가기</value>
+  </data>
+  <data name="ConnectText" xml:space="preserve">
+    <value>연결</value>
+  </data>
+  <data name="BackgroundOpacitySetting" xml:space="preserve">
+    <value>배경 이미지 불투명도</value>
+  </data>
+  <data name="UseBackgroundImageSetting" xml:space="preserve">
+    <value>배경 이미지 사용:</value>
+  </data>
+  <data name="ChooseImageText" xml:space="preserve">
+    <value>이미지 선택</value>
+  </data>
+  <data name="ImportInstructionsText" xml:space="preserve">
+    <value>OneDrive에서 롬을 가져오시려면
+1. OneDrive 폴더에 롬을 업로드. 
+2. "Sign in"을 탭하여 OneDrive에 로그인.
+3. "가져오기" 버튼을 누르고 롬을 선택하세요.</value>
+  </data>
+  <data name="HelpTipsHeader" xml:space="preserve">
+    <value>팁</value>
+  </data>
+  <data name="ApplicationTitle2" xml:space="preserve">
+    <value>VGBC8</value>
+  </data>
+  <data name="ThemeText" xml:space="preserve">
+    <value>테마</value>
+  </data>
+  <data name="ManageRemoveState" xml:space="preserve">
+    <value>제거</value>
+  </data>
+  <data name="BuyNowText" xml:space="preserve">
+    <value>이 기능은 정식버전에서만 가능합니다. 앱을사고 이 기능을 사용하시려면 아래의 확인 버튼을 눌러주세요.</value>
+  </data>
+  <data name="DeleteConfirmText" xml:space="preserve">
+    <value>취소할 수 없습니다, 계속하시겠습니까?</value>
+  </data>
+  <data name="AspectRatioOriginalSetting" xml:space="preserve">
+    <value>네이티브</value>
+  </data>
+  <data name="DownloadCompleteText" xml:space="preserve">
+    <value> ' {0} ' 다운로드 완료</value>
+  </data>
+  <data name="Msg_FoundPeers" xml:space="preserve">
+    <value>피어 발견: {0}. '피어 새로고침'을 탭하여 업데이트.</value>
+  </data>
+  <data name="BackupErrorUpload" xml:space="preserve">
+    <value>파일을 업로드 하는 동안 오류가 발생 했습니다: {0}. 만약 이 오류가 계속된다면 OneDrive에 재로그인 하세요.</value>
+  </data>
+  <data name="CheatCodesAddPivotTitle" xml:space="preserve">
+    <value>추가</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="SourceLink" xml:space="preserve">
+    <value>http://sourceforge.net/projects/vba8/</value>
+  </data>
+  <data name="SyncSoundSetting2" xml:space="preserve">
+    <value>(품질은 나아지지만 느려질 수 있습니다)</value>
+  </data>
+  <data name="AboutSnes9xLicense" xml:space="preserve">
+    <value>GNU 공식 인증:</value>
+  </data>
+  <data name="Err_NoConnectTitle" xml:space="preserve">
+    <value>연결할 수 없음</value>
+  </data>
+  <data name="CameraAssignR" xml:space="preserve">
+    <value>R 버튼</value>
+  </data>
+  <data name="CameraAssignL" xml:space="preserve">
+    <value>L 버튼</value>
+  </data>
+  <data name="LastPlayedLabel" xml:space="preserve">
+    <value>최근 실행</value>
+  </data>
+  <data name="SRAMDeletedSuccessfully" xml:space="preserve">
+    <value>세이브파일이 성공적으로 제거되었습니다.</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>VBA8</value>
+  </data>
+  <data name="Err_NoPeer" xml:space="preserve">
+    <value>목록에서 피어를 선택 해야 합니다.</value>
+  </data>
+  <data name="AboutContactLabel" xml:space="preserve">
+    <value>문의</value>
+  </data>
+  <data name="HelpImportSDCardHeader" xml:space="preserve">
+    <value>대안 4: SD 카드에서 가져오기</value>
+  </data>
+  <data name="ConfirmationCheckBoxText" xml:space="preserve">
+    <value>이 메시지를 다시 표시 안 함</value>
+  </data>
+  <data name="RomListTitle" xml:space="preserve">
+    <value>Roms</value>
+  </data>
+  <data name="ROMAlreadyExistingError" xml:space="preserve">
+    <value>롬이 이미 다운로드 되어있습니다: {0}</value>
+  </data>
+  <data name="RecentTitle" xml:space="preserve">
+    <value>최근 실행</value>
+  </data>
+  <data name="SkyDriveError" xml:space="preserve">
+    <value>OneDrive 오류: {0}</value>
+  </data>
+  <data name="CheatListGameLabel" xml:space="preserve">
+    <value>치트:</value>
+  </data>
+  <data name="UnlockFeatureText" xml:space="preserve">
+    <value>기능을 잠금 해제</value>
+  </data>
+  <data name="HelpIssuesHeader" xml:space="preserve">
+    <value>문제들</value>
+  </data>
+  <data name="StartLinkText" xml:space="preserve">
+    <value>연결 시작</value>
+  </data>
+  <data name="GuidesTitle" xml:space="preserve">
+    <value>도움말</value>
+  </data>
+  <data name="Msg_NoPeers" xml:space="preserve">
+    <value>피어가 발견되지 않았습니다. '피어 새로고침'을 탭하여 업데이트하세요.</value>
+  </data>
+  <data name="ConnectButtonCaption" xml:space="preserve">
+    <value>연결합니다.</value>
+  </data>
+  <data name="BackupPageTitle" xml:space="preserve">
+    <value>세이브 내보내기</value>
+  </data>
+  <data name="LoadingProductListText" xml:space="preserve">
+    <value>목록을 불러오는중입니다. 잠시만 기다려 주세요...</value>
+  </data>
+  <data name="ManageDeleteUnknownError" xml:space="preserve">
+    <value>세이브데이터를 제거하는중 알수없는 오류가 발생했습니다.</value>
+  </data>
+  <data name="SourceButtonText" xml:space="preserve">
+    <value>소스 코드</value>
+  </data>
+  <data name="CustomizePortraitControlText" xml:space="preserve">
+    <value>세로모드 컨트롤 위치설정</value>
+  </data>
+  <data name="LoadStateButton" xml:space="preserve">
+    <value>불러오기</value>
+  </data>
+  <data name="FAQsLinkText" xml:space="preserve">
+    <value>FAQ, 포럼 토론 &amp;PC 어플리케이션</value>
+  </data>
+  <data name="ActiveSavestateText" xml:space="preserve">
+    <value> (활성)</value>
+  </data>
+  <data name="StatusSignedIn" xml:space="preserve">
+    <value>로그인됨</value>
+  </data>
+  <data name="PurchaseButtonText" xml:space="preserve">
+    <value>구입...</value>
+  </data>
+  <data name="LowFreqModeSetting" xml:space="preserve">
+    <value>화면주사율 30 Hz</value>
+  </data>
+  <data name="CheatsDescription2" xml:space="preserve">
+    <value>참고: 최근 버그 수정으로 인해 모든 기존 16문자 치트 코드는 적절한 띄어쓰기로 수정해야 다시 작동 합니다.</value>
+  </data>
+  <data name="BackupAndRestoreInstructions" xml:space="preserve">
+    <value>저장된 게임을 내보내거나 가져옵니다.</value>
+  </data>
+  <data name="RemoveStateNoSelection" xml:space="preserve">
+    <value>먼저 저장슬롯을 선택해야 합니다</value>
+  </data>
+  <data name="SDCardReadOnlyText" xml:space="preserve">
+    <value>참고: SD 카드는 개발자들에게는 읽기 전용입니다. .Zip의 처리는 운영 체제가 권리를 가지고 있습니다. .zib를 사용해주세요</value>
+  </data>
+  <data name="CustomizeLandscapeControlText" xml:space="preserve">
+    <value>가로모드 컨트롤 위치 설정</value>
+  </data>
+  <data name="EmulatorMenuText" xml:space="preserve">
+    <value>참고: 에뮬레이터 메뉴 기능은 나중에 적용될 것입니다.</value>
+  </data>
+  <data name="CameraButtonAssignment" xml:space="preserve">
+    <value>카메라 버튼에 할당된 기능</value>
+  </data>
+  <data name="HelpTipsPerformanceHeader" xml:space="preserve">
+    <value>게임이 느리게 실행 됩니다.</value>
+  </data>
+  <data name="AutoLoadLastStateText" xml:space="preserve">
+    <value>자동으로 저장하고 게임을 불러오기</value>
+  </data>
+  <data name="GeneralSettingsTitle" xml:space="preserve">
+    <value>일반</value>
+  </data>
+  <data name="EnterHostIPText" xml:space="preserve">
+    <value>호스트의 IP 주소입력</value>
+  </data>
+  <data name="HelpImportEmailText" xml:space="preserve">
+    <value>기기에서 접근할 수 있는 메일주소로 1개 또는 그이상의 롬파일이 첨부하여 메일을 보내세요. gba같은 롬파일들이나 그것들을 포함한 zip파일 둘다 가능합니다. 파일을 다운로드하려면 기기에서 메일을 열고 첨부파일를 탭하세요. zip파일은 내부를 볼수있으며 그안의 롬파일을 탭하여 실행시키실수 있습니다. 게임을 시작하면 에뮬레이터는 자동으로 롬파일을 들여옵니다. zip파일이 아니라 gba파일이라면 그냥 탭하시면 됩니다.</value>
+  </data>
+  <data name="ErrorNoConnectionText" xml:space="preserve">
+    <value>오류! 인터넷 연결 또는 Microsoft 서버 오류입니다. 나중에 다시 시도 해주세요.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenHeader" xml:space="preserve">
+    <value>롬을 불러온후 빈 화면</value>
+  </data>
+</root>

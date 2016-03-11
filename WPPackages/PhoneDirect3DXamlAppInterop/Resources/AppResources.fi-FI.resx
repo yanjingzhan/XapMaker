@@ -1,0 +1,1225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RenamePageTitle" xml:space="preserve">
+    <value>nimeä uudelleen</value>
+  </data>
+  <data name="CancelButtonText" xml:space="preserve">
+    <value>peruuta</value>
+  </data>
+  <data name="RenameMenuItemText" xml:space="preserve">
+    <value>nimeä uudelleen</value>
+  </data>
+  <data name="LinkTypeText" xml:space="preserve">
+    <value>Linkkiyhteyden tyyppi</value>
+  </data>
+  <data name="RestorePageTitle" xml:space="preserve">
+    <value>tuo tallennuksia</value>
+  </data>
+  <data name="VirtualControllerButtonStyle" xml:space="preserve">
+    <value>Virtuaaliohjaimen näppäinten tyyli</value>
+  </data>
+  <data name="SecondGameText" xml:space="preserve">
+    <value>toinen peli (voi olla sama kuin ensimmäinen)</value>
+  </data>
+  <data name="ProductNotAvailableText" xml:space="preserve">
+    <value>Tuote ei ole tällä hetkellä saatavilla.</value>
+  </data>
+  <data name="RenameEmptyString" xml:space="preserve">
+    <value>ROMilla täytyy olla nimi.</value>
+  </data>
+  <data name="GuidesHeader" xml:space="preserve">
+    <value>OPPAAT</value>
+  </data>
+  <data name="ButtonScaleSettings" xml:space="preserve">
+    <value>Virtuaalipainikkeiden mittakaava</value>
+  </data>
+  <data name="CablePeerText" xml:space="preserve">
+    <value>Kaapeli- Bluetooth</value>
+  </data>
+  <data name="AboutSnes9xLink" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ReviewText" xml:space="preserve">
+    <value>Tarkastele</value>
+  </data>
+  <data name="OverNetworkText" xml:space="preserve">
+    <value>Bluetoothin/wifin yli (ei saatavilla)</value>
+  </data>
+  <data name="AboutSnes9xLicenseText" xml:space="preserve">
+    <value>http://www.gnu.org/licenses/gpl.html</value>
+  </data>
+  <data name="UploadProgressText" xml:space="preserve">
+    <value>Viedään '{0}'</value>
+  </data>
+  <data name="WirelessLinkText" xml:space="preserve">
+    <value>Langaton adapteri (ei saatavilla)</value>
+  </data>
+  <data name="RenamePromptMessage" xml:space="preserve">
+    <value>Vaihda ROMin näyttönimi:</value>
+  </data>
+  <data name="PowerFrameSkipText" xml:space="preserve">
+    <value>Ohita ruutuja (sama emulaation nopeus)</value>
+  </data>
+  <data name="EnableSoundSetting" xml:space="preserve">
+    <value>Toista äänet</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>fi-FI</value>
+  </data>
+  <data name="BackupAutoSlotText" xml:space="preserve">
+    <value>Varmuuskopioi automaattinen tallennuspaikka</value>
+  </data>
+  <data name="FrameSkipAutoSetting" xml:space="preserve">
+    <value>automaattinen</value>
+  </data>
+  <data name="SkyDriveGeneralError" xml:space="preserve">
+    <value>Virhe yhdistettäessä OneDriveen: {0}</value>
+  </data>
+  <data name="DPadStandard" xml:space="preserve">
+    <value>4-suuntainen</value>
+  </data>
+  <data name="LinkTimeoutText" xml:space="preserve">
+    <value>Linkkiyhteyden aikakatkaisu (ms)</value>
+  </data>
+  <data name="ContactHeader" xml:space="preserve">
+    <value>OTA YHTEYTTÄ</value>
+  </data>
+  <data name="ImportFromSkyDriveButtonText" xml:space="preserve">
+    <value>Tuo</value>
+  </data>
+  <data name="Msg_ChatPrompt" xml:space="preserve">
+    <value>Haluatko muodostaa linkin laitteen {0} kanssa?</value>
+  </data>
+  <data name="StartLinkTitle" xml:space="preserve">
+    <value>käynnistä linkkitila</value>
+  </data>
+  <data name="MogaGDR3Note" xml:space="preserve">
+    <value>Huomaa: MOGA-ohjain voi vaatia GDR3:en.</value>
+  </data>
+  <data name="ManageSavestateMenuItem" xml:space="preserve">
+    <value>hallitse tallennustiloja</value>
+  </data>
+  <data name="PurchaseText" xml:space="preserve">
+    <value>osta</value>
+  </data>
+  <data name="DeviceIDText" xml:space="preserve">
+    <value>Laitteen ID: {0}</value>
+  </data>
+  <data name="ImportWaitComplete" xml:space="preserve">
+    <value>Odota latauksen valmistumista.</value>
+  </data>
+  <data name="AutoBackupTypeText" xml:space="preserve">
+    <value>Automaattinen varmuuskopiointi</value>
+  </data>
+  <data name="ImportSaveInstructionsText" xml:space="preserve">
+    <value>Tuodaksesi tallennuksia:
+1. Varmista että ROMin ja tallennustiedoston nimet ovat täsmälleen samat.
+2. Paina "tuo" ja valitse tallennustiedosto.
+3. Käynnistä peli.</value>
+  </data>
+  <data name="RenameLabel" xml:space="preserve">
+    <value>Syötä uusi näyttönimi:</value>
+  </data>
+  <data name="LightText" xml:space="preserve">
+    <value>Vaalea</value>
+  </data>
+  <data name="AlreadyDownloadingText" xml:space="preserve">
+    <value>Kohdetta latataan jo.</value>
+  </data>
+  <data name="ContextTitle" xml:space="preserve">
+    <value>asetukset</value>
+  </data>
+  <data name="ImportingProgressText" xml:space="preserve">
+    <value>Tuodaan '{0}'</value>
+  </data>
+  <data name="RenameOkButton" xml:space="preserve">
+    <value>Nimeä uudelleen</value>
+  </data>
+  <data name="ResetROMButton" xml:space="preserve">
+    <value>nollaa</value>
+  </data>
+  <data name="BackupButton" xml:space="preserve">
+    <value>Vie</value>
+  </data>
+  <data name="ShowLastPlayedGameText" xml:space="preserve">
+    <value>Näytä ruutukaappaus viimeksi pelatusta pelistä</value>
+  </data>
+  <data name="SelectState8" xml:space="preserve">
+    <value>Valitse tila 8</value>
+  </data>
+  <data name="SelectState9" xml:space="preserve">
+    <value>Valitse tila 9</value>
+  </data>
+  <data name="SelectState2" xml:space="preserve">
+    <value>Valitse tila 2</value>
+  </data>
+  <data name="SelectState3" xml:space="preserve">
+    <value>Valitse tila 3</value>
+  </data>
+  <data name="SelectState0" xml:space="preserve">
+    <value>Valitse tila 0</value>
+  </data>
+  <data name="SelectState1" xml:space="preserve">
+    <value>Valitse tila 1</value>
+  </data>
+  <data name="SelectState6" xml:space="preserve">
+    <value>Valitse tila 6</value>
+  </data>
+  <data name="SelectState7" xml:space="preserve">
+    <value>Valitse tila 7</value>
+  </data>
+  <data name="SelectState4" xml:space="preserve">
+    <value>Valitse tila 4</value>
+  </data>
+  <data name="SelectState5" xml:space="preserve">
+    <value>Valitse tila 5</value>
+  </data>
+  <data name="TapDownloadSnes8xText" xml:space="preserve">
+    <value>Paina tästä ladataksesi Snes8x</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>OHJEITA</value>
+  </data>
+  <data name="NoMatchingNameText" xml:space="preserve">
+    <value>Varmista, että tallennustiedoston nimi vastaa ROMin nimeä</value>
+  </data>
+  <data name="CheatListUnknownGame" xml:space="preserve">
+    <value>tuntematon</value>
+  </data>
+  <data name="Err_NoChatNameCaption" xml:space="preserve">
+    <value>Nimi on tyhjä</value>
+  </data>
+  <data name="HelpHowToHeader" xml:space="preserve">
+    <value>ohjeita</value>
+  </data>
+  <data name="WarningTitle" xml:space="preserve">
+    <value>Varoitus!</value>
+  </data>
+  <data name="ReviewPromptTitle" xml:space="preserve">
+    <value>Pidätkö ohjelmasta?</value>
+  </data>
+  <data name="ImageEditorTitle" xml:space="preserve">
+    <value>kuvanmuokkain</value>
+  </data>
+  <data name="Err_NoSendTitle" xml:space="preserve">
+    <value>Ei voi lähettää</value>
+  </data>
+  <data name="EnterNewCheatText" xml:space="preserve">
+    <value>Syötä uusi huijauskoodi:</value>
+  </data>
+  <data name="GuideBlankScreenText" xml:space="preserve">
+    <value>Opas: ratkaise ongelma tyhjän näytön kanssa</value>
+  </data>
+  <data name="NeverPlayedText" xml:space="preserve">
+    <value>ei koskaan</value>
+  </data>
+  <data name="CheatMenuItemText" xml:space="preserve">
+    <value>huijauskoodit</value>
+  </data>
+  <data name="OKText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="LinkErrorText" xml:space="preserve">
+    <value>Virhe on tapahtunut. Käynnistä ohjelma uudestaan.</value>
+  </data>
+  <data name="SyncSoundSetting" xml:space="preserve">
+    <value>Synkronoi ääni (parantaa äänenlaatua)</value>
+  </data>
+  <data name="RotatingModeText" xml:space="preserve">
+    <value>Pyörivä tila</value>
+  </data>
+  <data name="HelpImportEmailHeader" xml:space="preserve">
+    <value>Vaihtoehto 2: tuo sähköpostista</value>
+  </data>
+  <data name="LinkConnectedText" xml:space="preserve">
+    <value>Yhdistetty. Voit nyt sulkea tämän ikkunan ja jatkaa pelaamista.</value>
+  </data>
+  <data name="ManageSavestatesTitle" xml:space="preserve">
+    <value>tallennustilat</value>
+  </data>
+  <data name="RenameNameAlreadyExisting" xml:space="preserve">
+    <value>Samanniminen ROM on jo olemassa.</value>
+  </data>
+  <data name="ImageScaleSetting" xml:space="preserve">
+    <value>Skaalaa kuvaa (vain vaakatasossa)</value>
+  </data>
+  <data name="DarkText" xml:space="preserve">
+    <value>Tumma</value>
+  </data>
+  <data name="PleaseWaitROMLoadingText" xml:space="preserve">
+    <value>Odota, kunnes ROM on ladattu</value>
+  </data>
+  <data name="RestartPromptTitle" xml:space="preserve">
+    <value>Käynnistä ohjelma uudelleen</value>
+  </data>
+  <data name="ImportCompleteText" xml:space="preserve">
+    <value>Seuraavan tiedoston tuonti onnistui: '{0}'</value>
+  </data>
+  <data name="Err_BluetoothOff" xml:space="preserve">
+    <value>Bluetooth on pois päältä. Nähdäksesi Bluetooth-asetukset paina "ok".</value>
+  </data>
+  <data name="ManageSlotLabel" xml:space="preserve">
+    <value>Paikka</value>
+  </data>
+  <data name="NeverShowAgainText" xml:space="preserve">
+    <value>Älä näytä tätä uudestaan</value>
+  </data>
+  <data name="SettingsButtonText" xml:space="preserve">
+    <value>asetukset</value>
+  </data>
+  <data name="SkyDriveInternetLost" xml:space="preserve">
+    <value>OneDriveen ei voi yhdistää. Tarkista internet-yhteytesi.</value>
+  </data>
+  <data name="BackupUploadProgressText" xml:space="preserve">
+    <value>Viedään '{0}' tallennus(ta)</value>
+  </data>
+  <data name="AutoIncSavestateSetting" xml:space="preserve">
+    <value>Lisää tallennustilaa automaattisesti</value>
+  </data>
+  <data name="SelectAllText" xml:space="preserve">
+    <value>valitse kaikki</value>
+  </data>
+  <data name="InputSettingsPageTitle" xml:space="preserve">
+    <value>ohjaus</value>
+  </data>
+  <data name="GuideImportROMText" xml:space="preserve">
+    <value>Opas: 4 tapaa tuoda ROMeja</value>
+  </data>
+  <data name="PremiumText" xml:space="preserve">
+    <value>Premium-ominaisuudet sisältävät: 
+- tuen MOGA-ohjaimelle. 
+- mahdollisuuden muokata peli-ikkunan taustaväriä.
+- mahdollisuuden valita oma taustakuva.
+
+VBA8 ja VGBC8 ovat ominaisuuksiltaan identtiset. Älä siis osta premium-ominaisuuksia kuin vain toiseen niistä.
+
+***LUE TÄMÄ***: MOGA-tuki on ilmaisena Snex8x-ohjelmassa. Kokeile sillä, toimiiko ohjain puhelimesi kanssa ennen kuin ostat premium-ominaisuudet.</value>
+  </data>
+  <data name="HelpImportSkyDriveHeader" xml:space="preserve">
+    <value>Vaihtoehto 1: tuo OneDrivesta</value>
+  </data>
+  <data name="SelectNoneText" xml:space="preserve">
+    <value>valitse ei-mitään</value>
+  </data>
+  <data name="TapStartServerIPText" xml:space="preserve">
+    <value>Paina "Käynnistä palvelin" nähdäksesi palvelimen IP-osoitteen.</value>
+  </data>
+  <data name="BuyWaitForDownloadText" xml:space="preserve">
+    <value>Odota aktiivisen latauksen valmistumista.</value>
+  </data>
+  <data name="SameDeviceText" xml:space="preserve">
+    <value>Sama laite</value>
+  </data>
+  <data name="CheatNoSelection" xml:space="preserve">
+    <value>Valitse huijauskoodi ensin.</value>
+  </data>
+  <data name="RestoreButton" xml:space="preserve">
+    <value>tuo</value>
+  </data>
+  <data name="OrientationSettingText" xml:space="preserve">
+    <value>Näytön suunta</value>
+  </data>
+  <data name="ConfirmButtonText" xml:space="preserve">
+    <value>Vahvista</value>
+  </data>
+  <data name="CheatNoCodeEntered" xml:space="preserve">
+    <value>Syötä koodi ensin.</value>
+  </data>
+  <data name="NotSignedInError" xml:space="preserve">
+    <value>Et ole kirjautunut sisään. Kirjaudu sisään tuodaksesi ROMeja OneDrivesta.</value>
+  </data>
+  <data name="ErrorReadingSDCardText" xml:space="preserve">
+    <value>Virhe SD-kortin sisältöä luettaessa</value>
+  </data>
+  <data name="AddCheatButtonText" xml:space="preserve">
+    <value>lisää</value>
+  </data>
+  <data name="CopyRightText" xml:space="preserve">
+    <value>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3, or(at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</value>
+  </data>
+  <data name="ResetImageText" xml:space="preserve">
+    <value>Nollaa kuva</value>
+  </data>
+  <data name="ExportAsZipText" xml:space="preserve">
+    <value>Vie .zip-tiedostona</value>
+  </data>
+  <data name="SelectFileTitle" xml:space="preserve">
+    <value>valitse tiedostot</value>
+  </data>
+  <data name="MoreLicenseButton" xml:space="preserve">
+    <value>Lisenssitiedot</value>
+  </data>
+  <data name="CheatCodesListPivotTitle" xml:space="preserve">
+    <value>lista</value>
+  </data>
+  <data name="ImportTitle" xml:space="preserve">
+    <value>tiedot</value>
+  </data>
+  <data name="HideConfirmationSetting" xml:space="preserve">
+    <value>Poista tallennustilaan tallentamisen vahvistaminen</value>
+  </data>
+  <data name="LicenseCopyRightTitle" xml:space="preserve">
+    <value>tekijänookeudet</value>
+  </data>
+  <data name="AspectRatioStretchSetting" xml:space="preserve">
+    <value>venytä</value>
+  </data>
+  <data name="PowerFrameSkipText2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheatPageTitle" xml:space="preserve">
+    <value>HUIJAUKSET</value>
+  </data>
+  <data name="HideConfirmationLoadSetting" xml:space="preserve">
+    <value>Poista tallennustilan lataamisen vahvistaminen</value>
+  </data>
+  <data name="Err_NoChatName" xml:space="preserve">
+    <value>Syötä nimi, jotta voit liittyä.</value>
+  </data>
+  <data name="RenamePromptTitle" xml:space="preserve">
+    <value>Nimeä ROM uudelleen</value>
+  </data>
+  <data name="DeadzoneHeader" xml:space="preserve">
+    <value>Kuollut alue (vain analogiohjaimella)</value>
+  </data>
+  <data name="AspectRatioOneSetting" xml:space="preserve">
+    <value>1:1</value>
+  </data>
+  <data name="DeleteConfirmTitle" xml:space="preserve">
+    <value>Vahvista poistaminen</value>
+  </data>
+  <data name="SkyDriveFileFormatHint" xml:space="preserve">
+    <value>Tuetut tiedostomuodot:</value>
+  </data>
+  <data name="SDCardHeader" xml:space="preserve">
+    <value>SD-KORTTI</value>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>Peruuta</value>
+  </data>
+  <data name="InvalidCodeText" xml:space="preserve">
+    <value>Virheellinen koodi.</value>
+  </data>
+  <data name="RenameCancelButton" xml:space="preserve">
+    <value>Peruuta</value>
+  </data>
+  <data name="FullscreenStretchOption" xml:space="preserve">
+    <value>Venytä koko ruudulle</value>
+  </data>
+  <data name="ConfirmLoadText" xml:space="preserve">
+    <value>Haluatko varmasti ladata viimeisimmän tallennuksen?</value>
+  </data>
+  <data name="AllButtonText" xml:space="preserve">
+    <value>Kaikki</value>
+  </data>
+  <data name="aboutText" xml:space="preserve">
+    <value>tietoja</value>
+  </data>
+  <data name="BackupUploadUnsuccessful" xml:space="preserve">
+    <value>Lataus palvelimelle suoritettu, mutta virheitä tapahtunut.</value>
+  </data>
+  <data name="HelpTIpsPerformanceText" xml:space="preserve">
+    <value>- Avaa kuva-asetukset ja lisää "ohita ruutuja (sama emulaationopeus)" asetuksen arvoa. Asetus vähentää emuloitavien ruutujen määrää
+ ja siten parantaa suorituskykyä. Pelit saattavat tosin olla vähemmän sulavia.
+- Avaa ääniasetukset ja poista äänen synkronointi käytöstä. Tämä saattaa parantaa suorituskykyä, mutta äänenlaatu voi kärsiä.
+- Avaa ääniasetukset ja poista äänet käytöstä.</value>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>tietoja</value>
+  </data>
+  <data name="HelpImportSDCardText" xml:space="preserve">
+    <value>Paina "Tuo SD-kortilta" ohjelman aloitussivun tiedot-kohdassa ja seuraa ohjeita</value>
+  </data>
+  <data name="RomListTroubleshootNote" xml:space="preserve">
+    <value>Huomio: Jos ROMit eivät käynnisty, katso ohjesivun "ongelmia" -kohta.</value>
+  </data>
+  <data name="TileOpenError" xml:space="preserve">
+    <value>Virhe avattaessa aloitusruutuun kiinnitettyä ROMia.</value>
+  </data>
+  <data name="LicenseTitle" xml:space="preserve">
+    <value>LISENSSI</value>
+  </data>
+  <data name="ConfirmSaveText" xml:space="preserve">
+    <value>Oletko varma, että haluat tallentaa? Tämä ylikirjoittaa valitun tallennustilan.</value>
+  </data>
+  <data name="AllHeader" xml:space="preserve">
+    <value>KAIKKI</value>
+  </data>
+  <data name="VideoSettingsPageTitle" xml:space="preserve">
+    <value>kuva</value>
+  </data>
+  <data name="AboutContact" xml:space="preserve">
+    <value>store.support@outlook.com</value>
+  </data>
+  <data name="HelpTipsSoundText" xml:space="preserve">
+    <value>- Avaa ääniasetukset ja laita äänen synkronointi päälle. Tämä voi parantaa äänenlaatua, mutta suorituskyky voi kärsiä.
+- Jos emuloinnin nopeus on liian hidas, äänenlaatu voi kärsiä. Seuraa yllä olevia vinkkejä huonosti pyörivien pelien osalta..</value>
+  </data>
+  <data name="PinToStartText" xml:space="preserve">
+    <value>Kiinnitä aloitusnäyttöön</value>
+  </data>
+  <data name="AspectRatioSetting" xml:space="preserve">
+    <value>Kuvasuhde</value>
+  </data>
+  <data name="AutoBackupModeHelp" xml:space="preserve">
+    <value>- Yksinkertainen tila: Tallennuspaikat vasrmuuskopioidaan sellaisinaan ilman pakkaamista: hyvä tietojen synkronoimiseen tabletin/PC:n välillä. Ei suojaa vahingossa sattuvalta tietojen ylikirjoittamiselta.
+- Pyörivä tila: Tallennuspaikkojen tiedot pakataan. useita tallennustiedostoja säilytetään tietojen menettämisen ehkäisemiseksi. Hyvä tietojen varmuuskopioimiseen.</value>
+  </data>
+  <data name="HostText" xml:space="preserve">
+    <value>Isäntä (host)</value>
+  </data>
+  <data name="ManualSnapshotSetting" xml:space="preserve">
+    <value>Luo kuvat tiiliin käsin</value>
+  </data>
+  <data name="DownloadErrorText" xml:space="preserve">
+    <value>Virhe ladattaessa tiedostoa '{0}': {1}</value>
+  </data>
+  <data name="CheatInvalidFormat2" xml:space="preserve">
+    <value>Virheellinen koodin muoto. Koodien tulee olla 8-merkkisiä heksadesimaalikoodeja tai muodossa XXX-XXX-XXX, XXX-XXX per rivi.</value>
+  </data>
+  <data name="IPAddressText" xml:space="preserve">
+    <value>Palvelimen IP-osoite</value>
+  </data>
+  <data name="MaximumTilesPinned" xml:space="preserve">
+    <value>Valittu ROM on jo kiinnitetty tai olet saavuttanut kiinnitysten enimmäismäärän.</value>
+  </data>
+  <data name="HelpImportWebHeader" xml:space="preserve">
+    <value>Vaihtoehto 3: tuo nettiselaimesta</value>
+  </data>
+  <data name="DPadAnalogueFixed" xml:space="preserve">
+    <value>kiinteä analogiohjain</value>
+  </data>
+  <data name="MogaMappingTitle" xml:space="preserve">
+    <value>MOGA-ohjaimen näppäinasettelu</value>
+  </data>
+  <data name="NoneButtonText" xml:space="preserve">
+    <value>Ei mitään</value>
+  </data>
+  <data name="FrameSkipSetting" xml:space="preserve">
+    <value>Ohita kuvia (lisää emulaation nopeutta)</value>
+  </data>
+  <data name="BuyNowButtonText" xml:space="preserve">
+    <value>Osta nyt</value>
+  </data>
+  <data name="EnterCodeTitle" xml:space="preserve">
+    <value>Syötä koodi</value>
+  </data>
+  <data name="ControllerScaleSettings" xml:space="preserve">
+    <value>Virtuaalijoystickin mittakaava</value>
+  </data>
+  <data name="HelpDownloadROMsHeader" xml:space="preserve">
+    <value>Kuinka tuoda ROMeja</value>
+  </data>
+  <data name="TapMogaInstructionText" xml:space="preserve">
+    <value>Paina tästä MOGA-ohjaimen ohjeita varten</value>
+  </data>
+  <data name="Msg_ChatPromptTitle" xml:space="preserve">
+    <value>Saapuva linkkipyyntö</value>
+  </data>
+  <data name="FirstGameText" xml:space="preserve">
+    <value>ensimmäinen peli</value>
+  </data>
+  <data name="AspectRatio4to3Setting" xml:space="preserve">
+    <value>4:3</value>
+  </data>
+  <data name="AboutSnes9xLinkLabel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SettingsPageTitle" xml:space="preserve">
+    <value>ASETUKSET</value>
+  </data>
+  <data name="CheatRestoreValuesOption" xml:space="preserve">
+    <value>Palauta vanhat arvot huijausten jälkeen (GBA)</value>
+  </data>
+  <data name="VideoMogaText" xml:space="preserve">
+    <value>Video: MOGA-ohjaimen ohjeet</value>
+  </data>
+  <data name="SourceHeader" xml:space="preserve">
+    <value>lähde</value>
+  </data>
+  <data name="CheatInvalidFormat" xml:space="preserve">
+    <value>Virheellinen koodin muoto. Koodien tulee olla 6, 8, 9, 12 or 16 -merkkisiä heksadesimaaliarvoja per rivi.</value>
+  </data>
+  <data name="VControllerLargeSetting" xml:space="preserve">
+    <value>risteävät</value>
+  </data>
+  <data name="AvailableSaveFilesText" xml:space="preserve">
+    <value>Saatavilla olevat tallennustiedostot</value>
+  </data>
+  <data name="CableSocketText" xml:space="preserve">
+    <value>Wifi TCP/IP</value>
+  </data>
+  <data name="ImportSDCardText" xml:space="preserve">
+    <value>Tuo SD-kortilta</value>
+  </data>
+  <data name="BuyNowImportText" xml:space="preserve">
+    <value>Kokeiluversiossa voit pitää vain 2 ROMia puhelimessasi. Paina Ok ostaaksesi ohjelman ja poistaaksesi rajoituksen.</value>
+  </data>
+  <data name="BackupWaitForUpload" xml:space="preserve">
+    <value>Odota palvelimelle latauksen valmistumista.</value>
+  </data>
+  <data name="RestoreLastStateSetting" xml:space="preserve">
+    <value>Käytä 9. tallennuspaikkaa automaattiseen tallentamiseen/lataamiseen</value>
+  </data>
+  <data name="Err_NoPeerConnected" xml:space="preserve">
+    <value>Et ole yhdistänyt toiseen käyttäjään (peer).</value>
+  </data>
+  <data name="PurchaseSuccessText" xml:space="preserve">
+    <value>Osto onnistunut.</value>
+  </data>
+  <data name="ShowThreeDotsSetting" xml:space="preserve">
+    <value>Näytä vinkki ponnahdusvalikosta</value>
+  </data>
+  <data name="ManageAutoSlotLabel" xml:space="preserve">
+    <value>Automaattinen</value>
+  </data>
+  <data name="SelectStateAuto" xml:space="preserve">
+    <value>Valitse automaattinen tila</value>
+  </data>
+  <data name="CloudSixInstructionText" xml:space="preserve">
+    <value>Asenna joku Rudy Hyunin CloudSix-ohjelmista käyttääksesi tätä ominaisuutta.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenTextContact" xml:space="preserve">
+    <value>- Jos mikään ei auta, ota yhteyttä kehittäjään:</value>
+  </data>
+  <data name="RecentHeader" xml:space="preserve">
+    <value>VIIMEISIMMÄT</value>
+  </data>
+  <data name="OrientationLandscape" xml:space="preserve">
+    <value>lukittu vaakatasoon</value>
+  </data>
+  <data name="CustomizeButtonMappingText" xml:space="preserve">
+    <value>Muokkaa näppäinasettelua...</value>
+  </data>
+  <data name="SDCardMissingText" xml:space="preserve">
+    <value>SD-korttia ei ole. Liitä SD-kortti ja yritä uudestaan.</value>
+  </data>
+  <data name="EmailSubjectText" xml:space="preserve">
+    <value>VBA8/VGBC raportoi virhe tai ehdota ominaisuutta</value>
+  </data>
+  <data name="StartServerOtherText" xml:space="preserve">
+    <value>Käynnistä palvelin toisella laitteella saadaksesi sen IP-osoitteen.</value>
+  </data>
+  <data name="DownloadingProgressText" xml:space="preserve">
+    <value>Ladataan '{0}'</value>
+  </data>
+  <data name="ValidCodeText" xml:space="preserve">
+    <value>Koodi hyväksytty. Avaa ohjelma uudelleen, jotta koodi alkaa toimia.</value>
+  </data>
+  <data name="NumberRotatingFilesText" xml:space="preserve">
+    <value>Pyörivien varmuuskopioiden määrä</value>
+  </data>
+  <data name="SkyDriveImportTitle" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="CheatsDescription" xml:space="preserve">
+    <value>Voit syöttää GameShark ja CodeBreaker -koodeja GBA-peleihin sekä GameShark ja GameGenie -koodeja GB/GBC-peleihin.</value>
+  </data>
+  <data name="PreLinkTitle" xml:space="preserve">
+    <value>määritä linkkitila</value>
+  </data>
+  <data name="CloudSixOneFileLimitText" xml:space="preserve">
+    <value>CloudSix tukee tiedostojen tuontia vain yksi kerrallaan, ellet valitse "tuo .zip-tiedostona" valintaa.</value>
+  </data>
+  <data name="GPLv3" xml:space="preserve">
+    <value>http://www.gnu.org/licenses/gpl-3.0.txt</value>
+  </data>
+  <data name="PremiumFeaturePromptText" xml:space="preserve">
+    <value>Tämä on premium-ominaisuus. Haluatko siirtyä ostosivulle?</value>
+  </data>
+  <data name="CreateBackupFolderError" xml:space="preserve">
+    <value>Virhe varmuuskopiokansion luomisessa.</value>
+  </data>
+  <data name="RestartPromptText" xml:space="preserve">
+    <value>Käynnistä ohjelma uudelleen (paina takaisin nuolta useasti) saattaaksesi uuden asetuksen voimaan.</value>
+  </data>
+  <data name="BuyNowCancelButtonText" xml:space="preserve">
+    <value>Jatka kokeiluversion käyttämistä</value>
+  </data>
+  <data name="DPad8way" xml:space="preserve">
+    <value>8-suuntainen</value>
+  </data>
+  <data name="HelpButtonText" xml:space="preserve">
+    <value>ohjeet</value>
+  </data>
+  <data name="InfoCaption" xml:space="preserve">
+    <value>Tietoja</value>
+  </data>
+  <data name="RefreshRate30" xml:space="preserve">
+    <value>30 Hz</value>
+  </data>
+  <data name="RefreshRate60" xml:space="preserve">
+    <value>60 Hz</value>
+  </data>
+  <data name="OrientationPortrait" xml:space="preserve">
+    <value>lukittu pystytasoon</value>
+  </data>
+  <data name="CameraAssignLR" xml:space="preserve">
+    <value>L- ja R-painikkeet</value>
+  </data>
+  <data name="CloudSixHeader" xml:space="preserve">
+    <value>CLOUDSIX</value>
+  </data>
+  <data name="Err_BluetoothOffCaption" xml:space="preserve">
+    <value>Bluetooth pois päältä</value>
+  </data>
+  <data name="RoleText" xml:space="preserve">
+    <value>Rooli</value>
+  </data>
+  <data name="CameraAssignTurbo" xml:space="preserve">
+    <value>Turbotila</value>
+  </data>
+  <data name="StatusNotSignedIn" xml:space="preserve">
+    <value>ei kirjauduttu sisään.</value>
+  </data>
+  <data name="UseMogaControllerText" xml:space="preserve">
+    <value>Käytä MOGA-ohjainta</value>
+  </data>
+  <data name="SaveStateButton" xml:space="preserve">
+    <value>tallenna peli</value>
+  </data>
+  <data name="StatusLabelContent" xml:space="preserve">
+    <value>Tila: </value>
+  </data>
+  <data name="CreateSnapshotMenuItem" xml:space="preserve">
+    <value>Luo ruutukaappaus tiiliä varten</value>
+  </data>
+  <data name="OneDriveHeader" xml:space="preserve">
+    <value>ONEDRIVE</value>
+  </data>
+  <data name="VideoCheatText" xml:space="preserve">
+    <value>Video: Huijauskoodi-opastus</value>
+  </data>
+  <data name="AudioSettingsPageTitle" xml:space="preserve">
+    <value>ääni</value>
+  </data>
+  <data name="PurchaseSuccessNoAdsText" xml:space="preserve">
+    <value>Osto onnistunut, mainoksia ei enää näytetä kun avaat ohjelman seuraavan kerran.</value>
+  </data>
+  <data name="TurboFrameSkipText" xml:space="preserve">
+    <value>Ruutujen ohittaminen turbotilassa</value>
+  </data>
+  <data name="CheatDefaultDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OKButtonText" xml:space="preserve">
+    <value>ok</value>
+  </data>
+  <data name="OpacitySetting" xml:space="preserve">
+    <value>Virtuaaliohjaimen läpinäkyvyys</value>
+  </data>
+  <data name="AspectRatio5to4Setting" xml:space="preserve">
+    <value>5:4</value>
+  </data>
+  <data name="BackupUploadSuccessful" xml:space="preserve">
+    <value>Lataus palvelimelle suoritettu.</value>
+  </data>
+  <data name="VirtualControllerButtonColored" xml:space="preserve">
+    <value>värillinen</value>
+  </data>
+  <data name="GPLv3Title" xml:space="preserve">
+    <value>GPLv3</value>
+  </data>
+  <data name="CodeText" xml:space="preserve">
+    <value>Koodi</value>
+  </data>
+  <data name="DPadAnalogueDynamic" xml:space="preserve">
+    <value>dynaaminen analogiohjain</value>
+  </data>
+  <data name="ChoosePortraitBackgroundColorText" xml:space="preserve">
+    <value>Valitse pystynäytön taustan väri...</value>
+  </data>
+  <data name="SimpleModeText" xml:space="preserve">
+    <value>Yksinkertainen tila</value>
+  </data>
+  <data name="AutoBackupNote" xml:space="preserve">
+    <value>Huomautus: Automaattinen varmuuskopio suoritetaan kun pelistä palataan ohjelman päävalikkoon.</value>
+  </data>
+  <data name="AutoBackupText" xml:space="preserve">
+    <value>Varmuuskopioi tallennukset automaattisesti</value>
+  </data>
+  <data name="BackupFailOnedriveText" xml:space="preserve">
+    <value>Automaattinen varmuuskopiointi epäonnistui, kirjaudu OneDriveen.</value>
+  </data>
+  <data name="DescriptionText" xml:space="preserve">
+    <value>Kuvaus</value>
+  </data>
+  <data name="ExportNoSelection" xml:space="preserve">
+    <value>Valitse vähintään yksi tiedosto.</value>
+  </data>
+  <data name="ImportSavestateInvalidFormat" xml:space="preserve">
+    <value>Talennustilan tiedostomuoto on virheellinen. Tiedoston nimen tulee loppua numeroon 0-9 (esim. demo0.sgm)</value>
+  </data>
+  <data name="StartServerText" xml:space="preserve">
+    <value>Käynnistä palvelin</value>
+  </data>
+  <data name="EnterCodeText" xml:space="preserve">
+    <value>Syötä kampanjakoodi</value>
+  </data>
+  <data name="FindButtonCaption" xml:space="preserve">
+    <value>Päivitä toiset käyttäjät (peers)</value>
+  </data>
+  <data name="BackupOnlyWifiText" xml:space="preserve">
+    <value>Varmuuskopioi vain Wifi-verkossa (valinnan valtseminen voi olla hidasta)</value>
+  </data>
+  <data name="UseRealisticButtonsText" xml:space="preserve">
+    <value>Käytä aidon värisiä nappuloita</value>
+  </data>
+  <data name="DeleteSavesEntry" xml:space="preserve">
+    <value>Poista pelin sisäinen tallennus</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>Versio</value>
+  </data>
+  <data name="FileAssociationError" xml:space="preserve">
+    <value>Virhe ROMia tuotaessa ja avattaessa.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenText" xml:space="preserve">
+    <value>- Varmista, että OneDriven lataukset ovat valmiit enne kuin poistut ohjelmasta (odota vahvistusilmoitusta). Jos poistut liian aikaisin, ROM saattaa jäädä korruptoituneeksi eikä se toimi kunnolla. Jos tämä tapahtuu, poista ne ennen uudelleenlataamista (paina ja pidä pohjassa ROM-listassa).
+- Jos OneDrive-tuonti ei toimi tai OneDrivesta tuodut ROMit eivät toimi, yritä muita tapoja tuoda ROMit ohjelmaan. Mahdollisia tuontimenetelmiä on kolme (OneDrive, sähköposti ja nettiselain).
+- Älä unohda poistaa ROMeja, jotka eivät toimi ennen kuin tuot ne uudelleen toista menetelmää käyttäen.</value>
+  </data>
+  <data name="ErrorCaption" xml:space="preserve">
+    <value>Virhe</value>
+  </data>
+  <data name="EmailLinkText" xml:space="preserve">
+    <value>Sähköposti: store.support@outlook.com</value>
+  </data>
+  <data name="ClientText" xml:space="preserve">
+    <value>Asiakas (client)</value>
+  </data>
+  <data name="DeleteCheatButtonText" xml:space="preserve">
+    <value>poista</value>
+  </data>
+  <data name="Err_NoMessageToSend" xml:space="preserve">
+    <value>Kirjoita viesti, jonka haluat lähettää.</value>
+  </data>
+  <data name="ResumeButtonText" xml:space="preserve">
+    <value>jatka</value>
+  </data>
+  <data name="VControllerSmallSetting" xml:space="preserve">
+    <value>dissecting</value>
+  </data>
+  <data name="DPadStyleHeader" xml:space="preserve">
+    <value>D-ohjaimen tyyli</value>
+  </data>
+  <data name="AddCheatsTitle" xml:space="preserve">
+    <value>Lisää huijaus</value>
+  </data>
+  <data name="ImportButtonText" xml:space="preserve">
+    <value>tuo</value>
+  </data>
+  <data name="PurchasedThankYouText" xml:space="preserve">
+    <value>Ostettu, kiitos!</value>
+  </data>
+  <data name="AboutSnes9x" xml:space="preserve">
+    <value>Ilmoita ihmeessä virheistä ja toimimattomista peleistä.
+
+Tekijä ei vastaa ohjelmiston laittomasta käytöstä. Ohjelmistolla ei myöskään ole minkäänlaista takuuta eikä tekijä vastaa mistään vahingoista.
+
+Kiitokset:
+- Eddi Bentolle logosuunnittelusta.
+- MOGA-yhtiölle yllätyslahjasta.
+- Translation: Sergy Ortiz Puerto (Spanish), André Queiroz (Portuguese), Arda Ozkal (Turkish), Alexandros Melissas (Greek), Łukasz Deptuła (Polish), Junfan Yao (Simplifed Chinese), wphone08 (French), Jesper Svensson (Swedish), Alexander Kolosov (Russian), Usama Jawad (Urdu), Mathias Haugsbø (Norwegian Nynorsk), Leutrim Shabani (German), Giordano Piacentini (Italian),  Sami Piispanen (Finnish), Shay Livyatan (Hebrew), Adam Yowanda (Indonesian), Krit Visitstump (Thai), Sebastian van den Oever, Sjouke Yntema (Dutch), DÄvis KalniÅ†Å¡ (Latvian), 재훈 정 (Korean), Simon Kudsk (Danish).</value>
+  </data>
+  <data name="BackupInstructions" xml:space="preserve">
+    <value>Valitse peli, jonka tallennus viedään.</value>
+  </data>
+  <data name="SDCardImportTitle" xml:space="preserve">
+    <value>SD-kortti</value>
+  </data>
+  <data name="BackupIngameSaveText" xml:space="preserve">
+    <value>Varmuuskopioi pelin sisäinen tallennus</value>
+  </data>
+  <data name="HelpImportWebText" xml:space="preserve">
+    <value>Mene nettiselaimellasi sivulle, joka tarjoaa ROMeja ladattavaksi ja lataa haluamasi peli. Jos lataus on *.zip -arkistossa, selain näyttää arkiston sisällön kun lataus on valmis. Etsi *.gba -tiedosto arkistosta ja paina sitä avataksesi emulaattorin. Emulaattori tuo lataamasi ROMin. Jos ladattava tiedosto on *.gba -tiedosto, paina sitä avataksesi emulaattorin ja tuodaksesi pelin.</value>
+  </data>
+  <data name="EditText" xml:space="preserve">
+    <value>muokkaa</value>
+  </data>
+  <data name="VirtualControllerButtonGray" xml:space="preserve">
+    <value>harmaa</value>
+  </data>
+  <data name="HelpTipsTurboText" xml:space="preserve">
+    <value>- Paina kamerapainiketta valitaksesi turbotilan.
+- Paina kamerapainike puoleen väliin aktivoidaksesi turbotilan siksi aikaa kun pidät näppäinen painettuna.</value>
+  </data>
+  <data name="ManageSaveTimeLabel" xml:space="preserve">
+    <value>Luotu:</value>
+  </data>
+  <data name="HelpImportSkyDriveText" xml:space="preserve">
+    <value>Lataa tiedostot OneDrivessa olevaan kansioon. Tämän jälkeen mene emulaattorin OneDrive -kohtaan ohjelman etusivulta (vedä vasemmalle sivulta, jossa ROMit ovat). Jos et ole vielä kirjautunut sisään, paina "kirjaudu sisään" -painiketta ja kirjaudu tarvittaessa OneDriveen. Kun olet kirjautunut sisään, paina "tuo ROMeja" -painiketta emulaattorin etusivulta. Mene OneDrive-kansioon, jossa ROMit ovat. Paina *.gba -tiedostoa kansiossa, jonne olet laittanut ROMin. Odota latauksen valmistumista ennen kuin poistut sivulta. Kun lataus on valmis saat siitä ilmoituksen.
+Huomaa: Joissakin tapauksissa OneDrivesta ladatut ROMit näyttävät vain tyhjän ruudun kun ne avataan. Jos törmäät ongelmaan, käytä vaihtoehtoa 2 tai 3.</value>
+  </data>
+  <data name="HelpTipsTurboHeader" xml:space="preserve">
+    <value>Aktivoi turbotila</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>
+
+
+
+Laitteen ID: {0}</value>
+  </data>
+  <data name="HostIPAddressText" xml:space="preserve">
+    <value>Isännän IP-osoite: {0}. Odotetaan asiakasta...</value>
+  </data>
+  <data name="HelpTipsSoundHeader" xml:space="preserve">
+    <value>Raapiva ääni</value>
+  </data>
+  <data name="DeleteMenuItemText" xml:space="preserve">
+    <value>poista</value>
+  </data>
+  <data name="CableLinkText" xml:space="preserve">
+    <value>Gameboy-kaapeli</value>
+  </data>
+  <data name="OrientationBoth" xml:space="preserve">
+    <value>vaaka- tai pystytaso</value>
+  </data>
+  <data name="GuidePerformanceText" xml:space="preserve">
+    <value>Opas: kuinka parantaa suorituskykyä</value>
+  </data>
+  <data name="LinkingNote" xml:space="preserve">
+    <value>Huomautus: Poista ruutujen ohitus ja turbotila käytöstä yhteysvirheen estämiseksi.</value>
+  </data>
+  <data name="GPLButtonText" xml:space="preserve">
+    <value>Katso GNU-hankkeen yleinen lisenssi v3</value>
+  </data>
+  <data name="ConnectText" xml:space="preserve">
+    <value>Yhdistä</value>
+  </data>
+  <data name="BackgroundOpacitySetting" xml:space="preserve">
+    <value>Taustakuvan läpinäkyvyys</value>
+  </data>
+  <data name="UseBackgroundImageSetting" xml:space="preserve">
+    <value>Käytä taustakuvaa</value>
+  </data>
+  <data name="ChooseImageText" xml:space="preserve">
+    <value>Valitse kuva...</value>
+  </data>
+  <data name="ImportInstructionsText" xml:space="preserve">
+    <value>Tuodaksesi ROMeja OneDrivesta:
+1. Lataa ROMit OneDrive -kansioosi. 
+2. Paina "Kirjaudu sisään" -painiketta kirjautuaksesi OneDriveen.
+3. Paina "Tuo"-painiketta ja valitse ROM.</value>
+  </data>
+  <data name="HelpTipsHeader" xml:space="preserve">
+    <value>vinkkejä</value>
+  </data>
+  <data name="ApplicationTitle2" xml:space="preserve">
+    <value>VGBC8</value>
+  </data>
+  <data name="ThemeText" xml:space="preserve">
+    <value>Teema</value>
+  </data>
+  <data name="ManageRemoveState" xml:space="preserve">
+    <value>poista</value>
+  </data>
+  <data name="BuyNowText" xml:space="preserve">
+    <value>Tämä ominaisuus on vain ohjelman tädessä versiossa. Paina Ok-painiketta ostaaksesi ohjelman ja avataksesi ominaisuuden.</value>
+  </data>
+  <data name="DeleteConfirmText" xml:space="preserve">
+    <value>Tätä ei voi perua, jatketaanko?</value>
+  </data>
+  <data name="AspectRatioOriginalSetting" xml:space="preserve">
+    <value>luonnollinen</value>
+  </data>
+  <data name="DownloadCompleteText" xml:space="preserve">
+    <value>Tiedosto on ladattu '{0}'</value>
+  </data>
+  <data name="Msg_FoundPeers" xml:space="preserve">
+    <value>Toisia käyttäjiä (peers) löytynyt: {0}. Paina "päivitä toiset käyttäjät (peers)" päivittääksesi.</value>
+  </data>
+  <data name="BackupErrorUpload" xml:space="preserve">
+    <value>Virhe ladattaessa tiedostoa palvelimelle: {0}. Yritä kirjautua ulos ja takaisin sisään OneDriveen jos ongelma jatkuu.</value>
+  </data>
+  <data name="CheatCodesAddPivotTitle" xml:space="preserve">
+    <value>lisää</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="SourceLink" xml:space="preserve">
+    <value>http://sourceforge.net/projects/vba8/</value>
+  </data>
+  <data name="SyncSoundSetting2" xml:space="preserve">
+    <value>(parempi laatu, voi olla kuitenkin hitaampi)</value>
+  </data>
+  <data name="AboutSnes9xLicense" xml:space="preserve">
+    <value>GNU-hankkeen yleinen lisenssi:</value>
+  </data>
+  <data name="Err_NoConnectTitle" xml:space="preserve">
+    <value>Ei voi yhdistää</value>
+  </data>
+  <data name="CameraAssignR" xml:space="preserve">
+    <value>R-Painike</value>
+  </data>
+  <data name="CameraAssignL" xml:space="preserve">
+    <value>L-Painike</value>
+  </data>
+  <data name="LastPlayedLabel" xml:space="preserve">
+    <value>Viimeksi pelattu: </value>
+  </data>
+  <data name="SRAMDeletedSuccessfully" xml:space="preserve">
+    <value>Tallennustiedosto on poistettu onnistuneesti.</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>VBA8</value>
+  </data>
+  <data name="Err_NoPeer" xml:space="preserve">
+    <value>Sinun täytyy valita toinen käyttäjä (peer) listasta.</value>
+  </data>
+  <data name="AboutContactLabel" xml:space="preserve">
+    <value>Ota yhteyttä:</value>
+  </data>
+  <data name="HelpImportSDCardHeader" xml:space="preserve">
+    <value>Vaihtoehto 4: SD-kortilta tuominen</value>
+  </data>
+  <data name="ConfirmationCheckBoxText" xml:space="preserve">
+    <value>Älä näytä tätä enää</value>
+  </data>
+  <data name="RomListTitle" xml:space="preserve">
+    <value>romit</value>
+  </data>
+  <data name="ROMAlreadyExistingError" xml:space="preserve">
+    <value>ROM on jo ladattu: {0}</value>
+  </data>
+  <data name="RecentTitle" xml:space="preserve">
+    <value>viimeksi pelatut</value>
+  </data>
+  <data name="SkyDriveError" xml:space="preserve">
+    <value>OneDrive-virhe: {0}</value>
+  </data>
+  <data name="CheatListGameLabel" xml:space="preserve">
+    <value>Huijaukset ovat käytössä seuraavia pelejä varten:</value>
+  </data>
+  <data name="UnlockFeatureText" xml:space="preserve">
+    <value>Avaa ominaisuus</value>
+  </data>
+  <data name="HelpIssuesHeader" xml:space="preserve">
+    <value>ongelmia</value>
+  </data>
+  <data name="StartLinkText" xml:space="preserve">
+    <value>Käynnistä linkkitila</value>
+  </data>
+  <data name="GuidesTitle" xml:space="preserve">
+    <value>oppaat</value>
+  </data>
+  <data name="Msg_NoPeers" xml:space="preserve">
+    <value>Toisia käyttäjiä (peers) ei löytynyt. Paina "päivitä toiset käyttäjät (peers)" päivittääksesi.</value>
+  </data>
+  <data name="ConnectButtonCaption" xml:space="preserve">
+    <value>Yhdistä valittuun</value>
+  </data>
+  <data name="BackupPageTitle" xml:space="preserve">
+    <value>vie tallennuksia</value>
+  </data>
+  <data name="CloudSixImportTitle" xml:space="preserve">
+    <value>CloudSix</value>
+  </data>
+  <data name="LoadingProductListText" xml:space="preserve">
+    <value>Ladataan tuotantolistaa. Odota...</value>
+  </data>
+  <data name="ReviewPromptText" xml:space="preserve">
+    <value>Ole ystävällinen ja kaytä muutama sekunti ohjelman arvioimiseen. Hyvät arvostelut takaavat emulaattorin kehittämisen.</value>
+  </data>
+  <data name="AutoBackupTitle" xml:space="preserve">
+    <value>automaattinen varmuuskopiointi</value>
+  </data>
+  <data name="ManageDeleteUnknownError" xml:space="preserve">
+    <value>Tuntematon virhe tapautui poistettaessa tallennustilaa.</value>
+  </data>
+  <data name="SourceButtonText" xml:space="preserve">
+    <value>lähdekoodi</value>
+  </data>
+  <data name="BackupLastManualSlotText" xml:space="preserve">
+    <value>Varmuuskopioi viimeisin manuaalinen tallennuspaikka</value>
+  </data>
+  <data name="CustomizePortraitControlText" xml:space="preserve">
+    <value>Muokkaa pystyasennossa käytettävien ohjainpainikkeiden sijaintia</value>
+  </data>
+  <data name="LoadStateButton" xml:space="preserve">
+    <value>viimeisin tallennus</value>
+  </data>
+  <data name="FAQsLinkText" xml:space="preserve">
+    <value>Usein kysytyt kysymykset, foorumikeskustelu &amp; PC-ohjelma</value>
+  </data>
+  <data name="ActiveSavestateText" xml:space="preserve">
+    <value> (aktiivinen)</value>
+  </data>
+  <data name="StatusSignedIn" xml:space="preserve">
+    <value>kirjauduttu sisään.</value>
+  </data>
+  <data name="PurchaseButtonText" xml:space="preserve">
+    <value>Osta</value>
+  </data>
+  <data name="LowFreqModeSetting" xml:space="preserve">
+    <value>30 Hz näytön päivitystaajuus</value>
+  </data>
+  <data name="CheatsDescription2" xml:space="preserve">
+    <value>HUOMAA: Viimeaikaisen virheenkorjauksen takia kaikki olemassaolevat 16-merkkiset huijauskoodit tulee muokata välilyönneiltään oikeiksi, jotta ne toimivat.</value>
+  </data>
+  <data name="BackupAndRestoreInstructions" xml:space="preserve">
+    <value>Vie ja tuo pelien tallennuksia:</value>
+  </data>
+  <data name="RemoveStateNoSelection" xml:space="preserve">
+    <value>Valitse tallennustila ensin.</value>
+  </data>
+  <data name="SDCardReadOnlyText" xml:space="preserve">
+    <value>Huomio: Kehittäjät eivät voi kirjoittaa SD-kortille. Käyttöjärjestelmä on varannut *.zip -tiedostomuodon, joten käytä *.zib -tiedostopäätettä *.zip -tiedostoille.</value>
+  </data>
+  <data name="CustomizeLandscapeControlText" xml:space="preserve">
+    <value>Muokkaa vaaka-asennossa käytettävien ohjainpainikkeiden sijaintia</value>
+  </data>
+  <data name="EmulatorMenuText" xml:space="preserve">
+    <value>Huomaa: Emulaattorin valikkotoiminnot toteutetaan tulevaisuudessa.</value>
+  </data>
+  <data name="CameraButtonAssignment" xml:space="preserve">
+    <value>Määritä kamerapainikkeeseen</value>
+  </data>
+  <data name="SetupAutoBackupText" xml:space="preserve">
+    <value>Määritä automaattinen varmuuskopiointi...</value>
+  </data>
+  <data name="HelpTipsPerformanceHeader" xml:space="preserve">
+    <value>Pelit toimivat hitaasti</value>
+  </data>
+  <data name="AutoLoadLastStateText" xml:space="preserve">
+    <value>Tallenna ja lataa peli automaattisesti</value>
+  </data>
+  <data name="GeneralSettingsTitle" xml:space="preserve">
+    <value>yleiset</value>
+  </data>
+  <data name="EnterHostIPText" xml:space="preserve">
+    <value>kirjoita isännän IP-osoite tähän</value>
+  </data>
+  <data name="HelpImportEmailText" xml:space="preserve">
+    <value>Lähetä sähköposti, jonka liitteenä ROMit ovat, osoitteeseen, johon pääsee käsiksi puhelimella. Voit  liittää ROMit joko *.gba -tiedostoina tai *.zip -arkistona. Avaa sähköposti puhelimellasi ja paina liitetiedostoa ladataksesi sen. Jos liite on *.zip -arkisto, sähköpostiohjelma näyttää sen sisällön. Etsi ROM arkistosta ja paina sitä avataksesi emulaattorin. Ohjelma tuo ROMin automaattisesti sähköpostiohjelmastasi ja aloittaa pelin. Jos tiedosto on *.zip -arkiston sijaan *.gba -tiedosto, sen painaminen avaa emulaattorin ja tuo ROMin.</value>
+  </data>
+  <data name="ErrorNoConnectionText" xml:space="preserve">
+    <value>Virhe! Ei internet-yhteyttä tai Microsoftin palvelinvirhe. Yritä uudelleen myöhemmin.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenHeader" xml:space="preserve">
+    <value>Tyhjä ruutu ROMien tuomisen jälkeen</value>
+  </data>
+</root>

@@ -1,0 +1,10 @@
+INDEX VERSION 1.127+E:\Work\WinFrom\XapMaker\GamesManager\AndroidWorkSpaceTest\.metadata\.plugins\org.eclipse.jdt.core
+3515282563.index
+4286239728.index
+848856923.index
+1693018860.index
+4278231737.index
+508015604.index
+2729490609.index
+955120.index
+1498282337.index

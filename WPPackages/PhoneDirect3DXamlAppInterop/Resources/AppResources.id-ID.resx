@@ -1,0 +1,1284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RenamePageTitle" xml:space="preserve">
+    <value>ganti nama</value>
+  </data>
+  <data name="CancelButtonText" xml:space="preserve">
+    <value>batal</value>
+  </data>
+  <data name="RenameMenuItemText" xml:space="preserve">
+    <value>ubah nama</value>
+  </data>
+  <data name="LinkTypeText" xml:space="preserve">
+    <value>Tipe sambungan</value>
+  </data>
+  <data name="RestorePageTitle" xml:space="preserve">
+    <value>impor penyimpanan</value>
+  </data>
+  <data name="VirtualControllerButtonStyle" xml:space="preserve">
+    <value>Gaya Tombol Kontrol Virtual</value>
+  </data>
+  <data name="SecondGameText" xml:space="preserve">
+    <value>permainan kedua (boleh sama dengan permainan pertama)</value>
+  </data>
+  <data name="ProductNotAvailableText" xml:space="preserve">
+    <value>Produk ini tidak tersedia saat ini.</value>
+  </data>
+  <data name="RenameEmptyString" xml:space="preserve">
+    <value>Anda harus memasukkan nama ROM.</value>
+  </data>
+  <data name="GuidesHeader" xml:space="preserve">
+    <value>PANDUAN</value>
+  </data>
+  <data name="ButtonScaleSettings" xml:space="preserve">
+    <value>Skala Tombol Virtual</value>
+  </data>
+  <data name="CablePeerText" xml:space="preserve">
+    <value>Kabel - Bluetooth</value>
+  </data>
+  <data name="AboutSnes9xLink" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ReviewText" xml:space="preserve">
+    <value>Tinjau ulang</value>
+  </data>
+  <data name="OverNetworkText" xml:space="preserve">
+    <value>Melalui bluetooth/wifi (tidak tersedia)</value>
+  </data>
+  <data name="AboutSnes9xLicenseText" xml:space="preserve">
+    <value>http://www.gnu.org/licenses/gpl.html</value>
+  </data>
+  <data name="UploadProgressText" xml:space="preserve">
+    <value>Mengekspor '{0}'</value>
+  </data>
+  <data name="WirelessLinkText" xml:space="preserve">
+    <value>Adapter nirkabel (tidak tersedia)</value>
+  </data>
+  <data name="RenamePromptMessage" xml:space="preserve">
+    <value>Ubah nama tampilan ROM:</value>
+  </data>
+  <data name="PowerFrameSkipText" xml:space="preserve">
+    <value>Loncati Frame (kecepatan emulasi tetap)</value>
+  </data>
+  <data name="EnableSoundSetting" xml:space="preserve">
+    <value>Hidupkan Suara</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>id-ID</value>
+  </data>
+  <data name="BackupAutoSlotText" xml:space="preserve">
+    <value>Cadangkan slot penyimpanan otomatis</value>
+  </data>
+  <data name="FrameSkipAutoSetting" xml:space="preserve">
+    <value>otomatis</value>
+  </data>
+  <data name="SkyDriveGeneralError" xml:space="preserve">
+    <value>Terjadi kesalahan ketika mengakses OneDrive: {0}</value>
+  </data>
+  <data name="DPadStandard" xml:space="preserve">
+    <value>4-arah</value>
+  </data>
+  <data name="LinkTimeoutText" xml:space="preserve">
+    <value>Waktu habis sambungan (ms)</value>
+  </data>
+  <data name="ContactHeader" xml:space="preserve">
+    <value>KONTAK</value>
+  </data>
+  <data name="ImportFromSkyDriveButtonText" xml:space="preserve">
+    <value>Impor</value>
+  </data>
+  <data name="Msg_ChatPrompt" xml:space="preserve">
+    <value>Apa Anda ingin tersambung dengan {0}?</value>
+  </data>
+  <data name="StartLinkTitle" xml:space="preserve">
+    <value>mulai sambungan</value>
+  </data>
+  <data name="MogaGDR3Note" xml:space="preserve">
+    <value>Catatan: pengendali MOGA mungkin memerlukan GDR3.</value>
+  </data>
+  <data name="ManageSavestateMenuItem" xml:space="preserve">
+    <value>kelola penyimpanan state</value>
+  </data>
+  <data name="PurchaseText" xml:space="preserve">
+    <value>beli</value>
+  </data>
+  <data name="DeviceIDText" xml:space="preserve">
+    <value>ID Perangkat: {0}</value>
+  </data>
+  <data name="ImportWaitComplete" xml:space="preserve">
+    <value>Tunggu sampai unduhan selesai.</value>
+  </data>
+  <data name="AutoBackupTypeText" xml:space="preserve">
+    <value>Modus cadangan otomatis</value>
+  </data>
+  <data name="ImportSaveInstructionsText" xml:space="preserve">
+    <value>Untuk mengambil simpanan:
+1. Pastikan nama ROM dan nama file penyimpanan sama persis.
+2. Ketuk "Impor" dan pilih file penyimpanan.
+3. Jalankan permainan.</value>
+  </data>
+  <data name="RenameLabel" xml:space="preserve">
+    <value>Masukkan nama tampilan yang baru:</value>
+  </data>
+  <data name="LightText" xml:space="preserve">
+    <value>Terang</value>
+  </data>
+  <data name="AlreadyDownloadingText" xml:space="preserve">
+    <value>Sedang dalam proses mengunduh.</value>
+  </data>
+  <data name="ContextTitle" xml:space="preserve">
+    <value>opsi</value>
+  </data>
+  <data name="ImportingProgressText" xml:space="preserve">
+    <value>Mengimpor '{0}'</value>
+  </data>
+  <data name="RenameOkButton" xml:space="preserve">
+    <value>Ganti nama</value>
+  </data>
+  <data name="ResetROMButton" xml:space="preserve">
+    <value>reset</value>
+  </data>
+  <data name="BackupButton" xml:space="preserve">
+    <value>Ekspor</value>
+  </data>
+  <data name="ShowLastPlayedGameText" xml:space="preserve">
+    <value>Tampilkan snapshot dari permainan yang terakhir dimainkan</value>
+  </data>
+  <data name="SelectState8" xml:space="preserve">
+    <value>Pilih State 8</value>
+  </data>
+  <data name="SelectState9" xml:space="preserve">
+    <value>Pilih State 9</value>
+  </data>
+  <data name="SelectState2" xml:space="preserve">
+    <value>Pilih State 2</value>
+  </data>
+  <data name="SelectState3" xml:space="preserve">
+    <value>Pilih State 3</value>
+  </data>
+  <data name="SelectState0" xml:space="preserve">
+    <value>Pilih State 0</value>
+  </data>
+  <data name="SelectState1" xml:space="preserve">
+    <value>Pilih State 1</value>
+  </data>
+  <data name="SelectState6" xml:space="preserve">
+    <value>Pilih State 6</value>
+  </data>
+  <data name="SelectState7" xml:space="preserve">
+    <value>Pilih State 7</value>
+  </data>
+  <data name="SelectState4" xml:space="preserve">
+    <value>Pilih State 4</value>
+  </data>
+  <data name="SelectState5" xml:space="preserve">
+    <value>Pilih State 5</value>
+  </data>
+  <data name="TapDownloadSnes8xText" xml:space="preserve">
+    <value>Ketuk di sini untuk menngunduh Snes8x</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>BANTUAN</value>
+  </data>
+  <data name="NoMatchingNameText" xml:space="preserve">
+    <value>Pastikan nama dari file penyimpanan cocok dengan nama ROM</value>
+  </data>
+  <data name="CheatListUnknownGame" xml:space="preserve">
+    <value>tidak diketahui</value>
+  </data>
+  <data name="Err_NoChatNameCaption" xml:space="preserve">
+    <value>Nama kosong</value>
+  </data>
+  <data name="HelpHowToHeader" xml:space="preserve">
+    <value>cara</value>
+  </data>
+  <data name="WarningTitle" xml:space="preserve">
+    <value>Peringatan!</value>
+  </data>
+  <data name="ReviewPromptTitle" xml:space="preserve">
+    <value>Suka dengan aplikasi ini?</value>
+  </data>
+  <data name="ImageEditorTitle" xml:space="preserve">
+    <value>editor gambar</value>
+  </data>
+  <data name="Err_NoSendTitle" xml:space="preserve">
+    <value>Tidak dapat mengirim</value>
+  </data>
+  <data name="EnterNewCheatText" xml:space="preserve">
+    <value>Masukkan kode cheat baru:</value>
+  </data>
+  <data name="GuideBlankScreenText" xml:space="preserve">
+    <value>Panduan: masalah layar kosong</value>
+  </data>
+  <data name="NeverPlayedText" xml:space="preserve">
+    <value>tidak pernah</value>
+  </data>
+  <data name="CheatMenuItemText" xml:space="preserve">
+    <value>Kode cheat</value>
+  </data>
+  <data name="OKText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="LinkErrorText" xml:space="preserve">
+    <value>Terjadi kesalahan. Silakan mulai ulang aplikasi dan coba lagi.</value>
+  </data>
+  <data name="SyncSoundSetting" xml:space="preserve">
+    <value>Sinkronisasi Suara (kualitas lebih baik)</value>
+  </data>
+  <data name="RotatingModeText" xml:space="preserve">
+    <value>Mode berputar</value>
+  </data>
+  <data name="HelpImportEmailHeader" xml:space="preserve">
+    <value>Alternatif 2: mengimpor dari E-mail</value>
+  </data>
+  <data name="LinkConnectedText" xml:space="preserve">
+    <value>Terhubung. Anda dapat menutup jendela ini dan melanjutkan permainan.</value>
+  </data>
+  <data name="ManageSavestatesTitle" xml:space="preserve">
+    <value>penyimpanan state</value>
+  </data>
+  <data name="RenameNameAlreadyExisting" xml:space="preserve">
+    <value>Sudah ada ROM lain dengan nama yang sama.</value>
+  </data>
+  <data name="ImageScaleSetting" xml:space="preserve">
+    <value>Skala gambar (lanskap saja)</value>
+  </data>
+  <data name="DarkText" xml:space="preserve">
+    <value>Gelap</value>
+  </data>
+  <data name="PleaseWaitROMLoadingText" xml:space="preserve">
+    <value>Tunggu hingga ROM selesai dimuat</value>
+  </data>
+  <data name="RestartPromptTitle" xml:space="preserve">
+    <value>Silakan restart</value>
+  </data>
+  <data name="ImportCompleteText" xml:space="preserve">
+    <value>Selesai mengimpor file '{0}'</value>
+  </data>
+  <data name="Err_BluetoothOff" xml:space="preserve">
+    <value>Bluetooth mati. Untuk melihat pengaturan Bluetooth saat ini tekan 'ok'.</value>
+  </data>
+  <data name="ManageSlotLabel" xml:space="preserve">
+    <value>Slot</value>
+  </data>
+  <data name="NeverShowAgainText" xml:space="preserve">
+    <value>Jangan perlihatkan ini lagi</value>
+  </data>
+  <data name="SettingsButtonText" xml:space="preserve">
+    <value>pengaturan</value>
+  </data>
+  <data name="SkyDriveInternetLost" xml:space="preserve">
+    <value>Tidak dapat tersambung ke OneDrive. Periksa koneksi internet Anda.</value>
+  </data>
+  <data name="BackupUploadProgressText" xml:space="preserve">
+    <value>Mengekspor penyimpanan '{0}'</value>
+  </data>
+  <data name="AutoIncSavestateSetting" xml:space="preserve">
+    <value>Otomatis naikkan angka penyimpanan state</value>
+  </data>
+  <data name="SelectAllText" xml:space="preserve">
+    <value>pilih semua</value>
+  </data>
+  <data name="InputSettingsPageTitle" xml:space="preserve">
+    <value>input</value>
+  </data>
+  <data name="GuideImportROMText" xml:space="preserve">
+    <value>Panduan: 4 cara untuk mengimpor ROM</value>
+  </data>
+  <data name="TapToReturnText" xml:space="preserve">
+    <value>Ketuk di sini untuk kembali ke daftar cheat.</value>
+  </data>
+  <data name="PremiumText" xml:space="preserve">
+    <value>Fitur-fitur premium meliputi: 
+-dukungan untuk pengendali MOGA. 
+-menyesuaikan warna latar belakang permainan.
+-Pilih gambar latar belakang sendiri.
+
+VBA8 dan VGBC8 sekarang memiliki set fitur yang identik. Belilah hanya salah satu dari aplikasi tersebut.
+
+*** BACA DULU ***: Dukungan pengendali MOGA diberikan secara gratis di Snes8x, sebelum Anda membeli fitur ini, unduh Snes8x untuk menguji apakah kontrol MOGA dapat digunakan pada telepon Anda.</value>
+  </data>
+  <data name="HelpImportSkyDriveHeader" xml:space="preserve">
+    <value>Alternatif 1: Mengimpor dari OneDrive</value>
+  </data>
+  <data name="SelectNoneText" xml:space="preserve">
+    <value>bersihkan pilihan</value>
+  </data>
+  <data name="TapStartServerIPText" xml:space="preserve">
+    <value>Ketuk Nyalakan server untuk mendapatkan alamat IP server.</value>
+  </data>
+  <data name="BuyWaitForDownloadText" xml:space="preserve">
+    <value>Harap menunggu sampai unduhan selesai dilakukan.</value>
+  </data>
+  <data name="SameDeviceText" xml:space="preserve">
+    <value>Perangkat sama</value>
+  </data>
+  <data name="CheatNoSelection" xml:space="preserve">
+    <value>Pilih sebuah kode cheat terlebih dahulu</value>
+  </data>
+  <data name="RestoreButton" xml:space="preserve">
+    <value>impor</value>
+  </data>
+  <data name="OrientationSettingText" xml:space="preserve">
+    <value>Orientasi</value>
+  </data>
+  <data name="ConfirmButtonText" xml:space="preserve">
+    <value>Konfirmasi</value>
+  </data>
+  <data name="CheatNoCodeEntered" xml:space="preserve">
+    <value>Masukkan kode terlebih dahulu.</value>
+  </data>
+  <data name="NotSignedInError" xml:space="preserve">
+    <value>Anda belum masuk ke OneDrive. Untuk mengimpor ROM Anda harus masuk ke OneDrive.</value>
+  </data>
+  <data name="ErrorReadingSDCardText" xml:space="preserve">
+    <value>Kesalahan membaca isi kartu SD</value>
+  </data>
+  <data name="AddCheatButtonText" xml:space="preserve">
+    <value>tambah</value>
+  </data>
+  <data name="CopyRightText" xml:space="preserve">
+    <value>Program ini adalah perangkat lunak gratis; Anda boleh mendistribusikan ulang dan/atau mengubahnya sesuai ketentuan yang ada pada GNU General Public License yang diterbitkan oleh Free Software Foundation; boleh pada versi 3, atau (boleh memilih) versi lainnya.
+
+Program ini didistribusikan dengan harapan bahwa program ini akan ada gunanya, tetapi TANPA ADA JAMINAN; bahkan tanpa adanya jaminan untuk DIPERJUALBELIKAN atau KESESUAIAN UNTUK TUJUAN TERTENTU.  Lihat GNU General Public License untuk rincian lebih lanjut.
+
+Anda seharusnya telah menerima salinan dari GNU General Public License bersama dengan program ini; Jika tidak, layangkan surat kepada Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, Amerika Serikat.</value>
+  </data>
+  <data name="ResetImageText" xml:space="preserve">
+    <value>Reset gambar</value>
+  </data>
+  <data name="ExportAsZipText" xml:space="preserve">
+    <value>Ekspor sebagai zip</value>
+  </data>
+  <data name="SelectFileTitle" xml:space="preserve">
+    <value>pilih file</value>
+  </data>
+  <data name="MoreLicenseButton" xml:space="preserve">
+    <value>Informasi Lisensi</value>
+  </data>
+  <data name="CheatCodesListPivotTitle" xml:space="preserve">
+    <value>daftar</value>
+  </data>
+  <data name="ImportTitle" xml:space="preserve">
+    <value>data</value>
+  </data>
+  <data name="HideConfirmationSetting" xml:space="preserve">
+    <value>Nonaktifkan konfirmasi saat menyimpan state</value>
+  </data>
+  <data name="LicenseCopyRightTitle" xml:space="preserve">
+    <value>hak cipta</value>
+  </data>
+  <data name="AspectRatioStretchSetting" xml:space="preserve">
+    <value>regangkan</value>
+  </data>
+  <data name="PowerFrameSkipText2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheatPageTitle" xml:space="preserve">
+    <value>CHEAT</value>
+  </data>
+  <data name="HideConfirmationLoadSetting" xml:space="preserve">
+    <value>Nonaktifkan konfirmasi saat memuat state</value>
+  </data>
+  <data name="Err_NoChatName" xml:space="preserve">
+    <value>Masukkan nama untuk bergabung.</value>
+  </data>
+  <data name="RenamePromptTitle" xml:space="preserve">
+    <value>Ubah nama ROM</value>
+  </data>
+  <data name="DeadzoneHeader" xml:space="preserve">
+    <value>Deadzone (stick analog saja)</value>
+  </data>
+  <data name="AspectRatioOneSetting" xml:space="preserve">
+    <value>1:1</value>
+  </data>
+  <data name="DeleteConfirmTitle" xml:space="preserve">
+    <value>Konfirmasi penghapusan</value>
+  </data>
+  <data name="SkyDriveFileFormatHint" xml:space="preserve">
+    <value>File yang didukung:</value>
+  </data>
+  <data name="SDCardHeader" xml:space="preserve">
+    <value>KARTU SD</value>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="InvalidCodeText" xml:space="preserve">
+    <value>Kode tidak sah.</value>
+  </data>
+  <data name="RenameCancelButton" xml:space="preserve">
+    <value>Batal</value>
+  </data>
+  <data name="FullscreenStretchOption" xml:space="preserve">
+    <value>Regangkan ke Layar Penuh</value>
+  </data>
+  <data name="ConfirmLoadText" xml:space="preserve">
+    <value>Apakah Anda yakin untuk memuat penyimpanan state terakhir?</value>
+  </data>
+  <data name="AllButtonText" xml:space="preserve">
+    <value>Semua</value>
+  </data>
+  <data name="aboutText" xml:space="preserve">
+    <value>tentang</value>
+  </data>
+  <data name="BackupUploadUnsuccessful" xml:space="preserve">
+    <value>Pengunggahan selesai dengan beberapa kesalahan.</value>
+  </data>
+  <data name="HelpTIpsPerformanceText" xml:space="preserve">
+    <value>-Buka pengaturan video dan naikkan nilai untuk "Loncati Frame (kecepatan emulasi tetap)". Opsi ini mengurangi jumlah frame emulator yang akan ditampilkan sehingga ada sumber daya berlebih yang menyebabkan kecepatan emulasi naik. Permainan mungkin akan jadi kurang halus ketika nilai loncatan frame-nya dinaikkan.
+-Buka pengaturan suara dan matikan sinkronisasi suara. Kecepatan mungkin akan naik akan tetapi kualitas suara akan menurun.
+-Buka pengaturan suara lalu matikan suara.</value>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>tentang</value>
+  </data>
+  <data name="HelpImportSDCardText" xml:space="preserve">
+    <value>Pada tab data di halaman utama, klik Impor dari kartu SD dan ikuti instruksi</value>
+  </data>
+  <data name="RomListTroubleshootNote" xml:space="preserve">
+    <value>Catatan: Jika ROM tidak mau berjalan, kunjungi bagian "masalah" pada halaman bantuan.</value>
+  </data>
+  <data name="TileOpenError" xml:space="preserve">
+    <value>Terjadi kesalahan ketika membuka ROM yang terkait dengan tile.</value>
+  </data>
+  <data name="LicenseTitle" xml:space="preserve">
+    <value>LISENSI</value>
+  </data>
+  <data name="ConfirmSaveText" xml:space="preserve">
+    <value>Apa Anda yakin untuk menyimpan? Penyimpanan state yang dipilih akan ditimpa.</value>
+  </data>
+  <data name="AllHeader" xml:space="preserve">
+    <value>SEMUA</value>
+  </data>
+  <data name="VideoSettingsPageTitle" xml:space="preserve">
+    <value>video</value>
+  </data>
+  <data name="AboutContact" xml:space="preserve">
+    <value>store.support@outlook.com</value>
+  </data>
+  <data name="HelpTipsSoundText" xml:space="preserve">
+    <value>-Buka pengaturan suara dan hidupkan sinkronisasi suara. Kualitas suara mungkin akan naik akan tetapi kecepatan akan menurun.
+-Jika kecepatan emulasi terlalu rendah, kualitas suara juga akan turun. Ikuti tips di atas untuk permainan yang berjalan terlalu lambat.</value>
+  </data>
+  <data name="FailDownloadCheatDataText" xml:space="preserve">
+    <value>Gagal untuk memperoleh data dari supercheats.com.</value>
+  </data>
+  <data name="PinToStartText" xml:space="preserve">
+    <value>sematkan ke layar utama</value>
+  </data>
+  <data name="AspectRatioSetting" xml:space="preserve">
+    <value>Rasio Aspek</value>
+  </data>
+  <data name="AutoBackupModeHelp" xml:space="preserve">
+    <value>-Mode sederhana: slot penyimpanan disimpan tanpa kompresi; ideal untuk sinkronisasi data dengan tablet PC tetapi data bisa saja terhapus tanpa sengaja.
+-Mode berputar: slot penyimpanan dikompresi, beberapa file disimpan untuk mencegah data terhapus tanpa sengaja; ideal untuk melindungi data dengan aman.</value>
+  </data>
+  <data name="SearchTitle" xml:space="preserve">
+    <value>cari</value>
+  </data>
+  <data name="HostText" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="ManualSnapshotSetting" xml:space="preserve">
+    <value>Buat gambar tile secara manual</value>
+  </data>
+  <data name="DownloadErrorText" xml:space="preserve">
+    <value>Terjadi kesalahan ketika mengunduh file '{0}': {1}</value>
+  </data>
+  <data name="CheatInvalidFormat2" xml:space="preserve">
+    <value>Format kode yang tidak valid. Kode harus dalam format XXX-XXX-XXX, XXX-XXX atau 8 digit heksadesimal per baris.</value>
+  </data>
+  <data name="IPAddressText" xml:space="preserve">
+    <value>Alamat IP server</value>
+  </data>
+  <data name="MaximumTilesPinned" xml:space="preserve">
+    <value>ROM yang dipilih telah disematkan atau Anda telah menyematkan jumlah pin maksimal.</value>
+  </data>
+  <data name="HelpImportWebHeader" xml:space="preserve">
+    <value>Alternatif 3: mengimpor dari Peramban Web</value>
+  </data>
+  <data name="DPadAnalogueFixed" xml:space="preserve">
+    <value>stick analog lokasi-tetap</value>
+  </data>
+  <data name="MogaMappingTitle" xml:space="preserve">
+    <value>pemetaan moga</value>
+  </data>
+  <data name="NoneButtonText" xml:space="preserve">
+    <value>Tidak ada</value>
+  </data>
+  <data name="FrameSkipSetting" xml:space="preserve">
+    <value>Loncati frame (meningkatkan kecepatan emulasi)</value>
+  </data>
+  <data name="BuyNowButtonText" xml:space="preserve">
+    <value>Beli sekarang</value>
+  </data>
+  <data name="UseAccentBackgroundText" xml:space="preserve">
+    <value>Gunakan warna aksen sistem untuk live tile</value>
+  </data>
+  <data name="EnterCodeTitle" xml:space="preserve">
+    <value>Masukkan kode</value>
+  </data>
+  <data name="ControllerScaleSettings" xml:space="preserve">
+    <value>Skala Joystick Virtual</value>
+  </data>
+  <data name="HelpDownloadROMsHeader" xml:space="preserve">
+    <value>Bagaimana cara mengimpor ROM</value>
+  </data>
+  <data name="TapMogaInstructionText" xml:space="preserve">
+    <value>Ketuk di sini untuk instruksi pengendali MOGA</value>
+  </data>
+  <data name="Msg_ChatPromptTitle" xml:space="preserve">
+    <value>Permintaan Sambungan Masuk</value>
+  </data>
+  <data name="FirstGameText" xml:space="preserve">
+    <value>permainan pertama</value>
+  </data>
+  <data name="AspectRatio4to3Setting" xml:space="preserve">
+    <value>4:3</value>
+  </data>
+  <data name="AboutSnes9xLinkLabel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SettingsPageTitle" xml:space="preserve">
+    <value>PENGATURAN</value>
+  </data>
+  <data name="CheatRestoreValuesOption" xml:space="preserve">
+    <value>Kembalikan nilai lama setelah dilakukan cheat (GBA)</value>
+  </data>
+  <data name="VideoMogaText" xml:space="preserve">
+    <value>Video: petunjuk pengendali MOGA</value>
+  </data>
+  <data name="SourceHeader" xml:space="preserve">
+    <value>sumber</value>
+  </data>
+  <data name="CheatInvalidFormat" xml:space="preserve">
+    <value>Format kode yang tidak valid. Nilai harusnya 6, 8, 9, 12 atau 16 dalam heksadesimal per baris.</value>
+  </data>
+  <data name="VControllerLargeSetting" xml:space="preserve">
+    <value>berpotongan</value>
+  </data>
+  <data name="AvailableSaveFilesText" xml:space="preserve">
+    <value>Penyimpanan file yang tersedia</value>
+  </data>
+  <data name="CableSocketText" xml:space="preserve">
+    <value>Wifi TCP/IP</value>
+  </data>
+  <data name="ImportSDCardText" xml:space="preserve">
+    <value>Impor dari kartu SD</value>
+  </data>
+  <data name="BuyNowImportText" xml:space="preserve">
+    <value>Pada versi trial, Anda dapat menyimpan hanya 2 ROM saja pada telepon Anda. Klik Ok untuk membeli aplikasi dan menghapus batasan ini.</value>
+  </data>
+  <data name="BackupWaitForUpload" xml:space="preserve">
+    <value>Mohon tunggu sampai pengunggahan selesai.</value>
+  </data>
+  <data name="RestoreLastStateSetting" xml:space="preserve">
+    <value>Gunakan slot 9 untuk simpan/muat otomatis</value>
+  </data>
+  <data name="Err_NoPeerConnected" xml:space="preserve">
+    <value>Anda tidak terhubung ke teman.</value>
+  </data>
+  <data name="PurchaseSuccessText" xml:space="preserve">
+    <value>Pembelian sukses.</value>
+  </data>
+  <data name="ShowThreeDotsSetting" xml:space="preserve">
+    <value>Tunjukkan panduan menu konteks</value>
+  </data>
+  <data name="ManageAutoSlotLabel" xml:space="preserve">
+    <value>Otomatis</value>
+  </data>
+  <data name="SelectStateAuto" xml:space="preserve">
+    <value>Pilih State Auto</value>
+  </data>
+  <data name="AutoSaveWarning" xml:space="preserve">
+    <value>Centang kotak ini hanya jika Anda ingin menggunakan fitur simpan cepat. Penyimpanan bisa saja terhapus jika Anda hanya memakai fitur penyimpanan dalam game. Lanjutkan?</value>
+  </data>
+  <data name="CloudSixInstructionText" xml:space="preserve">
+    <value>Pasang salah satu aplikasi CloudSix dari Rudy Huyn untuk menggunakan fungsi ini.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenTextContact" xml:space="preserve">
+    <value>-Jika semua cara gagal, hubungi pengembang:</value>
+  </data>
+  <data name="RecentHeader" xml:space="preserve">
+    <value>TERBARU</value>
+  </data>
+  <data name="OrientationLandscape" xml:space="preserve">
+    <value>selalu lanskap</value>
+  </data>
+  <data name="CustomizeButtonMappingText" xml:space="preserve">
+    <value>Menyesuaikan tombol pemetaan...</value>
+  </data>
+  <data name="SDCardMissingText" xml:space="preserve">
+    <value>Kartu SD tidak ditemukan. Masukkan kartu SD dan coba lagi.</value>
+  </data>
+  <data name="EmailSubjectText" xml:space="preserve">
+    <value>Laporan kerusakan atau saran penambahan fitur untuk VBA8/VGBC </value>
+  </data>
+  <data name="StartServerOtherText" xml:space="preserve">
+    <value>Nyalakan server dari perangkat lain untuk mendapatkan alamat IP server.</value>
+  </data>
+  <data name="DownloadingProgressText" xml:space="preserve">
+    <value>Mengunduh '{0}'</value>
+  </data>
+  <data name="ValidCodeText" xml:space="preserve">
+    <value>Kode diterima. Silakan mulai ulang aplikasi agar kode bisa diterapkan.</value>
+  </data>
+  <data name="NumberRotatingFilesText" xml:space="preserve">
+    <value>Jumlah cadangan berputar</value>
+  </data>
+  <data name="SkyDriveImportTitle" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="CheatsDescription" xml:space="preserve">
+    <value>Anda dapat memasukkan kode GameShark dan CodeBreaker untuk permainan GBA serta kode GameShark dan GameGenie untuk permainan GB/GBC.</value>
+  </data>
+  <data name="PreLinkTitle" xml:space="preserve">
+    <value>mengatur sambungan</value>
+  </data>
+  <data name="CloudSixOneFileLimitText" xml:space="preserve">
+    <value>CloudSix baru bisa mengekspor satu file dalam satu waktu kecuali Anda memilih "Ekspor sebagai zip".</value>
+  </data>
+  <data name="GPLv3" xml:space="preserve">
+    <value>http://www.GNU.org/licenses/GPL-3.0.txt</value>
+  </data>
+  <data name="GameboyText" xml:space="preserve">
+    <value>Gameboy</value>
+  </data>
+  <data name="PremiumFeaturePromptText" xml:space="preserve">
+    <value>Membutuhkan fitur premium. Apakah kamu ingin pergi ke halaman pembelian?</value>
+  </data>
+  <data name="CreateBackupFolderError" xml:space="preserve">
+    <value>Terjadi kesalahan ketika membuat folder cadangan.</value>
+  </data>
+  <data name="RestartPromptText" xml:space="preserve">
+    <value>Silakan mulai ulang aplikasi (ketuk tombol kembali beberapa kali) agar pengaturan baru dapat diterapkan.</value>
+  </data>
+  <data name="BuyNowCancelButtonText" xml:space="preserve">
+    <value>Lanjutkan versi Uji Coba</value>
+  </data>
+  <data name="DPad8way" xml:space="preserve">
+    <value>8-arah</value>
+  </data>
+  <data name="HelpButtonText" xml:space="preserve">
+    <value>bantuan</value>
+  </data>
+  <data name="InfoCaption" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="VibrationDurationErrorText" xml:space="preserve">
+    <value>Durasi getar harus antara 0 sampai 5 detik</value>
+  </data>
+  <data name="SearchForCheatsText" xml:space="preserve">
+    <value>Cari cheat</value>
+  </data>
+  <data name="RefreshRate30" xml:space="preserve">
+    <value>30Hz</value>
+  </data>
+  <data name="RefreshRate60" xml:space="preserve">
+    <value>60Hz</value>
+  </data>
+  <data name="OrientationPortrait" xml:space="preserve">
+    <value>selalu potret</value>
+  </data>
+  <data name="CameraAssignLR" xml:space="preserve">
+    <value>Tombol-L dan Tombol-R</value>
+  </data>
+  <data name="CloudSixHeader" xml:space="preserve">
+    <value>CLOUDSIX</value>
+  </data>
+  <data name="Err_BluetoothOffCaption" xml:space="preserve">
+    <value>Bluetooth Mati</value>
+  </data>
+  <data name="RoleText" xml:space="preserve">
+    <value>Peran</value>
+  </data>
+  <data name="CameraAssignTurbo" xml:space="preserve">
+    <value>Modus Turbo</value>
+  </data>
+  <data name="StatusNotSignedIn" xml:space="preserve">
+    <value>belum masuk.</value>
+  </data>
+  <data name="UseMogaControllerText" xml:space="preserve">
+    <value>Gunakan pengendali MOGA</value>
+  </data>
+  <data name="SaveStateButton" xml:space="preserve">
+    <value>simpan state</value>
+  </data>
+  <data name="StatusLabelContent" xml:space="preserve">
+    <value>Status: </value>
+  </data>
+  <data name="CreateSnapshotMenuItem" xml:space="preserve">
+    <value>buat snapshot untuk tile</value>
+  </data>
+  <data name="OneDriveHeader" xml:space="preserve">
+    <value>ONEDRIVE</value>
+  </data>
+  <data name="VideoCheatText" xml:space="preserve">
+    <value>Video: tutorial kode cheat</value>
+  </data>
+  <data name="AudioSettingsPageTitle" xml:space="preserve">
+    <value>suara</value>
+  </data>
+  <data name="PurchaseSuccessNoAdsText" xml:space="preserve">
+    <value>Pembelian sukses, iklan tidak akan ditampilkan sewaktu Anda membuka aplikasi ini lagi.</value>
+  </data>
+  <data name="TurboFrameSkipText" xml:space="preserve">
+    <value>Loncatan Frame untuk Modus Turbo</value>
+  </data>
+  <data name="CheatDefaultDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OKButtonText" xml:space="preserve">
+    <value>ok</value>
+  </data>
+  <data name="CheatWrongVersionTitle" xml:space="preserve">
+    <value>Kode cheat tidak cocok!</value>
+  </data>
+  <data name="OpacitySetting" xml:space="preserve">
+    <value>Keburaman Pengendali Virtual</value>
+  </data>
+  <data name="AspectRatio5to4Setting" xml:space="preserve">
+    <value>5:4</value>
+  </data>
+  <data name="UnpinTilePromptText" xml:space="preserve">
+    <value>Silakan sematkan ulang tile agar perubahan dapat diterapkan.</value>
+  </data>
+  <data name="SimpleText" xml:space="preserve">
+    <value>Sederhana</value>
+  </data>
+  <data name="BackupUploadSuccessful" xml:space="preserve">
+    <value>Unggah selesai.</value>
+  </data>
+  <data name="VirtualControllerButtonColored" xml:space="preserve">
+    <value>berwarna</value>
+  </data>
+  <data name="GPLv3Title" xml:space="preserve">
+    <value>GPLv3</value>
+  </data>
+  <data name="CodeText" xml:space="preserve">
+    <value>Kode</value>
+  </data>
+  <data name="DPadAnalogueDynamic" xml:space="preserve">
+    <value>stick analog dinamis</value>
+  </data>
+  <data name="ChoosePortraitBackgroundColorText" xml:space="preserve">
+    <value>Pilih warna latar belakang potret...</value>
+  </data>
+  <data name="SimpleModeText" xml:space="preserve">
+    <value>Mode sederhana</value>
+  </data>
+  <data name="AutoBackupNote" xml:space="preserve">
+    <value>Catatan: Penyadangan otomatis dipicu ketika pengguna kembali ke halaman utama setelah bermain permainan.</value>
+  </data>
+  <data name="AutoBackupText" xml:space="preserve">
+    <value>Otomatis cadangkan data penyimpanan</value>
+  </data>
+  <data name="BackupFailOnedriveText" xml:space="preserve">
+    <value>Penyadangan otomatis gagal, silakan masuk ke OneDrive.</value>
+  </data>
+  <data name="DescriptionText" xml:space="preserve">
+    <value>Deskripsi</value>
+  </data>
+  <data name="VibrationDurationText" xml:space="preserve">
+    <value>Durasi getar (detik)</value>
+  </data>
+  <data name="ExportNoSelection" xml:space="preserve">
+    <value>Anda harus memilih paling tidak satu file.</value>
+  </data>
+  <data name="ImportSavestateInvalidFormat" xml:space="preserve">
+    <value>Format file penyimpanan state tidak valid. Nama file harus diakhiri dengan sebuah angka dari 0 sampai 9 (misalnya demo0.sgm).</value>
+  </data>
+  <data name="StartServerText" xml:space="preserve">
+    <value>Nyalakan server</value>
+  </data>
+  <data name="EnterCodeText" xml:space="preserve">
+    <value>Masukkan kode promosi</value>
+  </data>
+  <data name="FindButtonCaption" xml:space="preserve">
+    <value>Muat ulang daftar teman</value>
+  </data>
+  <data name="BackupOnlyWifiText" xml:space="preserve">
+    <value>Cadangkan hanya ketika Wifi tersedia (pemeriksaannya mungkin lambat)</value>
+  </data>
+  <data name="UseRealisticButtonsText" xml:space="preserve">
+    <value>Menggunakan warna tombol realistis</value>
+  </data>
+  <data name="DeleteSavesEntry" xml:space="preserve">
+    <value>hapus penyimpanan permainan asli</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>Versi</value>
+  </data>
+  <data name="FileAssociationError" xml:space="preserve">
+    <value>Terjadi kesalahan dalam mengimpor dan membuka ROM.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenText" xml:space="preserve">
+    <value>-Pastikan unduhan sudah selesai sebelum Anda keluar dari halaman impor OneDrive (tunggu pesan konfirmasi). Jika Anda terlalu cepat keluar, ROM bisa saja rusak dan gagal termuat dengan benar. Jika ini terjadi, hapus ROM itu (ketuk dan tahan pada halaman daftar ROM) lalu unduh ulang ROM tersebut.
+-Jika impor dari OneDrive gagal atau ROM yang diimpor dari OneDrive tidak berjalan dengan benar, coba cara lain untuk mengimpor ROM. Ada 3 metode untuk mengimpor ROM (OneDrive, E-Mail, Peramban Web) yang dijelaskan pada bagian "cara".
+-Jangan lupa untuk menghapus ROM yang tidak bekerja sebelum Anda mengimpor ulang menggunakan metode lain.</value>
+  </data>
+  <data name="ErrorCaption" xml:space="preserve">
+    <value>Terjadi Kesalahan</value>
+  </data>
+  <data name="EmailLinkText" xml:space="preserve">
+    <value>Email: store.support@outlook.com</value>
+  </data>
+  <data name="ClientText" xml:space="preserve">
+    <value>Klien</value>
+  </data>
+  <data name="DeleteCheatButtonText" xml:space="preserve">
+    <value>hapus</value>
+  </data>
+  <data name="Err_NoMessageToSend" xml:space="preserve">
+    <value>Masukkan pesan untuk mengirim.</value>
+  </data>
+  <data name="ResumeButtonText" xml:space="preserve">
+    <value>lanjutkan</value>
+  </data>
+  <data name="CheatWrongVersionText" xml:space="preserve">
+    <value>Kode cheat {0} diperuntukkan untuk ROM {1} sedangkan ROM yang terpasang adalah {2}. Kode tidak akan bekerja dan justru akan menyebabkan masalah. Masalah ini terjadi ketika Anda memakai kode cheat EU untuk ROM US atau sebaliknya.</value>
+  </data>
+  <data name="VControllerSmallSetting" xml:space="preserve">
+    <value>berpisah</value>
+  </data>
+  <data name="DPadStyleHeader" xml:space="preserve">
+    <value>Gaya D-Pad</value>
+  </data>
+  <data name="AddCheatsTitle" xml:space="preserve">
+    <value>Tambahkan Cheat</value>
+  </data>
+  <data name="ImportButtonText" xml:space="preserve">
+    <value>impor</value>
+  </data>
+  <data name="PurchasedThankYouText" xml:space="preserve">
+    <value>Terima kasih atas pembelian Anda!</value>
+  </data>
+  <data name="AboutSnes9x" xml:space="preserve">
+    <value>Silakan laporkan apabila Anda menemukan kesalahan atau permainan yang tidak bisa dimainkan.
+
+Pengembang tidak bertanggung jawab untuk segala bentuk penggunaan ilegal dari perangkat lunak ini, tidak ada garansi yang diberikan dari perangkat lunak ini dan pengembang juga tidak dapat disalahkan atas kerusakan yang terjadi.
+
+Penghargaan kepada:
+- Eddi Bento untuk desain logo.
+- Perusahaan MOGA untuk kado kejutan.
+- Sergy Ortiz Puerto untuk terjemahan Bahasa Spanyol.
+- André Queiroz untuk terjemahan Bahasa Portugis.
+- Arda Ozkal untuk terjemahan Bahasa Turki.
+- Alexandros Melissas untuk terjemahan Bahasa Yunani.
+- Łukasz Deptuła untuk terjemahan Bahasa Polandia.
+- Junfan Yao untuk terjemahan Bahasa Cina (Simplified).
+- wphone08 untuk terjemahan Bahasa Perancis.
+- Jesper Svensson untuk terjemahan Bahasa Swedia.
+- Alexander Kolosov untuk terjemahan Bahasa Rusia.
+- Usama Jawad untuk terjemahan Bahasa Urdu.
+- Mathias Haugsbø untuk terjemahan Bahasa Norwegia.
+- Leutrim Shabani untuk terjemahan Bahasa Jerman.
+- Giordano Piacentini untuk terjemahan Bahasa Italia.
+- Sami Piispanen untuk terjemahan Bahasa Finlandia.
+- Shay Livyatan untuk terjemahan Bahasa Ibrani.
+- Adam Yowanda untuk terjemahan Bahasa Indonesia.</value>
+  </data>
+  <data name="BackupInstructions" xml:space="preserve">
+    <value>Pilih permainan untuk diekspor penyimpanannya.</value>
+  </data>
+  <data name="SDCardImportTitle" xml:space="preserve">
+    <value>Kartu SD</value>
+  </data>
+  <data name="BackupIngameSaveText" xml:space="preserve">
+    <value>Cadangkan penyimpanan dalam permainan</value>
+  </data>
+  <data name="HelpImportWebText" xml:space="preserve">
+    <value>Melalui peramban web, kunjungi situs yang menyediakan jasa unduh ROM dan unduhlah permainan yang diinginkan. Jika bentuk unduhan adalah file *.zip, peramban dapat digunakan untuk membuka file tersebut ketika unduhan telah selesai. Temukan file *.gba yang ada di dalam arsip lalu ketuk file untuk memulai emulator. Emulator akan secara otomatis mengimpor ROM yang diunduh dari peramban web. Jika file yang diunduh adalah file *.gba, langsung ketuk file itu untuk memulai emulator dan mengimpor ROM.</value>
+  </data>
+  <data name="EditText" xml:space="preserve">
+    <value>ubah</value>
+  </data>
+  <data name="VirtualControllerButtonGray" xml:space="preserve">
+    <value>abu-abu</value>
+  </data>
+  <data name="HelpTipsTurboText" xml:space="preserve">
+    <value>-Tekan tombol camera untuk beralih ke modus turbo. Tekan lagi untuk kembali ke modus normal.
+-Setengah-tekan tombol kamera untuk mengaktifkan modus turbo, lepaskan untuk kembali ke modus normal.</value>
+  </data>
+  <data name="ManageSaveTimeLabel" xml:space="preserve">
+    <value>Dibuat:</value>
+  </data>
+  <data name="HelpImportSkyDriveText" xml:space="preserve">
+    <value>Simpan ROM Anda ke dalam folder di OneDrive. Setelah itu buka bagian OneDrive di halaman utama emulator (geser ke kiri dari halaman pilihan ROM). Jika Anda belum masuk ke OneDrive, klik "Sign In" dulu lalu masukkan data-data seperti yang diminta. Ketika sudah masuk, klik tombol yang tulisannya "impor ROM" di halaman utama emulator. Halaman selanjutnya digunakan sebagai navigasi di dalam OneDrive untuk menemukan lokasi folder tempat Anda meletakkan ROM. Di dalam folder yang berisi ROM, ketuk sembarang file *.gba atau *.zip untuk memulai unduhan. Tunggu sampai unduhan selesai sebelum kamu meninggalkan halaman itu. Pesan konfirmasi akan muncul ketika unduhan selesai.
+Catatan: Dalam beberapa kasus, ROM yang diunduh dari OneDrive akan memunculkan layar kosong ketika dimainkan. Jika Anda mengalaminya, pakai cara alternatif 2 atau 3.</value>
+  </data>
+  <data name="HelpTipsTurboHeader" xml:space="preserve">
+    <value>Aktifkan modus turbo</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>
+
+
+
+ID Perangkat: {0}</value>
+  </data>
+  <data name="HostIPAddressText" xml:space="preserve">
+    <value>Alamat IP host: {0}. Menunggu klien...</value>
+  </data>
+  <data name="HelpTipsSoundHeader" xml:space="preserve">
+    <value>Suara pecah</value>
+  </data>
+  <data name="DeleteMenuItemText" xml:space="preserve">
+    <value>hapus</value>
+  </data>
+  <data name="CableLinkText" xml:space="preserve">
+    <value>Kabel Gameboy</value>
+  </data>
+  <data name="OrientationBoth" xml:space="preserve">
+    <value>landscape atau portrait</value>
+  </data>
+  <data name="GuidePerformanceText" xml:space="preserve">
+    <value>Panduan: bagaimana cara meningkatkan performa</value>
+  </data>
+  <data name="LinkingNote" xml:space="preserve">
+    <value>Catatan: Nonaktifkan loncatan frame dan mode turbo untuk mencegah kesalahan komunikasi.</value>
+  </data>
+  <data name="GPLButtonText" xml:space="preserve">
+    <value>Pergi ke GNU Public License v3</value>
+  </data>
+  <data name="ConnectText" xml:space="preserve">
+    <value>Sambungkan</value>
+  </data>
+  <data name="BackgroundOpacitySetting" xml:space="preserve">
+    <value>Keburaman latar belakang gambar</value>
+  </data>
+  <data name="UseBackgroundImageSetting" xml:space="preserve">
+    <value>Gunakan gambar latar belakang</value>
+  </data>
+  <data name="ChooseImageText" xml:space="preserve">
+    <value>Pilih gambar...</value>
+  </data>
+  <data name="ImportInstructionsText" xml:space="preserve">
+    <value>Cara mengimpor ROM dari OneDrive:
+1. Unggah ROM ke folder OneDrive. 
+2. Ketuk "Sign In" untuk masuk ke dalam OneDrive
+3. Ketuk "Impor" dan pilih ROM.</value>
+  </data>
+  <data name="HelpTipsHeader" xml:space="preserve">
+    <value>tips</value>
+  </data>
+  <data name="ApplicationTitle2" xml:space="preserve">
+    <value>VGBC8</value>
+  </data>
+  <data name="ThemeText" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="ManageRemoveState" xml:space="preserve">
+    <value>hapus</value>
+  </data>
+  <data name="BuyNowText" xml:space="preserve">
+    <value>Fitur ini hanya tersedia dalam versi lengkap dari aplikasi. Klik tombol Ok di bawah ini jika Anda ingin membeli aplikasi dan membuka fitur.</value>
+  </data>
+  <data name="DeleteConfirmText" xml:space="preserve">
+    <value>Tindakan ini tidak dapat dibatalkan, lanjutkan?</value>
+  </data>
+  <data name="AspectRatioOriginalSetting" xml:space="preserve">
+    <value>asli</value>
+  </data>
+  <data name="DownloadCompleteText" xml:space="preserve">
+    <value>Selesai mengunduh file '{0}'</value>
+  </data>
+  <data name="Msg_FoundPeers" xml:space="preserve">
+    <value>Teman yang ditemukan: {0}. Ketuk 'muat ulang daftar teman' untuk memperbarui.</value>
+  </data>
+  <data name="BackupErrorUpload" xml:space="preserve">
+    <value>Terjadi kesalahan ketika mengunggah file: {0}. Coba untuk keluar dulu dari OneDrive dan masuk lagi apabila terjadi kesalahan yang sama.</value>
+  </data>
+  <data name="CheatCodesAddPivotTitle" xml:space="preserve">
+    <value>tambah</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="SourceLink" xml:space="preserve">
+    <value>http://sourceforge.net/projects/vba8/</value>
+  </data>
+  <data name="SyncSoundSetting2" xml:space="preserve">
+    <value>(kualitas lebih baik, tapi mungkin jadi lebih lambat)</value>
+  </data>
+  <data name="AboutSnes9xLicense" xml:space="preserve">
+    <value>GNU Public License:</value>
+  </data>
+  <data name="Err_NoConnectTitle" xml:space="preserve">
+    <value>Tidak dapat terhubung</value>
+  </data>
+  <data name="CameraAssignR" xml:space="preserve">
+    <value>Tombol-R</value>
+  </data>
+  <data name="CameraAssignL" xml:space="preserve">
+    <value>Tombol-L</value>
+  </data>
+  <data name="LastPlayedLabel" xml:space="preserve">
+    <value>Terakhir dimainkan: </value>
+  </data>
+  <data name="SRAMDeletedSuccessfully" xml:space="preserve">
+    <value>File penyimpanan telah berhasil dihapus.</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>VBA8</value>
+  </data>
+  <data name="Err_NoPeer" xml:space="preserve">
+    <value>Anda harus memilih teman dari daftar.</value>
+  </data>
+  <data name="AboutContactLabel" xml:space="preserve">
+    <value>Kontak:</value>
+  </data>
+  <data name="HelpImportSDCardHeader" xml:space="preserve">
+    <value>Alternatif 4: mengimpor dari kartu SD</value>
+  </data>
+  <data name="ConfirmationCheckBoxText" xml:space="preserve">
+    <value>Jangan tampilkan ini lagi</value>
+  </data>
+  <data name="RomListTitle" xml:space="preserve">
+    <value>rom</value>
+  </data>
+  <data name="ROMAlreadyExistingError" xml:space="preserve">
+    <value>ROM sudah pernah diunduh sebelumnya: {0}</value>
+  </data>
+  <data name="RecentTitle" xml:space="preserve">
+    <value>baru dimainkan</value>
+  </data>
+  <data name="SkyDriveError" xml:space="preserve">
+    <value>Terjadi kesalahan OneDrive: {0}</value>
+  </data>
+  <data name="CheatListGameLabel" xml:space="preserve">
+    <value>Cheat untuk:</value>
+  </data>
+  <data name="UnlockFeatureText" xml:space="preserve">
+    <value>Membuka fitur</value>
+  </data>
+  <data name="HelpIssuesHeader" xml:space="preserve">
+    <value>masalah</value>
+  </data>
+  <data name="StartLinkText" xml:space="preserve">
+    <value>mulai sambungan</value>
+  </data>
+  <data name="GuidesTitle" xml:space="preserve">
+    <value>petunjuk</value>
+  </data>
+  <data name="Msg_NoPeers" xml:space="preserve">
+    <value>Teman tidak ditemukan. Ketuk 'muat ulang daftar teman' untuk memperbarui.</value>
+  </data>
+  <data name="VibrationSettingText" xml:space="preserve">
+    <value>Getar ketika tombol ditekan</value>
+  </data>
+  <data name="ConnectButtonCaption" xml:space="preserve">
+    <value>Terhubung ke yang dipilih</value>
+  </data>
+  <data name="BackupPageTitle" xml:space="preserve">
+    <value>Ekspor penyimpanan</value>
+  </data>
+  <data name="GameboyAdvanceText" xml:space="preserve">
+    <value>Gameboy Advance</value>
+  </data>
+  <data name="CloudSixImportTitle" xml:space="preserve">
+    <value>CloudSix</value>
+  </data>
+  <data name="LoadingProductListText" xml:space="preserve">
+    <value>Memuat daftar produksi. Harap tunggu...</value>
+  </data>
+  <data name="ReviewPromptText" xml:space="preserve">
+    <value>Luangkan waktu sejenak untuk menilai aplikasi ini. Ulasan yang baik akan memunculkan banyak fitur baru.</value>
+  </data>
+  <data name="AutoBackupTitle" xml:space="preserve">
+    <value>cadangkan otomatis</value>
+  </data>
+  <data name="ManageDeleteUnknownError" xml:space="preserve">
+    <value>Ada kesalahan yang tidak diketahui saat menghapus penyimpanan state.</value>
+  </data>
+  <data name="SourceButtonText" xml:space="preserve">
+    <value>Kode sumber</value>
+  </data>
+  <data name="BackupLastManualSlotText" xml:space="preserve">
+    <value>Cadangkan slot penyimpanan manual terbaru</value>
+  </data>
+  <data name="CustomizePortraitControlText" xml:space="preserve">
+    <value>Atur posisi kontrol potret</value>
+  </data>
+  <data name="LoadStateButton" xml:space="preserve">
+    <value>muat state</value>
+  </data>
+  <data name="FAQsLinkText" xml:space="preserve">
+    <value>FAQ, forum diskusi &amp; aplikasi PC</value>
+  </data>
+  <data name="ActiveSavestateText" xml:space="preserve">
+    <value>(aktif)</value>
+  </data>
+  <data name="StatusSignedIn" xml:space="preserve">
+    <value>sudah masuk.</value>
+  </data>
+  <data name="PurchaseButtonText" xml:space="preserve">
+    <value>Beli</value>
+  </data>
+  <data name="LowFreqModeSetting" xml:space="preserve">
+    <value>30 Hz Display Refresh Rate</value>
+  </data>
+  <data name="CheatsDescription2" xml:space="preserve">
+    <value>Catatan: Karena ada pembetulan baru-baru ini, semua kode cheat 16-karakter yang ada harus *diubah* dengan spasi yang tepat agar dapat bekerja kembali.</value>
+  </data>
+  <data name="BackupAndRestoreInstructions" xml:space="preserve">
+    <value>Ekspor dan impor penyimpanan permainan:</value>
+  </data>
+  <data name="RemoveStateNoSelection" xml:space="preserve">
+    <value>Pilih penyimpanan state terlebih dahulu.</value>
+  </data>
+  <data name="SDCardReadOnlyText" xml:space="preserve">
+    <value>Catatan: SD card bersifat read-only. Karena OS membutuhkan file berformat .zip, silakan gunakan .zib untuk file zip.</value>
+  </data>
+  <data name="CustomizeLandscapeControlText" xml:space="preserve">
+    <value>Atur posisi kontrol lanskap</value>
+  </data>
+  <data name="EmulatorMenuText" xml:space="preserve">
+    <value>Catatan: Fungsi Emulator Menu akan diterapkan di kemudian hari.</value>
+  </data>
+  <data name="CameraButtonAssignment" xml:space="preserve">
+    <value>Dipasang ke tombol kamera</value>
+  </data>
+  <data name="SetupAutoBackupText" xml:space="preserve">
+    <value>Mengatur cadangan otomatis...</value>
+  </data>
+  <data name="HelpTipsPerformanceHeader" xml:space="preserve">
+    <value>Permainan berjalan dengan lambat</value>
+  </data>
+  <data name="AutoLoadLastStateText" xml:space="preserve">
+    <value>Simpan dan muat permainan secara otomatis</value>
+  </data>
+  <data name="GeneralSettingsTitle" xml:space="preserve">
+    <value>umum</value>
+  </data>
+  <data name="EnterHostIPText" xml:space="preserve">
+    <value>Masukkan alamat IP host di sini</value>
+  </data>
+  <data name="HelpImportEmailText" xml:space="preserve">
+    <value>Kirim sebuah E-Mail ke alamat E-Mail yang dapat diakses oleh telepon Anda, isinya adalah satu atau lebih ROM sebagai lampiran. Anda boleh melampirkannya sebagai file *.gba atau file yang dimasukkan ke dalam arsip *.zip, aplikasi E-Mail dapat digunakan untuk navigasi ke dalam arsip nantinya. Buka arsip yang berisi ROM lalu ketuk untuk memasukkannya ke dalam emulator. Emulator akan secara otomatis mengimpor ROM dari lampiran E-Mail dan memulai permainan. Jika filenya bukan *.zip tapi *.gba, maka tinggal ketuk saja untuk memulai emulator dan mengimpor ROM.</value>
+  </data>
+  <data name="ErrorNoConnectionText" xml:space="preserve">
+    <value>Kesalahan! Tidak ada koneksi Internet atau kesalahan server Microsoft. Harap coba lagi nanti.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenHeader" xml:space="preserve">
+    <value>Layar kosong setelah memuat ROM</value>
+  </data>
+</root>

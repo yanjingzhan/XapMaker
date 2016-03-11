@@ -1,0 +1,1281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RenamePageTitle" xml:space="preserve">
+    <value>naam wijzigen</value>
+  </data>
+  <data name="CancelButtonText" xml:space="preserve">
+    <value>annuleren</value>
+  </data>
+  <data name="RenameMenuItemText" xml:space="preserve">
+    <value>hernoemen</value>
+  </data>
+  <data name="LinkTypeText" xml:space="preserve">
+    <value>Koppelingstype</value>
+  </data>
+  <data name="RestorePageTitle" xml:space="preserve">
+    <value>importeer opgeslage spellen</value>
+  </data>
+  <data name="VirtualControllerButtonStyle" xml:space="preserve">
+    <value>Virtuele Controller Style</value>
+  </data>
+  <data name="SecondGameText" xml:space="preserve">
+    <value>tweede spel (kan hetzelfde zijn als eerste spel)</value>
+  </data>
+  <data name="ProductNotAvailableText" xml:space="preserve">
+    <value>Product is momenteel niet beschikbaar.</value>
+  </data>
+  <data name="RenameEmptyString" xml:space="preserve">
+    <value>U moet de ROM een naam geven.</value>
+  </data>
+  <data name="GuidesHeader" xml:space="preserve">
+    <value>HULPLIJNEN</value>
+  </data>
+  <data name="ButtonScaleSettings" xml:space="preserve">
+    <value>Virtuele knop schaal</value>
+  </data>
+  <data name="CablePeerText" xml:space="preserve">
+    <value>Kabel - Bluetooth</value>
+  </data>
+  <data name="AboutSnes9xLink" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ReviewText" xml:space="preserve">
+    <value>revisie</value>
+  </data>
+  <data name="OverNetworkText" xml:space="preserve">
+    <value>Via bluetooth/Wi-Fi (niet beschikbaar)</value>
+  </data>
+  <data name="AboutSnes9xLicenseText" xml:space="preserve">
+    <value>http://www.GNU.org/Licenses/GPL.HTML</value>
+  </data>
+  <data name="UploadProgressText" xml:space="preserve">
+    <value>Exporteren van {0}</value>
+  </data>
+  <data name="WirelessLinkText" xml:space="preserve">
+    <value>Draadloze adapter (niet beschikbaar)</value>
+  </data>
+  <data name="RenamePromptMessage" xml:space="preserve">
+    <value>Verander de display van de ROM:</value>
+  </data>
+  <data name="PowerFrameSkipText" xml:space="preserve">
+    <value>Skip Frames (zelfde emulatie snelheid)</value>
+  </data>
+  <data name="EnableSoundSetting" xml:space="preserve">
+    <value>Geluid aanzetten</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>nl</value>
+  </data>
+  <data name="BackupAutoSlotText" xml:space="preserve">
+    <value>Automatische back-up opslaan sleuf</value>
+  </data>
+  <data name="FrameSkipAutoSetting" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="SkyDriveGeneralError" xml:space="preserve">
+    <value>Error bij aanmelden OneDrive: {0}</value>
+  </data>
+  <data name="DPadStandard" xml:space="preserve">
+    <value>4-weg</value>
+  </data>
+  <data name="LinkTimeoutText" xml:space="preserve">
+    <value>Time-out van verbinding (ms)</value>
+  </data>
+  <data name="ContactHeader" xml:space="preserve">
+    <value>CONTACT</value>
+  </data>
+  <data name="ImportFromSkyDriveButtonText" xml:space="preserve">
+    <value>Importeren</value>
+  </data>
+  <data name="Msg_ChatPrompt" xml:space="preserve">
+    <value>Wilt u een koppeling met {0}?</value>
+  </data>
+  <data name="StartLinkTitle" xml:space="preserve">
+    <value>koppeling starten</value>
+  </data>
+  <data name="MogaGDR3Note" xml:space="preserve">
+    <value>Opmerking: Mogelijk controller MOGA GDR3.</value>
+  </data>
+  <data name="ManageSavestateMenuItem" xml:space="preserve">
+    <value>opslaan Staten beheren</value>
+  </data>
+  <data name="PurchaseText" xml:space="preserve">
+    <value>inkoop</value>
+  </data>
+  <data name="DeviceIDText" xml:space="preserve">
+    <value>Apparaat-ID: {0}</value>
+  </data>
+  <data name="ImportWaitComplete" xml:space="preserve">
+    <value>Wacht tot het downloaden te voltooien.</value>
+  </data>
+  <data name="AutoBackupTypeText" xml:space="preserve">
+    <value>Automatische back-modus</value>
+  </data>
+  <data name="ImportSaveInstructionsText" xml:space="preserve">
+    <value>Herstellen opgeslagen:
+1. Zorg ervoor dat de namen van de rom- en het opslaan overeenkomst precies bestand.
+2. Tik op 'Import' en kies de opslaan als bestand.
+3. start het spel.</value>
+  </data>
+  <data name="RenameLabel" xml:space="preserve">
+    <value>Geef nieuwe weergavenaam:</value>
+  </data>
+  <data name="LightText" xml:space="preserve">
+    <value>Licht</value>
+  </data>
+  <data name="AlreadyDownloadingText" xml:space="preserve">
+    <value>Bestand wordt al gedownload.</value>
+  </data>
+  <data name="ContextTitle" xml:space="preserve">
+    <value>Opties</value>
+  </data>
+  <data name="ImportingProgressText" xml:space="preserve">
+    <value>Importeren van {0}</value>
+  </data>
+  <data name="RenameOkButton" xml:space="preserve">
+    <value>Naam wijzigen</value>
+  </data>
+  <data name="ResetROMButton" xml:space="preserve">
+    <value>opnieuw instellen</value>
+  </data>
+  <data name="BackupButton" xml:space="preserve">
+    <value>Exporteer</value>
+  </data>
+  <data name="ShowLastPlayedGameText" xml:space="preserve">
+    <value>Momentopname van de laatst afgespeelde spel weergeven</value>
+  </data>
+  <data name="SelectState8" xml:space="preserve">
+    <value>Selecteer staat 8</value>
+  </data>
+  <data name="SelectState9" xml:space="preserve">
+    <value>Selecteer staat 9</value>
+  </data>
+  <data name="SelectState2" xml:space="preserve">
+    <value>Selecteer staat 2</value>
+  </data>
+  <data name="SelectState3" xml:space="preserve">
+    <value>Selecteer staat 3</value>
+  </data>
+  <data name="SelectState0" xml:space="preserve">
+    <value>Selecteer Staat 0</value>
+  </data>
+  <data name="SelectState1" xml:space="preserve">
+    <value>Selecteer staat 1</value>
+  </data>
+  <data name="SelectState6" xml:space="preserve">
+    <value>Selecteer staat 6</value>
+  </data>
+  <data name="SelectState7" xml:space="preserve">
+    <value>Selecteer staat 7</value>
+  </data>
+  <data name="SelectState4" xml:space="preserve">
+    <value>Selecteer staat 4</value>
+  </data>
+  <data name="SelectState5" xml:space="preserve">
+    <value>Selecteer staat 5</value>
+  </data>
+  <data name="TapDownloadSnes8xText" xml:space="preserve">
+    <value>Tik hier om te downloaden van Snes8x</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>HELP</value>
+  </data>
+  <data name="NoMatchingNameText" xml:space="preserve">
+    <value>Controleer of de naam van het opslaan bestand overeenkomt met de naam van de ROM</value>
+  </data>
+  <data name="CheatListUnknownGame" xml:space="preserve">
+    <value>Onbekend</value>
+  </data>
+  <data name="Err_NoChatNameCaption" xml:space="preserve">
+    <value>De naam is leeg</value>
+  </data>
+  <data name="HelpHowToHeader" xml:space="preserve">
+    <value>hoe te</value>
+  </data>
+  <data name="WarningTitle" xml:space="preserve">
+    <value>Waarschuwing!</value>
+  </data>
+  <data name="ReviewPromptTitle" xml:space="preserve">
+    <value>Als dit app?</value>
+  </data>
+  <data name="ImageEditorTitle" xml:space="preserve">
+    <value>Afbeeldingseditor</value>
+  </data>
+  <data name="Err_NoSendTitle" xml:space="preserve">
+    <value>Kan niet verzenden</value>
+  </data>
+  <data name="EnterNewCheatText" xml:space="preserve">
+    <value>Voer nieuwe bedriegen code:</value>
+  </data>
+  <data name="GuideBlankScreenText" xml:space="preserve">
+    <value>Handleiding: problemen oplossen met leeg scherm</value>
+  </data>
+  <data name="NeverPlayedText" xml:space="preserve">
+    <value>nooit</value>
+  </data>
+  <data name="CheatMenuItemText" xml:space="preserve">
+    <value>bedriegen codes</value>
+  </data>
+  <data name="OKText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="LinkErrorText" xml:space="preserve">
+    <value>Er is een fout opgetreden. Start de toepassing opnieuw en probeer het opnieuw.</value>
+  </data>
+  <data name="SyncSoundSetting" xml:space="preserve">
+    <value>Synchroniseer Audio (betere kwaliteit)</value>
+  </data>
+  <data name="RotatingModeText" xml:space="preserve">
+    <value>Modus draaien</value>
+  </data>
+  <data name="HelpImportEmailHeader" xml:space="preserve">
+    <value>Alternatief 2: het importeren van E-Mails</value>
+  </data>
+  <data name="LinkConnectedText" xml:space="preserve">
+    <value>Verbonden. U kunt nu dit venster sluiten en doorgaan spel spelen.</value>
+  </data>
+  <data name="ManageSavestatesTitle" xml:space="preserve">
+    <value>lidstaten opslaan</value>
+  </data>
+  <data name="RenameNameAlreadyExisting" xml:space="preserve">
+    <value>Een ROM met die naam bestaat al.</value>
+  </data>
+  <data name="ImageScaleSetting" xml:space="preserve">
+    <value>Verander Afbeelding (alleen liggend)</value>
+  </data>
+  <data name="DarkText" xml:space="preserve">
+    <value>Donker</value>
+  </data>
+  <data name="PleaseWaitROMLoadingText" xml:space="preserve">
+    <value>Wacht totdat de ROM is geladen</value>
+  </data>
+  <data name="RestartPromptTitle" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="ImportCompleteText" xml:space="preserve">
+    <value>Importeren van bestand '{0}' voltooid</value>
+  </data>
+  <data name="Err_BluetoothOff" xml:space="preserve">
+    <value>Bluetooth is uitgeschakeld. Overzicht van de huidige Tik op 'ok' Bluetooth-instellingen.</value>
+  </data>
+  <data name="ManageSlotLabel" xml:space="preserve">
+    <value>Sleuf </value>
+  </data>
+  <data name="NeverShowAgainText" xml:space="preserve">
+    <value>Dit niet opnieuw weergeven</value>
+  </data>
+  <data name="SettingsButtonText" xml:space="preserve">
+    <value>instellingen</value>
+  </data>
+  <data name="SkyDriveInternetLost" xml:space="preserve">
+    <value>Kan niet met OneDrive verbinden. Controleer uw internet connectie.</value>
+  </data>
+  <data name="BackupUploadProgressText" xml:space="preserve">
+    <value>Bezig met het exporteren van '{0}' opgeslagen spellen</value>
+  </data>
+  <data name="AutoIncSavestateSetting" xml:space="preserve">
+    <value>Automatisch verhogen status opslaan</value>
+  </data>
+  <data name="SelectAllText" xml:space="preserve">
+    <value>Alles selecteren</value>
+  </data>
+  <data name="InputSettingsPageTitle" xml:space="preserve">
+    <value>invoer</value>
+  </data>
+  <data name="GuideImportROMText" xml:space="preserve">
+    <value>Guide: 4 manieren voor het importeren van rom 's</value>
+  </data>
+  <data name="TapToReturnText" xml:space="preserve">
+    <value>Tik hier om terug te keren om cheats lijst.</value>
+  </data>
+  <data name="PremiumText" xml:space="preserve">
+    <value>Premium-functies zijn: 
+-ondersteuning voor MOGA controller. 
+-achtergrondkleur in het spel aanpassen.
+-uw eigen achtergrondafbeelding kiezen.
+
+VBA8 en VGBC8 hebben nu dezelfde set functies. U moet alleen functies op slechts één app kopen.
+
+*** Lees dit ***: MOGA controller ondersteuning is gratis in Snes8x, voordat u deze functie aankoop, download Snes8x en controleren of de spelbesturing met uw telefoon werkt.</value>
+  </data>
+  <data name="HelpImportSkyDriveHeader" xml:space="preserve">
+    <value>Alternatieve 1: importeer van OneDrive</value>
+  </data>
+  <data name="SelectNoneText" xml:space="preserve">
+    <value>Selecteer geen</value>
+  </data>
+  <data name="TapStartServerIPText" xml:space="preserve">
+    <value>Tik op Start server als u de server-IP-adres.</value>
+  </data>
+  <data name="BuyWaitForDownloadText" xml:space="preserve">
+    <value>Wacht AUB tot de download klaar is.</value>
+  </data>
+  <data name="SameDeviceText" xml:space="preserve">
+    <value>Hetzelfde apparaat</value>
+  </data>
+  <data name="CheatNoSelection" xml:space="preserve">
+    <value>U moet een code bedriegen eerst selecteren.</value>
+  </data>
+  <data name="RestoreButton" xml:space="preserve">
+    <value>importeer</value>
+  </data>
+  <data name="OrientationSettingText" xml:space="preserve">
+    <value>Oriëntering</value>
+  </data>
+  <data name="ConfirmButtonText" xml:space="preserve">
+    <value>Bevestigen</value>
+  </data>
+  <data name="CheatNoCodeEntered" xml:space="preserve">
+    <value>Eerst moet u een code invoeren.</value>
+  </data>
+  <data name="NotSignedInError" xml:space="preserve">
+    <value>U bent niet ingelogd. Log eerst in om de ROMs van OneDrive te importeren.</value>
+  </data>
+  <data name="ErrorReadingSDCardText" xml:space="preserve">
+    <value>Fout bij het lezen van de inhoud van de SD-kaart</value>
+  </data>
+  <data name="AddCheatButtonText" xml:space="preserve">
+    <value>toevoegen</value>
+  </data>
+  <data name="CopyRightText" xml:space="preserve">
+    <value>Dit programma is gratis software; u kunt het herdistribueren en/of wijzigen onder de voorwaarden van de GNU General Public License zoals gepubliceerd door de gratis Software Foundation; beide versies 3, of (naar uw keuze) een latere versie.
+
+Dit programma wordt gedistribueerd in de hoop dat het nuttig zal zijn maar zonder enige garantie; zonder zelfs de impliciete garantie van verkoopbaarheid of geschiktheid voor een bepaald doel.  Zie de GNU General Public License voor meer details.
+
+Heeft u een kopie van de GNU General Public License met dit programma; Als dat niet schrijven naar de gratis Software Foundation, Inc., 51 Franklin Street, vijfde verdieping, Boston, MA 02110-1301, USA.</value>
+  </data>
+  <data name="ResetImageText" xml:space="preserve">
+    <value>Afbeelding opnieuw instellen</value>
+  </data>
+  <data name="ExportAsZipText" xml:space="preserve">
+    <value>Exporteren als zip</value>
+  </data>
+  <data name="SelectFileTitle" xml:space="preserve">
+    <value>bestanden selecteren</value>
+  </data>
+  <data name="MoreLicenseButton" xml:space="preserve">
+    <value>Licentie-informatie</value>
+  </data>
+  <data name="CheatCodesListPivotTitle" xml:space="preserve">
+    <value>lijst</value>
+  </data>
+  <data name="ImportTitle" xml:space="preserve">
+    <value>gegevens</value>
+  </data>
+  <data name="HideConfirmationSetting" xml:space="preserve">
+    <value>Bevestiging voor opslaan staat uitschakelen</value>
+  </data>
+  <data name="LicenseCopyRightTitle" xml:space="preserve">
+    <value>Copyright</value>
+  </data>
+  <data name="AspectRatioStretchSetting" xml:space="preserve">
+    <value>rekken</value>
+  </data>
+  <data name="PowerFrameSkipText2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheatPageTitle" xml:space="preserve">
+    <value>CHEATS</value>
+  </data>
+  <data name="HideConfirmationLoadSetting" xml:space="preserve">
+    <value>Bevestiging op laden uitschakelen</value>
+  </data>
+  <data name="Err_NoChatName" xml:space="preserve">
+    <value>Voer een naam in te voegen.</value>
+  </data>
+  <data name="RenamePromptTitle" xml:space="preserve">
+    <value>Hernoem de ROM</value>
+  </data>
+  <data name="DeadzoneHeader" xml:space="preserve">
+    <value>Deadzone (alleen in de analoge stick)</value>
+  </data>
+  <data name="AspectRatioOneSetting" xml:space="preserve">
+    <value>1:1</value>
+  </data>
+  <data name="DeleteConfirmTitle" xml:space="preserve">
+    <value>Verwijdering bevestigen</value>
+  </data>
+  <data name="SkyDriveFileFormatHint" xml:space="preserve">
+    <value>Ondersteunde bestanden:</value>
+  </data>
+  <data name="SDCardHeader" xml:space="preserve">
+    <value>SD-KAART</value>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="InvalidCodeText" xml:space="preserve">
+    <value>Ongeldige code.</value>
+  </data>
+  <data name="RenameCancelButton" xml:space="preserve">
+    <value>Annuleren</value>
+  </data>
+  <data name="FullscreenStretchOption" xml:space="preserve">
+    <value>Rekken naar volledig scherm</value>
+  </data>
+  <data name="ConfirmLoadText" xml:space="preserve">
+    <value>Weet u zeker dat u de laatst opgeslagen status laden?</value>
+  </data>
+  <data name="AllButtonText" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="aboutText" xml:space="preserve">
+    <value>over</value>
+  </data>
+  <data name="BackupUploadUnsuccessful" xml:space="preserve">
+    <value>Upload voltooid met errors.</value>
+  </data>
+  <data name="HelpTIpsPerformanceText" xml:space="preserve">
+    <value>-De video-instellingen openen en verhoog de waarde van de optie 'Frames overslaan (dezelfde emulatie snelheid)'. Deze optie vermindert het aantal frames dat de emulator moet worden weergegeven en dus meer bronnen om de emulatie sneller bladeren. De spellen lijken minder vloeiend als het kader vergroten waarde overslaan.
+-Open de geluidsinstellingen en synchronisatie van het geluid uitschakelen. Dit kan de prestaties verbeteren, maar de geluidskwaliteit kan lijden.
+-De geluidsinstellingen openen en het geluid volledig uit te schakelen.</value>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>over</value>
+  </data>
+  <data name="HelpImportSDCardText" xml:space="preserve">
+    <value>Op het tabblad gegevens van de belangrijkste pagina, klik op Import uit SD-kaart en volg de instructies</value>
+  </data>
+  <data name="RomListTroubleshootNote" xml:space="preserve">
+    <value>Opmerking: Als uw rom's niet worden gestart, raadpleegt u de sectie 'problemen' van de help-pagina.</value>
+  </data>
+  <data name="TileOpenError" xml:space="preserve">
+    <value>Error met openen de ROM bij bijbehorende title.</value>
+  </data>
+  <data name="LicenseTitle" xml:space="preserve">
+    <value>LICENTIE</value>
+  </data>
+  <data name="ConfirmSaveText" xml:space="preserve">
+    <value>Weet u zeker dat u wilt opslaan? Hiermee worden de geselecteerde overschreven opslaan staat.</value>
+  </data>
+  <data name="AllHeader" xml:space="preserve">
+    <value>ALLE</value>
+  </data>
+  <data name="VideoSettingsPageTitle" xml:space="preserve">
+    <value>video</value>
+  </data>
+  <data name="AboutContact" xml:space="preserve">
+    <value>store.support@Outlook.com</value>
+  </data>
+  <data name="HelpTipsSoundText" xml:space="preserve">
+    <value>-De geluidsinstellingen openen en overschakelen op de synchronisatie van het geluid. Hierdoor kan de geluidskwaliteit toenemen, maar de prestaties nadelig beïnvloeden.
+-Als de emulatie snelheid te laag is, kan ook de geluidskwaliteit afnemen. Volg de bovenstaande tips voor spellen die langzaam worden uitgevoerd.</value>
+  </data>
+  <data name="FailDownloadCheatDataText" xml:space="preserve">
+    <value>Kan gegevens verkrijgen uit supercheats.com.</value>
+  </data>
+  <data name="PinToStartText" xml:space="preserve">
+    <value>aan start scherm vastmaken</value>
+  </data>
+  <data name="AspectRatioSetting" xml:space="preserve">
+    <value>Resolute (Aspect Ratio)</value>
+  </data>
+  <data name="AutoBackupModeHelp" xml:space="preserve">
+    <value>-Eenvoudige modus: opslaan sleuven zijn een back-up 'as is' met geen compressie; ideaal voor het synchroniseren van gegevens met een tablet-PC, maar geen beveiliging tegen het per ongeluk overschrijven van gegevens.
+-Roterende modus: sleuven zijn gecomprimeerd opslaan meerdere bestanden op te slaan worden gehouden om te voorkomen dat per ongeluk overwritting van gegevens; ideaal voor veilige guard van gegevens.</value>
+  </data>
+  <data name="SearchTitle" xml:space="preserve">
+    <value>zoeken</value>
+  </data>
+  <data name="HostText" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="ManualSnapshotSetting" xml:space="preserve">
+    <value>Afbeeldingen naast elkaar handmatig maken</value>
+  </data>
+  <data name="DownloadErrorText" xml:space="preserve">
+    <value>Fout bij het downloaden van het bestand '{0}': {1}</value>
+  </data>
+  <data name="CheatInvalidFormat2" xml:space="preserve">
+    <value>Ongeldige notatie. De codes moeten in de indeling XXX-XXX-XXX, XXX-XXX of een hexadecimaal getal van 8 cijfers per regel.</value>
+  </data>
+  <data name="IPAddressText" xml:space="preserve">
+    <value>IP-serveradres</value>
+  </data>
+  <data name="MaximumTilesPinned" xml:space="preserve">
+    <value>De geselekteerde ROM is al vast gemaakt op het start scherm of u heeft het maximum aantal tegels gepind bereikt.</value>
+  </data>
+  <data name="HelpImportWebHeader" xml:space="preserve">
+    <value>Alternatief 3: importeren vanuit de webbrowser</value>
+  </data>
+  <data name="DPadAnalogueFixed" xml:space="preserve">
+    <value>vaste analoge stick</value>
+  </data>
+  <data name="MogaMappingTitle" xml:space="preserve">
+    <value>moga toewijzing</value>
+  </data>
+  <data name="NoneButtonText" xml:space="preserve">
+    <value>Geen</value>
+  </data>
+  <data name="FrameSkipSetting" xml:space="preserve">
+    <value>Frames Overslaan (verhoogt emulatie snelheid)</value>
+  </data>
+  <data name="BuyNowButtonText" xml:space="preserve">
+    <value>Koop nu</value>
+  </data>
+  <data name="UseAccentBackgroundText" xml:space="preserve">
+    <value>De kleur accent system voor live naast elkaar gebruiken</value>
+  </data>
+  <data name="EnterCodeTitle" xml:space="preserve">
+    <value>Code invoeren</value>
+  </data>
+  <data name="ControllerScaleSettings" xml:space="preserve">
+    <value>Grootte Virtual Joystick</value>
+  </data>
+  <data name="HelpDownloadROMsHeader" xml:space="preserve">
+    <value>Hie importeer je ROMs</value>
+  </data>
+  <data name="TapMogaInstructionText" xml:space="preserve">
+    <value>Tik hier voor instructies voor MOGA-controller</value>
+  </data>
+  <data name="Msg_ChatPromptTitle" xml:space="preserve">
+    <value>Inkomende Link aanvraag</value>
+  </data>
+  <data name="FirstGameText" xml:space="preserve">
+    <value>eerste spel</value>
+  </data>
+  <data name="AspectRatio4to3Setting" xml:space="preserve">
+    <value>4:3</value>
+  </data>
+  <data name="AboutSnes9xLinkLabel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SettingsPageTitle" xml:space="preserve">
+    <value>INSTELLINGEN</value>
+  </data>
+  <data name="CheatRestoreValuesOption" xml:space="preserve">
+    <value>Oude waarden herstellen na cheats (GBA)</value>
+  </data>
+  <data name="VideoMogaText" xml:space="preserve">
+    <value>Video: MOGA controller instructies</value>
+  </data>
+  <data name="SourceHeader" xml:space="preserve">
+    <value>bron</value>
+  </data>
+  <data name="CheatInvalidFormat" xml:space="preserve">
+    <value>Ongeldige notatie. De codes moeten 6, 8, 9, 12 of 16 hexadecimale waarden per regel.</value>
+  </data>
+  <data name="VControllerLargeSetting" xml:space="preserve">
+    <value>kruisende</value>
+  </data>
+  <data name="AvailableSaveFilesText" xml:space="preserve">
+    <value>Beschikbare bestanden op te slaan</value>
+  </data>
+  <data name="CableSocketText" xml:space="preserve">
+    <value>Wi-Fi TCP/IP</value>
+  </data>
+  <data name="ImportSDCardText" xml:space="preserve">
+    <value>Import uit SD-kaart</value>
+  </data>
+  <data name="BuyNowImportText" xml:space="preserve">
+    <value>In de gratis versie van deze app kan u maximaal 2 ROMs op uw telefoon zetten. Klik op Ok om de app te kopen en geen limiet te hebben van het aantal ROMs.</value>
+  </data>
+  <data name="BackupWaitForUpload" xml:space="preserve">
+    <value>Wacht AUB tot dat de uploads zijn voltooid.</value>
+  </data>
+  <data name="RestoreLastStateSetting" xml:space="preserve">
+    <value>9e sleuf gebruiken voor automatisch opslaan/laden</value>
+  </data>
+  <data name="Err_NoPeerConnected" xml:space="preserve">
+    <value>U bent niet verbonden met een peersysteem.</value>
+  </data>
+  <data name="PurchaseSuccessText" xml:space="preserve">
+    <value>De aankoop is voltooid.</value>
+  </data>
+  <data name="ShowThreeDotsSetting" xml:space="preserve">
+    <value>Context menu aanwijzing weergeven</value>
+  </data>
+  <data name="ManageAutoSlotLabel" xml:space="preserve">
+    <value>Automatische </value>
+  </data>
+  <data name="SelectStateAuto" xml:space="preserve">
+    <value>Selecteer automatiesche staat</value>
+  </data>
+  <data name="AutoSaveWarning" xml:space="preserve">
+    <value>Waarschuwing: alleen dit selectievakje inschakelen als u snel opslaan functie gebruiken. Uw spel wordt opgeslagen kunnen worden geveegd als u afhankelijk van het spel opslaan functie. Wilt u doorgaan?</value>
+  </data>
+  <data name="CloudSixInstructionText" xml:space="preserve">
+    <value>Installeren van Rudy Huyn CloudSix apps om deze functie te gebruiken.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenTextContact" xml:space="preserve">
+    <value>-Als niets helpt, moet u contact opnemen met de ontwikkelaar:</value>
+  </data>
+  <data name="RecentHeader" xml:space="preserve">
+    <value>RECENTE</value>
+  </data>
+  <data name="OrientationLandscape" xml:space="preserve">
+    <value>liggend vast</value>
+  </data>
+  <data name="CustomizeButtonMappingText" xml:space="preserve">
+    <value>Knop toewijzing aanpassen...</value>
+  </data>
+  <data name="SDCardMissingText" xml:space="preserve">
+    <value>De SD-kaart ontbreekt. Een SD-kaart-probeer opnieuw invoegen.</value>
+  </data>
+  <data name="EmailSubjectText" xml:space="preserve">
+    <value>VBA8/VGBC bug rapport- of suggestie</value>
+  </data>
+  <data name="StartServerOtherText" xml:space="preserve">
+    <value>Start de server op het andere apparaat voor het IP-adres van de server ophalen.</value>
+  </data>
+  <data name="DownloadingProgressText" xml:space="preserve">
+    <value>Wordt gedownload '{0}'</value>
+  </data>
+  <data name="ValidCodeText" xml:space="preserve">
+    <value>Code is geaccepteerd. Start de toepassing voor de code te activeren.</value>
+  </data>
+  <data name="NumberRotatingFilesText" xml:space="preserve">
+    <value>Aantal draaiende back-ups</value>
+  </data>
+  <data name="SkyDriveImportTitle" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="CheatsDescription" xml:space="preserve">
+    <value>Voor GBA games en GameShark en GameGenie codes voor GB/GBC-spelletjes kunt u codes voor GameShark en CodeBreaker.</value>
+  </data>
+  <data name="PreLinkTitle" xml:space="preserve">
+    <value>koppeling instellen</value>
+  </data>
+  <data name="CloudSixOneFileLimitText" xml:space="preserve">
+    <value>CloudSix ondersteunt slechts één bestand tegelijk exporteren, tenzij u "Exporteren als zip".</value>
+  </data>
+  <data name="GPLv3" xml:space="preserve">
+    <value>http://www.GNU.org/Licenses/GPL-3.0.txt</value>
+  </data>
+  <data name="GameboyText" xml:space="preserve">
+    <value>Gameboy</value>
+  </data>
+  <data name="PremiumFeaturePromptText" xml:space="preserve">
+    <value>Dit is een premium-functie. Wilt u naar de pagina aankoop?</value>
+  </data>
+  <data name="CreateBackupFolderError" xml:space="preserve">
+    <value>Error bij het maken van de backup folder.</value>
+  </data>
+  <data name="RestartPromptText" xml:space="preserve">
+    <value>Start de app (treffers terugknop meerdere malen) voor de nieuwe instelling pas van kracht.</value>
+  </data>
+  <data name="BuyNowCancelButtonText" xml:space="preserve">
+    <value>Doorgaan met proefversie</value>
+  </data>
+  <data name="DPad8way" xml:space="preserve">
+    <value>8-weg</value>
+  </data>
+  <data name="HelpButtonText" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="InfoCaption" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="VibrationDurationErrorText" xml:space="preserve">
+    <value>Trillingen duur moet liggen tussen 0 en 5 seconden</value>
+  </data>
+  <data name="SearchForCheatsText" xml:space="preserve">
+    <value>Zoeken naar cheats</value>
+  </data>
+  <data name="RefreshRate30" xml:space="preserve">
+    <value>30Hz</value>
+  </data>
+  <data name="RefreshRate60" xml:space="preserve">
+    <value>60Hz</value>
+  </data>
+  <data name="OrientationPortrait" xml:space="preserve">
+    <value>staand vast</value>
+  </data>
+  <data name="CameraAssignLR" xml:space="preserve">
+    <value>L-knop en de R-knop</value>
+  </data>
+  <data name="CloudSixHeader" xml:space="preserve">
+    <value>CLOUDSIX</value>
+  </data>
+  <data name="Err_BluetoothOffCaption" xml:space="preserve">
+    <value>Bluetooth uitschakelen</value>
+  </data>
+  <data name="RoleText" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="CameraAssignTurbo" xml:space="preserve">
+    <value>Turbo-modus</value>
+  </data>
+  <data name="StatusNotSignedIn" xml:space="preserve">
+    <value>niet ingelogd</value>
+  </data>
+  <data name="UseMogaControllerText" xml:space="preserve">
+    <value>Moga-controller gebruiken</value>
+  </data>
+  <data name="SaveStateButton" xml:space="preserve">
+    <value>sla huidige op</value>
+  </data>
+  <data name="StatusLabelContent" xml:space="preserve">
+    <value>Status: </value>
+  </data>
+  <data name="CreateSnapshotMenuItem" xml:space="preserve">
+    <value>voor tegels momentopname maken</value>
+  </data>
+  <data name="OneDriveHeader" xml:space="preserve">
+    <value>ONEDRIVE</value>
+  </data>
+  <data name="VideoCheatText" xml:space="preserve">
+    <value>Video: bedriegen code zelfstudie</value>
+  </data>
+  <data name="AudioSettingsPageTitle" xml:space="preserve">
+    <value>geluid</value>
+  </data>
+  <data name="PurchaseSuccessNoAdsText" xml:space="preserve">
+    <value>Succesvolle aankoop, advertenties worden niet weergegeven de volgende keer dat u de toepassing start.</value>
+  </data>
+  <data name="TurboFrameSkipText" xml:space="preserve">
+    <value>Turbo Mode Fame Overslaan</value>
+  </data>
+  <data name="CheatDefaultDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OKButtonText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="CheatWrongVersionTitle" xml:space="preserve">
+    <value>Incompatibele bedriegen code!</value>
+  </data>
+  <data name="OpacitySetting" xml:space="preserve">
+    <value>Virtual Controller Capaciteit</value>
+  </data>
+  <data name="AspectRatio5to4Setting" xml:space="preserve">
+    <value>5:4</value>
+  </data>
+  <data name="UnpinTilePromptText" xml:space="preserve">
+    <value>Neem losmaken/repin de tegel voor de wijziging door te voeren.</value>
+  </data>
+  <data name="SimpleText" xml:space="preserve">
+    <value>Eenvoudige</value>
+  </data>
+  <data name="BackupUploadSuccessful" xml:space="preserve">
+    <value>Uploaden voltooid.</value>
+  </data>
+  <data name="VirtualControllerButtonColored" xml:space="preserve">
+    <value>gekleurd</value>
+  </data>
+  <data name="GPLv3Title" xml:space="preserve">
+    <value>GPLv3</value>
+  </data>
+  <data name="CodeText" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="DPadAnalogueDynamic" xml:space="preserve">
+    <value>dynamische analoge stick</value>
+  </data>
+  <data name="ChoosePortraitBackgroundColorText" xml:space="preserve">
+    <value>Kies Staand achtergrondkleur...</value>
+  </data>
+  <data name="SimpleModeText" xml:space="preserve">
+    <value>Eenvoudige modus</value>
+  </data>
+  <data name="AutoBackupNote" xml:space="preserve">
+    <value>Opmerking: Automatische back-up wordt gestart wanneer gebruikers terug naar de hoofdpagina na het spelen van spelletjes.</value>
+  </data>
+  <data name="AutoBackupText" xml:space="preserve">
+    <value>Automatisch een reservekopie van gegevens opslaan</value>
+  </data>
+  <data name="RestorePurchaseNotice" xml:space="preserve">
+    <value>ATTENTION - WP8.1 USERS: If your purchased features got deactivated, just tap on Purchase and enter your Wallet code if necessary, you will be able to restore your purchase without having to pay again.</value>
+  </data>
+  <data name="BackupFailOnedriveText" xml:space="preserve">
+    <value>Automatische back-up mislukt, log in om te OneDrive.</value>
+  </data>
+  <data name="DescriptionText" xml:space="preserve">
+    <value>Beschrijving</value>
+  </data>
+  <data name="VibrationDurationText" xml:space="preserve">
+    <value>Trillingen duur (in seconden)</value>
+  </data>
+  <data name="ExportNoSelection" xml:space="preserve">
+    <value>U moet ten minste één bestand selecteren.</value>
+  </data>
+  <data name="ImportSavestateInvalidFormat" xml:space="preserve">
+    <value>Opslagstaat bestand vormaat is fout. Het bestandsnaam moet eindigen met een nummer van 0 tot 9 (e.g. demo0.sgm).</value>
+  </data>
+  <data name="StartServerText" xml:space="preserve">
+    <value>Server starten</value>
+  </data>
+  <data name="EnterCodeText" xml:space="preserve">
+    <value>Promotiecode invoeren</value>
+  </data>
+  <data name="FindButtonCaption" xml:space="preserve">
+    <value>Collega's vernieuwen</value>
+  </data>
+  <data name="BackupOnlyWifiText" xml:space="preserve">
+    <value>Alleen back-up wanneer Wi-Fi beschikbaar is (voor dit trage controleren)</value>
+  </data>
+  <data name="UseRealisticButtonsText" xml:space="preserve">
+    <value>Knoppen met realistische kleuren gebruiken</value>
+  </data>
+  <data name="DeleteSavesEntry" xml:space="preserve">
+    <value>opslaan in het spel verwijderen</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>Versie</value>
+  </data>
+  <data name="FileAssociationError" xml:space="preserve">
+    <value>Error importering en opening ROM file.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenText" xml:space="preserve">
+    <value>-Zorg ervoor dat de downloads zijn voltooid voordat u de pagina OneDrive importeren (wachten op bevestiging laat). Als u niets te vroeg, de rom achterblijven in een beschadigde toestand verkeert en correct kunnen worden geladen. Als dit gebeurt, verwijdert u deze (tikken en vasthouden in de rom-lijst) en opnieuw downloaden.
+-Als OneDrive importeren niet werkt of rom's geïmporteerd uit OneDrive niet in het algemeen werkt, probeert u andere methoden voor het importeren van rom. Er zijn 3 methoden van het importeren van rom (OneDrive, E-Mail, webbrowser) dat wordt beschreven in 'how to' sectie van deze pagina.
+-Niet vergeten om het verwijderen van de rom's die niet werken, voordat u deze met een andere methode opnieuw importeren.</value>
+  </data>
+  <data name="ErrorCaption" xml:space="preserve">
+    <value>Fout</value>
+  </data>
+  <data name="EmailLinkText" xml:space="preserve">
+    <value>E-mail: store.support@outlook.com</value>
+  </data>
+  <data name="ClientText" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="DeleteCheatButtonText" xml:space="preserve">
+    <value>verwijderen</value>
+  </data>
+  <data name="Err_NoMessageToSend" xml:space="preserve">
+    <value>Geef een bericht te verzenden.</value>
+  </data>
+  <data name="ResumeButtonText" xml:space="preserve">
+    <value>verdergaan</value>
+  </data>
+  <data name="CheatWrongVersionText" xml:space="preserve">
+    <value>Bedriegen code {0} is voor rom {1} wanneer de huidige rom {2}. Het werkt niet en kan problemen veroorzaken. Dit gebeurt meestal omdat u een EU-bedriegen code met een Amerikaanse rom of vice versa.</value>
+  </data>
+  <data name="VControllerSmallSetting" xml:space="preserve">
+    <value>ontelden</value>
+  </data>
+  <data name="DPadStyleHeader" xml:space="preserve">
+    <value>D-Pad stijl</value>
+  </data>
+  <data name="AddCheatsTitle" xml:space="preserve">
+    <value>Bedriegen toevoegen</value>
+  </data>
+  <data name="ImportButtonText" xml:space="preserve">
+    <value>importeren</value>
+  </data>
+  <data name="PurchasedThankYouText" xml:space="preserve">
+    <value>Gekochte, dank u!</value>
+  </data>
+  <data name="AboutSnes9x" xml:space="preserve">
+    <value>Voel je vrij om bugs of gebroken spelletjes te melden.
+
+De maker is niet verantwoordelijk illegaal gebruik van deze software. Bovendien, er is geen garentie voor deze software en de maker is niet aansprakelijk voor enige schade.
+
+Credits:
+- Eddi Bento voor het logo ontwerp.
+- MOGA bedrijf voor het verbaasde cadeau.
+- Vertalingen: Sergy Ortiz Puerto (Spaans), André Queiroz (Portugees), Arda Ozkal (Turks), Alexandros Melissas (Grieks), Łukasz Deptuła (Pools), Junfan Yao (Simpel Chinees), wphone08 (Frans), Jesper Svensson (Zweeds), Alexander Kolosov (Russies), Usama Jawad (Urdu), Mathias Haugsbø (Noors), Leutrim Shabani (Duits), Giordano Piacentini (Italiaans),  Sami Piispanen (Fins), Shay Livyatan (Hebreews), Adam Yowanda (Indonesisch), Krit Visitstump (Thai), Sebastian van den Oever, Sjouke Yntema (Nederlands).</value>
+  </data>
+  <data name="BackupInstructions" xml:space="preserve">
+    <value>Kies een spel om het opgeslage spel te exporteren.</value>
+  </data>
+  <data name="SDCardImportTitle" xml:space="preserve">
+    <value>SD-kaart</value>
+  </data>
+  <data name="BackupIngameSaveText" xml:space="preserve">
+    <value>Een back-up ingame opslaan</value>
+  </data>
+  <data name="HelpImportWebText" xml:space="preserve">
+    <value>Open een website met ROM downloads en start het downloaden van het gewenste spel in uw webbrowser. Als het downloaden een ZIP-archief is, wordt de browser kunt u navigeren door het archief nadat het downloaden is voltooid. Zoek het bestand *.gba in het archief en tik op om te beginnen de emulator. De emulator wordt automatisch geïmporteerd de ROM die u hebt gedownload via uw webbrowser. Als het gedownloade bestand een bestand *.gba is, slechts te tikken op de emulator en start en importeren van de ROM.</value>
+  </data>
+  <data name="EditText" xml:space="preserve">
+    <value>bewerken</value>
+  </data>
+  <data name="VirtualControllerButtonGray" xml:space="preserve">
+    <value>grijs</value>
+  </data>
+  <data name="HelpTipsTurboText" xml:space="preserve">
+    <value>-Druk op de knop camera turbo modus in-of uitschakelen.
+-Half-press de camera turbo modus activeert terwijl de camera-knop ingedrukt half-geklikt.</value>
+  </data>
+  <data name="ManageSaveTimeLabel" xml:space="preserve">
+    <value>Gemaakt:</value>
+  </data>
+  <data name="HelpImportSkyDriveText" xml:space="preserve">
+    <value>De rom's worden opgeslagen in een map op uw OneDrive.  Daarna gaat u naar de sectie OneDrive op de hoofdpagina van de emulator (doorhalen links in de rom-lijst). Klik op "Aanmelden" Als u niet bent aangemeld nog, eerste en voer uw referenties als u dit wordt gevraagd. Wanneer u bent ingelogd, klik op de knop met het label "invoer rom" op de hoofdpagina emulators. De volgende pagina kunt u navigeren door OneDrive op zoek naar de map waar u uw rom in plaatsen. Tik in de map met de rom op een *.gba- of ZIP-bestand om het downloaden te starten. Wacht tot het downloaden te voltooien voordat u de pagina verlaat. Een bevestigingsbericht wordt weergegeven wanneer het downloaden is voltooid.
+Opmerking: In sommige gevallen rom's gedownload van OneDrive alleen weergeven tijdens het starten een leeg scherm weergegeven. Als u dit probleem ondervindt, gebruikt u alternatieve 2 of 3.</value>
+  </data>
+  <data name="HelpTipsTurboHeader" xml:space="preserve">
+    <value>Turbo-modus activeren</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>
+
+
+
+Apparaat-ID: {0}</value>
+  </data>
+  <data name="HostIPAddressText" xml:space="preserve">
+    <value>IP-adres van host: {0}. client wachten...</value>
+  </data>
+  <data name="HelpTipsSoundHeader" xml:space="preserve">
+    <value>Krassend geluid</value>
+  </data>
+  <data name="DeleteMenuItemText" xml:space="preserve">
+    <value>verwijder</value>
+  </data>
+  <data name="CableLinkText" xml:space="preserve">
+    <value>Gameboy-kabel</value>
+  </data>
+  <data name="OrientationBoth" xml:space="preserve">
+    <value>liggend of staand</value>
+  </data>
+  <data name="GuidePerformanceText" xml:space="preserve">
+    <value>Handleiding: hoe u de prestaties verbeteren</value>
+  </data>
+  <data name="LinkingNote" xml:space="preserve">
+    <value>Opmerking: Frameskip en turbo modus om te voorkomen dat communicatiefout uit te schakelen.</value>
+  </data>
+  <data name="GPLButtonText" xml:space="preserve">
+    <value>Ga naar de GNU Public License v3</value>
+  </data>
+  <data name="ConnectText" xml:space="preserve">
+    <value>Verbinding maken</value>
+  </data>
+  <data name="BackgroundOpacitySetting" xml:space="preserve">
+    <value>Doorzichtigheid van de achtergrond</value>
+  </data>
+  <data name="UseBackgroundImageSetting" xml:space="preserve">
+    <value>Achtergrondafbeelding gebruiken</value>
+  </data>
+  <data name="ChooseImageText" xml:space="preserve">
+    <value>Kies afbeelding...</value>
+  </data>
+  <data name="ImportInstructionsText" xml:space="preserve">
+    <value>Om ROM te importeren van OneDrive:
+1. Upload ROMs naar je OneDrive volder. 
+2. Druk op "Log in" om in OneDrive in te loggen.
+3. Druk op "Importeer" en selecteer de ROM.</value>
+  </data>
+  <data name="HelpTipsHeader" xml:space="preserve">
+    <value>Tips</value>
+  </data>
+  <data name="ApplicationTitle2" xml:space="preserve">
+    <value>VGBC8</value>
+  </data>
+  <data name="ThemeText" xml:space="preserve">
+    <value>Thema</value>
+  </data>
+  <data name="ManageRemoveState" xml:space="preserve">
+    <value>verwijderen</value>
+  </data>
+  <data name="BuyNowText" xml:space="preserve">
+    <value>Deze functie is alleen in de betaalde versie beschikbaar. Klik op de Ok knop hieronder als u de app wilt kopen om deze functie beschikbaar te stellen.</value>
+  </data>
+  <data name="DeleteConfirmText" xml:space="preserve">
+    <value>Dit kan niet ongedaan worden gemaakt, doorgaan?</value>
+  </data>
+  <data name="AspectRatioOriginalSetting" xml:space="preserve">
+    <value>native</value>
+  </data>
+  <data name="DownloadCompleteText" xml:space="preserve">
+    <value>Downloaden van het bestand voltooid  '{0}'</value>
+  </data>
+  <data name="Msg_FoundPeers" xml:space="preserve">
+    <value>Peers gevonden: {0}. Tik peers vernieuwen bij te werken.</value>
+  </data>
+  <data name="BackupErrorUpload" xml:space="preserve">
+    <value>Error bij het uploaden bestand: {0}. Probeer uit te loggen bij OneDrive en weer aanmelden als deze fout zich blijft voordoen.</value>
+  </data>
+  <data name="CheatCodesAddPivotTitle" xml:space="preserve">
+    <value>toevoegen</value>
+  </data>
+  <data name="ManualSnapshotHelp" xml:space="preserve">
+    <value>If you store the app on SD Card, check this option to improve performance when exiting game. Also check this option if you want to create your own cover art.</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="SourceLink" xml:space="preserve">
+    <value>http://sourceforge.NET/Projects/vba8/</value>
+  </data>
+  <data name="SyncSoundSetting2" xml:space="preserve">
+    <value>(betere kwaliteid, maar kan langzamer zijn)</value>
+  </data>
+  <data name="AboutSnes9xLicense" xml:space="preserve">
+    <value>GNU Publieke Licentie:</value>
+  </data>
+  <data name="Err_NoConnectTitle" xml:space="preserve">
+    <value>Kan geen verbinding maken</value>
+  </data>
+  <data name="CameraAssignR" xml:space="preserve">
+    <value>R-knop</value>
+  </data>
+  <data name="CameraAssignL" xml:space="preserve">
+    <value>L-knop</value>
+  </data>
+  <data name="CameraAssignA" xml:space="preserve">
+    <value>A-Button</value>
+  </data>
+  <data name="CameraAssignB" xml:space="preserve">
+    <value>B-Button</value>
+  </data>
+  <data name="LastPlayedLabel" xml:space="preserve">
+    <value>Laatst gespeeld:</value>
+  </data>
+  <data name="SRAMDeletedSuccessfully" xml:space="preserve">
+    <value>Sla het bestand is verwijderd.</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>VBA8</value>
+  </data>
+  <data name="Err_NoPeer" xml:space="preserve">
+    <value>U moet een peer uit de lijst selecteren.</value>
+  </data>
+  <data name="AboutContactLabel" xml:space="preserve">
+    <value>Contactpersoon:</value>
+  </data>
+  <data name="HelpImportSDCardHeader" xml:space="preserve">
+    <value>Alternatief 4: importeren uit SD-kaart</value>
+  </data>
+  <data name="ConfirmationCheckBoxText" xml:space="preserve">
+    <value>Niet opnieuw weergeven</value>
+  </data>
+  <data name="RomListTitle" xml:space="preserve">
+    <value>rom 's</value>
+  </data>
+  <data name="ROMAlreadyExistingError" xml:space="preserve">
+    <value>Die ROM is al eens gedownload: {0}</value>
+  </data>
+  <data name="RecentTitle" xml:space="preserve">
+    <value>laatst gespeeld</value>
+  </data>
+  <data name="SkyDriveError" xml:space="preserve">
+    <value>OneDrive fout: {0}</value>
+  </data>
+  <data name="CheatListGameLabel" xml:space="preserve">
+    <value>Cheats voor:</value>
+  </data>
+  <data name="UnlockFeatureText" xml:space="preserve">
+    <value>Functie ontgrendelen</value>
+  </data>
+  <data name="HelpIssuesHeader" xml:space="preserve">
+    <value>problemen</value>
+  </data>
+  <data name="StartLinkText" xml:space="preserve">
+    <value>koppeling starten</value>
+  </data>
+  <data name="GuidesTitle" xml:space="preserve">
+    <value>hulplijnen</value>
+  </data>
+  <data name="Msg_NoPeers" xml:space="preserve">
+    <value>Geen peers gevonden. Tik op de peers vernieuwen bij te werken.</value>
+  </data>
+  <data name="VibrationSettingText" xml:space="preserve">
+    <value>Trillen wanneer toetsen worden ingedrukt</value>
+  </data>
+  <data name="ConnectButtonCaption" xml:space="preserve">
+    <value>Verbinding ingeschakeld</value>
+  </data>
+  <data name="BackupPageTitle" xml:space="preserve">
+    <value>exporteer opgeslage spellen</value>
+  </data>
+  <data name="GameboyAdvanceText" xml:space="preserve">
+    <value>Gameboy Advance</value>
+  </data>
+  <data name="CloudSixImportTitle" xml:space="preserve">
+    <value>CloudSix</value>
+  </data>
+  <data name="LoadingProductListText" xml:space="preserve">
+    <value>Ladingslijst productie. Een ogenblik geduld...</value>
+  </data>
+  <data name="ReviewPromptText" xml:space="preserve">
+    <value>Neem een paar seconden de app. positieve recensies keep nieuwe functies in aantocht beoordeling besteden.</value>
+  </data>
+  <data name="AutoBackupTitle" xml:space="preserve">
+    <value>Automatische back-up</value>
+  </data>
+  <data name="ManageDeleteUnknownError" xml:space="preserve">
+    <value>Er is een onbekende fout opgetreden tijdens het verwijderen van het opslaan staat.</value>
+  </data>
+  <data name="SourceButtonText" xml:space="preserve">
+    <value>Broncode</value>
+  </data>
+  <data name="BackupLastManualSlotText" xml:space="preserve">
+    <value>Laatste handmatige back-up opslaan sleuf</value>
+  </data>
+  <data name="CustomizePortraitControlText" xml:space="preserve">
+    <value>Staand besturingselement positie aanpassen</value>
+  </data>
+  <data name="LoadStateButton" xml:space="preserve">
+    <value>belading</value>
+  </data>
+  <data name="FAQsLinkText" xml:space="preserve">
+    <value>Veelgestelde vragen, discussie forum &amp;PC app</value>
+  </data>
+  <data name="ActiveSavestateText" xml:space="preserve">
+    <value> (actief)</value>
+  </data>
+  <data name="StatusSignedIn" xml:space="preserve">
+    <value>ingelogd.</value>
+  </data>
+  <data name="PurchaseButtonText" xml:space="preserve">
+    <value>Inkoop</value>
+  </data>
+  <data name="LowFreqModeSetting" xml:space="preserve">
+    <value>30 Hz beeldfrequentie</value>
+  </data>
+  <data name="CheatsDescription2" xml:space="preserve">
+    <value>Opmerking: Als gevolg van een recente bug fix, alle bestaande 16 tekens bedriegen codes moeten worden * gewijzigd * met goede ruimte weer werkt.</value>
+  </data>
+  <data name="BackupAndRestoreInstructions" xml:space="preserve">
+    <value>Exporteel en importeer opgeslage spellen:</value>
+  </data>
+  <data name="RemoveStateNoSelection" xml:space="preserve">
+    <value>Opslaan moet u eerst aangeven.</value>
+  </data>
+  <data name="SDCardReadOnlyText" xml:space="preserve">
+    <value>Opmerking: SD-kaart is alleen-lezen voor ontwikkelaars. De verwerking van ZIP-extensie is gereserveerd door het besturingssysteem, gebruik .zib voor uw zip-bestanden.</value>
+  </data>
+  <data name="CustomizeLandscapeControlText" xml:space="preserve">
+    <value>Liggend besturingselement positie aanpassen</value>
+  </data>
+  <data name="EmulatorMenuText" xml:space="preserve">
+    <value>Opmerking: Emulator menufunctie op een latere datum zal worden uitgevoerd.</value>
+  </data>
+  <data name="CameraButtonAssignment" xml:space="preserve">
+    <value>Toewijzen aan knop camera</value>
+  </data>
+  <data name="SetupAutoBackupText" xml:space="preserve">
+    <value>Automatische back-up instellen...</value>
+  </data>
+  <data name="HelpTipsPerformanceHeader" xml:space="preserve">
+    <value>Games worden langzaam uitgevoerd</value>
+  </data>
+  <data name="AutoLoadLastStateText" xml:space="preserve">
+    <value>Automatisch opslaan en laden van spel</value>
+  </data>
+  <data name="GeneralSettingsTitle" xml:space="preserve">
+    <value>Algemeen</value>
+  </data>
+  <data name="EnterHostIPText" xml:space="preserve">
+    <value>Voer het IP-adres host hier</value>
+  </data>
+  <data name="HelpImportEmailText" xml:space="preserve">
+    <value>Stuur een E-Mail naar een E-Mail adres dat toegankelijk is vanaf uw telefoon, met 1 of meer ROM(s) als bijlage. Je kan ook de ROMs als *.gba file of als het in een *.zip zit sturen. Open de E-Mail op uw telefoon en klik op de bijlage om het te downloaden. Als het een *.zip bestandje is, kan je het *.zip bestandje bekijken en de goede selecteren. De emulator importeerd automatiesch de ROM van de E-Mail bijlage en start het spel. Als het geen *.zip bestand is maar een *.gba bestand is, klikt u er op en start de emulator uw spel.</value>
+  </data>
+  <data name="ErrorNoConnectionText" xml:space="preserve">
+    <value>Fout! Geen Internet-verbinding of de Microsoft server-fout. Probeer het later opnieuw.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenHeader" xml:space="preserve">
+    <value>Leeg scherm na het laden van ROM</value>
+  </data>
+</root>

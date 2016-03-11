@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4C676659-48C3-4658-A278-45A991580EC2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GamesManager</RootNamespace>
+    <AssemblyName>GamesManager</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>t8.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\packages\HtmlAgilityPack.1.4.9\lib\Net20\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net35\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AndroidForm\AndroidAddGamesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AndroidForm\AndroidAddGamesForm.Designer.cs">
+      <DependentUpon>AndroidAddGamesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AndroidForm\AndroidGameInfoManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AndroidForm\AndroidGameInfoManage.Designer.cs">
+      <DependentUpon>AndroidGameInfoManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AndroidForm\AndroidMyGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AndroidForm\AndroidMyGameForm.Designer.cs">
+      <DependentUpon>AndroidMyGameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AndroidForm\TestIsGoodForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AndroidForm\TestIsGoodForm.Designer.cs">
+      <DependentUpon>TestIsGoodForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AndroidHandlers\BaiDuPlayerHandler.cs" />
+    <Compile Include="AndroidHandlers\BasePlayerHandler.cs" />
+    <Compile Include="AndroidHandlers\PlayerHandlerCreater.cs" />
+    <Compile Include="AndroidHandlers\SanLiuLingPlayerHandler.cs" />
+    <Compile Include="AndroidHandlers\TestIsGoodPlayerHandler.cs" />
+    <Compile Include="AndroidHandlers\XiaoMiPlayerHandler.cs" />
+    <Compile Include="AndroidLiuMangForm\BatchAddLiuMangApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AndroidLiuMangForm\BatchAddLiuMangApp.Designer.cs">
+      <DependentUpon>BatchAddLiuMangApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AndroidLiuMangForm\GetLiuLangAdsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AndroidLiuMangForm\GetLiuLangAdsForm.Designer.cs">
+      <DependentUpon>GetLiuLangAdsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AndroidLiuMangForm\LiuMangAdsManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AndroidLiuMangForm\LiuMangAdsManager.Designer.cs">
+      <DependentUpon>LiuMangAdsManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AndroidLiuMangForm\LiuMangGamesManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AndroidLiuMangForm\LiuMangGamesManager.Designer.cs">
+      <DependentUpon>LiuMangGamesManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AndroidModels\ReplaceFileContent.cs" />
+    <Compile Include="Model\AppInfoTempModel.cs" />
+    <Compile Include="Model\DevAccounts.cs" />
+    <Compile Include="Model\LiuMangAds.cs" />
+    <Compile Include="Utility\FileHelper.cs" />
+    <Compile Include="Utility\RandomHelper.cs" />
+    <Compile Include="WPForm\AddGamesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WPForm\AddGamesForm.Designer.cs">
+      <DependentUpon>AddGamesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WPForm\GameInfoManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WPForm\GameInfoManage.Designer.cs">
+      <DependentUpon>GameInfoManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalData.cs" />
+    <Compile Include="WPForm\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WPForm\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\AndroidPushGameInfoModel.cs" />
+    <Compile Include="Model\PusherUserModel.cs" />
+    <Compile Include="Model\PushGameInfoModel.cs" />
+    <Compile Include="WPForm\MyGameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WPForm\MyGameForm.Designer.cs">
+      <DependentUpon>MyGameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PusherUserManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PusherUserManager.Designer.cs">
+      <DependentUpon>PusherUserManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utility\CryptHelper.cs" />
+    <Compile Include="Utility\HtmlHelper.cs" />
+    <Compile Include="Utility\HttpDataHelper.cs" />
+    <Compile Include="Utility\INIHepler.cs" />
+    <Compile Include="Utility\JsonHelper.cs" />
+    <Compile Include="Utility\XmlHelper.cs" />
+    <Compile Include="Utility\ZipHelper.cs" />
+    <EmbeddedResource Include="AndroidForm\AndroidAddGamesForm.resx">
+      <DependentUpon>AndroidAddGamesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AndroidForm\AndroidGameInfoManage.resx">
+      <DependentUpon>AndroidGameInfoManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AndroidForm\AndroidMyGameForm.resx">
+      <DependentUpon>AndroidMyGameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AndroidForm\TestIsGoodForm.resx">
+      <DependentUpon>TestIsGoodForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AndroidLiuMangForm\BatchAddLiuMangApp.resx">
+      <DependentUpon>BatchAddLiuMangApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AndroidLiuMangForm\GetLiuLangAdsForm.resx">
+      <DependentUpon>GetLiuLangAdsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AndroidLiuMangForm\LiuMangAdsManager.resx">
+      <DependentUpon>LiuMangAdsManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AndroidLiuMangForm\LiuMangGamesManager.resx">
+      <DependentUpon>LiuMangGamesManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WPForm\AddGamesForm.resx">
+      <DependentUpon>AddGamesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WPForm\GameInfoManage.resx">
+      <DependentUpon>GameInfoManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WPForm\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WPForm\MyGameForm.resx">
+      <DependentUpon>MyGameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="PusherUserManager.resx">
+      <DependentUpon>PusherUserManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Config.ini" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="t8.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

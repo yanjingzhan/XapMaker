@@ -1,0 +1,1248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RenamePageTitle" xml:space="preserve">
+    <value>שנה שם</value>
+  </data>
+  <data name="CancelButtonText" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="RenameMenuItemText" xml:space="preserve">
+    <value>שנה שם</value>
+  </data>
+  <data name="LinkTypeText" xml:space="preserve">
+    <value>סוג קישור</value>
+  </data>
+  <data name="RestorePageTitle" xml:space="preserve">
+    <value>יבא שמירות משחקים</value>
+  </data>
+  <data name="VirtualControllerButtonStyle" xml:space="preserve">
+    <value>סגנון הכפתורים במכשיר הוירטואלי</value>
+  </data>
+  <data name="SecondGameText" xml:space="preserve">
+    <value>משחק שני (יכול להיות אותו הדבר כמו משחק ראשון)</value>
+  </data>
+  <data name="ProductNotAvailableText" xml:space="preserve">
+    <value>המוצר לא זמין כרגע.</value>
+  </data>
+  <data name="RenameEmptyString" xml:space="preserve">
+    <value>אתה חייב לתת ל-ROM שם.</value>
+  </data>
+  <data name="GuidesHeader" xml:space="preserve">
+    <value>מדריכים</value>
+  </data>
+  <data name="ButtonScaleSettings" xml:space="preserve">
+    <value>קנה מידת הכפתורים הוירטואלים</value>
+  </data>
+  <data name="CablePeerText" xml:space="preserve">
+    <value>כבל - BlueTooth</value>
+  </data>
+  <data name="AboutSnes9xLink" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ReviewText" xml:space="preserve">
+    <value>סקירה</value>
+  </data>
+  <data name="OverNetworkText" xml:space="preserve">
+    <value>על גבי BlueTooth או WiFi (לא זמין)</value>
+  </data>
+  <data name="AboutSnes9xLicenseText" xml:space="preserve">
+    <value>http://www.gnu.org/licenses/gpl.html</value>
+  </data>
+  <data name="UploadProgressText" xml:space="preserve">
+    <value>מייצא '{0}'</value>
+  </data>
+  <data name="WirelessLinkText" xml:space="preserve">
+    <value>מתאם אלחוטי (לא זמין)</value>
+  </data>
+  <data name="RenamePromptMessage" xml:space="preserve">
+    <value>שנה את השם המוצג של ה-ROM.</value>
+  </data>
+  <data name="PowerFrameSkipText" xml:space="preserve">
+    <value>דלג על פריימים (מהירות אמולטור זהה)</value>
+  </data>
+  <data name="EnableSoundSetting" xml:space="preserve">
+    <value>אפשר צלילים</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>he-IL</value>
+  </data>
+  <data name="BackupAutoSlotText" xml:space="preserve">
+    <value>גבה את מצב השמירה האוטומטי</value>
+  </data>
+  <data name="FrameSkipAutoSetting" xml:space="preserve">
+    <value>אוטומטי</value>
+  </data>
+  <data name="SkyDriveGeneralError" xml:space="preserve">
+    <value>בעת ניסיון הגישה ל-OneDrive התרחשה שגיאה: {0}</value>
+  </data>
+  <data name="DPadStandard" xml:space="preserve">
+    <value>4 כיוונים</value>
+  </data>
+  <data name="LinkTimeoutText" xml:space="preserve">
+    <value>זמן להפסקת ניסיון הקישור (באלפיות שניה)</value>
+  </data>
+  <data name="ContactHeader" xml:space="preserve">
+    <value>צור קשר</value>
+  </data>
+  <data name="ImportFromSkyDriveButtonText" xml:space="preserve">
+    <value>יבא</value>
+  </data>
+  <data name="Msg_ChatPrompt" xml:space="preserve">
+    <value>האם אתה רוצה להתחבר עם {0}?</value>
+  </data>
+  <data name="StartLinkTitle" xml:space="preserve">
+    <value>התחל חיבור</value>
+  </data>
+  <data name="MogaGDR3Note" xml:space="preserve">
+    <value>הערה: יתכן ושימוש בבקר ה-MOGA ידרוש קודם התקנה של עדכון מערכת GDR3.</value>
+  </data>
+  <data name="ManageSavestateMenuItem" xml:space="preserve">
+    <value>נהל מצבי שמירה</value>
+  </data>
+  <data name="PurchaseText" xml:space="preserve">
+    <value>קנה</value>
+  </data>
+  <data name="DeviceIDText" xml:space="preserve">
+    <value>מזהה מכשיר: {0}</value>
+  </data>
+  <data name="ImportWaitComplete" xml:space="preserve">
+    <value>אנא המתן שההורדה תסתיים.</value>
+  </data>
+  <data name="AutoBackupTypeText" xml:space="preserve">
+    <value>מצב גיבוי אוטומטי</value>
+  </data>
+  <data name="ImportSaveInstructionsText" xml:space="preserve">
+    <value>כדי לשחזר שמירות:
+1. ודא כי השמות של קבצי ה-ROM וקובץ השמירה תואמים בדיוק.
+2. הקש על "ייבוא" ובחר שמור קובץ.
+3. התחל לשחק.</value>
+  </data>
+  <data name="RenameLabel" xml:space="preserve">
+    <value>הקש שם תצוגה חדש:</value>
+  </data>
+  <data name="LightText" xml:space="preserve">
+    <value>מוארת</value>
+  </data>
+  <data name="AlreadyDownloadingText" xml:space="preserve">
+    <value>הפריט כבר נמצא בתהליך הורדה.</value>
+  </data>
+  <data name="ContextTitle" xml:space="preserve">
+    <value>אפשרויות</value>
+  </data>
+  <data name="ImportingProgressText" xml:space="preserve">
+    <value>מייבא '{0}'</value>
+  </data>
+  <data name="RenameOkButton" xml:space="preserve">
+    <value>שנה שם</value>
+  </data>
+  <data name="ResetROMButton" xml:space="preserve">
+    <value>אתחל</value>
+  </data>
+  <data name="BackupButton" xml:space="preserve">
+    <value>יצא</value>
+  </data>
+  <data name="ShowLastPlayedGameText" xml:space="preserve">
+    <value>הצג תמונה שנלקחה מהמשחק האחרון שהופעל </value>
+  </data>
+  <data name="SelectState8" xml:space="preserve">
+    <value>בחר מצב 8</value>
+  </data>
+  <data name="SelectState9" xml:space="preserve">
+    <value>בחר מצב 9</value>
+  </data>
+  <data name="SelectState2" xml:space="preserve">
+    <value>בחר מצב 2</value>
+  </data>
+  <data name="SelectState3" xml:space="preserve">
+    <value>בחר מצב 3</value>
+  </data>
+  <data name="SelectState0" xml:space="preserve">
+    <value>בחר מצב 0</value>
+  </data>
+  <data name="SelectState1" xml:space="preserve">
+    <value>בחר מצב 1</value>
+  </data>
+  <data name="SelectState6" xml:space="preserve">
+    <value>בחר מצב 6</value>
+  </data>
+  <data name="SelectState7" xml:space="preserve">
+    <value>בחר מצב 7</value>
+  </data>
+  <data name="SelectState4" xml:space="preserve">
+    <value>בחר מצב 4</value>
+  </data>
+  <data name="SelectState5" xml:space="preserve">
+    <value>בחר מצב 5</value>
+  </data>
+  <data name="TapDownloadSnes8xText" xml:space="preserve">
+    <value>הקש כאן כדי להוריד את Snes8x</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>עזרה</value>
+  </data>
+  <data name="NoMatchingNameText" xml:space="preserve">
+    <value>אנא וודא כי שם קובץ השמירה מתאים לשם קובץ ה-ROM</value>
+  </data>
+  <data name="CheatListUnknownGame" xml:space="preserve">
+    <value>לא ידוע</value>
+  </data>
+  <data name="Err_NoChatNameCaption" xml:space="preserve">
+    <value>לא הוגדר שם</value>
+  </data>
+  <data name="HelpHowToHeader" xml:space="preserve">
+    <value>כיצד...</value>
+  </data>
+  <data name="WarningTitle" xml:space="preserve">
+    <value>אזהרה!</value>
+  </data>
+  <data name="ReviewPromptTitle" xml:space="preserve">
+    <value>אוהב את האפליקציה הזו?</value>
+  </data>
+  <data name="ImageEditorTitle" xml:space="preserve">
+    <value>עורך התמונות</value>
+  </data>
+  <data name="Err_NoSendTitle" xml:space="preserve">
+    <value>לא מצליח לשלוח</value>
+  </data>
+  <data name="EnterNewCheatText" xml:space="preserve">
+    <value>הכנס קוד צ'יט חדש:</value>
+  </data>
+  <data name="GuideBlankScreenText" xml:space="preserve">
+    <value>מדריך: מה לעשות אם מתקבל מסך ריק</value>
+  </data>
+  <data name="NeverPlayedText" xml:space="preserve">
+    <value>אף פעם</value>
+  </data>
+  <data name="CheatMenuItemText" xml:space="preserve">
+    <value>קודי צ'יט</value>
+  </data>
+  <data name="OKText" xml:space="preserve">
+    <value>אישור</value>
+  </data>
+  <data name="LinkErrorText" xml:space="preserve">
+    <value>התרחשה שגיאה. אנא הפעל מחדש את האפליקציה ונסה שנית.</value>
+  </data>
+  <data name="SyncSoundSetting" xml:space="preserve">
+    <value>סנכרן קול (איכות טובה יותר)</value>
+  </data>
+  <data name="RotatingModeText" xml:space="preserve">
+    <value>מצב רוטציה</value>
+  </data>
+  <data name="HelpImportEmailHeader" xml:space="preserve">
+    <value>אלטרנטיבה שניה: ייבוא דרך אי-מייל</value>
+  </data>
+  <data name="LinkConnectedText" xml:space="preserve">
+    <value>מחובר. אתה יכול כעת לסגור חלון זה ולהמשיך לשחק.</value>
+  </data>
+  <data name="ManageSavestatesTitle" xml:space="preserve">
+    <value>מצבי שמירה</value>
+  </data>
+  <data name="RenameNameAlreadyExisting" xml:space="preserve">
+    <value>כבר קיים ROM בשם זה.</value>
+  </data>
+  <data name="ImageScaleSetting" xml:space="preserve">
+    <value>הגדל תמונה (במצב תצוגה לרוחב בלבד)</value>
+  </data>
+  <data name="DarkText" xml:space="preserve">
+    <value>אפלה</value>
+  </data>
+  <data name="PleaseWaitROMLoadingText" xml:space="preserve">
+    <value>אנא המתן עד שה-ROM יסיים להיטען</value>
+  </data>
+  <data name="RestartPromptTitle" xml:space="preserve">
+    <value>אנא הפעל את האפליקציה מחדש</value>
+  </data>
+  <data name="ImportCompleteText" xml:space="preserve">
+    <value>יבוא הקובץ '{0}' הושלם</value>
+  </data>
+  <data name="Err_BluetoothOff" xml:space="preserve">
+    <value>ה-BlueTooth מכובה כרגע. כדי לראות את הגדרת ה-BlueTooth הנוכחית, לחץ על 'אישור'.</value>
+  </data>
+  <data name="ManageSlotLabel" xml:space="preserve">
+    <value>אינדקס</value>
+  </data>
+  <data name="NeverShowAgainText" xml:space="preserve">
+    <value>אל תציג זאת שוב</value>
+  </data>
+  <data name="SettingsButtonText" xml:space="preserve">
+    <value>הגדרות</value>
+  </data>
+  <data name="SkyDriveInternetLost" xml:space="preserve">
+    <value>ההתחברות ל-OneDrive נכשלה. בדוק את חיבור האינטרנט שלך.</value>
+  </data>
+  <data name="BackupUploadProgressText" xml:space="preserve">
+    <value>מייצא '{0}' שמירות</value>
+  </data>
+  <data name="AutoIncSavestateSetting" xml:space="preserve">
+    <value>קדם אוטומטית את אינדקס מצב השמירה</value>
+  </data>
+  <data name="SelectAllText" xml:space="preserve">
+    <value>בחר בהכל</value>
+  </data>
+  <data name="InputSettingsPageTitle" xml:space="preserve">
+    <value>קלט</value>
+  </data>
+  <data name="GuideImportROMText" xml:space="preserve">
+    <value>מדריך: 4 דרכים לייבוא קבצי ROM</value>
+  </data>
+  <data name="PremiumText" xml:space="preserve">
+    <value>גרסת הפרימיום כוללת: 
+- תמיכה עבור בקר MOGA. 
+- התאמה אישית של צבע הרקע במשחקים.
+- אפשרות לבחור את תמונת הרקע שלך.
+
+ל-VBA8 ו-VGBC8 יש עכשיו רשימת תכונות זהות. תכונות צריך לרכוש רק על אחד מהם בלבד.
+
+*** קרא את זה בבקשה ***: ב-Snes8x, התמיכה בבקר MOGA היא בחינם. לפני שתרכוש תכונה זו, הורד את Snes8x ובדוק אם בקר ה-MOGA שלך עובד עם הטלפון שלך.</value>
+  </data>
+  <data name="HelpImportSkyDriveHeader" xml:space="preserve">
+    <value>אלטרנטיבה ראשונה: ייבוא דרך OneDrive</value>
+  </data>
+  <data name="SelectNoneText" xml:space="preserve">
+    <value>בחר כלום</value>
+  </data>
+  <data name="TapStartServerIPText" xml:space="preserve">
+    <value>הקש על "התחל שרת" בכדי לקבל את כתובת ה-IP שלו.</value>
+  </data>
+  <data name="BuyWaitForDownloadText" xml:space="preserve">
+    <value>אנא המתן עד שההורדה המתבצעת כרגע תסתיים.</value>
+  </data>
+  <data name="SameDeviceText" xml:space="preserve">
+    <value>אותו המכשיר</value>
+  </data>
+  <data name="CheatNoSelection" xml:space="preserve">
+    <value>אתה חייב לבחור קוד קודם כל.</value>
+  </data>
+  <data name="RestoreButton" xml:space="preserve">
+    <value>יבא</value>
+  </data>
+  <data name="OrientationSettingText" xml:space="preserve">
+    <value>כיוון תצוגה</value>
+  </data>
+  <data name="ConfirmButtonText" xml:space="preserve">
+    <value>אשר</value>
+  </data>
+  <data name="CheatNoCodeEntered" xml:space="preserve">
+    <value>אתה חייב להכניס קוד קודם כל.</value>
+  </data>
+  <data name="NotSignedInError" xml:space="preserve">
+    <value>אתה לא מחובר. התחבר כדי לייבא קבצי ROM מ-OneDrive.</value>
+  </data>
+  <data name="ErrorReadingSDCardText" xml:space="preserve">
+    <value>התרחשה שגיאה בעת ניסיון קריאה מכרטיס ה-SD</value>
+  </data>
+  <data name="AddCheatButtonText" xml:space="preserve">
+    <value>הוסף</value>
+  </data>
+  <data name="CopyRightText" xml:space="preserve">
+    <value>תוכנית זו היא תוכנה חופשית; אתה יכול להפיצה ו/או לשנות אותה תחת תנאי הרישיון הציבורי הכללי של GNU כפי שפורסם על ידי קרן התוכנה החופשית; או גרסה 3, או (לבחירתך) כל גירסה מתקדמת יותר.
+
+תוכנית זו מופצת בתקווה שתהיה שימושית, אבל ללא אחריות כלשהי; אפילו ללא אחריות משתמעת לגבי סחירות או התאמה למטרה מסוימת. קרא את הרישיון הציבורי הכללי של GNU לפרטים נוספים.
+
+אתה אמור לקבל עותק של הרישיון הציבורי הכללי של GNU ביחד עם תוכנה זו; אם לא, כתוב (חינם) ל:Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.</value>
+  </data>
+  <data name="ResetImageText" xml:space="preserve">
+    <value>אתחל תמונה</value>
+  </data>
+  <data name="ExportAsZipText" xml:space="preserve">
+    <value>יצא כקובץ ZIP</value>
+  </data>
+  <data name="SelectFileTitle" xml:space="preserve">
+    <value>בחר קבצים</value>
+  </data>
+  <data name="MoreLicenseButton" xml:space="preserve">
+    <value>מידע על הרישיון</value>
+  </data>
+  <data name="CheatCodesListPivotTitle" xml:space="preserve">
+    <value>רשימה</value>
+  </data>
+  <data name="ImportTitle" xml:space="preserve">
+    <value>נתונים</value>
+  </data>
+  <data name="HideConfirmationSetting" xml:space="preserve">
+    <value>בטל הודעת אישור על שמירת מצב שמירה</value>
+  </data>
+  <data name="LicenseCopyRightTitle" xml:space="preserve">
+    <value>זכויות יוצרים</value>
+  </data>
+  <data name="AspectRatioStretchSetting" xml:space="preserve">
+    <value>מתוח</value>
+  </data>
+  <data name="PowerFrameSkipText2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheatPageTitle" xml:space="preserve">
+    <value>צ'יטים</value>
+  </data>
+  <data name="HideConfirmationLoadSetting" xml:space="preserve">
+    <value>בטל הודעת אישור על טעינת מצב שמירה</value>
+  </data>
+  <data name="Err_NoChatName" xml:space="preserve">
+    <value>אנא הכנס את שמך כדי להצטרף.</value>
+  </data>
+  <data name="RenamePromptTitle" xml:space="preserve">
+    <value>שנה את שם ה-ROM.</value>
+  </data>
+  <data name="DeadzoneHeader" xml:space="preserve">
+    <value>"איזור מת" (מקשי כיוון אנלוגיים בלבד)</value>
+  </data>
+  <data name="AspectRatioOneSetting" xml:space="preserve">
+    <value>1:1</value>
+  </data>
+  <data name="DeleteConfirmTitle" xml:space="preserve">
+    <value>אשר מחיקה</value>
+  </data>
+  <data name="SkyDriveFileFormatHint" xml:space="preserve">
+    <value>קבצים נתמכים:</value>
+  </data>
+  <data name="SDCardHeader" xml:space="preserve">
+    <value>כרטיס SD</value>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>ביטול</value>
+  </data>
+  <data name="InvalidCodeText" xml:space="preserve">
+    <value>קוד שגוי.</value>
+  </data>
+  <data name="RenameCancelButton" xml:space="preserve">
+    <value>בטל</value>
+  </data>
+  <data name="FullscreenStretchOption" xml:space="preserve">
+    <value>מתח התצוגה במלואה</value>
+  </data>
+  <data name="ConfirmLoadText" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך לטעון את מצב השמירה האחרון שהיה בשימוש?</value>
+  </data>
+  <data name="AllButtonText" xml:space="preserve">
+    <value>הכל</value>
+  </data>
+  <data name="aboutText" xml:space="preserve">
+    <value>אודות</value>
+  </data>
+  <data name="BackupUploadUnsuccessful" xml:space="preserve">
+    <value>ההעלאה הושלמה אך עם שגיאות.</value>
+  </data>
+  <data name="HelpTIpsPerformanceText" xml:space="preserve">
+    <value>- פתח את הגדרות הווידאו והגדל את הערך של האפשרות "דלג על פריימים (מהירות אמולטור זהה)". אפשרות זאת מצמצמת את מספר הפריימים שהאמולטור צריך להציג ולכן משאירה יותר משאבים המנוצלים בכדי לשמור על מהירות האמולטור. המשחקים עשויים להיות מוצגים בצורה פחות חלקה בעת הגדלת ערך זה.
+- פתח את הגדרות הצליל, וכבה את סינכרון האודיו. זה עשוי לשפר את הביצועים, אך איכות הצלילים עלולה לרדת.
+- פתח את הגדרות הצליל וכבה את הצלילים לחלוטין.</value>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>אודות</value>
+  </data>
+  <data name="HelpImportSDCardText" xml:space="preserve">
+    <value>בחלון ה"נתונים" בדף הראשי, בחר ב"ייבא מכרטיס SD" והמשך לפי ההוראות שתופענה במסך.</value>
+  </data>
+  <data name="RomListTroubleshootNote" xml:space="preserve">
+    <value>הערה: אם קבצי ה-ROM שלך לא פועלים כראוי, קרא את סעיף ה-"תקלות ידועות" בדף העזרה.</value>
+  </data>
+  <data name="TileOpenError" xml:space="preserve">
+    <value>התרחשה שגיאה בעת פתיחת קובץ ה-ROM של אריח זה.</value>
+  </data>
+  <data name="LicenseTitle" xml:space="preserve">
+    <value>רישיון</value>
+  </data>
+  <data name="ConfirmSaveText" xml:space="preserve">
+    <value>האם אתה בטוח שברצונך לשמור? פעולה זו תידרוס את השמירה הקיימת באינדקס זה.</value>
+  </data>
+  <data name="AllHeader" xml:space="preserve">
+    <value>הכל</value>
+  </data>
+  <data name="VideoSettingsPageTitle" xml:space="preserve">
+    <value>וידאו</value>
+  </data>
+  <data name="AboutContact" xml:space="preserve">
+    <value>store.support@outlook.com</value>
+  </data>
+  <data name="HelpTipsSoundText" xml:space="preserve">
+    <value>- פתח את הגדרות הצליל, והפעל את סינכרון האודיו. זה עשוי להגדיל את איכות השמע, אך הביצועים עלולים להיפגע.
+- אם מהירות האמולטור נמוכה מדי, איכות הצליל עלולה לסבול גם. בצע את העצות לעיל עבור משחקים בהם האמולטור פועל באיטיות.</value>
+  </data>
+  <data name="PinToStartText" xml:space="preserve">
+    <value>הצמד למסך ההתחל</value>
+  </data>
+  <data name="AspectRatioSetting" xml:space="preserve">
+    <value>יחס גובה-רוחב</value>
+  </data>
+  <data name="AutoBackupModeHelp" xml:space="preserve">
+    <value>- מצב פשוט: השמירות מגובות "כפי שהן" וללא דחיסה; אידיאלי עבור סינכרון נתונים עם טאבלט/PC אך אינה מגינה מהחלפה בשוגג של הנתונים.
+- מצב רוטציה: השמירות מגובות בדחיסה, קבצי שמירה רבים נשמרים וזאת כדי למנוע שכתוב בשוגג של נתונים; אידיאלי עבור שמירה בטוחה של הנתונים.</value>
+  </data>
+  <data name="HostText" xml:space="preserve">
+    <value>שרת</value>
+  </data>
+  <data name="ManualSnapshotSetting" xml:space="preserve">
+    <value>צור תמונות לאריחים באופן ידני</value>
+  </data>
+  <data name="DownloadErrorText" xml:space="preserve">
+    <value>התרחשה שגיאה בעת הורדת הקובץ '{0}': {1}</value>
+  </data>
+  <data name="CheatInvalidFormat2" xml:space="preserve">
+    <value>תבנית קוד לא תקפה. קודים חייבים להיות בתבנית XXX-XXX-XXX, XXX-XXX או מספר הקסדצימאלי בן 8 ספרות בכל שורה.</value>
+  </data>
+  <data name="IPAddressText" xml:space="preserve">
+    <value>כתובת ה-IP של השרת</value>
+  </data>
+  <data name="MaximumTilesPinned" xml:space="preserve">
+    <value>ה-ROM שנבחר כבר הוצמד למסך ה'התחל', או שהגעת לכמות האריחים המקסימלית שניתן להציג במסך ה'התחל'.</value>
+  </data>
+  <data name="HelpImportWebHeader" xml:space="preserve">
+    <value>אלטרנטיבה שלישית: ייבוא באמצעות הדפדפן</value>
+  </data>
+  <data name="DPadAnalogueFixed" xml:space="preserve">
+    <value>מקשי כיוון אנלוגיים מקובעים</value>
+  </data>
+  <data name="MogaMappingTitle" xml:space="preserve">
+    <value>מיפוי MOGA</value>
+  </data>
+  <data name="NoneButtonText" xml:space="preserve">
+    <value>כלום</value>
+  </data>
+  <data name="FrameSkipSetting" xml:space="preserve">
+    <value>דילוג על פריימים (מגביר את מהירות האמולטור)</value>
+  </data>
+  <data name="BuyNowButtonText" xml:space="preserve">
+    <value>קנה עכשיו</value>
+  </data>
+  <data name="EnterCodeTitle" xml:space="preserve">
+    <value>הכנס קוד</value>
+  </data>
+  <data name="ControllerScaleSettings" xml:space="preserve">
+    <value>קנה מידת הג'ויסטיק</value>
+  </data>
+  <data name="HelpDownloadROMsHeader" xml:space="preserve">
+    <value>איך לייבא קבצי ROM</value>
+  </data>
+  <data name="TapMogaInstructionText" xml:space="preserve">
+    <value>הקש כאן בכדי לצפות בהסבר על בקר MOGA</value>
+  </data>
+  <data name="Msg_ChatPromptTitle" xml:space="preserve">
+    <value>הגיעה בקשה להתחברות</value>
+  </data>
+  <data name="FirstGameText" xml:space="preserve">
+    <value>משחק ראשון</value>
+  </data>
+  <data name="AspectRatio4to3Setting" xml:space="preserve">
+    <value>4:3</value>
+  </data>
+  <data name="AboutSnes9xLinkLabel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SettingsPageTitle" xml:space="preserve">
+    <value>הגדרות</value>
+  </data>
+  <data name="CheatRestoreValuesOption" xml:space="preserve">
+    <value>שחזר ערכים ישנים לאחר צ'יט (GBA)</value>
+  </data>
+  <data name="VideoMogaText" xml:space="preserve">
+    <value>וידאו: הוראות הפעלה לבקר MOGA</value>
+  </data>
+  <data name="SourceHeader" xml:space="preserve">
+    <value>מקור</value>
+  </data>
+  <data name="CheatInvalidFormat" xml:space="preserve">
+    <value>תבנית קוד לא תקפה. קודים חייבים להיות ערכים הקסדצימליים של 6, 8, 9, 12 או 16 ערכים בכל שורה.</value>
+  </data>
+  <data name="VControllerLargeSetting" xml:space="preserve">
+    <value>מצליב</value>
+  </data>
+  <data name="AvailableSaveFilesText" xml:space="preserve">
+    <value>קבצי שמירה זמינים</value>
+  </data>
+  <data name="CableSocketText" xml:space="preserve">
+    <value>Wifi TCP/IP</value>
+  </data>
+  <data name="ImportSDCardText" xml:space="preserve">
+    <value>ייבא מכרטיס SD</value>
+  </data>
+  <data name="BuyNowImportText" xml:space="preserve">
+    <value>ניתן לאכסן במכשיר רק 2 קבצי ROM בגרסת הניסיון. לחץ על 'אישור' בכדי לקנות את האפליקציה ובכך להסיר הגבלה זו.</value>
+  </data>
+  <data name="BackupWaitForUpload" xml:space="preserve">
+    <value>אנא המתן עד שההעלאה תושלם.</value>
+  </data>
+  <data name="RestoreLastStateSetting" xml:space="preserve">
+    <value>השתמש באינדקס התשיעי של שמירת המצב לשמירה וטעינה אוטומטיים</value>
+  </data>
+  <data name="Err_NoPeerConnected" xml:space="preserve">
+    <value>אינך מחובר לאף עמית.</value>
+  </data>
+  <data name="PurchaseSuccessText" xml:space="preserve">
+    <value>הקניה הושלמה בהצלחה.</value>
+  </data>
+  <data name="ShowThreeDotsSetting" xml:space="preserve">
+    <value>הראה רמז בתפריט ההקשר</value>
+  </data>
+  <data name="ManageAutoSlotLabel" xml:space="preserve">
+    <value>אוטומטי</value>
+  </data>
+  <data name="SelectStateAuto" xml:space="preserve">
+    <value>בחר מצב אוטומטי</value>
+  </data>
+  <data name="AutoSaveWarning" xml:space="preserve">
+    <value>סמן אפשרות זו רק במידה ואתה משתמש בשמירה מהירה. שמירות המשחקים שלך עלולות להימחק אם אתה מסתמך על אפשרות השמירה מבתוך המשחקים. האם אתה בטוח שאתה רוצה להמשיך?</value>
+  </data>
+  <data name="CloudSixInstructionText" xml:space="preserve">
+    <value>התקן אחת מהאפליקציות של CloudSix מאת Rudy Huyn בכדי להשתמש בתכונה זו.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenTextContact" xml:space="preserve">
+    <value>- אם שום דבר לא עוזר, צור קשר עם המפתח:</value>
+  </data>
+  <data name="RecentHeader" xml:space="preserve">
+    <value>לאחרונה</value>
+  </data>
+  <data name="OrientationLandscape" xml:space="preserve">
+    <value>תצוגה לרוחב נעולה</value>
+  </data>
+  <data name="CustomizeButtonMappingText" xml:space="preserve">
+    <value>התאמה אישית של מיפוי הכפתורים...</value>
+  </data>
+  <data name="SDCardMissingText" xml:space="preserve">
+    <value>לא נמצא כרטיס SD. הכנס כרטיס SD למכשיר ונסה שנית.</value>
+  </data>
+  <data name="EmailSubjectText" xml:space="preserve">
+    <value>VBA8/VGBC bug report or feature suggestion</value>
+  </data>
+  <data name="StartServerOtherText" xml:space="preserve">
+    <value>התחל שרת במכשיר השני בכדי לקבל את כתובת ה-IP של השרת.</value>
+  </data>
+  <data name="DownloadingProgressText" xml:space="preserve">
+    <value>מוריד את '{0}'</value>
+  </data>
+  <data name="ValidCodeText" xml:space="preserve">
+    <value>הקוד התקבל. אנא הפעל מחדש את האפליקציה בכדי שהקוד יכנס לתוקף.</value>
+  </data>
+  <data name="NumberRotatingFilesText" xml:space="preserve">
+    <value>מספר הגיבויים ברוטציה</value>
+  </data>
+  <data name="SkyDriveImportTitle" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="CheatsDescription" xml:space="preserve">
+    <value>ניתן להקיש קודים של GameShark ו-CodeBreaker למשחקי GBA, וקודים של GameShark ו-GameGenie למשחקים של GB/GBC.</value>
+  </data>
+  <data name="PreLinkTitle" xml:space="preserve">
+    <value>הגדר חיבור</value>
+  </data>
+  <data name="CloudSixOneFileLimitText" xml:space="preserve">
+    <value>CloudSix תומך ביצוא רק קובץ אחד בכל פעם, אלא אם נבחר "יצא כקובץ ZIP".</value>
+  </data>
+  <data name="GPLv3" xml:space="preserve">
+    <value>http://www.gnu.org/licenses/gpl-3.0.txt</value>
+  </data>
+  <data name="PremiumFeaturePromptText" xml:space="preserve">
+    <value>זו היא תכונה של גרסת הפרימיום של האפליקציה. האם תרצה לגשת לדף הקניה של האפליקציה?</value>
+  </data>
+  <data name="CreateBackupFolderError" xml:space="preserve">
+    <value>התרחשה שגיאה בעת יצירת תיקיית הגיבוי.</value>
+  </data>
+  <data name="RestartPromptText" xml:space="preserve">
+    <value>אנא הפעל את האפליקציה מחדש (לחץ על מקש 'אחורה' כמה פעמים) כדי להחיל את ההגדרה החדשה.</value>
+  </data>
+  <data name="BuyNowCancelButtonText" xml:space="preserve">
+    <value>המשך בגרסת הניסיון</value>
+  </data>
+  <data name="DPad8way" xml:space="preserve">
+    <value>8-כיוונים</value>
+  </data>
+  <data name="HelpButtonText" xml:space="preserve">
+    <value>עזרה</value>
+  </data>
+  <data name="InfoCaption" xml:space="preserve">
+    <value>מידע</value>
+  </data>
+  <data name="RefreshRate30" xml:space="preserve">
+    <value>30Hz</value>
+  </data>
+  <data name="RefreshRate60" xml:space="preserve">
+    <value>60Hz</value>
+  </data>
+  <data name="OrientationPortrait" xml:space="preserve">
+    <value>תצוגה לאורך נעולה</value>
+  </data>
+  <data name="CameraAssignLR" xml:space="preserve">
+    <value>כפתור ה-L וכפתור ה-R</value>
+  </data>
+  <data name="CloudSixHeader" xml:space="preserve">
+    <value>CLOUDSIX</value>
+  </data>
+  <data name="Err_BluetoothOffCaption" xml:space="preserve">
+    <value>BlueTooth כבוי</value>
+  </data>
+  <data name="RoleText" xml:space="preserve">
+    <value>תפקיד</value>
+  </data>
+  <data name="CameraAssignTurbo" xml:space="preserve">
+    <value>מצב 'טורבו'</value>
+  </data>
+  <data name="StatusNotSignedIn" xml:space="preserve">
+    <value>לא מחובר.</value>
+  </data>
+  <data name="UseMogaControllerText" xml:space="preserve">
+    <value>השתמש בבקר Moga</value>
+  </data>
+  <data name="SaveStateButton" xml:space="preserve">
+    <value>שמור מצב</value>
+  </data>
+  <data name="StatusLabelContent" xml:space="preserve">
+    <value>מצב:</value>
+  </data>
+  <data name="CreateSnapshotMenuItem" xml:space="preserve">
+    <value>צור תמונה בשביל האריחים</value>
+  </data>
+  <data name="OneDriveHeader" xml:space="preserve">
+    <value>ONEDRIVE</value>
+  </data>
+  <data name="VideoCheatText" xml:space="preserve">
+    <value>וידאו: הסבר על שימוש בצ'יטים</value>
+  </data>
+  <data name="AudioSettingsPageTitle" xml:space="preserve">
+    <value>צליל</value>
+  </data>
+  <data name="PurchaseSuccessNoAdsText" xml:space="preserve">
+    <value>הקניה הושלמה בהצלחה, מהפעם הבאה שתפעיל את האפליקציה יותר לא תוצגנה פרסומות.</value>
+  </data>
+  <data name="TurboFrameSkipText" xml:space="preserve">
+    <value>דילוג על פריימים במצב 'טורבו'</value>
+  </data>
+  <data name="CheatDefaultDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OKButtonText" xml:space="preserve">
+    <value>אישור</value>
+  </data>
+  <data name="OpacitySetting" xml:space="preserve">
+    <value>שקיפות הבקרים הוירטואלים</value>
+  </data>
+  <data name="AspectRatio5to4Setting" xml:space="preserve">
+    <value>5:4</value>
+  </data>
+  <data name="BackupUploadSuccessful" xml:space="preserve">
+    <value>ההעלאה הושלמה.</value>
+  </data>
+  <data name="VirtualControllerButtonColored" xml:space="preserve">
+    <value>צביעה</value>
+  </data>
+  <data name="GPLv3Title" xml:space="preserve">
+    <value>GPLv3</value>
+  </data>
+  <data name="CodeText" xml:space="preserve">
+    <value>קוד</value>
+  </data>
+  <data name="DPadAnalogueDynamic" xml:space="preserve">
+    <value>מקשי כיוון אנלוגיים דינמיים</value>
+  </data>
+  <data name="ChoosePortraitBackgroundColorText" xml:space="preserve">
+    <value>בחר בצבע הרקע בעת תצוגה לאורך...</value>
+  </data>
+  <data name="SimpleModeText" xml:space="preserve">
+    <value>מצב פשוט</value>
+  </data>
+  <data name="AutoBackupNote" xml:space="preserve">
+    <value>הערה: גיבוי אוטומטי מתרחש כאשר המשתמש חוזר אחורה לתפריט הראשי לאחר ששיחק במשחק.</value>
+  </data>
+  <data name="AutoBackupText" xml:space="preserve">
+    <value>גבה שמירות משחקים באופן אוטומטי</value>
+  </data>
+  <data name="BackupFailOnedriveText" xml:space="preserve">
+    <value>גיבוי אוטומטי נכשל - אנא התחבר ל-OneDrive.</value>
+  </data>
+  <data name="DescriptionText" xml:space="preserve">
+    <value>תיאור</value>
+  </data>
+  <data name="ExportNoSelection" xml:space="preserve">
+    <value>יש לבחור לפחות קובץ אחד.</value>
+  </data>
+  <data name="ImportSavestateInvalidFormat" xml:space="preserve">
+    <value>פורמט שם קובץ מצב השמירה אינו תקף. שם הקובץ חייב להסתיים במספר כלשהו מ-0 עד 9 (לדוגמא, demo0.sgm).</value>
+  </data>
+  <data name="StartServerText" xml:space="preserve">
+    <value>התחל שרת</value>
+  </data>
+  <data name="EnterCodeText" xml:space="preserve">
+    <value>הזן קוד קידום</value>
+  </data>
+  <data name="FindButtonCaption" xml:space="preserve">
+    <value>רענן רשימת עמיתים</value>
+  </data>
+  <data name="BackupOnlyWifiText" xml:space="preserve">
+    <value>גבה רק כאשר נבדק ונמצא חיבור WiFi זמין (הבדיקה עשויה להיות איטית)</value>
+  </data>
+  <data name="UseRealisticButtonsText" xml:space="preserve">
+    <value>השתמש בצבעים האמיתיים של הכפתורים</value>
+  </data>
+  <data name="DeleteSavesEntry" xml:space="preserve">
+    <value>מחיקת השמירה מבתוך המשחק</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>גרסה</value>
+  </data>
+  <data name="FileAssociationError" xml:space="preserve">
+    <value>התרחשה שגיאה בעת ייבוא ופתיחת קובץ ה-ROM.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenText" xml:space="preserve">
+    <value>- וודא כי ההורדה של קבצי ה-ROM הסתיימה לפני שאתה עוזב את מסך הייבוא מ-OneDrive (המתן להודעה המאשרת את סיום ההורדה). אם תעזוב את הדף לפני שההורדה תסתיים, קובץ ה-ROM יהיה פגום ולא יוכל להיטען כראוי. אם בכל זאת זה קרה, מחק את קבצי ה-ROM הפגומים שהורדת למכשיר (במסך רשימת קבצי ה-ROM באמולטור, לחץ לחיצה ממושכת על קובץ ה-ROM שברצונך למחוק כדי להציג את האפשרות למחוק אותו), ולאחר מכן הורד אותם שוב.  
+- אם הייבוא מ-OneDrive לא עובד או שקבצי ROM המיובאים מ-OneDrive לא עובדים באופן כללי, נסה את השיטות האחרות כדי לייבא קבצי ROM. ישנן 4 שיטות לייבוא הקבצים (באמצעת OneDrive, דואר אלקטרוני, דפדפן האינטרנט או כרטיס SD) המתוארים בסעיף ה-"כיצד..." של דף זה.
+- לא לשכוח למחוק את קבצי ה-ROM שלא עובדים לפני שתייבא אותם מחדש בשיטה אחרת.</value>
+  </data>
+  <data name="ErrorCaption" xml:space="preserve">
+    <value>שגיאה</value>
+  </data>
+  <data name="EmailLinkText" xml:space="preserve">
+    <value>אימייל: store.support@outlook.com</value>
+  </data>
+  <data name="ClientText" xml:space="preserve">
+    <value>לקוח</value>
+  </data>
+  <data name="DeleteCheatButtonText" xml:space="preserve">
+    <value>הסר</value>
+  </data>
+  <data name="Err_NoMessageToSend" xml:space="preserve">
+    <value>אנא הכנס הודעה לשליחה.</value>
+  </data>
+  <data name="ResumeButtonText" xml:space="preserve">
+    <value>המשך</value>
+  </data>
+  <data name="VControllerSmallSetting" xml:space="preserve">
+    <value>מפריד</value>
+  </data>
+  <data name="DPadStyleHeader" xml:space="preserve">
+    <value>סגנון מקשי הכיוון</value>
+  </data>
+  <data name="AddCheatsTitle" xml:space="preserve">
+    <value>הוסף צ'יט</value>
+  </data>
+  <data name="ImportButtonText" xml:space="preserve">
+    <value>יבא</value>
+  </data>
+  <data name="PurchasedThankYouText" xml:space="preserve">
+    <value>התבצעה קניה, תודה רבה!</value>
+  </data>
+  <data name="AboutSnes9x" xml:space="preserve">
+    <value>הרגש חופשי לדווח על שגיאות או על משחקים שלא פועלים כראוי.
+
+המוציא לאור אינו אחראי על כל שימוש שלא כחוק בתוכנה זו. בנוסף, התוכנה מגיעה ללא כל אחריות והמוציא לאור אינו אחראי על כל נזק שיגרם כתוצאה משימוש בתוכנה זו.
+
+תודות:
+- Eddi Bento על עיצוב הלוגו.
+- חברת MOGA על המתנה המפתיעה.
+- Sergy Ortiz על התרגום לספרדית.
+- André Queiroz על התרגום לפורטוגזית.
+- Arda Ozkal על התרגום לטורקית.
+- Alexandros Melissas על התרגום ליוונית.
+- Łukasz Deptuła על התרגום לפולנית.
+- Junfan Yao על התרגום לסינית מפושטת.
+- wphone08 על התרגום לצרפתית.
+- Jesper Svensson על התרגום לשוודית.
+- Alexander Kolosov על התרגום לרוסית.
+- Usama Jawad על התרגום לאורדו.
+- Mathias Haugsbø על התרגום לנורווגית.
+- שי לויתן על התרגום לעברית.
+- Łukasz Deptuła for Polish translation.
+- Junfan Yao for Simplifed Chinese translation.
+- wphone08 for French translation.
+- Jesper Svensson for Swedish translation.
+- Alexander Kolosov for Russian translation.
+- Usama Jawad for Urdu translation.
+- Mathias Haugsbø for Norwegian (Nynorsk) translation.
+- Leutrim Shabani for German translation.
+- Giordano Piacentini for Italian translation.
+- Sami Piispanen for Finnish translation.</value>
+  </data>
+  <data name="BackupInstructions" xml:space="preserve">
+    <value>בחר את המשחק ממנו ייצאו השמירות.</value>
+  </data>
+  <data name="SDCardImportTitle" xml:space="preserve">
+    <value>כרטיס SD</value>
+  </data>
+  <data name="BackupIngameSaveText" xml:space="preserve">
+    <value>גבה שמירות מבתוך המשחקים</value>
+  </data>
+  <data name="HelpImportWebText" xml:space="preserve">
+    <value>בדפדפן האינטרנט, פתח כל אתר המציע קבצי ROM להורדה והתחל את ההורדה של המשחק הרצוי. אם הקובץ שמורידים הוא מסוג ארכיון ZIP, הדפדפן יאפשר לך לנווט בתוך קובץ הארכיון לאחר שההורדה הושלמה. אתר את קובץ ה-GBA הכלול בארכיון, ובחר אותו כדי להפעיל את האמולטור. האמולטור ייבא אוטומטית את קובץ ה-ROM שהורדת באמצעות הדפדפן. אם הקובץ שהורדת הוא קובץ GBA, פשוט הקש עליו והאמולטור יעלה וייבא את ה-ROM.</value>
+  </data>
+  <data name="EditText" xml:space="preserve">
+    <value>ערוך</value>
+  </data>
+  <data name="VirtualControllerButtonGray" xml:space="preserve">
+    <value>אפור</value>
+  </data>
+  <data name="HelpTipsTurboText" xml:space="preserve">
+    <value>- לחץ על כפתור המצלמה כדי להפעיל או להפסיק מצב 'טורבו'.
+- לחץ והחזק חצי-לחיצה על לחצן המצלמה להפעלת מצב 'טורבו' זמני, הפועל כל עוד לחצן המצלמה חצי-לחוץ.</value>
+  </data>
+  <data name="ManageSaveTimeLabel" xml:space="preserve">
+    <value>נוצר:</value>
+  </data>
+  <data name="HelpImportSkyDriveText" xml:space="preserve">
+    <value>אחסן את  קבצי ה-ROM בתיקיית ה-OneDrive שלך. לאחר מכן נווט אל תפריט ה-OneDrive בדף הראשי של האמולטור (הסט המסך ימינה ממסך רשימת קבצי ה-ROM). אם אינך מחובר עדיין, לחץ קודם כל על "כניסה", והזן את שם המשתמש והסיסמה שלך, אם תתבקש לספק אותם. לאחר שנכנסת, לחץ על כפתור "יבא". הדף הבא שיעלה יאפשר לך לנווט ב-OneDrive כדי לאתר את התיקיה בה שמת את קבצי ה-ROM. בתיקיה המכילה את הקבצים, הקש על כל קובץ GBA או ZIP כדי להתחיל בהורדה שלו. המתן שההורדה תושלם לפני שאתה עוזב את הדף. הודעת אישור תוצג כאשר ההורדה תסתיים.
+הערה: במקרים מסוימים, קבצי ROM שהורדו מ-OneDrive יציגו מסך ריק כאשר מפעילים אותם. אם אתה נתקל בבעיה זו, השתמש באלטרנטיבה השניה או השלישית.</value>
+  </data>
+  <data name="HelpTipsTurboHeader" xml:space="preserve">
+    <value>הפעל מצב 'טורבו'</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>
+
+
+
+Device ID: {0}</value>
+  </data>
+  <data name="HostIPAddressText" xml:space="preserve">
+    <value>כתובת ה-IP של המארח: {0}. ממתין ללקוח...</value>
+  </data>
+  <data name="HelpTipsSoundHeader" xml:space="preserve">
+    <value>צליל "צרוד"</value>
+  </data>
+  <data name="DeleteMenuItemText" xml:space="preserve">
+    <value>מחק</value>
+  </data>
+  <data name="CableLinkText" xml:space="preserve">
+    <value>כבל Gameboy</value>
+  </data>
+  <data name="OrientationBoth" xml:space="preserve">
+    <value>תצוגה לאורך או לרוחב</value>
+  </data>
+  <data name="GuidePerformanceText" xml:space="preserve">
+    <value>מדריך: כיצד לשפר ביצועים</value>
+  </data>
+  <data name="LinkingNote" xml:space="preserve">
+    <value>הערה: כבה את "דילוג על פריימים" ומצב 'טורבו' בכדי למנוע שגיאות תקשורת.</value>
+  </data>
+  <data name="GPLButtonText" xml:space="preserve">
+    <value>עבור לרישיון הציבורי v3 של GNU</value>
+  </data>
+  <data name="ConnectText" xml:space="preserve">
+    <value>התחבר</value>
+  </data>
+  <data name="BackgroundOpacitySetting" xml:space="preserve">
+    <value>אטימות תמונת הרקע</value>
+  </data>
+  <data name="UseBackgroundImageSetting" xml:space="preserve">
+    <value>השתמש בתמונת רקע</value>
+  </data>
+  <data name="ChooseImageText" xml:space="preserve">
+    <value>בחר תמונה...</value>
+  </data>
+  <data name="ImportInstructionsText" xml:space="preserve">
+    <value>בכדי לייבא קובץ ROM מ-OneDrive:
+1. העלה את קבצי ה-ROM שלך אל OneDrive.
+2. לחץ על "Sign in" בכדי להכנס ל-OneDrive.
+3. לחץ על "יבא" ובחר את קובץ ה-ROM.</value>
+  </data>
+  <data name="HelpTipsHeader" xml:space="preserve">
+    <value>טיפים</value>
+  </data>
+  <data name="ApplicationTitle2" xml:space="preserve">
+    <value>VGBC8</value>
+  </data>
+  <data name="ThemeText" xml:space="preserve">
+    <value>ערכת נושא</value>
+  </data>
+  <data name="ManageRemoveState" xml:space="preserve">
+    <value>הסר</value>
+  </data>
+  <data name="BuyNowText" xml:space="preserve">
+    <value>תכונה זו זמינה רק בגרסה המלאה של האפליקציה. לחץ על 'אישור' אם ברצונך לקנות את האפליקציה ובכך לאפשר את השימוש בתכונה זו.</value>
+  </data>
+  <data name="DeleteConfirmText" xml:space="preserve">
+    <value>לא ניתן יהיה לבטל פעולה זו. להמשיך?</value>
+  </data>
+  <data name="AspectRatioOriginalSetting" xml:space="preserve">
+    <value>טבעי</value>
+  </data>
+  <data name="DownloadCompleteText" xml:space="preserve">
+    <value>הורדת הקובץ '{0}' הסתיימה</value>
+  </data>
+  <data name="Msg_FoundPeers" xml:space="preserve">
+    <value>עמיתים שנמצאו: {0}. הקש על 'רענן רשימת עמיתים' כדי לעדכן.</value>
+  </data>
+  <data name="BackupErrorUpload" xml:space="preserve">
+    <value>התרחשה שגיאה בעת העלאת קובץ: {0}. אם השגיאה מתרחשת שוב, נסה להתנתק מ-OneDrive ולהתחבר אליו בשנית.</value>
+  </data>
+  <data name="CheatCodesAddPivotTitle" xml:space="preserve">
+    <value>הוסף</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>RightToLeft</value>
+  </data>
+  <data name="SourceLink" xml:space="preserve">
+    <value>http://sourceforge.net/projects/vba8/</value>
+  </data>
+  <data name="SyncSoundSetting2" xml:space="preserve">
+    <value>(איכות טובה יותר, אך יתכן ותורגש איטיות)</value>
+  </data>
+  <data name="AboutSnes9xLicense" xml:space="preserve">
+    <value>GNU Public License:</value>
+  </data>
+  <data name="Err_NoConnectTitle" xml:space="preserve">
+    <value>לא מצליח להתחבר</value>
+  </data>
+  <data name="CameraAssignR" xml:space="preserve">
+    <value>כפתור R</value>
+  </data>
+  <data name="CameraAssignL" xml:space="preserve">
+    <value>כפתור L</value>
+  </data>
+  <data name="LastPlayedLabel" xml:space="preserve">
+    <value>האחרון שהופעל:</value>
+  </data>
+  <data name="SRAMDeletedSuccessfully" xml:space="preserve">
+    <value>קובץ השמירה הוסר בהצלחה.</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>VBA8</value>
+  </data>
+  <data name="Err_NoPeer" xml:space="preserve">
+    <value>עליך לבחור עמית מהרשימה.</value>
+  </data>
+  <data name="AboutContactLabel" xml:space="preserve">
+    <value>צור קשר:</value>
+  </data>
+  <data name="HelpImportSDCardHeader" xml:space="preserve">
+    <value>אלטרנטיבה רביעית: ייבוא מכרטיס SD</value>
+  </data>
+  <data name="ConfirmationCheckBoxText" xml:space="preserve">
+    <value>אל תראה זאת שוב</value>
+  </data>
+  <data name="RomListTitle" xml:space="preserve">
+    <value>קבצי ROM</value>
+  </data>
+  <data name="ROMAlreadyExistingError" xml:space="preserve">
+    <value>ROM זה כבר הורד בעבר: {0}</value>
+  </data>
+  <data name="RecentTitle" xml:space="preserve">
+    <value>הופעל לאחרונה</value>
+  </data>
+  <data name="SkyDriveError" xml:space="preserve">
+    <value>שגיאת OneDrive: {0}</value>
+  </data>
+  <data name="CheatListGameLabel" xml:space="preserve">
+    <value>צ'יטים ל:</value>
+  </data>
+  <data name="UnlockFeatureText" xml:space="preserve">
+    <value>פתח תכונה</value>
+  </data>
+  <data name="HelpIssuesHeader" xml:space="preserve">
+    <value>תקלות ידועות</value>
+  </data>
+  <data name="StartLinkText" xml:space="preserve">
+    <value>התחל חיבור</value>
+  </data>
+  <data name="GuidesTitle" xml:space="preserve">
+    <value>מדריכים</value>
+  </data>
+  <data name="Msg_NoPeers" xml:space="preserve">
+    <value>לא נמצאו עמיתים. הקש על 'רענן רשימת עמיתים' כדי לעדכן.</value>
+  </data>
+  <data name="ConnectButtonCaption" xml:space="preserve">
+    <value>התחבר למכשיר הנבחר</value>
+  </data>
+  <data name="BackupPageTitle" xml:space="preserve">
+    <value>יצא שמירות משחקים</value>
+  </data>
+  <data name="CloudSixImportTitle" xml:space="preserve">
+    <value>CloudSix</value>
+  </data>
+  <data name="LoadingProductListText" xml:space="preserve">
+    <value>טוען את רשימת המוצרים. אנא המתן...</value>
+  </data>
+  <data name="ReviewPromptText" xml:space="preserve">
+    <value>אנא ממך הקדש כמה שניות בכדי לדרג את האפליקציה. ביקורות טובות מבטיחות תוספת של תכונות חדשות לאפליקציה בעתיד.</value>
+  </data>
+  <data name="AutoBackupTitle" xml:space="preserve">
+    <value>גיבוי אוטומטי</value>
+  </data>
+  <data name="ManageDeleteUnknownError" xml:space="preserve">
+    <value>התרחשה שגיאה לא ידועה במהלך ניסיון ההסרה של מצב השמירה.</value>
+  </data>
+  <data name="SourceButtonText" xml:space="preserve">
+    <value>קוד המקור</value>
+  </data>
+  <data name="BackupLastManualSlotText" xml:space="preserve">
+    <value>גבה מצבי שמירה ידניים האחרונים שנעשה בהם שימוש</value>
+  </data>
+  <data name="CustomizePortraitControlText" xml:space="preserve">
+    <value>שנה מיקום הבקרים במצב תצוגה לאורך</value>
+  </data>
+  <data name="LoadStateButton" xml:space="preserve">
+    <value>טען מצב</value>
+  </data>
+  <data name="FAQsLinkText" xml:space="preserve">
+    <value>שאלות ותשובות, דיונים בפורום ואפליקציה למחשב</value>
+  </data>
+  <data name="ActiveSavestateText" xml:space="preserve">
+    <value> (פעיל)</value>
+  </data>
+  <data name="StatusSignedIn" xml:space="preserve">
+    <value>מחובר.</value>
+  </data>
+  <data name="PurchaseButtonText" xml:space="preserve">
+    <value>קנה</value>
+  </data>
+  <data name="LowFreqModeSetting" xml:space="preserve">
+    <value>קצב רענון מסך 30Hz </value>
+  </data>
+  <data name="CheatsDescription2" xml:space="preserve">
+    <value>הערה: בגלל תיקון תקלה שקרתה לא מזמן, את כל קודי הצ'יט הקיימים בעלי 16 תווים יש צורך לערוך מחדש ולהוסיף להם רווחים במקומות המתאים בכדי שיפעלו שוב כראוי.</value>
+  </data>
+  <data name="BackupAndRestoreInstructions" xml:space="preserve">
+    <value>יבא ויצא שמירות משחקים:</value>
+  </data>
+  <data name="RemoveStateNoSelection" xml:space="preserve">
+    <value>אתה חייב לבחור מצב שמירה קודם כל.</value>
+  </data>
+  <data name="SDCardReadOnlyText" xml:space="preserve">
+    <value>הערה: הגישה לכרטיס ה-SD היא לקריאה בלבד לאפליקציה, ועבודה עם קבצי ZIP שמורה למערכת ההפעלה בלבד, ולכן שנה את סיומת קבצי ה-ZIP שלך ל-ZIB.</value>
+  </data>
+  <data name="CustomizeLandscapeControlText" xml:space="preserve">
+    <value>שנה מיקום הבקרים במצב תצוגה לרוחב</value>
+  </data>
+  <data name="EmulatorMenuText" xml:space="preserve">
+    <value>הערה: תפקוד התפריט באמולטור יתווסף בעתיד.</value>
+  </data>
+  <data name="CameraButtonAssignment" xml:space="preserve">
+    <value>הקצה ללחצן המצלמה</value>
+  </data>
+  <data name="SetupAutoBackupText" xml:space="preserve">
+    <value>הגדר גיבוי אוטומטי...</value>
+  </data>
+  <data name="HelpTipsPerformanceHeader" xml:space="preserve">
+    <value>המשחקים פועלים לאט</value>
+  </data>
+  <data name="AutoLoadLastStateText" xml:space="preserve">
+    <value>שמור וטען שמירות משחקים באופן אוטומטי</value>
+  </data>
+  <data name="GeneralSettingsTitle" xml:space="preserve">
+    <value>כללי</value>
+  </data>
+  <data name="EnterHostIPText" xml:space="preserve">
+    <value>הכנס את כתובת ה-IP של המארח כאן</value>
+  </data>
+  <data name="HelpImportEmailText" xml:space="preserve">
+    <value>שלח אי-מייל לכתובת שאליה ניתן לגשת מהמכשיר שלך. אל המייל צרף קובץ ROM אחד (או יותר). הקובץ יכול להישאר עם סיומת .gba או לחלופין בתוך ארכיב מסוג zip. פתח את המייל שהתקבל עם הקבצים המצורפים: אם צירפת את קובץ ה-ROM בתוך ארכיב zip, לחיצה על קובץ הארכיב יאפשר לך לנווט בתוך הקובץ ולבחור ממנו את קובץ ה-gba המאורכב. בלחיצה על קובץ ה-gba, האמולטור יעלה וייבא אליו את הקובץ ויפעיל אותו. במידה ושלחת את הקובץ בצורה רגילה (לא בתוך קובץ zip), פשוט לחץ על הקובץ שצורף למייל כדי שהאמולטור ייבא אותו.</value>
+  </data>
+  <data name="ErrorNoConnectionText" xml:space="preserve">
+    <value>שגיאה! אין חיבור לאינטרנט או שישנה תקלה בשרת של Microsoft. אנא נסה שנית מאוחר יותר.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenHeader" xml:space="preserve">
+    <value>מתקבל מסך ריק בהפעלת ROM</value>
+  </data>
+</root>

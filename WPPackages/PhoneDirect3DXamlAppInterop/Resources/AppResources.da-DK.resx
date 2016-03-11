@@ -1,0 +1,1299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RenamePageTitle" xml:space="preserve">
+    <value>omdøb</value>
+  </data>
+  <data name="CancelButtonText" xml:space="preserve">
+    <value>annuller</value>
+  </data>
+  <data name="RenameMenuItemText" xml:space="preserve">
+    <value>omdøb</value>
+  </data>
+  <data name="LinkTypeText" xml:space="preserve">
+    <value>Link type</value>
+  </data>
+  <data name="RestorePageTitle" xml:space="preserve">
+    <value>importer gemte spil</value>
+  </data>
+  <data name="VirtualControllerButtonStyle" xml:space="preserve">
+    <value>Virtuel Controller Knap Stil</value>
+  </data>
+  <data name="SecondGameText" xml:space="preserve">
+    <value>andet spil (kan være det samme som første spil)</value>
+  </data>
+  <data name="ProductNotAvailableText" xml:space="preserve">
+    <value>Produktet er ikke tilgængeligt i øjeblikket.</value>
+  </data>
+  <data name="RenameEmptyString" xml:space="preserve">
+    <value>Du skal indtaste et navn til dette ROM</value>
+  </data>
+  <data name="GuidesHeader" xml:space="preserve">
+    <value>GUIDES</value>
+  </data>
+  <data name="ButtonScaleSettings" xml:space="preserve">
+    <value>Virtuel Knap Skala </value>
+  </data>
+  <data name="CablePeerText" xml:space="preserve">
+    <value>Kabel - Bluetooth</value>
+  </data>
+  <data name="AboutSnes9xLink" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ReviewText" xml:space="preserve">
+    <value>anmeldelse</value>
+  </data>
+  <data name="OverNetworkText" xml:space="preserve">
+    <value>Over bluetooth/wifi (ikke tilgængeligt)</value>
+  </data>
+  <data name="AboutSnes9xLicenseText" xml:space="preserve">
+    <value>http://www.gnu.org/licenses/gpl.html</value>
+  </data>
+  <data name="UploadProgressText" xml:space="preserve">
+    <value>Eksporterer '{0}'</value>
+  </data>
+  <data name="WirelessLinkText" xml:space="preserve">
+    <value>Trådløs adapter (ikke tilgængelig)</value>
+  </data>
+  <data name="RenamePromptMessage" xml:space="preserve">
+    <value>Ændre det viste navn på ROM:</value>
+  </data>
+  <data name="PowerFrameSkipText" xml:space="preserve">
+    <value>Skip Frames (samme emulations fart)</value>
+  </data>
+  <data name="EnableSoundSetting" xml:space="preserve">
+    <value>Aktiver Lyd</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>da-DK</value>
+  </data>
+  <data name="BackupAutoSlotText" xml:space="preserve">
+    <value>Back up auto gemte spil</value>
+  </data>
+  <data name="FrameSkipAutoSetting" xml:space="preserve">
+    <value>auto</value>
+  </data>
+  <data name="SkyDriveGeneralError" xml:space="preserve">
+    <value>Fejl ved at få adgang til OneDrive: {0}</value>
+  </data>
+  <data name="DPadStandard" xml:space="preserve">
+    <value>4-vejs</value>
+  </data>
+  <data name="LinkTimeoutText" xml:space="preserve">
+    <value>Link timeout (ms)</value>
+  </data>
+  <data name="ContactHeader" xml:space="preserve">
+    <value>KONTAKT</value>
+  </data>
+  <data name="ImportFromSkyDriveButtonText" xml:space="preserve">
+    <value>Importer</value>
+  </data>
+  <data name="Msg_ChatPrompt" xml:space="preserve">
+    <value>Vil du linke med {0}?</value>
+  </data>
+  <data name="StartLinkTitle" xml:space="preserve">
+    <value>start link</value>
+  </data>
+  <data name="MogaGDR3Note" xml:space="preserve">
+    <value>Note: MOGA controller kan kræve GDR3.</value>
+  </data>
+  <data name="ManageSavestateMenuItem" xml:space="preserve">
+    <value>styr gemme steder</value>
+  </data>
+  <data name="PurchaseText" xml:space="preserve">
+    <value>køb</value>
+  </data>
+  <data name="DeviceIDText" xml:space="preserve">
+    <value>Enhed ID: {0}</value>
+  </data>
+  <data name="ImportWaitComplete" xml:space="preserve">
+    <value>Vent venligst på at download bliver færdig.</value>
+  </data>
+  <data name="AutoBackupTypeText" xml:space="preserve">
+    <value>Auto backup tilstand</value>
+  </data>
+  <data name="ImportSaveInstructionsText" xml:space="preserve">
+    <value>For at få tidligere gemme filer til at virke:
+1. Vær sikker på at navnet på dit ROM of gemme filen er ens.
+2. Tryk "Importer" og vælg gemme filen.
+3. Start spillet.</value>
+  </data>
+  <data name="RenameLabel" xml:space="preserve">
+    <value>Indtast et nyt skærm navn:</value>
+  </data>
+  <data name="LightText" xml:space="preserve">
+    <value>Lys</value>
+  </data>
+  <data name="AlreadyDownloadingText" xml:space="preserve">
+    <value>Denne ting bliver allerede hentet.</value>
+  </data>
+  <data name="ContextTitle" xml:space="preserve">
+    <value>indstillinger</value>
+  </data>
+  <data name="ImportingProgressText" xml:space="preserve">
+    <value>Importerer '{0}'</value>
+  </data>
+  <data name="RenameOkButton" xml:space="preserve">
+    <value>Omdøb</value>
+  </data>
+  <data name="TileAlreadyPinnedText" xml:space="preserve">
+    <value>Dette tile er allerede pinnet.</value>
+  </data>
+  <data name="ResetROMButton" xml:space="preserve">
+    <value>nulstil</value>
+  </data>
+  <data name="BackupButton" xml:space="preserve">
+    <value>Eksporter</value>
+  </data>
+  <data name="ShowLastPlayedGameText" xml:space="preserve">
+    <value>Vis snapshot af det sidst spillede spil</value>
+  </data>
+  <data name="SelectState8" xml:space="preserve">
+    <value>Vælg Sted 8</value>
+  </data>
+  <data name="SelectState9" xml:space="preserve">
+    <value>Vælg Sted 9</value>
+  </data>
+  <data name="SelectState2" xml:space="preserve">
+    <value>Vælg Sted 2</value>
+  </data>
+  <data name="SelectState3" xml:space="preserve">
+    <value>Vælg Sted 3</value>
+  </data>
+  <data name="SelectState0" xml:space="preserve">
+    <value>Vælg Sted 0</value>
+  </data>
+  <data name="SelectState1" xml:space="preserve">
+    <value>Vælg Sted 1</value>
+  </data>
+  <data name="SelectState6" xml:space="preserve">
+    <value>Vælg Sted 6</value>
+  </data>
+  <data name="SelectState7" xml:space="preserve">
+    <value>Vælg Sted 7</value>
+  </data>
+  <data name="SelectState4" xml:space="preserve">
+    <value>Vælg Sted 4</value>
+  </data>
+  <data name="SelectState5" xml:space="preserve">
+    <value>Vælg Sted 5</value>
+  </data>
+  <data name="TapDownloadSnes8xText" xml:space="preserve">
+    <value>Tryk her for at downloade Snes8x</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>HJÆLP</value>
+  </data>
+  <data name="NoMatchingNameText" xml:space="preserve">
+    <value>Venligst vær sikker på at navnet på gem-filen er det samme som navnet på ROM filen</value>
+  </data>
+  <data name="CheatListUnknownGame" xml:space="preserve">
+    <value>ukendt</value>
+  </data>
+  <data name="Err_NoChatNameCaption" xml:space="preserve">
+    <value>Navnet er tomt</value>
+  </data>
+  <data name="HelpHowToHeader" xml:space="preserve">
+    <value>hvordan</value>
+  </data>
+  <data name="WarningTitle" xml:space="preserve">
+    <value>Advarsel!</value>
+  </data>
+  <data name="ReviewPromptTitle" xml:space="preserve">
+    <value>Kan du lide denne app?</value>
+  </data>
+  <data name="ImageEditorTitle" xml:space="preserve">
+    <value>billed redigering</value>
+  </data>
+  <data name="Err_NoSendTitle" xml:space="preserve">
+    <value>Kan ikke sende</value>
+  </data>
+  <data name="EnterNewCheatText" xml:space="preserve">
+    <value>Indtast ny snydekode:</value>
+  </data>
+  <data name="GuideBlankScreenText" xml:space="preserve">
+    <value>Guide: blank skærm</value>
+  </data>
+  <data name="NeverPlayedText" xml:space="preserve">
+    <value>aldrig</value>
+  </data>
+  <data name="CheatMenuItemText" xml:space="preserve">
+    <value>snydekoder</value>
+  </data>
+  <data name="OKText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="LinkErrorText" xml:space="preserve">
+    <value>En fejl skete. Venligst genstart appen, og prøv igen.</value>
+  </data>
+  <data name="SyncSoundSetting" xml:space="preserve">
+    <value>Synkroniser Lyd (bedre kvalitet)</value>
+  </data>
+  <data name="RotatingModeText" xml:space="preserve">
+    <value>Roterende tilstand</value>
+  </data>
+  <data name="PinSecondaryTileText" xml:space="preserve">
+    <value>Pin alternativ stil tile</value>
+  </data>
+  <data name="HelpImportEmailHeader" xml:space="preserve">
+    <value>Alternativ 2: importer fra E-Mails</value>
+  </data>
+  <data name="LinkConnectedText" xml:space="preserve">
+    <value>Tilsluttet. Du kan nu lukke dette vindue og fortsætte med at spille.</value>
+  </data>
+  <data name="ManageSavestatesTitle" xml:space="preserve">
+    <value>gemme steder</value>
+  </data>
+  <data name="RenameNameAlreadyExisting" xml:space="preserve">
+    <value>Et ROM med dette navn findes allerede.</value>
+  </data>
+  <data name="ImageScaleSetting" xml:space="preserve">
+    <value>Skaler Billede (landskab kun)</value>
+  </data>
+  <data name="DarkText" xml:space="preserve">
+    <value>Mørk</value>
+  </data>
+  <data name="PleaseWaitROMLoadingText" xml:space="preserve">
+    <value>Vent venligst indtil ROM bliver færdig med at indlæse</value>
+  </data>
+  <data name="RestartPromptTitle" xml:space="preserve">
+    <value>Venligst genstart</value>
+  </data>
+  <data name="ImportCompleteText" xml:space="preserve">
+    <value>Færdig med at importere filen'{0}'</value>
+  </data>
+  <data name="Err_BluetoothOff" xml:space="preserve">
+    <value>Bluetooth er slået fra. For at se nuværende Bluetooth indstillinger tryk 'ok'.</value>
+  </data>
+  <data name="ManageSlotLabel" xml:space="preserve">
+    <value>Slot </value>
+  </data>
+  <data name="NeverShowAgainText" xml:space="preserve">
+    <value>Vis ikke dette igen</value>
+  </data>
+  <data name="SettingsButtonText" xml:space="preserve">
+    <value>indstillinger</value>
+  </data>
+  <data name="SkyDriveInternetLost" xml:space="preserve">
+    <value>Kan ikke oprette forbindelse til OneDrive. Tjek din internet forbindelse.</value>
+  </data>
+  <data name="BackupUploadProgressText" xml:space="preserve">
+    <value>Eksporterer '{0}' gemte spil</value>
+  </data>
+  <data name="AutoIncSavestateSetting" xml:space="preserve">
+    <value>Automatisk tilvækst gemme sted</value>
+  </data>
+  <data name="SelectAllText" xml:space="preserve">
+    <value>vælg alle</value>
+  </data>
+  <data name="InputSettingsPageTitle" xml:space="preserve">
+    <value>input</value>
+  </data>
+  <data name="GuideImportROMText" xml:space="preserve">
+    <value>Guide: 4 måder at importere ROMS</value>
+  </data>
+  <data name="TapToReturnText" xml:space="preserve">
+    <value>Tryk her for at vende tilbage til snydekode listen.</value>
+  </data>
+  <data name="PremiumText" xml:space="preserve">
+    <value>Premium funktioner inkludere: 
+- support af MOGA controller. 
+- ændre in-game baggrunds farve.
+- vælg dit eget baggrund billede.
+
+VBA8 og VGBC8 har nu ens funktioner. Du bør kun købe funktioner i en app.
+
+***VENLIGST LÆS DETTE***: MOGA controller support er gratis i Snes8x, før du køber denne funktion, venligst download Snes8x og test om din controller virker med din telefon.</value>
+  </data>
+  <data name="HelpImportSkyDriveHeader" xml:space="preserve">
+    <value>Alternativ 1: importer fra OneDrive</value>
+  </data>
+  <data name="SelectNoneText" xml:space="preserve">
+    <value>vælg ingen</value>
+  </data>
+  <data name="TapStartServerIPText" xml:space="preserve">
+    <value>Tryk Start server for at få serverens IP addresse.</value>
+  </data>
+  <data name="BuyWaitForDownloadText" xml:space="preserve">
+    <value>Vent venligst på at de aktive downloads bliver færdige.</value>
+  </data>
+  <data name="SameDeviceText" xml:space="preserve">
+    <value>Samme enhed</value>
+  </data>
+  <data name="CheatNoSelection" xml:space="preserve">
+    <value>Du skal vælge en snydekode først.</value>
+  </data>
+  <data name="RestoreButton" xml:space="preserve">
+    <value>importer</value>
+  </data>
+  <data name="OrientationSettingText" xml:space="preserve">
+    <value>Orientering</value>
+  </data>
+  <data name="ConfirmButtonText" xml:space="preserve">
+    <value>Bekræft</value>
+  </data>
+  <data name="CheatNoCodeEntered" xml:space="preserve">
+    <value>Du skal indtaste en kode først.</value>
+  </data>
+  <data name="NotSignedInError" xml:space="preserve">
+    <value>Du er ikke logget ind. Log ind først for at importere ROMs fra OneDrive</value>
+  </data>
+  <data name="ErrorReadingSDCardText" xml:space="preserve">
+    <value>Fejl med at indlæse SD kort indhold</value>
+  </data>
+  <data name="AddCheatButtonText" xml:space="preserve">
+    <value>tilføj</value>
+  </data>
+  <data name="CopyRightText" xml:space="preserve">
+    <value>Dette program er gratis software; du kan redistributere det og/eller modificere det under vilkårene af GNU General Public License som publiceret af Free Software Foundation; enten version 3, eller(ved dit valg) en senere version.
+
+Dette program er distributeret i hået om at det er brugeligt, men UDEN NOGEN GARANTI; uden overhovedet stiltiende garanti af salgbarged eller EGNETHED TIL ET BESTEMT FORMÅL. Se GNU General Public License for flere detaljer.
+
+Du skulle have modtaget en kopi af GNU General Public License sammen med dette program; hvis ikke, skriv til Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.</value>
+  </data>
+  <data name="ResetImageText" xml:space="preserve">
+    <value>Nulstil billede</value>
+  </data>
+  <data name="ExportAsZipText" xml:space="preserve">
+    <value>Eksporter som zip</value>
+  </data>
+  <data name="SelectFileTitle" xml:space="preserve">
+    <value>vælg filer</value>
+  </data>
+  <data name="MoreLicenseButton" xml:space="preserve">
+    <value>Licens information</value>
+  </data>
+  <data name="CheatCodesListPivotTitle" xml:space="preserve">
+    <value>liste</value>
+  </data>
+  <data name="ImportTitle" xml:space="preserve">
+    <value>data</value>
+  </data>
+  <data name="HideConfirmationSetting" xml:space="preserve">
+    <value>Slå bekræftelse fra ved gemme sted</value>
+  </data>
+  <data name="LicenseCopyRightTitle" xml:space="preserve">
+    <value>copyright</value>
+  </data>
+  <data name="AspectRatioStretchSetting" xml:space="preserve">
+    <value>stræk</value>
+  </data>
+  <data name="PowerFrameSkipText2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CheatPageTitle" xml:space="preserve">
+    <value>SNYDEKODER</value>
+  </data>
+  <data name="HideConfirmationLoadSetting" xml:space="preserve">
+    <value>Slå bekræftelse fra ved load sted</value>
+  </data>
+  <data name="Err_NoChatName" xml:space="preserve">
+    <value>Venligst indtast et navn til at joine.</value>
+  </data>
+  <data name="RenamePromptTitle" xml:space="preserve">
+    <value>Omdøb ROM</value>
+  </data>
+  <data name="DeadzoneHeader" xml:space="preserve">
+    <value>Deadzone (analog stick kun)</value>
+  </data>
+  <data name="AspectRatioOneSetting" xml:space="preserve">
+    <value>1:1</value>
+  </data>
+  <data name="DeleteConfirmTitle" xml:space="preserve">
+    <value>Bekræft slettelse</value>
+  </data>
+  <data name="SkyDriveFileFormatHint" xml:space="preserve">
+    <value>Understøttede filer:</value>
+  </data>
+  <data name="SDCardHeader" xml:space="preserve">
+    <value>SD KORT</value>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>Annuller</value>
+  </data>
+  <data name="InvalidCodeText" xml:space="preserve">
+    <value>Ugyldig kode.</value>
+  </data>
+  <data name="RenameCancelButton" xml:space="preserve">
+    <value>Annuller</value>
+  </data>
+  <data name="FullscreenStretchOption" xml:space="preserve">
+    <value>Stræk til fuld skærm</value>
+  </data>
+  <data name="ConfirmLoadText" xml:space="preserve">
+    <value>Er du sikker på du vil indlæse det sidst gemte sted?</value>
+  </data>
+  <data name="AllButtonText" xml:space="preserve">
+    <value>Alle</value>
+  </data>
+  <data name="aboutText" xml:space="preserve">
+    <value>om</value>
+  </data>
+  <data name="BackupUploadUnsuccessful" xml:space="preserve">
+    <value>Upload færdigt uden fejl.</value>
+  </data>
+  <data name="HelpTIpsPerformanceText" xml:space="preserve">
+    <value>- Åben grafik indstillinger og forøg indstilligen "Spring frames over (samme emulerings fart)". Denne indstilling reducere de frames emulatoren skal vise, og efterlader flere resourcer til at holde farten oppe. Spillene kan virke mindre glidende når man forøger frames.
+- Åben lyd indstillinger og slå lyd synkronisering fra. De kan gøre ydeevnen bedre, men lydkvaliteten kan blive dårligere.
+- Åben lyd indstillinger og slå lyd helt fra.</value>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>om</value>
+  </data>
+  <data name="HelpImportSDCardText" xml:space="preserve">
+    <value>I data tabben på forsiden, klik på Importer fra SD kort og følg instruktionerne</value>
+  </data>
+  <data name="RomListTroubleshootNote" xml:space="preserve">
+    <value>Note: Hvis dine ROM ikke starter, se "problemer" sektionen på hjælp siden</value>
+  </data>
+  <data name="TileOpenError" xml:space="preserve">
+    <value>Fejl ved at åbne ROM associeret med tilet</value>
+  </data>
+  <data name="LicenseTitle" xml:space="preserve">
+    <value>LICENS</value>
+  </data>
+  <data name="ConfirmSaveText" xml:space="preserve">
+    <value>Er du sikker på du vil gemme? Dette vil overskrive the valgte gemme sted.</value>
+  </data>
+  <data name="AllHeader" xml:space="preserve">
+    <value>ALLE</value>
+  </data>
+  <data name="VideoSettingsPageTitle" xml:space="preserve">
+    <value>video</value>
+  </data>
+  <data name="AboutContact" xml:space="preserve">
+    <value>store.support@outlook.com</value>
+  </data>
+  <data name="HelpTipsSoundText" xml:space="preserve">
+    <value>- Åben lyd indstillinger og skift ved lyd synkronisering. Det kan forbedre lyd men spil ydeevnen kan blive dårligere.
+- Hvis emulerings farten er for lav, kan lydkvaliteten også blive dårligere. Følg tipsene over for tips om spil der køre langsomt.</value>
+  </data>
+  <data name="FailDownloadCheatDataText" xml:space="preserve">
+    <value>Kunne ikke få data fra supercheats.com.</value>
+  </data>
+  <data name="PinToStartText" xml:space="preserve">
+    <value>pin til start skærm</value>
+  </data>
+  <data name="AspectRatioSetting" xml:space="preserve">
+    <value>Format Forhold</value>
+  </data>
+  <data name="AutoBackupModeHelp" xml:space="preserve">
+    <value>Simpel tilstand: Gemme steder er understøttet som er uden sammenpresning; optimal til synkronisering af data med en tablet/pc, men beskytter ikke util sigtet overskrivning af data. 
+Roterende tilstand: Gemme steder er sammenpressede. adskillige filer bliver gemt til at forebygge utilsigtet overskrivning af data, optimalt til beskyttelse af data.</value>
+  </data>
+  <data name="SearchTitle" xml:space="preserve">
+    <value>søg</value>
+  </data>
+  <data name="HostText" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="ManualSnapshotSetting" xml:space="preserve">
+    <value>Lav tile billeder manuelt</value>
+  </data>
+  <data name="DownloadErrorText" xml:space="preserve">
+    <value>Fejl ved at downloade fil '{0}': {1}</value>
+  </data>
+  <data name="CheatInvalidFormat2" xml:space="preserve">
+    <value>Ugyldigt kode format. Koderne skal være i format XXX-XXX-XXX, XXX-XXX eller et 8 cifret hexadecimalt nummer per linje.</value>
+  </data>
+  <data name="IPAddressText" xml:space="preserve">
+    <value>Server IP adresse</value>
+  </data>
+  <data name="MaximumTilesPinned" xml:space="preserve">
+    <value>Det valgte ROM er allerede pinnet, eller har du nået det højeste tal tiles at pinne.</value>
+  </data>
+  <data name="HelpImportWebHeader" xml:space="preserve">
+    <value>Alternativ 3: importer fra en Web Browser</value>
+  </data>
+  <data name="DPadAnalogueFixed" xml:space="preserve">
+    <value>fikset analog stick</value>
+  </data>
+  <data name="MogaMappingTitle" xml:space="preserve">
+    <value>moga kortlægning</value>
+  </data>
+  <data name="NoneButtonText" xml:space="preserve">
+    <value>Ingen</value>
+  </data>
+  <data name="FrameSkipSetting" xml:space="preserve">
+    <value>Skip Frames (gør emulations farten hurtigere)</value>
+  </data>
+  <data name="BuyNowButtonText" xml:space="preserve">
+    <value>Køb nu</value>
+  </data>
+  <data name="UseAccentBackgroundText" xml:space="preserve">
+    <value>Brug system farve til tile</value>
+  </data>
+  <data name="EnterCodeTitle" xml:space="preserve">
+    <value>Indtast kode</value>
+  </data>
+  <data name="ControllerScaleSettings" xml:space="preserve">
+    <value>Virtuel Joystick Skala</value>
+  </data>
+  <data name="HelpDownloadROMsHeader" xml:space="preserve">
+    <value>Hvordan man importerer ROMs</value>
+  </data>
+  <data name="TapMogaInstructionText" xml:space="preserve">
+    <value>Tryk her for MOGA controller instruktioner</value>
+  </data>
+  <data name="Msg_ChatPromptTitle" xml:space="preserve">
+    <value>Modtaget link anmodning</value>
+  </data>
+  <data name="FirstGameText" xml:space="preserve">
+    <value>første spil</value>
+  </data>
+  <data name="AspectRatio4to3Setting" xml:space="preserve">
+    <value>4:3</value>
+  </data>
+  <data name="AboutSnes9xLinkLabel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SettingsPageTitle" xml:space="preserve">
+    <value>INDSTILLINGER</value>
+  </data>
+  <data name="CheatRestoreValuesOption" xml:space="preserve">
+    <value>Genopret gamle værdier efter koder (GBA)</value>
+  </data>
+  <data name="VideoMogaText" xml:space="preserve">
+    <value>Video: MOGA controller instruktioner</value>
+  </data>
+  <data name="SourceHeader" xml:space="preserve">
+    <value>kilde</value>
+  </data>
+  <data name="CheatInvalidFormat" xml:space="preserve">
+    <value>Ugyldig kode formart. Koden skal være 6, 8, 9, 12 eller 16 hexadecimale værdier per linje.</value>
+  </data>
+  <data name="VControllerLargeSetting" xml:space="preserve">
+    <value>krydsende</value>
+  </data>
+  <data name="AvailableSaveFilesText" xml:space="preserve">
+    <value>Tilgængelige gemme filer</value>
+  </data>
+  <data name="CableSocketText" xml:space="preserve">
+    <value>Wifi TCP/IP</value>
+  </data>
+  <data name="ImportSDCardText" xml:space="preserve">
+    <value>Importer fra SD kort</value>
+  </data>
+  <data name="BuyNowImportText" xml:space="preserve">
+    <value>I prøve versionen kan du kun have 2 ROMs på din telefon. Tryk Ok hvis du vil købe appen og fjerne grænsen.</value>
+  </data>
+  <data name="BackupWaitForUpload" xml:space="preserve">
+    <value>Vent venligst på at uploadingen er færdig.</value>
+  </data>
+  <data name="RestoreLastStateSetting" xml:space="preserve">
+    <value>Brug 9ende gemme sted til auto gem/load</value>
+  </data>
+  <data name="Err_NoPeerConnected" xml:space="preserve">
+    <value>Du er ikke forbundet til en peer.</value>
+  </data>
+  <data name="PurchaseSuccessText" xml:space="preserve">
+    <value>Købet er gennemført.</value>
+  </data>
+  <data name="ShowThreeDotsSetting" xml:space="preserve">
+    <value>Vis sammenhængs menu tip</value>
+  </data>
+  <data name="ManageAutoSlotLabel" xml:space="preserve">
+    <value>Automatisk</value>
+  </data>
+  <data name="SelectStateAuto" xml:space="preserve">
+    <value>Vælg Auto Sted</value>
+  </data>
+  <data name="AutoSaveWarning" xml:space="preserve">
+    <value>ADVARSEL: kun check denne box hvis du vil bruge hurtig gem funktion. Dine gemte spil kan blive slettet hvis du bruger in-game gemme funktion. Vil du fortsætte?</value>
+  </data>
+  <data name="CloudSixInstructionText" xml:space="preserve">
+    <value>Installer en af Rudy Huyn's CloudSix apps for at bruge denne funktion.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenTextContact" xml:space="preserve">
+    <value>- Hvis intet hjælper, kontakt udvikleren:</value>
+  </data>
+  <data name="RecentHeader" xml:space="preserve">
+    <value>SENESTE</value>
+  </data>
+  <data name="OrientationLandscape" xml:space="preserve">
+    <value>landskab låst</value>
+  </data>
+  <data name="CustomizeButtonMappingText" xml:space="preserve">
+    <value>Ændre knap kortlægning...</value>
+  </data>
+  <data name="SDCardMissingText" xml:space="preserve">
+    <value>Der er intet SD kort. Indsæt et SD kort og prøv igen.</value>
+  </data>
+  <data name="EmailSubjectText" xml:space="preserve">
+    <value>VBA8/VGBC fejl rapport eller funktions idé.</value>
+  </data>
+  <data name="StartServerOtherText" xml:space="preserve">
+    <value>Start serveren på den anden enhed for at få serverens IP adresse.</value>
+  </data>
+  <data name="DownloadingProgressText" xml:space="preserve">
+    <value>Downloader '{0}'</value>
+  </data>
+  <data name="ValidCodeText" xml:space="preserve">
+    <value>Kode accepteret. Venligst genstart appen før at koden tager effekt.</value>
+  </data>
+  <data name="NumberRotatingFilesText" xml:space="preserve">
+    <value>Nummer af roterende backups</value>
+  </data>
+  <data name="SkyDriveImportTitle" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="CheatsDescription" xml:space="preserve">
+    <value>Du kan indtaste Gameshark og CodeBreaker koder til GBA spil, og GameShark og GameGenia koder til GB/GBC spil.</value>
+  </data>
+  <data name="PreLinkTitle" xml:space="preserve">
+    <value>set link op</value>
+  </data>
+  <data name="CloudSixOneFileLimitText" xml:space="preserve">
+    <value>CloudSix understøtter kun eksportering af en fil af gange, med mindre du vælger "Eksporter som zip".</value>
+  </data>
+  <data name="GPLv3" xml:space="preserve">
+    <value>http://www.gnu.org/licenses/gpl-3.0.txt</value>
+  </data>
+  <data name="GameboyText" xml:space="preserve">
+    <value>Gameboy</value>
+  </data>
+  <data name="PremiumFeaturePromptText" xml:space="preserve">
+    <value>Dette er en premium funktion. Vil du gå til købe siden?</value>
+  </data>
+  <data name="CreateBackupFolderError" xml:space="preserve">
+    <value>Fejl ved at oprette backup mappe.</value>
+  </data>
+  <data name="RestartPromptText" xml:space="preserve">
+    <value>Venligst genstart appen (tryk tilbage flere gange) for at den nye indstilling tager effekt.</value>
+  </data>
+  <data name="BuyNowCancelButtonText" xml:space="preserve">
+    <value>Fortsæt prøveperiode</value>
+  </data>
+  <data name="DPad8way" xml:space="preserve">
+    <value>8-vejs</value>
+  </data>
+  <data name="HelpButtonText" xml:space="preserve">
+    <value>hjælp</value>
+  </data>
+  <data name="InfoCaption" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="VibrationDurationErrorText" xml:space="preserve">
+    <value>Vibrations tid skal være mellem 0 og 5 sekunder</value>
+  </data>
+  <data name="SearchForCheatsText" xml:space="preserve">
+    <value>Søg efter snydekoder</value>
+  </data>
+  <data name="RefreshRate30" xml:space="preserve">
+    <value>30Hz</value>
+  </data>
+  <data name="RefreshRate60" xml:space="preserve">
+    <value>60Hz</value>
+  </data>
+  <data name="OrientationPortrait" xml:space="preserve">
+    <value>portræt låst</value>
+  </data>
+  <data name="CameraAssignLR" xml:space="preserve">
+    <value>L-Knap og R-Knap</value>
+  </data>
+  <data name="CloudSixHeader" xml:space="preserve">
+    <value>CLOUDSIX</value>
+  </data>
+  <data name="Err_BluetoothOffCaption" xml:space="preserve">
+    <value>Bluetooth fra</value>
+  </data>
+  <data name="RoleText" xml:space="preserve">
+    <value>Rolle</value>
+  </data>
+  <data name="CameraAssignTurbo" xml:space="preserve">
+    <value>Turbo Tilstand</value>
+  </data>
+  <data name="StatusNotSignedIn" xml:space="preserve">
+    <value>ikke logget ind.</value>
+  </data>
+  <data name="UseMogaControllerText" xml:space="preserve">
+    <value>Brug Moga controller</value>
+  </data>
+  <data name="SaveStateButton" xml:space="preserve">
+    <value>gem sted</value>
+  </data>
+  <data name="StatusLabelContent" xml:space="preserve">
+    <value>Status: </value>
+  </data>
+  <data name="CreateSnapshotMenuItem" xml:space="preserve">
+    <value>lav snapshot til tiles</value>
+  </data>
+  <data name="OneDriveHeader" xml:space="preserve">
+    <value>ONEDRIVE</value>
+  </data>
+  <data name="VideoCheatText" xml:space="preserve">
+    <value>Video: snydekode tutorial</value>
+  </data>
+  <data name="AudioSettingsPageTitle" xml:space="preserve">
+    <value>lyd</value>
+  </data>
+  <data name="PurchaseSuccessNoAdsText" xml:space="preserve">
+    <value>Købet er gennemført, reklamer vil ikke blive vist næste gang du starter appen.</value>
+  </data>
+  <data name="TurboFrameSkipText" xml:space="preserve">
+    <value>Turbo Tilstand Frame Skip</value>
+  </data>
+  <data name="CheatDefaultDescription" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OKButtonText" xml:space="preserve">
+    <value>ok</value>
+  </data>
+  <data name="FullPressButtonStickText" xml:space="preserve">
+    <value>Camera fuldt tryk gør at A/B/L/R bliver</value>
+  </data>
+  <data name="CheatWrongVersionTitle" xml:space="preserve">
+    <value>Ukompatibel snydekode!</value>
+  </data>
+  <data name="OpacitySetting" xml:space="preserve">
+    <value>Virtuel Controller Opacitet</value>
+  </data>
+  <data name="AspectRatio5to4Setting" xml:space="preserve">
+    <value>5:4</value>
+  </data>
+  <data name="UnpinTilePromptText" xml:space="preserve">
+    <value>Venligst unpin/repin tilet for at ændringen tager effekt.</value>
+  </data>
+  <data name="EnableAutoFireText" xml:space="preserve">
+    <value>Kamera knap aktivere A/B/L/R</value>
+  </data>
+  <data name="SimpleText" xml:space="preserve">
+    <value>Simpel</value>
+  </data>
+  <data name="BackupUploadSuccessful" xml:space="preserve">
+    <value>Upload færdigt.</value>
+  </data>
+  <data name="VirtualControllerButtonColored" xml:space="preserve">
+    <value>farvet</value>
+  </data>
+  <data name="GPLv3Title" xml:space="preserve">
+    <value>GPLv3</value>
+  </data>
+  <data name="CodeText" xml:space="preserve">
+    <value>Kode</value>
+  </data>
+  <data name="DPadAnalogueDynamic" xml:space="preserve">
+    <value>dynamisk analog stick</value>
+  </data>
+  <data name="ChoosePortraitBackgroundColorText" xml:space="preserve">
+    <value>Vælg portræt baggrunds farve...</value>
+  </data>
+  <data name="SimpleModeText" xml:space="preserve">
+    <value>Simpel tilstand</value>
+  </data>
+  <data name="AutoBackupNote" xml:space="preserve">
+    <value>Note: Auto backup er aktiveret når en bruger vender tilbage til startsiden efter at have spillet et spil.</value>
+  </data>
+  <data name="AutoBackupText" xml:space="preserve">
+    <value>Automtisk back up gemme filer</value>
+  </data>
+  <data name="RestorePurchaseNotice" xml:space="preserve">
+    <value>OPMÆRKSOMHED - WP8.1 BRUGERE: Hvis dine købte funktioner er blevet deaktiveret, bare tryk Køb og indtast din kode hvis det er nødvendigt. Du vil derefter vil kunne bruge dine funktioner, uden at skulle betale igen.</value>
+  </data>
+  <data name="BackupFailOnedriveText" xml:space="preserve">
+    <value>Auto backup fejl, venligst log ind med OneDrive.</value>
+  </data>
+  <data name="DescriptionText" xml:space="preserve">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="VibrationDurationText" xml:space="preserve">
+    <value>Vibrations tid (sekunder)</value>
+  </data>
+  <data name="ExportNoSelection" xml:space="preserve">
+    <value>Du skal vælge mindst en fil.</value>
+  </data>
+  <data name="ImportSavestateInvalidFormat" xml:space="preserve">
+    <value>Gemmested fil format er ugyldig. Fil navnet skal ende med et nummer fra 0 til 9 (f.x. demo0.sgm).</value>
+  </data>
+  <data name="StartServerText" xml:space="preserve">
+    <value>Start serveren</value>
+  </data>
+  <data name="EnterCodeText" xml:space="preserve">
+    <value>Indtast forfremmelses kode</value>
+  </data>
+  <data name="FindButtonCaption" xml:space="preserve">
+    <value>Genindlæs peers</value>
+  </data>
+  <data name="BackupOnlyWifiText" xml:space="preserve">
+    <value>Kun backup når der er Wifi tilgængeligt (at checke for dette kan være langsomt)</value>
+  </data>
+  <data name="UseRealisticButtonsText" xml:space="preserve">
+    <value>Brug realistiske farve knapper</value>
+  </data>
+  <data name="DeleteSavesEntry" xml:space="preserve">
+    <value>slet in-game gemt spil</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="FileAssociationError" xml:space="preserve">
+    <value>Fejl ved at importere og åbne ROM filen.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenText" xml:space="preserve">
+    <value>- Sørg for at være sikker på at dine downloads er færdige før du forlader importerings siden (vent på bekræftelses besked). Hvis du forlader for tidligt, kan dit ROM blive ødelagt, og kan ikke loade ordenligt. Hvis det sker, slet dem(tryk og hold i ROM listen) og download igen.
+- Hvis OneDrive ikke virker eller importerede ROMs fra OneDrive ikke virker generalt, prøv andre meteoder at importerre ROMs. Der er 3 måder at importere ROMs (OneDrive, E-Mail, Internet Browser) beskrevet i "hvordan" sektionen på denne side.
+- Glem ikke at slette de ROMs som der ikke virker, før du re-importere den ved hjælp af en anden meteode.</value>
+  </data>
+  <data name="ErrorCaption" xml:space="preserve">
+    <value>Fejl</value>
+  </data>
+  <data name="EmailLinkText" xml:space="preserve">
+    <value>Email: store.support@outlook.com</value>
+  </data>
+  <data name="ClientText" xml:space="preserve">
+    <value>Klient</value>
+  </data>
+  <data name="DeleteCheatButtonText" xml:space="preserve">
+    <value>fjern</value>
+  </data>
+  <data name="Err_NoMessageToSend" xml:space="preserve">
+    <value>Venligst indtast en besked til at sende.</value>
+  </data>
+  <data name="ResumeButtonText" xml:space="preserve">
+    <value>vend tilbage</value>
+  </data>
+  <data name="CheatWrongVersionText" xml:space="preserve">
+    <value>Snyde kode {0} er til rom {1} mens det nuværende rom er {2}. Det vil ikke virke og kan forsage problemer. Dette sker for det meste hvis du bruger en EU snyde kode med et US rom eller vice versa.</value>
+  </data>
+  <data name="VControllerSmallSetting" xml:space="preserve">
+    <value>dissektion</value>
+  </data>
+  <data name="DPadStyleHeader" xml:space="preserve">
+    <value>D-Pad Stil</value>
+  </data>
+  <data name="AddCheatsTitle" xml:space="preserve">
+    <value>Tilføj Snydekode</value>
+  </data>
+  <data name="ImportButtonText" xml:space="preserve">
+    <value>importer</value>
+  </data>
+  <data name="PurchasedThankYouText" xml:space="preserve">
+    <value>Købt, tak!</value>
+  </data>
+  <data name="AboutSnes9x" xml:space="preserve">
+    <value>Føl dig fri til at reportere fejl eller ødelagte spil.
+
+Forfatteren er ikke ansvarlig for nogen form for ulovlig brug af denne software. Endvidere er der ikke nogen garanti for denne software og forfatteren er ikke ansvarlig for nogle skader
+
+Kreditter:
+- Eddi Bento for logo design.
+- MOGA for den overraskende gave.
+- Oversættelse: Sergy Ortiz Puerto (Spanish), André Queiroz (Portuguese), Arda Ozkal (Turkish), Alexandros Melissas (Greek), Łukasz Deptuła (Polish), Junfan Yao (Simplifed Chinese), wphone08 (French), Jesper Svensson (Swedish), Alexander Kolosov (Russian), Usama Jawad (Urdu), Mathias Haugsbø (Norwegian Nynorsk), Leutrim Shabani (German), Giordano Piacentini (Italian),  Sami Piispanen (Finnish), Shay Livyatan (Hebrew), Adam Yowanda (Indonesian), Krit Visitstump (Thai), Sebastian van den Oever, Sjouke Yntema (Dutch), DÄvis KalniÅ†Å¡ (Latvian), 재훈 정 (Korean), Simon Kudsk (Danish).</value>
+  </data>
+  <data name="BackupInstructions" xml:space="preserve">
+    <value>Vælg spillet at eksporter gemte spil.</value>
+  </data>
+  <data name="SDCardImportTitle" xml:space="preserve">
+    <value>SD Kort</value>
+  </data>
+  <data name="BackupIngameSaveText" xml:space="preserve">
+    <value>Back up ingame gemte spil</value>
+  </data>
+  <data name="HelpImportWebText" xml:space="preserve">
+    <value>I din web browser, åben hvilken som helst side som du kan downloade ROMs fra. Download det valgte spil. Hvis it download var en *.zip fil, vil browseren tillade dig at navigere igennem *.zip arkivet. Find *.gba filen i arkivet, og tryk på den for at starte emulatoren. Emulatoren vil automatisk importere ROM filen. Hvis filen bare var en *.gba fil, bare tryk på den for at starte emulatoren og importere ROM filen.</value>
+  </data>
+  <data name="EditText" xml:space="preserve">
+    <value>rediger</value>
+  </data>
+  <data name="VirtualControllerButtonGray" xml:space="preserve">
+    <value>grå</value>
+  </data>
+  <data name="HelpTipsTurboText" xml:space="preserve">
+    <value>- Tryk på kamera knappen for at slå turbo til/fra.
+- Tryk halvt ned på kamera knappen for at aktivere turbo mens du holder kamera knappen halvt nede.</value>
+  </data>
+  <data name="ManageSaveTimeLabel" xml:space="preserve">
+    <value>Oprettet:</value>
+  </data>
+  <data name="HelpImportSkyDriveText" xml:space="preserve">
+    <value>Gem dine ROMs i en mappe i din OneDrive. Efter det naviger til OneDrive delen på forsiden af emulatoren (swipe til venste fra ROM listen). Hvis du ikke er logget in endnu tryk "Log ind" først og indtast dine informationer hvis du bliver spurgt om det. Når du er logget ind, tryk på knappen "importer ROMs" on emulatorens hovedside. Den næste side tillader dig at navigere igennem OneDrive for at finde mappen hvor du gemte din ROM filer. I mappen der indeholder ROM filen, tryk på en *.gba eller *.zip fil for at starte download. Vent på at den er færdig med at downloade, før du forlader siden. En besked vil dukke op, når den er færdig med at download.
+Note: I nogle tilfælde, vil ROMs downloaded fra OneDrive kun vise en blank når den er startet. Hvis du oplever denne fejl, venligst brug alternativ 2 eller 3.</value>
+  </data>
+  <data name="HelpTipsTurboHeader" xml:space="preserve">
+    <value>Aktiver turbo tilstand</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>
+
+
+
+Enhed ID: {0}</value>
+  </data>
+  <data name="HostIPAddressText" xml:space="preserve">
+    <value>Hosterens IP adresse: {0}. Venter på klient...</value>
+  </data>
+  <data name="HelpTipsSoundHeader" xml:space="preserve">
+    <value>Skrattende lyd</value>
+  </data>
+  <data name="DeleteMenuItemText" xml:space="preserve">
+    <value>slet</value>
+  </data>
+  <data name="CableLinkText" xml:space="preserve">
+    <value>Gameboy kabel</value>
+  </data>
+  <data name="OrientationBoth" xml:space="preserve">
+    <value>landskab eller portræt</value>
+  </data>
+  <data name="GuidePerformanceText" xml:space="preserve">
+    <value>Guide: hvordan man gør performance bedre</value>
+  </data>
+  <data name="LinkingNote" xml:space="preserve">
+    <value>Note: Slå frameskip og turbo fra for at undgå kommunikationsfejl</value>
+  </data>
+  <data name="GPLButtonText" xml:space="preserve">
+    <value>Gå til GNU Public License v3</value>
+  </data>
+  <data name="ConnectText" xml:space="preserve">
+    <value>Tilslut</value>
+  </data>
+  <data name="BackgroundOpacitySetting" xml:space="preserve">
+    <value>Baggrunds billede opacitet</value>
+  </data>
+  <data name="MapABLRTurboText" xml:space="preserve">
+    <value>Brug A/B/L/R til turbo</value>
+  </data>
+  <data name="UseBackgroundImageSetting" xml:space="preserve">
+    <value>Brug baggrunds billede</value>
+  </data>
+  <data name="ChooseImageText" xml:space="preserve">
+    <value>Vælg billed...</value>
+  </data>
+  <data name="ImportInstructionsText" xml:space="preserve">
+    <value>For at importere et ROM fra OneDrive:
+1. Upload ROMs til din OneDrive mappe. 
+2. Tryk "Log ind" for at logge ind i OneDrive
+3. Tryk "Importer" og vælg et ROM.</value>
+  </data>
+  <data name="HelpTipsHeader" xml:space="preserve">
+    <value>tips</value>
+  </data>
+  <data name="ApplicationTitle2" xml:space="preserve">
+    <value>VGBC8</value>
+  </data>
+  <data name="ThemeText" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="ManageRemoveState" xml:space="preserve">
+    <value>fjern</value>
+  </data>
+  <data name="BuyNowText" xml:space="preserve">
+    <value>Denne funktion er kun tilgængelig i den fulde version af denne app. Klik på Ok knappen nedenunder, hvis du vil købe appen og låse op for funktionen.</value>
+  </data>
+  <data name="DeleteConfirmText" xml:space="preserve">
+    <value>Dette kan ikke blive annulleret, fortsæt?</value>
+  </data>
+  <data name="AspectRatioOriginalSetting" xml:space="preserve">
+    <value>indfødte</value>
+  </data>
+  <data name="DownloadCompleteText" xml:space="preserve">
+    <value>Færdig med at downloade fil '{0}'</value>
+  </data>
+  <data name="Msg_FoundPeers" xml:space="preserve">
+    <value>Peers fundet: {0}. Tryk 'genindlæs peers' for at opdatere.</value>
+  </data>
+  <data name="BackupErrorUpload" xml:space="preserve">
+    <value>Fejl ved at uploade en fil: {0}. Prøv at logge ud at OneDrive og log ind igen hvis denne fejl fortsætter.</value>
+  </data>
+  <data name="CheatCodesAddPivotTitle" xml:space="preserve">
+    <value>tilføj</value>
+  </data>
+  <data name="ManualSnapshotHelp" xml:space="preserve">
+    <value>Hvis du har denne app på et SD Kort, check denne indstilling for at gør ydeevne bedre når du går ud af et spil. Check også denne instilling hvis du vil lave dit eget cover kunst.</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="SaveSlotReservedText" xml:space="preserve">
+    <value>Dette gemme sted er reserveret til internt brug. Du kan kun loade fra dette slot, men ikke gemme til det.</value>
+  </data>
+  <data name="SourceLink" xml:space="preserve">
+    <value>http://sourceforge.net/projects/vba8/</value>
+  </data>
+  <data name="SyncSoundSetting2" xml:space="preserve">
+    <value>(bedre kvalitet, men kan være langsommere)</value>
+  </data>
+  <data name="AboutSnes9xLicense" xml:space="preserve">
+    <value>GNU Public License:</value>
+  </data>
+  <data name="Err_NoConnectTitle" xml:space="preserve">
+    <value>Kan ikke forbinde</value>
+  </data>
+  <data name="CameraAssignR" xml:space="preserve">
+    <value>R-Knap</value>
+  </data>
+  <data name="CameraAssignL" xml:space="preserve">
+    <value>L-Knap</value>
+  </data>
+  <data name="CameraAssignA" xml:space="preserve">
+    <value>A-Knap</value>
+  </data>
+  <data name="CameraAssignB" xml:space="preserve">
+    <value>B-Knap</value>
+  </data>
+  <data name="LastPlayedLabel" xml:space="preserve">
+    <value>Sidst spillet: </value>
+  </data>
+  <data name="SRAMDeletedSuccessfully" xml:space="preserve">
+    <value>Gem filen er blevet fjernet.</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>VBA8</value>
+  </data>
+  <data name="Err_NoPeer" xml:space="preserve">
+    <value>Du skal vælge en peer fra listen.</value>
+  </data>
+  <data name="AboutContactLabel" xml:space="preserve">
+    <value>Kontakt:</value>
+  </data>
+  <data name="HelpImportSDCardHeader" xml:space="preserve">
+    <value>Alternativ 4: importer fra SD kort</value>
+  </data>
+  <data name="ConfirmationCheckBoxText" xml:space="preserve">
+    <value>Vis ikke dette igen</value>
+  </data>
+  <data name="RomListTitle" xml:space="preserve">
+    <value>roms</value>
+  </data>
+  <data name="ROMAlreadyExistingError" xml:space="preserve">
+    <value>Dette ROM har været downloadet før: {0}</value>
+  </data>
+  <data name="RecentTitle" xml:space="preserve">
+    <value>senest spillet</value>
+  </data>
+  <data name="SkyDriveError" xml:space="preserve">
+    <value>OneDrive Fejl: {0}</value>
+  </data>
+  <data name="CheatListGameLabel" xml:space="preserve">
+    <value>Snydekoder til:</value>
+  </data>
+  <data name="UnlockFeatureText" xml:space="preserve">
+    <value>Lås funktion op</value>
+  </data>
+  <data name="HelpIssuesHeader" xml:space="preserve">
+    <value>problemer</value>
+  </data>
+  <data name="StartLinkText" xml:space="preserve">
+    <value>start link</value>
+  </data>
+  <data name="GuidesTitle" xml:space="preserve">
+    <value>guides</value>
+  </data>
+  <data name="Msg_NoPeers" xml:space="preserve">
+    <value>Ingen peers fundet. Tryk 'genindlæs peers' for at opdatere.</value>
+  </data>
+  <data name="VibrationSettingText" xml:space="preserve">
+    <value>Vibrer når der bliver trykket på knapper</value>
+  </data>
+  <data name="ConnectButtonCaption" xml:space="preserve">
+    <value>Forbind til valgte</value>
+  </data>
+  <data name="BackupPageTitle" xml:space="preserve">
+    <value>ekxporter gemte spil</value>
+  </data>
+  <data name="GameboyAdvanceText" xml:space="preserve">
+    <value>Gameboy Advance</value>
+  </data>
+  <data name="CloudSixImportTitle" xml:space="preserve">
+    <value>CloudSix</value>
+  </data>
+  <data name="LoadingProductListText" xml:space="preserve">
+    <value>Indlæser produktions liste. Vent venligst...</value>
+  </data>
+  <data name="ReviewPromptText" xml:space="preserve">
+    <value>Venligst brug få sekunder på at skrive en anmeldelse af appen.. Gode anmeldelser holder nye funktioner kommende.</value>
+  </data>
+  <data name="AutoBackupTitle" xml:space="preserve">
+    <value>auto backup</value>
+  </data>
+  <data name="ManageDeleteUnknownError" xml:space="preserve">
+    <value>Der var en ukendt fejl ved at slette gemme stedet.</value>
+  </data>
+  <data name="SourceButtonText" xml:space="preserve">
+    <value>Kilde kode</value>
+  </data>
+  <data name="BackupLastManualSlotText" xml:space="preserve">
+    <value>Back up nyeste manuelle gemte spil</value>
+  </data>
+  <data name="CustomizePortraitControlText" xml:space="preserve">
+    <value>Ændre Portræt Kontrol Position</value>
+  </data>
+  <data name="LoadStateButton" xml:space="preserve">
+    <value>load sted</value>
+  </data>
+  <data name="FAQsLinkText" xml:space="preserve">
+    <value>FAQs, forum diskussioner &amp; PC app</value>
+  </data>
+  <data name="ActiveSavestateText" xml:space="preserve">
+    <value> (aktiv)</value>
+  </data>
+  <data name="StatusSignedIn" xml:space="preserve">
+    <value>logget ind.</value>
+  </data>
+  <data name="PurchaseButtonText" xml:space="preserve">
+    <value>Køb</value>
+  </data>
+  <data name="LowFreqModeSetting" xml:space="preserve">
+    <value>30 Hz Skærm Refresh Rate</value>
+  </data>
+  <data name="CheatsDescription2" xml:space="preserve">
+    <value>Note: På grund af en nylig bug fix, skal alle eksistrende 16-tegns *ændres* med god plads til at arbejde igen</value>
+  </data>
+  <data name="BackupAndRestoreInstructions" xml:space="preserve">
+    <value>Eksporter og importer gemte spil:</value>
+  </data>
+  <data name="RemoveStateNoSelection" xml:space="preserve">
+    <value>Du skal vælge et gemme sted først.</value>
+  </data>
+  <data name="SDCardReadOnlyText" xml:space="preserve">
+    <value>Note: SD kort virker kun for udviklere. Håndteringen af zip udvidelser er forbeholdt OS, venligst brug .zib til dine zip filer.</value>
+  </data>
+  <data name="CustomizeLandscapeControlText" xml:space="preserve">
+    <value>Ændre Landskab Control Position</value>
+  </data>
+  <data name="EmulatorMenuText" xml:space="preserve">
+    <value>Note: Emulator Menu funktion vil blive tilføjet senere.</value>
+  </data>
+  <data name="CameraButtonAssignment" xml:space="preserve">
+    <value>Tildel til kamera knap</value>
+  </data>
+  <data name="SetupAutoBackupText" xml:space="preserve">
+    <value>Set auto backup op...</value>
+  </data>
+  <data name="HelpTipsPerformanceHeader" xml:space="preserve">
+    <value>Spil kører langsomt</value>
+  </data>
+  <data name="AutoLoadLastStateText" xml:space="preserve">
+    <value>Automatisk gem og indlæs spil</value>
+  </data>
+  <data name="GeneralSettingsTitle" xml:space="preserve">
+    <value>generelt</value>
+  </data>
+  <data name="EnterHostIPText" xml:space="preserve">
+    <value>indtast hosterens IP adresse her</value>
+  </data>
+  <data name="HelpImportEmailText" xml:space="preserve">
+    <value>Send en email til enhver email adresse der er tilgængelig på din telefon, som der indeholder en eller flere ROM(s) som vedhæftede filer. Du kan enten vedhæfte filen som *.gba fil eller indhold i en *.zip fil. Åben emailen på din telefon og tryk på den vedhæftede fil for at downloade den til din telefon. Hvis den vedhæftede fil var en *.zip fil, navigere email klienten dig arkivet, som du kan navigere igennem. Find *.gba filen i arkivet, og tryk på den, for at åbne den i emulatoren. Emulatoren vil automatisk importere ROM filen fra emailen. og starte spillet. Hvis den vedhæftede fil ikke var en *.zip fil, men en *.gba fil bare tryk på den for at åbne emulatoren og importere ROM filen.</value>
+  </data>
+  <data name="ErrorNoConnectionText" xml:space="preserve">
+    <value>Fejl! Ingen internet forbindelse eller Microsoft server fejl. Venligst prøv igen senere.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenHeader" xml:space="preserve">
+    <value>Blank skærm efter ROM er indlæst</value>
+  </data>
+</root>

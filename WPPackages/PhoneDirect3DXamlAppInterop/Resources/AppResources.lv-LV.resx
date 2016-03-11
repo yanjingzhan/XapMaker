@@ -1,0 +1,1196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RenamePageTitle" xml:space="preserve">
+    <value>pārdēvēt</value>
+  </data>
+  <data name="CancelButtonText" xml:space="preserve">
+    <value>atcelt</value>
+  </data>
+  <data name="RenameMenuItemText" xml:space="preserve">
+    <value>pārdēvēt</value>
+  </data>
+  <data name="LinkTypeText" xml:space="preserve">
+    <value>Saites tips</value>
+  </data>
+  <data name="RestorePageTitle" xml:space="preserve">
+    <value>ievietot saglabātās vietas</value>
+  </data>
+  <data name="VirtualControllerButtonStyle" xml:space="preserve">
+    <value>Virtuālo vadības pogu stils</value>
+  </data>
+  <data name="SecondGameText" xml:space="preserve">
+    <value>Otrā spēle (Var būt tā pati, kas pirmā)</value>
+  </data>
+  <data name="ProductNotAvailableText" xml:space="preserve">
+    <value>Produkts pašlaik nav pieejams.</value>
+  </data>
+  <data name="RenameEmptyString" xml:space="preserve">
+    <value>Jums ir jāievada ROM nosaukums.</value>
+  </data>
+  <data name="GuidesHeader" xml:space="preserve">
+    <value>GIDI</value>
+  </data>
+  <data name="ButtonScaleSettings" xml:space="preserve">
+    <value>Virtuālo pogu mērgos(lielums)</value>
+  </data>
+  <data name="CablePeerText" xml:space="preserve">
+    <value>Kabelis - Bluetooth</value>
+  </data>
+  <data name="ReviewText" xml:space="preserve">
+    <value>atsauksmes</value>
+  </data>
+  <data name="OverNetworkText" xml:space="preserve">
+    <value>Pa bluetooth/wifi (nav pieejams)</value>
+  </data>
+  <data name="UploadProgressText" xml:space="preserve">
+    <value>Eksportē '{0}'</value>
+  </data>
+  <data name="WirelessLinkText" xml:space="preserve">
+    <value>Bezvadu adapteris (nav pieejams)</value>
+  </data>
+  <data name="RenamePromptMessage" xml:space="preserve">
+    <value>Nomainiet ROM attēloto nosaukumu:</value>
+  </data>
+  <data name="PowerFrameSkipText" xml:space="preserve">
+    <value>Izlaist kadrus (tāds pats emulācijas ātrums)</value>
+  </data>
+  <data name="EnableSoundSetting" xml:space="preserve">
+    <value>Ieslēgt skaņu</value>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>lv-LV</value>
+  </data>
+  <data name="BackupAutoSlotText" xml:space="preserve">
+    <value>Dublēt automātisko saglabāšanas vietu</value>
+  </data>
+  <data name="FrameSkipAutoSetting" xml:space="preserve">
+    <value>automātiski</value>
+  </data>
+  <data name="SkyDriveGeneralError" xml:space="preserve">
+    <value>Problēmas pieejot OneDrive: {0}</value>
+  </data>
+  <data name="DPadStandard" xml:space="preserve">
+    <value>4-ceļu</value>
+  </data>
+  <data name="LinkTimeoutText" xml:space="preserve">
+    <value>Savienojuma pārtraukšana (ms)</value>
+  </data>
+  <data name="ContactHeader" xml:space="preserve">
+    <value>KONTAKTI</value>
+  </data>
+  <data name="ImportFromSkyDriveButtonText" xml:space="preserve">
+    <value>Importēt</value>
+  </data>
+  <data name="Msg_ChatPrompt" xml:space="preserve">
+    <value>Vai jūs vēlaties savienoties ar {0}?</value>
+  </data>
+  <data name="StartLinkTitle" xml:space="preserve">
+    <value>sākt savienojumu</value>
+  </data>
+  <data name="MogaGDR3Note" xml:space="preserve">
+    <value>Atcerieties: MOGA tālvadības pults var pieprasīt GDR3.</value>
+  </data>
+  <data name="ManageSavestateMenuItem" xml:space="preserve">
+    <value>pārvaldīt saglabātās vietas</value>
+  </data>
+  <data name="PurchaseText" xml:space="preserve">
+    <value>pirkt</value>
+  </data>
+  <data name="DeviceIDText" xml:space="preserve">
+    <value>Ierīces ID: {0}</value>
+  </data>
+  <data name="ImportWaitComplete" xml:space="preserve">
+    <value>Uzgaidiet kamēr lejupielāde ir pabeigta.</value>
+  </data>
+  <data name="AutoBackupTypeText" xml:space="preserve">
+    <value>Automātiskā dublēšana</value>
+  </data>
+  <data name="ImportSaveInstructionsText" xml:space="preserve">
+    <value>Kā atjaunot saglabātās vietas:
+1. Pārbaudiet vai ROM nosaukums un saglabātās vietas nosaukumi atbilst viens otram.
+2. Spiediet "Importēt" un izvēlaties saglabāto failu.
+3. Palaidiet spēli.</value>
+  </data>
+  <data name="RenameLabel" xml:space="preserve">
+    <value>Ievadiet jaunu vārdu:</value>
+  </data>
+  <data name="LightText" xml:space="preserve">
+    <value>Gaišs</value>
+  </data>
+  <data name="AlreadyDownloadingText" xml:space="preserve">
+    <value>Izvēlētais vienums jau tiek lejupielādēts.</value>
+  </data>
+  <data name="ContextTitle" xml:space="preserve">
+    <value>iestatījumi</value>
+  </data>
+  <data name="ImportingProgressText" xml:space="preserve">
+    <value>Importē '{0}'</value>
+  </data>
+  <data name="RenameOkButton" xml:space="preserve">
+    <value>Pārdēvēt</value>
+  </data>
+  <data name="ResetROMButton" xml:space="preserve">
+    <value>Atgriezt sākuma stāvoklī</value>
+  </data>
+  <data name="BackupButton" xml:space="preserve">
+    <value>Eksportēt</value>
+  </data>
+  <data name="ShowLastPlayedGameText" xml:space="preserve">
+    <value>Parādīt momentuzņēmumu no pēdējās spēlētās spēles</value>
+  </data>
+  <data name="SelectState8" xml:space="preserve">
+    <value>Izvēlēties vietu 8</value>
+  </data>
+  <data name="SelectState9" xml:space="preserve">
+    <value>Izvēlēties vietu 9</value>
+  </data>
+  <data name="SelectState2" xml:space="preserve">
+    <value>Izvēlēties vietu 2</value>
+  </data>
+  <data name="SelectState3" xml:space="preserve">
+    <value>Izvēlēties vietu 3</value>
+  </data>
+  <data name="SelectState0" xml:space="preserve">
+    <value>Izvēlēties vietu 0</value>
+  </data>
+  <data name="SelectState1" xml:space="preserve">
+    <value>Izvēlēties vietu 1</value>
+  </data>
+  <data name="SelectState6" xml:space="preserve">
+    <value>Izvēlēties vietu 6</value>
+  </data>
+  <data name="SelectState7" xml:space="preserve">
+    <value>Izvēlēties vietu 7</value>
+  </data>
+  <data name="SelectState4" xml:space="preserve">
+    <value>Izvēlēties vietu 4</value>
+  </data>
+  <data name="SelectState5" xml:space="preserve">
+    <value>Izvēlēties vietu 5</value>
+  </data>
+  <data name="TapDownloadSnes8xText" xml:space="preserve">
+    <value>Spied šeit lai lejupielādētu Snes8x</value>
+  </data>
+  <data name="HelpTitle" xml:space="preserve">
+    <value>PALĪDZĪBA</value>
+  </data>
+  <data name="NoMatchingNameText" xml:space="preserve">
+    <value>Lūdzu pārliecinieties vai ROM nosaukums atbilst saglabātā faila nosaukumam</value>
+  </data>
+  <data name="CheatListUnknownGame" xml:space="preserve">
+    <value>nezināms</value>
+  </data>
+  <data name="Err_NoChatNameCaption" xml:space="preserve">
+    <value>Logs ir tukšs</value>
+  </data>
+  <data name="HelpHowToHeader" xml:space="preserve">
+    <value>Kā...</value>
+  </data>
+  <data name="WarningTitle" xml:space="preserve">
+    <value>Brīdinājums!</value>
+  </data>
+  <data name="ReviewPromptTitle" xml:space="preserve">
+    <value>Patīk aplikācija?</value>
+  </data>
+  <data name="ImageEditorTitle" xml:space="preserve">
+    <value>Bilžu labotājs</value>
+  </data>
+  <data name="Err_NoSendTitle" xml:space="preserve">
+    <value>Nevar nosūtīt</value>
+  </data>
+  <data name="EnterNewCheatText" xml:space="preserve">
+    <value>Ievadiet jauno krāpšanās kodu:</value>
+  </data>
+  <data name="GuideBlankScreenText" xml:space="preserve">
+    <value>Gids: novērst tukšo ekrānu</value>
+  </data>
+  <data name="NeverPlayedText" xml:space="preserve">
+    <value>nekad</value>
+  </data>
+  <data name="CheatMenuItemText" xml:space="preserve">
+    <value>krāpšanās kodi</value>
+  </data>
+  <data name="LinkErrorText" xml:space="preserve">
+    <value>Problēma. Lūdzu restartējiet aplikāciju un mēģiniet vēlāk.</value>
+  </data>
+  <data name="SyncSoundSetting" xml:space="preserve">
+    <value>Sinhronizēt audio (labāka kvalitāte)</value>
+  </data>
+  <data name="RotatingModeText" xml:space="preserve">
+    <value>Griežšanās veids</value>
+  </data>
+  <data name="HelpImportEmailHeader" xml:space="preserve">
+    <value>2. alternatīvs: ievietot caur E-prastu</value>
+  </data>
+  <data name="LinkConnectedText" xml:space="preserve">
+    <value>Savienots. Jūs tagad variet aizvērt šo logu un turpināt spēlēt.</value>
+  </data>
+  <data name="ManageSavestatesTitle" xml:space="preserve">
+    <value>saglabātās vietas</value>
+  </data>
+  <data name="RenameNameAlreadyExisting" xml:space="preserve">
+    <value>ROM fails ar šādu nosaukumu jau eksistē.</value>
+  </data>
+  <data name="ImageScaleSetting" xml:space="preserve">
+    <value>Mērogot attēlu (tikai ainas režīmā)</value>
+  </data>
+  <data name="DarkText" xml:space="preserve">
+    <value>Tumšs</value>
+  </data>
+  <data name="PleaseWaitROMLoadingText" xml:space="preserve">
+    <value>Lūdzu uzgaidiet, kamēr ROM pabeidz ielādēt</value>
+  </data>
+  <data name="RestartPromptTitle" xml:space="preserve">
+    <value>Lūdzu restartējiet</value>
+  </data>
+  <data name="ImportCompleteText" xml:space="preserve">
+    <value>Faila ievietošana pabeigta'{0}'</value>
+  </data>
+  <data name="Err_BluetoothOff" xml:space="preserve">
+    <value>Bluetooth pašlaik ir izslēgts. Lai redzētu pašreizējos Bluetooth iestatījumus spied "ok".</value>
+  </data>
+  <data name="ManageSlotLabel" xml:space="preserve">
+    <value>Vieta</value>
+  </data>
+  <data name="NeverShowAgainText" xml:space="preserve">
+    <value>Nerādīt šo atkal</value>
+  </data>
+  <data name="SettingsButtonText" xml:space="preserve">
+    <value>Iestatījumi</value>
+  </data>
+  <data name="SkyDriveInternetLost" xml:space="preserve">
+    <value>Nevar savienoties ar OneDrive. Pārbaudiet interneta savienojumu.</value>
+  </data>
+  <data name="BackupUploadProgressText" xml:space="preserve">
+    <value>Eksportē '{0}' saglabātās vietas</value>
+  </data>
+  <data name="AutoIncSavestateSetting" xml:space="preserve">
+    <value>Automātiski palielināt saglabāšanas skaitu</value>
+  </data>
+  <data name="SelectAllText" xml:space="preserve">
+    <value>Izvēlēties visu</value>
+  </data>
+  <data name="InputSettingsPageTitle" xml:space="preserve">
+    <value>ievade</value>
+  </data>
+  <data name="GuideImportROMText" xml:space="preserve">
+    <value>Gids: 4 veidi kā ievietot ROM failus</value>
+  </data>
+  <data name="TapToReturnText" xml:space="preserve">
+    <value>Speid šeit lai atgrieztos pie kodu saraksta</value>
+  </data>
+  <data name="PremiumText" xml:space="preserve">
+    <value>Premium iespējas: 
+- Atbalsts MOGA vadības pultij. 
+- pielāgos iekš-spēles fona krāsu.
+- izvēlēties jūsu pašu fona bildi.
+
+VBA8 un VGBC8 tagad ir vienādas iespējas. Labāk pērciet iespējas vienā aplikācijā.
+
+***LŪDZU IZLASIET ŠO***: MOGA kontroles pultij atbalsts ir bezmaksas Snes8x aplikācijā, pirms jūs pērciet šo iespējo, lūdzu, lejupielādējiet Snes8x un pārbaudiet vai vadības pults strādā uz jūsu tālruņa.</value>
+  </data>
+  <data name="HelpImportSkyDriveHeader" xml:space="preserve">
+    <value>Pirmā alternatīva: ievietojiet caur OneDrive</value>
+  </data>
+  <data name="SelectNoneText" xml:space="preserve">
+    <value>Izvēlēties neko</value>
+  </data>
+  <data name="TapStartServerIPText" xml:space="preserve">
+    <value>Spied Sākt serveri lai iegūtu servera IP adresi.</value>
+  </data>
+  <data name="SameDeviceText" xml:space="preserve">
+    <value>Tāpati ierīce</value>
+  </data>
+  <data name="CheatNoSelection" xml:space="preserve">
+    <value>Jums jāizvēlas kods sākumā</value>
+  </data>
+  <data name="RestoreButton" xml:space="preserve">
+    <value>ievietot</value>
+  </data>
+  <data name="OrientationSettingText" xml:space="preserve">
+    <value>Orientācija</value>
+  </data>
+  <data name="ConfirmButtonText" xml:space="preserve">
+    <value>Apstiprināt</value>
+  </data>
+  <data name="CheatNoCodeEntered" xml:space="preserve">
+    <value>Jums sākumā jāievada kods.</value>
+  </data>
+  <data name="NotSignedInError" xml:space="preserve">
+    <value>Jūs neesat iegājis kontā. Ieejiet kontā lai ievietotu ROM failus no OneDrive.</value>
+  </data>
+  <data name="ErrorReadingSDCardText" xml:space="preserve">
+    <value>Problēmas lasot SD Kartes saturu</value>
+  </data>
+  <data name="AddCheatButtonText" xml:space="preserve">
+    <value>pievienot</value>
+  </data>
+  <data name="CopyRightText" xml:space="preserve">
+    <value>Šī ir bezmaksas programmatūra; jūs to varat sadalīt vai modificēt pēc GNU General Public License ieskatiem, kas pulbicēta no Free Software Foundation; jebkura versija 3 vai(pēc jūsu domām) jaunāku versiju.
+
+Šī programma ir izplatīta cerībā būt noderīga, bet BEZ JEBKĀDAS GARANTIJAS; bez ietvertas garantijas vai IZMANTOT JEBKĀDAM CITAM MĒRĶIM. Skatiet GNU General Public License par sīkākām detaļām.
+
+Jums būtu jāsaņem bezmaksas GNU General Public Licenses kopija ar šo programmu, ja nē, tad rakstiet uz Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.</value>
+  </data>
+  <data name="ResetImageText" xml:space="preserve">
+    <value>Atlikt bildi</value>
+  </data>
+  <data name="ExportAsZipText" xml:space="preserve">
+    <value>Eksportēt kā zip</value>
+  </data>
+  <data name="SelectFileTitle" xml:space="preserve">
+    <value>izvēlēties failus</value>
+  </data>
+  <data name="MoreLicenseButton" xml:space="preserve">
+    <value>Licenses informācijas</value>
+  </data>
+  <data name="CheatCodesListPivotTitle" xml:space="preserve">
+    <value>saraksts</value>
+  </data>
+  <data name="HideConfirmationSetting" xml:space="preserve">
+    <value>Atslēgt apsitprināšanu, kad vēlaties saglabāt vietu</value>
+  </data>
+  <data name="LicenseCopyRightTitle" xml:space="preserve">
+    <value>autortiesības</value>
+  </data>
+  <data name="AspectRatioStretchSetting" xml:space="preserve">
+    <value>izstiepts</value>
+  </data>
+  <data name="CheatPageTitle" xml:space="preserve">
+    <value>KRĀPŠANĀS KODI</value>
+  </data>
+  <data name="HideConfirmationLoadSetting" xml:space="preserve">
+    <value>Atslēgt apstiprināšanu, kad vēlaties ielādēt saglabāto vietu</value>
+  </data>
+  <data name="Err_NoChatName" xml:space="preserve">
+    <value>Ievadiet vārdu lai pievienotos</value>
+  </data>
+  <data name="RenamePromptTitle" xml:space="preserve">
+    <value>Pārdēvējiet ROM</value>
+  </data>
+  <data name="DeadzoneHeader" xml:space="preserve">
+    <value>Deadzone (analoga pogai tikai)</value>
+  </data>
+  <data name="DeleteConfirmTitle" xml:space="preserve">
+    <value>Apstiriniet dzēšanu</value>
+  </data>
+  <data name="SkyDriveFileFormatHint" xml:space="preserve">
+    <value>Atbalstītie faili:</value>
+  </data>
+  <data name="SDCardHeader" xml:space="preserve">
+    <value>SD KARTE</value>
+  </data>
+  <data name="CancelText" xml:space="preserve">
+    <value>Atcelt</value>
+  </data>
+  <data name="InvalidCodeText" xml:space="preserve">
+    <value>Nepareizs kods.</value>
+  </data>
+  <data name="RenameCancelButton" xml:space="preserve">
+    <value>Atcelt</value>
+  </data>
+  <data name="FullscreenStretchOption" xml:space="preserve">
+    <value>Izstiept pilnā ekrānā</value>
+  </data>
+  <data name="ConfirmLoadText" xml:space="preserve">
+    <value>Vai jūs tiešām vēlaties ielādēt pēdējo saglabāto vietu?</value>
+  </data>
+  <data name="AllButtonText" xml:space="preserve">
+    <value>Viss</value>
+  </data>
+  <data name="aboutText" xml:space="preserve">
+    <value>Par</value>
+  </data>
+  <data name="BackupUploadUnsuccessful" xml:space="preserve">
+    <value>Augšuplāde pabeigta ar problēmām.</value>
+  </data>
+  <data name="HelpTIpsPerformanceText" xml:space="preserve">
+    <value>- Atveriet video iestatījumus un palieliniet "Kadru izlaišana (tāds pats emulācijas ātrums)"opciju. Ši iespēja samazina kadrus, kurus emulatoram jāparāda, kas nozīmē, ka palielina vietu un emulācijas ātrums palielinātos. Spēle var kļūt mazāk gludenāka, kad palielinat kadru izlaišanu.
+- Atveriet skaņas iestatījumus un izslēdziet audio sinhronizāciju. Tas var palielināt sniegumu, bet samazināt skaņas kvalitāti.
+- Atveriet skaņas iestatījumus un izslēdziet skaņu vispār ārā.</value>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>par</value>
+  </data>
+  <data name="HelpImportSDCardText" xml:space="preserve">
+    <value>Datu logā galvenajā lapā, uzspiediet uz "Ievietot no SD kartes" un sekojiet instrukcijām</value>
+  </data>
+  <data name="RomListTroubleshootNote" xml:space="preserve">
+    <value>Atcerieties: Ja jūsu ROM fails nesākas, tad skatiet "problēmas".</value>
+  </data>
+  <data name="TileOpenError" xml:space="preserve">
+    <value>Problēmas atverot ROM failu saistītu ar šo nosaukumu.</value>
+  </data>
+  <data name="ConfirmSaveText" xml:space="preserve">
+    <value>Vai jūs tiešām vēlaties saglabāt? Tas pārrakstīs iepriekšējo saglabāto vietu.</value>
+  </data>
+  <data name="AllHeader" xml:space="preserve">
+    <value>VISAS SPĒLES</value>
+  </data>
+  <data name="HelpTipsSoundText" xml:space="preserve">
+    <value>- Atveriet skaņas iestatījumus un izslēdziet audio sinhronizāciju. Tas var uzlabot audio kvalitāti, bet pavājināt spēles jaudu.
+- Ja emulācijas ātrums ir pārāk mazs, skaņas kvalitāte arī var tikt ietekmēta. Sekojiet ieteikumiem augstāk.</value>
+  </data>
+  <data name="FailDownloadCheatDataText" xml:space="preserve">
+    <value>Neizdevās saņemt datu no supercheats.com</value>
+  </data>
+  <data name="PinToStartText" xml:space="preserve">
+    <value>piespraust sākuma ekrānam</value>
+  </data>
+  <data name="AspectRatioSetting" xml:space="preserve">
+    <value>proporcijas</value>
+  </data>
+  <data name="AutoBackupModeHelp" xml:space="preserve">
+    <value>- Vienkāršotais veids: saglabātā vieta ir dublēta tāda kāda tā ir, nekompresējot to; ideāla lai sinhronizētu starp planšetdatoriem/PC, bet neaizsargā no netīšu pārsaglabāšanu.
+- Rotēšanas veids: saglabātā vieta ir kompresēta vairākās vietās lai nepieļautu netīšu pārsaglabāšanu; ideāla lai sargātu datu.</value>
+  </data>
+  <data name="SearchTitle" xml:space="preserve">
+    <value>meklēt</value>
+  </data>
+  <data name="HostText" xml:space="preserve">
+    <value>Saimnieks</value>
+  </data>
+  <data name="ManualSnapshotSetting" xml:space="preserve">
+    <value>Izveidot flīžu bildes automātiski</value>
+  </data>
+  <data name="DownloadErrorText" xml:space="preserve">
+    <value>Problēma lejupielādējot failu '{0}': {1}</value>
+  </data>
+  <data name="CheatInvalidFormat2" xml:space="preserve">
+    <value>Nepareizs koda formāts. Kodiem jābūt šādā fomātā XXX-XXX-XXX, XXX-XXX vai ar 8 ciparu heksdecimālajiem skaitļiem uz rindu.</value>
+  </data>
+  <data name="IPAddressText" xml:space="preserve">
+    <value>Servera IP addrese</value>
+  </data>
+  <data name="MaximumTilesPinned" xml:space="preserve">
+    <value>Izvēlētais ROM fails jau ir pievienots vai jūs esat sasniedzis maksimālo pievienoto flīžu skaitu.</value>
+  </data>
+  <data name="HelpImportWebHeader" xml:space="preserve">
+    <value>3. alternatīva: ievietojiet caur interneta pārlūku.</value>
+  </data>
+  <data name="DPadAnalogueFixed" xml:space="preserve">
+    <value>piestiķētā analoga poga</value>
+  </data>
+  <data name="MogaMappingTitle" xml:space="preserve">
+    <value>moga rediģēšana</value>
+  </data>
+  <data name="NoneButtonText" xml:space="preserve">
+    <value>Neko</value>
+  </data>
+  <data name="FrameSkipSetting" xml:space="preserve">
+    <value>izlaist kadrus (palielināt emulācijas ātrumu)</value>
+  </data>
+  <data name="BuyNowButtonText" xml:space="preserve">
+    <value>Pirkt tagad</value>
+  </data>
+  <data name="UseAccentBackgroundText" xml:space="preserve">
+    <value>Izmantot sistēmas krāsu priekš flīzes</value>
+  </data>
+  <data name="EnterCodeTitle" xml:space="preserve">
+    <value>Ievadiet kodu</value>
+  </data>
+  <data name="ControllerScaleSettings" xml:space="preserve">
+    <value>Virtuālā Joystick mērogs(lielums)</value>
+  </data>
+  <data name="HelpDownloadROMsHeader" xml:space="preserve">
+    <value>Kā ievietot ROM failus</value>
+  </data>
+  <data name="TapMogaInstructionText" xml:space="preserve">
+    <value>Spied šeit lai atvērtu MOGA tālvadības pults instrukcijas</value>
+  </data>
+  <data name="Msg_ChatPromptTitle" xml:space="preserve">
+    <value>Ienākošais savienošanās pieprasījums</value>
+  </data>
+  <data name="FirstGameText" xml:space="preserve">
+    <value>Pirmā spēle</value>
+  </data>
+  <data name="SettingsPageTitle" xml:space="preserve">
+    <value>IESTATĪJUMI</value>
+  </data>
+  <data name="CheatRestoreValuesOption" xml:space="preserve">
+    <value>Atjaunt vecos vērtības pēc krāpšanās kodiem(GBA)</value>
+  </data>
+  <data name="VideoMogaText" xml:space="preserve">
+    <value>Video: MOGA tālvadības pults instrukcijas</value>
+  </data>
+  <data name="SourceHeader" xml:space="preserve">
+    <value>avots</value>
+  </data>
+  <data name="CheatInvalidFormat" xml:space="preserve">
+    <value>Nepareizs koda formāts. Kodiem jābūt 6, 8, 9, 12 vai 16, heksdecimālajiem skaitļeim uz rindu.</value>
+  </data>
+  <data name="VControllerLargeSetting" xml:space="preserve">
+    <value>savienojas</value>
+  </data>
+  <data name="AvailableSaveFilesText" xml:space="preserve">
+    <value>Pieejami visi saglabātie faili</value>
+  </data>
+  <data name="ImportSDCardText" xml:space="preserve">
+    <value>Ievietot no SD kartes</value>
+  </data>
+  <data name="BackupWaitForUpload" xml:space="preserve">
+    <value>Uzgaidiet kamēr augšuplāde tiek pabeigta.</value>
+  </data>
+  <data name="RestoreLastStateSetting" xml:space="preserve">
+    <value>Izmantot 9 vietu priekš automātiskas saglabāšanas/ielādēšanas</value>
+  </data>
+  <data name="Err_NoPeerConnected" xml:space="preserve">
+    <value>Jūs neesat savienojies ar galveno</value>
+  </data>
+  <data name="PurchaseSuccessText" xml:space="preserve">
+    <value>Pirkums izdevies</value>
+  </data>
+  <data name="ShowThreeDotsSetting" xml:space="preserve">
+    <value>Pārādīt kontekstā izvēlnes mājienus</value>
+  </data>
+  <data name="ManageAutoSlotLabel" xml:space="preserve">
+    <value>Automātiski</value>
+  </data>
+  <data name="SelectStateAuto" xml:space="preserve">
+    <value>Izēlēties automātiski</value>
+  </data>
+  <data name="AutoSaveWarning" xml:space="preserve">
+    <value>BRĪDINĀJUMS: iezīmējat šo kastīti, ja jus izmantojat ātro saglabāšanas funkciju. Jūsu saglabātās vietas var tikt izdzēstas, ja jūs paļaujaties uz iekš-spēles saglabāšanas funkciju. Vai vēlaties turpināt?</value>
+  </data>
+  <data name="CloudSixInstructionText" xml:space="preserve">
+    <value>Instalējiet vienu no Rudy Huyn CloudSix aplikācijām lai lietotu šo iespēu.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenTextContact" xml:space="preserve">
+    <value>- ja nekas neizdodas, tad sazinieties ar izdzevēju:</value>
+  </data>
+  <data name="RecentHeader" xml:space="preserve">
+    <value>PĒDĒJĀS SPĒLĒTĀS</value>
+  </data>
+  <data name="OrientationLandscape" xml:space="preserve">
+    <value>ainavas režīms</value>
+  </data>
+  <data name="CustomizeButtonMappingText" xml:space="preserve">
+    <value>Pārvaldīt pogu izvietojumu...</value>
+  </data>
+  <data name="SDCardMissingText" xml:space="preserve">
+    <value>Trūkst SD Kartes. Ievietojiet SD karti un mēģiniet vēlreiz.</value>
+  </data>
+  <data name="EmailSubjectText" xml:space="preserve">
+    <value>VBA8/VGBC problēmu nosūdzēšana vai iespēju ieteikšana</value>
+  </data>
+  <data name="StartServerOtherText" xml:space="preserve">
+    <value>Sāciet serveri uz citas ierīces lai iegūtu IP adresi.</value>
+  </data>
+  <data name="DownloadingProgressText" xml:space="preserve">
+    <value>Lejuplādējas '{0}'</value>
+  </data>
+  <data name="ValidCodeText" xml:space="preserve">
+    <value>Kods pieņemts. Lūdzu restartējiet aplikāciju lai tā pieņemtu izmaiņas</value>
+  </data>
+  <data name="NumberRotatingFilesText" xml:space="preserve">
+    <value>Dublēšanas rotācijas skaits</value>
+  </data>
+  <data name="CheatsDescription" xml:space="preserve">
+    <value>Jūs varat ievietot GameShark un CodeBreaker kodus priekš  GBA spēlē un GameShark vai GameGenie kodus priekš GB/GBC spēlēm.</value>
+  </data>
+  <data name="PreLinkTitle" xml:space="preserve">
+    <value>Uzstādīt saikni</value>
+  </data>
+  <data name="CloudSixOneFileLimitText" xml:space="preserve">
+    <value>CloudSix atbalsta tikai viena faila eksportēšanu reizē vai spiežat "Eksortēt kā zip".</value>
+  </data>
+  <data name="PremiumFeaturePromptText" xml:space="preserve">
+    <value>Šī ir premium iespēja. Vai vēlaties iet uz pirkšanas lapu?</value>
+  </data>
+  <data name="CreateBackupFolderError" xml:space="preserve">
+    <value>Problēmas veidojot rezervju mapi.</value>
+  </data>
+  <data name="RestartPromptText" xml:space="preserve">
+    <value>Lūdzu restartējiet aplikāciju (spiediet pogu atapkaļ vairākas reizes) lai jaunie iestatījumi varētu tikt redzēti.</value>
+  </data>
+  <data name="BuyNowCancelButtonText" xml:space="preserve">
+    <value>Turpināt izmēģinājuma versiju</value>
+  </data>
+  <data name="DPad8way" xml:space="preserve">
+    <value>8-ceļu</value>
+  </data>
+  <data name="HelpButtonText" xml:space="preserve">
+    <value>palīdzība</value>
+  </data>
+  <data name="VibrationDurationErrorText" xml:space="preserve">
+    <value>Vibrācijas ilgums var būt no 0 līdz 5 sekundēm</value>
+  </data>
+  <data name="SearchForCheatsText" xml:space="preserve">
+    <value>Meklē kodus</value>
+  </data>
+  <data name="OrientationPortrait" xml:space="preserve">
+    <value>portreta režīms</value>
+  </data>
+  <data name="CameraAssignLR" xml:space="preserve">
+    <value>L-poga un R-poga</value>
+  </data>
+  <data name="Err_BluetoothOffCaption" xml:space="preserve">
+    <value>Bluetooth izslēgts</value>
+  </data>
+  <data name="RoleText" xml:space="preserve">
+    <value>Loma</value>
+  </data>
+  <data name="CameraAssignTurbo" xml:space="preserve">
+    <value>Turbo Veids</value>
+  </data>
+  <data name="StatusNotSignedIn" xml:space="preserve">
+    <value>Neesat iegājis kontā.</value>
+  </data>
+  <data name="UseMogaControllerText" xml:space="preserve">
+    <value>izmantojiet Moga vadības pulti</value>
+  </data>
+  <data name="SaveStateButton" xml:space="preserve">
+    <value>Saglabāt vietu</value>
+  </data>
+  <data name="StatusLabelContent" xml:space="preserve">
+    <value>Statuss: </value>
+  </data>
+  <data name="CreateSnapshotMenuItem" xml:space="preserve">
+    <value>izveidot momentuzņēmumus priekš flīzēm</value>
+  </data>
+  <data name="VideoCheatText" xml:space="preserve">
+    <value>Video: krāpšanās kodu koordinēšana</value>
+  </data>
+  <data name="AudioSettingsPageTitle" xml:space="preserve">
+    <value>Skaņa</value>
+  </data>
+  <data name="PurchaseSuccessNoAdsText" xml:space="preserve">
+    <value>Pirkums izdevies, reklāmas neparādīsies nākamjā reizē, kad atvērsiet aplikāciju.</value>
+  </data>
+  <data name="TurboFrameSkipText" xml:space="preserve">
+    <value>Turbo veids kadru izlaišanai</value>
+  </data>
+  <data name="FullPressButtonStickText" xml:space="preserve">
+    <value>Pilna kameras piespiešana rada A/B/L/R pogas</value>
+  </data>
+  <data name="CheatWrongVersionTitle" xml:space="preserve">
+    <value>Nesavienojams krāpšanās kods!</value>
+  </data>
+  <data name="OpacitySetting" xml:space="preserve">
+    <value>Virtuālo pogu caurredzamība</value>
+  </data>
+  <data name="UnpinTilePromptText" xml:space="preserve">
+    <value>Lūdzu noņemiet un uzlieciet flīzi atkal lai tā ieņemtu izmaiņas.</value>
+  </data>
+  <data name="EnableAutoFireText" xml:space="preserve">
+    <value>Kameras poga uatomātiski palaiž A/B/L/R</value>
+  </data>
+  <data name="SimpleText" xml:space="preserve">
+    <value>Vienkāršoti</value>
+  </data>
+  <data name="BackupUploadSuccessful" xml:space="preserve">
+    <value>Augšuplāde pabeigta.</value>
+  </data>
+  <data name="VirtualControllerButtonColored" xml:space="preserve">
+    <value>krāsojums</value>
+  </data>
+  <data name="CodeText" xml:space="preserve">
+    <value>Kods</value>
+  </data>
+  <data name="DPadAnalogueDynamic" xml:space="preserve">
+    <value>dinamiskā analoga poga</value>
+  </data>
+  <data name="ChoosePortraitBackgroundColorText" xml:space="preserve">
+    <value>Izēlēties portreta fona krāsu...</value>
+  </data>
+  <data name="SimpleModeText" xml:space="preserve">
+    <value>Vienkāršotais veids</value>
+  </data>
+  <data name="AutoBackupNote" xml:space="preserve">
+    <value>Atceries: Automātiska dublēšana ir ieslēgta, kad lietotājs atgriežas uz sākuma lapu pēc spēlēšanas</value>
+  </data>
+  <data name="AutoBackupText" xml:space="preserve">
+    <value>Automātiski dublēt saglabāto datu</value>
+  </data>
+  <data name="RestorePurchaseNotice" xml:space="preserve">
+    <value>UZMANĪBU- WP8.1 LIETOTĀJI: Ja jūsu nopirktās iespējas tika deaktivizētas vienkārši spiediet uz Pirkt un ievadiet jūsu maka kodu, ja nepieciešams, jūms būs iespēja atjaunot jūsu pirkumu nemaksājot vēlreiz.</value>
+  </data>
+  <data name="BackupFailOnedriveText" xml:space="preserve">
+    <value>Automātiskā dublēšana neizdevās, lūdzu ieejat OneDrive.</value>
+  </data>
+  <data name="DescriptionText" xml:space="preserve">
+    <value>Apraksts</value>
+  </data>
+  <data name="VibrationDurationText" xml:space="preserve">
+    <value>Vibrācijas ilgums (sekundēs)</value>
+  </data>
+  <data name="ExportNoSelection" xml:space="preserve">
+    <value>Jums jāizvēlas vismaz viens fails.</value>
+  </data>
+  <data name="ImportSavestateInvalidFormat" xml:space="preserve">
+    <value>Saglabātās vietas faila formāts ir neatbilstošs. Faila nosaukumam jābeidzas ar numuriem no 0 līdz 9(e.g. demo0.sgm).</value>
+  </data>
+  <data name="StartServerText" xml:space="preserve">
+    <value>Sākt serveri</value>
+  </data>
+  <data name="EnterCodeText" xml:space="preserve">
+    <value>Ievadiet paaugstinājuma kodu</value>
+  </data>
+  <data name="FindButtonCaption" xml:space="preserve">
+    <value>Atjaunināt galvenos</value>
+  </data>
+  <data name="BackupOnlyWifiText" xml:space="preserve">
+    <value>Tikai dublēt, kad WiFi ir pieejams (šī iezīmēšana var būt lēna)</value>
+  </data>
+  <data name="UseRealisticButtonsText" xml:space="preserve">
+    <value>Izmantot realistiskās pogu krāsas</value>
+  </data>
+  <data name="DeleteSavesEntry" xml:space="preserve">
+    <value>izdzēst iekš-spēles saglabātās vietas</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>Versija</value>
+  </data>
+  <data name="FileAssociationError" xml:space="preserve">
+    <value>Problēmas ievietojot un atverot ROM failu.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenText" xml:space="preserve">
+    <value>- Pārliecinietes vai lejupielāde bija pabeigta pirms jūs pametāt OneDrive lapu(sagaidot apstiprinošu ziņu, ka fails ir ievietots). Ja jūs pametāt pāragri, tad ROM fails var būt nepabeigts un var ielādēties nepareizi. Ja tas notiek, izdzēsiet failu no ROM lapas(turiet uz lejupielādētā ROM) un lejupielādējiet to vēlreiz.
+- Ja OneDrive ievietošana nestrādā vai ROM fails ir ievietots no OneDrive nestrādā, tad pamēģiniet citus veidus ievietot ROM failu. Ir iespējamas 3 citas metodes lai ievietotu ROM. (OneDrive, E-pasts, interneta pārlūks) paskaidrots "Kā..." lapā.
+- Neaizmirstiet izdzēst ROM failu, kurš nestrādā pirms lejupielādējiet jauno izmantojot citu metodi.</value>
+  </data>
+  <data name="EmailLinkText" xml:space="preserve">
+    <value>Epasts: store.support@outlook.com</value>
+  </data>
+  <data name="ClientText" xml:space="preserve">
+    <value>Klients</value>
+  </data>
+  <data name="DeleteCheatButtonText" xml:space="preserve">
+    <value>izņemt</value>
+  </data>
+  <data name="Err_NoMessageToSend" xml:space="preserve">
+    <value>Lūdzu ievadiet ziņu lai nosūtītu</value>
+  </data>
+  <data name="ResumeButtonText" xml:space="preserve">
+    <value>Turpināt</value>
+  </data>
+  <data name="CheatWrongVersionText" xml:space="preserve">
+    <value>Krāpšanās kods {0} ir no ROM {1} kamēr esošais ROM ir {2}. Tas nestrādās un var radīt problēmas. Tas notiek, kad jūs izmantojat EU kodu, kad US ROM un otrādi.</value>
+  </data>
+  <data name="VControllerSmallSetting" xml:space="preserve">
+    <value>preparē</value>
+  </data>
+  <data name="DPadStyleHeader" xml:space="preserve">
+    <value>D-Pad stila</value>
+  </data>
+  <data name="AddCheatsTitle" xml:space="preserve">
+    <value>Pievienot kodu</value>
+  </data>
+  <data name="ImportButtonText" xml:space="preserve">
+    <value>Ievietot</value>
+  </data>
+  <data name="PurchasedThankYouText" xml:space="preserve">
+    <value>Nopirkts, liels paldies Tev!!</value>
+  </data>
+  <data name="AboutSnes9x" xml:space="preserve">
+    <value>Droši ziņojiet par jebkādām problēmām vai neejošām spēlēm.
+
+Autors nav atbildīgs par jebkādām pretlikumīgām darbībām ar šo aplikāciju. Nav nekādas garantijas par šo aplikāciju un autors nav vainīgs pie jebkādām problēmām vai bojājumiem.
+
+Kredīti:
+- Eddi Bento par logo dizainu.
+- MOGA kompānijai par pārsteiguma dāvanu.
+- Tulkojumi: Sergy Ortiz Puerto (Spanish), André Queiroz (Portuguese), Arda Ozkal (Turkish), Alexandros Melissas (Greek), Łukasz Deptuła (Polish), Junfan Yao (Simplifed Chinese), wphone08 (French), Jesper Svensson (Swedish), Alexander Kolosov (Russian), Usama Jawad (Urdu), Mathias Haugsbø (Norwegian Nynorsk), Leutrim Shabani (German), Giordano Piacentini (Italian),  Sami Piispanen (Finnish), Shay Livyatan (Hebrew), Adam Yowanda (Indonesian), Krit Visitstump (Thai), Sebastian van den Oever (Dutch), Dāvis Kalniņš (Latvian), 재훈 정 (Korean).</value>
+  </data>
+  <data name="BackupInstructions" xml:space="preserve">
+    <value>Izvaties spēli, kurai vēlaties eksportēt saglabāto vietu</value>
+  </data>
+  <data name="SDCardImportTitle" xml:space="preserve">
+    <value>SD Karte</value>
+  </data>
+  <data name="BackupIngameSaveText" xml:space="preserve">
+    <value>Dublēt iekš-spēles saglabāto vietu</value>
+  </data>
+  <data name="HelpImportWebText" xml:space="preserve">
+    <value>Jūsu interneta pārlūkā ateriet jebkuru mājaslapu, kura satur ROM failu un sačiet lejupielādēt to. Ja lejupielāde ir kā *.zip arhīvs, tad interneta pārlūks atļaus to navigēt, kad lejupielāde būs pabeigta. Atrodiet *.gba failu šajā arhīvā un uzspiediet uz tā lai sāktu emulatoru. Emulators automātiski palaidīs un ievietos ROM failu.</value>
+  </data>
+  <data name="EditText" xml:space="preserve">
+    <value>labot</value>
+  </data>
+  <data name="VirtualControllerButtonGray" xml:space="preserve">
+    <value>pelēks</value>
+  </data>
+  <data name="HelpTipsTurboText" xml:space="preserve">
+    <value>- Uzspiediet kameras pogu lai sāktu turbo veidu.
+- Nedaudz uzspiediet uz kameras pogas lai aktivizētu turbo veidu, kamēr turat kameras pogu jau iepriekš nedaudz nospiestu.</value>
+  </data>
+  <data name="ManageSaveTimeLabel" xml:space="preserve">
+    <value>Izveidots:</value>
+  </data>
+  <data name="HelpImportSkyDriveText" xml:space="preserve">
+    <value>Uzglabājiet ROM failu mapē uz jūsu OneDrive konta. Pēctam navigējiet caur OneDrive uz jūsu emulatora lapu (novelciet no labās uz kreisot pusi, kur atrodas ROM faili). Ja jūs neesat iegājis savā kontā, tad spiediet "Sign in" un ievadiet vajadzīgās lietas. Kad esiet iegājis, spiediet pogu ar nosaukumu "ievietot ROM" emulatora sākuma lapā. Šī lapa jums atļauj navigēt caur OneDrive un atrast mapi, kur jūs saglabājāt ROM failus. Mapē, kurā atrodas ROM, spiediet uz jebkura *.gba vai *.zip faila lai sāktu lejupielādi. Uzgaidiet līdz lejupielāde būs pabeigta un pametiet lapu. Uzleks apstiprinoša ziņa,ka esat veiksmīgi lejupielādējis failu. ATCERIETIES: dažreiz lejupielādētais fails no OneDrive parādīs tukšu lapu, kad palaists. Ja jūs piedzīvojat šādu problēmu, tad izmantojat 2. vai 3. alternatīvu.</value>
+  </data>
+  <data name="HelpTipsTurboHeader" xml:space="preserve">
+    <value>Aktivēt turbo veidu</value>
+  </data>
+  <data name="EmailBodyText" xml:space="preserve">
+    <value>
+
+
+
+Ieriīces ID: {0}</value>
+  </data>
+  <data name="HostIPAddressText" xml:space="preserve">
+    <value>Saimnieka IP adrese: {0}. Gaidu klientu...</value>
+  </data>
+  <data name="HelpTipsSoundHeader" xml:space="preserve">
+    <value>Raupja skaņa</value>
+  </data>
+  <data name="DeleteMenuItemText" xml:space="preserve">
+    <value>Dzēst</value>
+  </data>
+  <data name="CableLinkText" xml:space="preserve">
+    <value>Gameboy kabelis</value>
+  </data>
+  <data name="OrientationBoth" xml:space="preserve">
+    <value>ainava vai portrets</value>
+  </data>
+  <data name="GuidePerformanceText" xml:space="preserve">
+    <value>Gids: kā uzlabot sniegumu</value>
+  </data>
+  <data name="LinkingNote" xml:space="preserve">
+    <value>Atceries: Izslēdziet kadru izlaišanu un Turbo veidu lai izslēgtu jebkādas comunikācijas problēmas.</value>
+  </data>
+  <data name="GPLButtonText" xml:space="preserve">
+    <value>Ej uz GNU Public License v3</value>
+  </data>
+  <data name="ConnectText" xml:space="preserve">
+    <value>Savienoties</value>
+  </data>
+  <data name="BackgroundOpacitySetting" xml:space="preserve">
+    <value>Fona bildes caurredzamība</value>
+  </data>
+  <data name="MapABLRTurboText" xml:space="preserve">
+    <value>Izmantojiet A/B/L/R priekš turbo</value>
+  </data>
+  <data name="UseBackgroundImageSetting" xml:space="preserve">
+    <value>Izmantot fona bildi</value>
+  </data>
+  <data name="ChooseImageText" xml:space="preserve">
+    <value>Izvēlēties bildi...</value>
+  </data>
+  <data name="ImportInstructionsText" xml:space="preserve">
+    <value>Lai ievietotu ROM no OneDrive:
+1. Augšuplādē ROM jūsu OneDrive mapē. 
+2. Uzklikšķiniet "Sign in" lai ieietu savā kontā
+3. Uzklikšķiniet "Importēt" un izvēlaties ROM failu.</value>
+  </data>
+  <data name="HelpTipsHeader" xml:space="preserve">
+    <value>padomi</value>
+  </data>
+  <data name="ThemeText" xml:space="preserve">
+    <value>Motīvs</value>
+  </data>
+  <data name="ManageRemoveState" xml:space="preserve">
+    <value>izņemt</value>
+  </data>
+  <data name="BuyNowText" xml:space="preserve">
+    <value>Šī iespēja ir pieejama tikai šīs aplikācijas pilnajā versijā. Spiediet "Ok" pogu zemāk, ja jūs vēlaties nopirkt šo aplikāciju un atslēgt šo iespēju.</value>
+  </data>
+  <data name="DeleteConfirmText" xml:space="preserve">
+    <value>Šis nevar būt atgriezsts, turpināt?</value>
+  </data>
+  <data name="AspectRatioOriginalSetting" xml:space="preserve">
+    <value>dabisks</value>
+  </data>
+  <data name="DownloadCompleteText" xml:space="preserve">
+    <value>Lejupielāde pabeigta '{0}'</value>
+  </data>
+  <data name="Msg_FoundPeers" xml:space="preserve">
+    <value>Galvenie atrasti: {0}. Spiediet "Atjaunot galvenos" lai atsvaidzinātu</value>
+  </data>
+  <data name="BackupErrorUpload" xml:space="preserve">
+    <value>Problēmas augšuplādēt failu: {0}. Pamēģiniet iziet un ieiet atpakaļ OneDrive kontā, ja šī problēma turpina eksistēt.</value>
+  </data>
+  <data name="CheatCodesAddPivotTitle" xml:space="preserve">
+    <value>pievienot</value>
+  </data>
+  <data name="ManualSnapshotHelp" xml:space="preserve">
+    <value>Jā jūs saglabājat aplikāciju uz SD Kartes, tad ieklikšķiniet šo opciju lai palielinātu sniegspēju, kad izejiet no aplikācijas. Kā arī, ieklišķiniet šo opciju, ja jūs vēlaties izveidot jūsu pašu aizstāšanas mākslu(cover art).</value>
+  </data>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+  </data>
+  <data name="SaveSlotReservedText" xml:space="preserve">
+    <value>Šī saglabātā vieta ir aizņemta iekšējai izmantosānai. Jūs varat tikai ielādēt no tās, bet ne saglabāt uz tās.</value>
+  </data>
+  <data name="SyncSoundSetting2" xml:space="preserve">
+    <value>(labāka kvalitāte, bet var būt lēnāk)</value>
+  </data>
+  <data name="AboutSnes9xLicense" xml:space="preserve">
+    <value>GNU Publiskā license:</value>
+  </data>
+  <data name="Err_NoConnectTitle" xml:space="preserve">
+    <value>Nevar savienoties</value>
+  </data>
+  <data name="CameraAssignR" xml:space="preserve">
+    <value>R-poga</value>
+  </data>
+  <data name="CameraAssignL" xml:space="preserve">
+    <value>L-poga</value>
+  </data>
+  <data name="CameraAssignA" xml:space="preserve">
+    <value>A-Poga</value>
+  </data>
+  <data name="CameraAssignB" xml:space="preserve">
+    <value>B-Poga</value>
+  </data>
+  <data name="LastPlayedLabel" xml:space="preserve">
+    <value>Pēdējo reizi spēlēts: </value>
+  </data>
+  <data name="SRAMDeletedSuccessfully" xml:space="preserve">
+    <value>Saglabātā vieta ir izņemta.</value>
+  </data>
+  <data name="ApplicationTitle" xml:space="preserve">
+    <value>VBA8</value>
+  </data>
+  <data name="Err_NoPeer" xml:space="preserve">
+    <value>Jums jāizvēlas galvenais no saraksta</value>
+  </data>
+  <data name="AboutContactLabel" xml:space="preserve">
+    <value>Kontakti:</value>
+  </data>
+  <data name="HelpImportSDCardHeader" xml:space="preserve">
+    <value>4 alternatīva: ievietojiet no SD kartes</value>
+  </data>
+  <data name="ConfirmationCheckBoxText" xml:space="preserve">
+    <value>Nerādīt šo atkal</value>
+  </data>
+  <data name="ROMAlreadyExistingError" xml:space="preserve">
+    <value>Šis ROM ir jau lejupielādēts iepriekš: {0}</value>
+  </data>
+  <data name="RecentTitle" xml:space="preserve">
+    <value>Nesen spēlēts</value>
+  </data>
+  <data name="SkyDriveError" xml:space="preserve">
+    <value>OneDrive problēma: {0}</value>
+  </data>
+  <data name="CheatListGameLabel" xml:space="preserve">
+    <value>Krāpšanās Kodi priekš:</value>
+  </data>
+  <data name="UnlockFeatureText" xml:space="preserve">
+    <value>Atbloķēt iespēju</value>
+  </data>
+  <data name="HelpIssuesHeader" xml:space="preserve">
+    <value>problēmas</value>
+  </data>
+  <data name="StartLinkText" xml:space="preserve">
+    <value>Sākt saikni</value>
+  </data>
+  <data name="GuidesTitle" xml:space="preserve">
+    <value>pavadoņi</value>
+  </data>
+  <data name="Msg_NoPeers" xml:space="preserve">
+    <value>Galvenie nav atrasti. Spiediet "Atjaunot galvenos" lai atsvaidzinātu.</value>
+  </data>
+  <data name="VibrationSettingText" xml:space="preserve">
+    <value>VIbrēt, kad pogas tiek spiestas</value>
+  </data>
+  <data name="ConnectButtonCaption" xml:space="preserve">
+    <value>Savienot ar izvēlēto</value>
+  </data>
+  <data name="BackupPageTitle" xml:space="preserve">
+    <value>Eksortēt saglabātās vietas</value>
+  </data>
+  <data name="LoadingProductListText" xml:space="preserve">
+    <value>Ielādē produktu sarakstu. Lūdzu uzgaidiet...</value>
+  </data>
+  <data name="ReviewPromptText" xml:space="preserve">
+    <value>Lūdzu ātri nobalsojiet par šo aplikāciju. Labas atsauksmes dos jaunas iespējas.</value>
+  </data>
+  <data name="AutoBackupTitle" xml:space="preserve">
+    <value>Automātiska dublēšana</value>
+  </data>
+  <data name="ManageDeleteUnknownError" xml:space="preserve">
+    <value>Ir radies nezināma problēma, kamēr noņēma saglabāto vietu.</value>
+  </data>
+  <data name="SourceButtonText" xml:space="preserve">
+    <value>Pirmkods</value>
+  </data>
+  <data name="BackupLastManualSlotText" xml:space="preserve">
+    <value>Dublēt pēdējās manuālos saglabāšanas vietas</value>
+  </data>
+  <data name="CustomizePortraitControlText" xml:space="preserve">
+    <value>Pārvaldīt Portreta Pogu Izvietojumu</value>
+  </data>
+  <data name="LoadStateButton" xml:space="preserve">
+    <value>Ielādēt pēdējo vietu</value>
+  </data>
+  <data name="FAQsLinkText" xml:space="preserve">
+    <value>BUJ, foruma diskusijas &amp; PC aplikācija</value>
+  </data>
+  <data name="ActiveSavestateText" xml:space="preserve">
+    <value> (aktīvs)</value>
+  </data>
+  <data name="StatusSignedIn" xml:space="preserve">
+    <value>Iegājis kontā.</value>
+  </data>
+  <data name="PurchaseButtonText" xml:space="preserve">
+    <value>Pirkt</value>
+  </data>
+  <data name="LowFreqModeSetting" xml:space="preserve">
+    <value>30 Hz Displeja atsvaidzes intensitāte</value>
+  </data>
+  <data name="CheatsDescription2" xml:space="preserve">
+    <value>ATCERIETIES: Pēc pēdējās problēmu atrisināšnas, visi 16-burtu/ciparu kodi ir *laboti* ar pareizajām atstarpēm lai strādātu atkal.</value>
+  </data>
+  <data name="BackupAndRestoreInstructions" xml:space="preserve">
+    <value>Eksportējiet un ievietojiet saglabātās spēles:</value>
+  </data>
+  <data name="RemoveStateNoSelection" xml:space="preserve">
+    <value>Jums sākumā jāizvēlas saglabātā vieta.</value>
+  </data>
+  <data name="SDCardReadOnlyText" xml:space="preserve">
+    <value>Atceraties: SD karte ir read-only priekš izdevējiem. Pārvaldot .zip paplašīnājumus, kas ir rezervēti priekš OS,  karoče, lūdzu izmantojiet .zib, ja neiet .zip</value>
+  </data>
+  <data name="CustomizeLandscapeControlText" xml:space="preserve">
+    <value>Pārvaldīt Ainavas Pogu Izvietojumu</value>
+  </data>
+  <data name="EmulatorMenuText" xml:space="preserve">
+    <value>Atceraties: Emulatora izvēlnes funkcija būs ielikta citā datumā.</value>
+  </data>
+  <data name="CameraButtonAssignment" xml:space="preserve">
+    <value>Pielikt kameras pogai</value>
+  </data>
+  <data name="SetupAutoBackupText" xml:space="preserve">
+    <value>Uzstādīt atomātisko dublēšanu...</value>
+  </data>
+  <data name="HelpTipsPerformanceHeader" xml:space="preserve">
+    <value>Spēles strādā lēnu</value>
+  </data>
+  <data name="AutoLoadLastStateText" xml:space="preserve">
+    <value>Automātiski saglabāt un ielādēt spēli</value>
+  </data>
+  <data name="GeneralSettingsTitle" xml:space="preserve">
+    <value>vispārējs</value>
+  </data>
+  <data name="EnterHostIPText" xml:space="preserve">
+    <value>Ievadiet saimnieka IP adresi šeit</value>
+  </data>
+  <data name="HelpImportEmailText" xml:space="preserve">
+    <value>Sūtiet E-pastu uz jebkuru E-pastas adresi, kas ir pieejama no jūsu telefona un spēj saturēt vienu vai vairākus ROM failus kā pielikumu. Jūs arī varat pievienot ROM failu kā *.gba failu vai saspiestu *.zip arhīvā. Atveriet E-pastu uz jūsu telefona un uzklikšķiniet uz pielikuma lai lejupielādētu failu. Ja jūsu pielikums ir saglabāts kā *.zip arhīvs, E-pasta aplikācija atļauj jums navigēt caur šo arhīvu. Atrodiet ROM failu šajā arhīvā un uzklikšķiniet uz viņa lai palaistu emulatoru. Emulators automātiski ievietos ROM failu no jūsu E-pasta pielikuma un palaidīs spēli. Ja pielikums nebija kā *.zip, bet gan kā *.gba, tad uzklikšķiniet uz tā lai palaistu emulatoru un ievietotu spēli tajā.</value>
+  </data>
+  <data name="ErrorNoConnectionText" xml:space="preserve">
+    <value>Problēma! Nav pieejams interneta savienojums vai Microsoft serveru problēmas. Lūdz mēģiniet vēlāk.</value>
+  </data>
+  <data name="HelpIssuesWhiteScreenHeader" xml:space="preserve">
+    <value>Tukšs ekrāns pēc ROM faila ielādes.</value>
+  </data>
+</root>
