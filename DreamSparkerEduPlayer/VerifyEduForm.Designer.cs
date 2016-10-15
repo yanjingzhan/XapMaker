@@ -176,6 +176,7 @@
             this.checkBox_CheckHotmail.TabIndex = 7;
             this.checkBox_CheckHotmail.Text = "检查账号是否过期";
             this.checkBox_CheckHotmail.UseVisualStyleBackColor = true;
+            this.checkBox_CheckHotmail.CheckedChanged += new System.EventHandler(this.checkBox_CheckHotmail_CheckedChanged);
             // 
             // checkBox_KillAnQuan
             // 

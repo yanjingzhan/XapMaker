@@ -126,5 +126,58 @@ namespace DreamSparkerEduPlayer.Utility
                 throw ex;
             }
         }
+
+
+        public static List<DreamSparkerModel> CheckAccount(string accountcount)
+        {
+            WebClient wc = new WebClient();
+            byte[] bResult = wc.DownloadData(
+               string.Format("http://as.pettostudio.net/account.aspx?action=checkaccount&accountcount={0}", accountcount));
+
+            string aiStr = Encoding.UTF8.GetString(bResult);
+
+            List<AccountInfo> accountInfo = JsonHelper.DeserializeObjectFromJson<List<AccountInfo>>(aiStr);
+
+            if (accountInfo == null || accountInfo.Count == 0)
+            {
+                return null;
+            }
+            else
+            {
+                List<DreamSparkerModel> result = new List<DreamSparkerModel>();
+
+                foreach (var item in accountInfo)
+                {
+                    result.Add(new DreamSparkerModel
+                    {
+                        DevAccount = item.Account,
+                        DevPassword = item.Password
+                    });
+                }
+
+                return result;
+            }
+        }
+
+        public static void UpdateAccountStateWithoutUserName(string account, string state)
+        {
+            WebClient wc = new WebClient();
+            try
+            {
+                string dataString = Encoding.GetEncoding("utf-8").GetString(
+                         wc.DownloadData(string.Format(
+                         "http://as.pettostudio.net/account.aspx?action=updateaccountstatewithoutusername&account={0}&state={1}",
+                                                            account, state)));
+
+                if (!dataString.Contains("ok"))
+                {
+                    throw new Exception(dataString);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

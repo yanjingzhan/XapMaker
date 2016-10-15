@@ -20,14 +20,17 @@ namespace TestForm
 
         private void button_Do_Click(object sender, EventArgs e)
         {
-            string a1 = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"IAD_apktool2015.10.22_XD107\data_decode\a1.bat");
-            string test = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"IAD_apktool2015.10.22_XD107\data_decode\test.bat");
+            System.Drawing.Image image1 = System.Drawing.Image.FromFile(@"D:\work\windowsphone\Unity游戏\Patakong\WP8_EN\Store\images\1\wp_ss_20150617_0006.png");
+                       
+            // Save the image in PNG format.
+            image1.Save(@"d:\test.png", System.Drawing.Imaging.ImageFormat.Png);  
+            
+            // Save the image in JPEG format.
+            image1.Save(@"d:\test.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
 
-            System.IO.Directory.SetCurrentDirectory(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"IAD_apktool2015.10.22_XD107\data_decode"));
-            Process proc = Process.Start(a1);
-
-            proc.WaitForExit();
-            MessageBox.Show("Done");
+            // Save the image in GIF format.
+            image1.Save(@"d:\test.gif", System.Drawing.Imaging.ImageFormat.Gif);
+     
         }
     }
 }

@@ -640,5 +640,10 @@ namespace DreamSparkerEduPlayer
             }
         }
 
+        private void checkBox_CheckHotmail_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

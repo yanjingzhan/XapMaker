@@ -65,18 +65,26 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox_MoNiQi_GoogleChaping_Update = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.button_MoNiQi_CopyDevPassword_Update = new System.Windows.Forms.Button();
             this.button_CopyGameNameUpload = new System.Windows.Forms.Button();
             this.button_MoNiQi_CopyDevAccount_Update = new System.Windows.Forms.Button();
+            this.checkBox_MoNiQi_AutoChangeStateToReady = new System.Windows.Forms.CheckBox();
+            this.button_MoNiQi_ShowImages = new System.Windows.Forms.Button();
             this.button_MoNiQi_Update = new System.Windows.Forms.Button();
             this.pictureBox_MoNiQi_Logo_Update = new System.Windows.Forms.PictureBox();
+            this.pictureBox_MoNiQi_BackImagePath_Update = new System.Windows.Forms.PictureBox();
             this.comboBox_MoNiQi_State_Update = new System.Windows.Forms.ComboBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBox_MoNiQi_SurfaceAdID_Update = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.textBox_MoNiQi_PubcenterAdID_Update = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.textBox_MoNiQi_PubcenterAppID_Update = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox_MoNiQi_GoogleBanner_Update = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox_MoNiQi_SurfaceAccountID_Update = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.textBox_MoNiQi_DevPassword_Update = new System.Windows.Forms.TextBox();
@@ -96,14 +104,7 @@
             this.pictureBox_MoNiQi_ScreenShot_1 = new System.Windows.Forms.PictureBox();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel_Status = new System.Windows.Forms.ToolStripStatusLabel();
-            this.textBox_MoNiQi_SurfaceAdID_Update = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.textBox_MoNiQi_SurfaceAccountID_Update = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.checkBox_MoNiQi_AutoChangeStateToReady = new System.Windows.Forms.CheckBox();
-            this.button_MoNiQi_ShowImages = new System.Windows.Forms.Button();
-            this.pictureBox_MoNiQi_BackImagePath_Update = new System.Windows.Forms.PictureBox();
+            this.checkBox_UseUnity = new System.Windows.Forms.CheckBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -114,6 +115,7 @@
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MoNiQi_Logo_Update)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MoNiQi_BackImagePath_Update)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MoNiQi_ScreenShot_4)).BeginInit();
@@ -121,7 +123,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MoNiQi_ScreenShot_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MoNiQi_ScreenShot_1)).BeginInit();
             this.statusStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MoNiQi_BackImagePath_Update)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -420,6 +421,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.checkBox_UseUnity);
             this.groupBox1.Controls.Add(this.button_MoNiQi_Search);
             this.groupBox1.Controls.Add(this.comboBox_MoNiQi_State);
             this.groupBox1.Controls.Add(this.textBox_MoNiQi_GameName);
@@ -548,6 +550,17 @@
             this.textBox_MoNiQi_GoogleChaping_Update.Size = new System.Drawing.Size(328, 25);
             this.textBox_MoNiQi_GoogleChaping_Update.TabIndex = 24;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1096, 202);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Visible = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // button_MoNiQi_CopyDevPassword_Update
             // 
             this.button_MoNiQi_CopyDevPassword_Update.Location = new System.Drawing.Point(913, 16);
@@ -578,6 +591,30 @@
             this.button_MoNiQi_CopyDevAccount_Update.UseVisualStyleBackColor = true;
             this.button_MoNiQi_CopyDevAccount_Update.Click += new System.EventHandler(this.button_MoNiQi_CopyDevAccount_Update_Click);
             // 
+            // checkBox_MoNiQi_AutoChangeStateToReady
+            // 
+            this.checkBox_MoNiQi_AutoChangeStateToReady.AutoSize = true;
+            this.checkBox_MoNiQi_AutoChangeStateToReady.Location = new System.Drawing.Point(913, 178);
+            this.checkBox_MoNiQi_AutoChangeStateToReady.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.checkBox_MoNiQi_AutoChangeStateToReady.Name = "checkBox_MoNiQi_AutoChangeStateToReady";
+            this.checkBox_MoNiQi_AutoChangeStateToReady.Size = new System.Drawing.Size(284, 19);
+            this.checkBox_MoNiQi_AutoChangeStateToReady.TabIndex = 12;
+            this.checkBox_MoNiQi_AutoChangeStateToReady.Text = "点击更新时将状态自动改为“待提交”";
+            this.checkBox_MoNiQi_AutoChangeStateToReady.UseVisualStyleBackColor = true;
+            this.checkBox_MoNiQi_AutoChangeStateToReady.Visible = false;
+            // 
+            // button_MoNiQi_ShowImages
+            // 
+            this.button_MoNiQi_ShowImages.Location = new System.Drawing.Point(963, 10);
+            this.button_MoNiQi_ShowImages.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button_MoNiQi_ShowImages.Name = "button_MoNiQi_ShowImages";
+            this.button_MoNiQi_ShowImages.Size = new System.Drawing.Size(224, 22);
+            this.button_MoNiQi_ShowImages.TabIndex = 14;
+            this.button_MoNiQi_ShowImages.Text = "显示数据库中保存的网络图片";
+            this.button_MoNiQi_ShowImages.UseVisualStyleBackColor = true;
+            this.button_MoNiQi_ShowImages.Visible = false;
+            this.button_MoNiQi_ShowImages.Click += new System.EventHandler(this.button_MoNiQi_ShowImages_Click);
+            // 
             // button_MoNiQi_Update
             // 
             this.button_MoNiQi_Update.Location = new System.Drawing.Point(1220, 194);
@@ -601,6 +638,19 @@
             this.pictureBox_MoNiQi_Logo_Update.TabStop = false;
             this.pictureBox_MoNiQi_Logo_Update.Click += new System.EventHandler(this.pictureBox_MoNiQi_Logo_Update_Click);
             // 
+            // pictureBox_MoNiQi_BackImagePath_Update
+            // 
+            this.pictureBox_MoNiQi_BackImagePath_Update.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox_MoNiQi_BackImagePath_Update.Location = new System.Drawing.Point(963, 40);
+            this.pictureBox_MoNiQi_BackImagePath_Update.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox_MoNiQi_BackImagePath_Update.Name = "pictureBox_MoNiQi_BackImagePath_Update";
+            this.pictureBox_MoNiQi_BackImagePath_Update.Size = new System.Drawing.Size(199, 120);
+            this.pictureBox_MoNiQi_BackImagePath_Update.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_MoNiQi_BackImagePath_Update.TabIndex = 3;
+            this.pictureBox_MoNiQi_BackImagePath_Update.TabStop = false;
+            this.pictureBox_MoNiQi_BackImagePath_Update.Visible = false;
+            this.pictureBox_MoNiQi_BackImagePath_Update.Click += new System.EventHandler(this.pictureBox_MoNiQi_BackImagePath_Update_Click);
+            // 
             // comboBox_MoNiQi_State_Update
             // 
             this.comboBox_MoNiQi_State_Update.Enabled = false;
@@ -618,6 +668,25 @@
             this.comboBox_MoNiQi_State_Update.Name = "comboBox_MoNiQi_State_Update";
             this.comboBox_MoNiQi_State_Update.Size = new System.Drawing.Size(328, 23);
             this.comboBox_MoNiQi_State_Update.TabIndex = 15;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(493, 112);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(154, 15);
+            this.label10.TabIndex = 0;
+            this.label10.Text = "Surface广告位整合ID";
+            this.label10.Visible = false;
+            // 
+            // textBox_MoNiQi_SurfaceAdID_Update
+            // 
+            this.textBox_MoNiQi_SurfaceAdID_Update.Location = new System.Drawing.Point(653, 105);
+            this.textBox_MoNiQi_SurfaceAdID_Update.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox_MoNiQi_SurfaceAdID_Update.Name = "textBox_MoNiQi_SurfaceAdID_Update";
+            this.textBox_MoNiQi_SurfaceAdID_Update.Size = new System.Drawing.Size(328, 25);
+            this.textBox_MoNiQi_SurfaceAdID_Update.TabIndex = 17;
+            this.textBox_MoNiQi_SurfaceAdID_Update.Visible = false;
             // 
             // label8
             // 
@@ -669,6 +738,27 @@
             this.textBox_MoNiQi_GoogleBanner_Update.Name = "textBox_MoNiQi_GoogleBanner_Update";
             this.textBox_MoNiQi_GoogleBanner_Update.Size = new System.Drawing.Size(328, 25);
             this.textBox_MoNiQi_GoogleBanner_Update.TabIndex = 18;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(20, 115);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(109, 15);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Surface账户ID";
+            this.label5.Visible = false;
+            // 
+            // textBox_MoNiQi_SurfaceAccountID_Update
+            // 
+            this.textBox_MoNiQi_SurfaceAccountID_Update.Location = new System.Drawing.Point(143, 109);
+            this.textBox_MoNiQi_SurfaceAccountID_Update.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox_MoNiQi_SurfaceAccountID_Update.Name = "textBox_MoNiQi_SurfaceAccountID_Update";
+            this.textBox_MoNiQi_SurfaceAccountID_Update.ReadOnly = true;
+            this.textBox_MoNiQi_SurfaceAccountID_Update.Size = new System.Drawing.Size(328, 25);
+            this.textBox_MoNiQi_SurfaceAccountID_Update.TabIndex = 16;
+            this.textBox_MoNiQi_SurfaceAccountID_Update.Text = "MVxmA2UBM1oxUGYEZRczWjFC";
+            this.textBox_MoNiQi_SurfaceAccountID_Update.Visible = false;
             // 
             // label12
             // 
@@ -861,93 +951,18 @@
             this.toolStripStatusLabel_Status.Size = new System.Drawing.Size(27, 27);
             this.toolStripStatusLabel_Status.Text = "...";
             // 
-            // textBox_MoNiQi_SurfaceAdID_Update
+            // checkBox_UseUnity
             // 
-            this.textBox_MoNiQi_SurfaceAdID_Update.Location = new System.Drawing.Point(653, 105);
-            this.textBox_MoNiQi_SurfaceAdID_Update.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox_MoNiQi_SurfaceAdID_Update.Name = "textBox_MoNiQi_SurfaceAdID_Update";
-            this.textBox_MoNiQi_SurfaceAdID_Update.Size = new System.Drawing.Size(328, 25);
-            this.textBox_MoNiQi_SurfaceAdID_Update.TabIndex = 17;
-            this.textBox_MoNiQi_SurfaceAdID_Update.Visible = false;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(493, 112);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(154, 15);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "Surface广告位整合ID";
-            this.label10.Visible = false;
-            // 
-            // textBox_MoNiQi_SurfaceAccountID_Update
-            // 
-            this.textBox_MoNiQi_SurfaceAccountID_Update.Location = new System.Drawing.Point(143, 109);
-            this.textBox_MoNiQi_SurfaceAccountID_Update.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox_MoNiQi_SurfaceAccountID_Update.Name = "textBox_MoNiQi_SurfaceAccountID_Update";
-            this.textBox_MoNiQi_SurfaceAccountID_Update.ReadOnly = true;
-            this.textBox_MoNiQi_SurfaceAccountID_Update.Size = new System.Drawing.Size(328, 25);
-            this.textBox_MoNiQi_SurfaceAccountID_Update.TabIndex = 16;
-            this.textBox_MoNiQi_SurfaceAccountID_Update.Text = "MVxmA2UBM1oxUGYEZRczWjFC";
-            this.textBox_MoNiQi_SurfaceAccountID_Update.Visible = false;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(20, 115);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(109, 15);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Surface账户ID";
-            this.label5.Visible = false;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(1096, 202);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Visible = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // checkBox_MoNiQi_AutoChangeStateToReady
-            // 
-            this.checkBox_MoNiQi_AutoChangeStateToReady.AutoSize = true;
-            this.checkBox_MoNiQi_AutoChangeStateToReady.Location = new System.Drawing.Point(913, 178);
-            this.checkBox_MoNiQi_AutoChangeStateToReady.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox_MoNiQi_AutoChangeStateToReady.Name = "checkBox_MoNiQi_AutoChangeStateToReady";
-            this.checkBox_MoNiQi_AutoChangeStateToReady.Size = new System.Drawing.Size(284, 19);
-            this.checkBox_MoNiQi_AutoChangeStateToReady.TabIndex = 12;
-            this.checkBox_MoNiQi_AutoChangeStateToReady.Text = "点击更新时将状态自动改为“待提交”";
-            this.checkBox_MoNiQi_AutoChangeStateToReady.UseVisualStyleBackColor = true;
-            this.checkBox_MoNiQi_AutoChangeStateToReady.Visible = false;
-            // 
-            // button_MoNiQi_ShowImages
-            // 
-            this.button_MoNiQi_ShowImages.Location = new System.Drawing.Point(963, 10);
-            this.button_MoNiQi_ShowImages.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button_MoNiQi_ShowImages.Name = "button_MoNiQi_ShowImages";
-            this.button_MoNiQi_ShowImages.Size = new System.Drawing.Size(224, 22);
-            this.button_MoNiQi_ShowImages.TabIndex = 14;
-            this.button_MoNiQi_ShowImages.Text = "显示数据库中保存的网络图片";
-            this.button_MoNiQi_ShowImages.UseVisualStyleBackColor = true;
-            this.button_MoNiQi_ShowImages.Visible = false;
-            this.button_MoNiQi_ShowImages.Click += new System.EventHandler(this.button_MoNiQi_ShowImages_Click);
-            // 
-            // pictureBox_MoNiQi_BackImagePath_Update
-            // 
-            this.pictureBox_MoNiQi_BackImagePath_Update.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox_MoNiQi_BackImagePath_Update.Location = new System.Drawing.Point(963, 40);
-            this.pictureBox_MoNiQi_BackImagePath_Update.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.pictureBox_MoNiQi_BackImagePath_Update.Name = "pictureBox_MoNiQi_BackImagePath_Update";
-            this.pictureBox_MoNiQi_BackImagePath_Update.Size = new System.Drawing.Size(199, 120);
-            this.pictureBox_MoNiQi_BackImagePath_Update.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_MoNiQi_BackImagePath_Update.TabIndex = 3;
-            this.pictureBox_MoNiQi_BackImagePath_Update.TabStop = false;
-            this.pictureBox_MoNiQi_BackImagePath_Update.Visible = false;
-            this.pictureBox_MoNiQi_BackImagePath_Update.Click += new System.EventHandler(this.pictureBox_MoNiQi_BackImagePath_Update_Click);
+            this.checkBox_UseUnity.AutoSize = true;
+            this.checkBox_UseUnity.Checked = true;
+            this.checkBox_UseUnity.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_UseUnity.Enabled = false;
+            this.checkBox_UseUnity.Location = new System.Drawing.Point(739, 35);
+            this.checkBox_UseUnity.Name = "checkBox_UseUnity";
+            this.checkBox_UseUnity.Size = new System.Drawing.Size(99, 19);
+            this.checkBox_UseUnity.TabIndex = 4;
+            this.checkBox_UseUnity.Text = "使用Unity";
+            this.checkBox_UseUnity.UseVisualStyleBackColor = true;
             // 
             // WpGameManager
             // 
@@ -975,6 +990,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MoNiQi_Logo_Update)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MoNiQi_BackImagePath_Update)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -984,7 +1000,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MoNiQi_ScreenShot_1)).EndInit();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_MoNiQi_BackImagePath_Update)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1068,6 +1083,7 @@
         private System.Windows.Forms.TextBox textBox_MoNiQi_SurfaceAdID_Update;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox_MoNiQi_SurfaceAccountID_Update;
+        private System.Windows.Forms.CheckBox checkBox_UseUnity;
     }
 }
 

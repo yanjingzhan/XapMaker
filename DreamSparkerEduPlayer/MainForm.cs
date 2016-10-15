@@ -128,5 +128,10 @@ namespace DreamSparkerEduPlayer
 
             _childForms.Add(vhi);
         }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

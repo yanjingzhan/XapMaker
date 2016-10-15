@@ -29,6 +29,8 @@ namespace GameInfoAdder
             Console.WriteLine("===C.上传Unity游戏名===");
             Console.WriteLine("===D.生成Unity广告名字===");
             Console.WriteLine("===E.优化Unity游戏名字===");
+            Console.WriteLine("===F.安卓第二轮游戏名===");
+            Console.WriteLine("===G.安卓广告名===");
 
             Console.WriteLine("======================");
 
@@ -105,6 +107,17 @@ namespace GameInfoAdder
                     Console.WriteLine("优化Unity游戏名字");
                     GoodUpdateUnityGameName();
                     break;
+
+                case "F":
+                    Console.WriteLine("安卓第二轮游戏名");
+                    AndroidSecondTimeGameName();
+                    break;
+
+                case "G":
+                    Console.WriteLine("安卓广告名");
+                    CreatAndroidAdNames();
+                    break;
+
                 case "0":
                     Console.WriteLine("测试");
                     UpdateGameDetails();
@@ -503,6 +516,138 @@ namespace GameInfoAdder
                     Logger.Loglog(string.Format("{0}的详细信息 {1}", gameInfo.GameName, newName));
 
                     HttpDataHelper.UpdatePushGameNameInfoByID(newName, gameInfo.ID);
+
+                    Console.WriteLine("{0} 成功", gameInfo.GameName);
+                    Logger.Loglog(string.Format("{0} 成功", gameInfo.GameName));
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("{0} 失败,{1}", gameInfo.GameName, ex.Message);
+                    Logger.Loglog(string.Format("{0} 失败,{1}", gameInfo.GameName, ex.Message));
+                }
+            }
+        }
+
+        public static void AndroidSecondTimeGameName()
+        {
+            List<PushGameInfoModel> gameList = HttpDataHelper.GetGameList("", "安卓待审核", "");
+
+            Console.WriteLine(gameList.Count);
+
+            Random rd = new Random();
+
+            foreach (var gameInfo in gameList)
+            {
+                try
+                {
+                    //string[] shitInster =
+                    //    new string[] { "Action", "Adventure", "Fight", "Hero", "Dream", "Bomb",
+                    //                    "Go", "Legend", "Next", "Boy", "Story", "Gaiden", "Free","Pro" };
+
+                    //string[] shitInster =
+                    //        new string[] { "Win", "Fighting", "Power", "Speed", "Fox", "Gun",
+                    //                    "Aim", "Kick", "Blast", "Avenger" };
+
+                    //string[] shitInster =
+                    //        new string[] { "King", "Fist", "Angry", "Thinking", "Battle", "War",
+                    //                    "Combat", "Classic", "Back", "Terminator" };
+
+                    //string[] shitInster =
+                    //        new string[] { "Guns", "Fly", "Sky", "Hit", "Run", "Final",
+                    //                        "Night", "Warfare", "Winning", "Ruins" };
+
+                    string[] shitInster = new string[] { "Action", "Adventure", "Fight", "Hero", "Dream", "Bomb",
+                                                         "Go", "Legend", "Next", "Boy", "Story", "Gaiden", "Free","Pro",
+                                                         "Win", "Fighting", "Power", "Speed", "Fox", "Gun",
+                                                         "Aim", "Kick", "Blast", "Avenger",
+                                                         "King", "Fist", "Angry", "Thinking", "Battle", "War",
+                                                         "Combat", "Classic", "Back", "Terminator",
+                                                         "Guns", "Fly", "Sky", "Hit", "Run", "Final",
+                                                         "Night", "Warfare", "Winning", "Ruins"};
+
+                    string replacedName = gameInfo.GameName;
+                    foreach (var s in shitInster)
+                    {
+                        if ((" " + gameInfo.GameName + " ").Contains(" " + s + " "))
+                        {
+                            replacedName = replacedName.Replace(s, "");
+                        }
+                    }
+
+                    replacedName = replacedName.Replace("  ", " ");
+
+                    string newName = gameInfo.GameName;
+                    List<string> gameNameSplited = replacedName.Split(' ').ToList();
+
+                    while (newName == gameInfo.GameName)
+                    {
+
+                        int index_t = rd.Next(0, shitInster.Length);
+                        int index_t2 = rd.Next(0, gameNameSplited.Count + 1);
+
+                        gameNameSplited.Insert(index_t2, shitInster[index_t]);
+                        StringBuilder sb = new StringBuilder();
+                        foreach (var s in gameNameSplited)
+                        {
+                            sb.Append(s);
+                            sb.Append(" ");
+                        }
+
+                        newName = sb.ToString().Trim().Replace("  ", " ");
+                    }
+
+                    //newName = replacedName;
+
+                    Console.WriteLine("{0}的新名字 {1}", gameInfo.GameName, newName);
+                    Logger.Loglog(string.Format("{0}的详细信息 {1}", gameInfo.GameName, newName));
+
+                    HttpDataHelper.UpdatePushGameNameInfoByID(newName, gameInfo.ID);
+
+                    Console.WriteLine("{0} 成功", gameInfo.GameName);
+                    Logger.Loglog(string.Format("{0} 成功", gameInfo.GameName));
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("{0} 失败,{1}", gameInfo.GameName, ex.Message);
+                    Logger.Loglog(string.Format("{0} 失败,{1}", gameInfo.GameName, ex.Message));
+                }
+            }
+        }
+
+        public static void CreatAndroidAdNames()
+        {
+            List<PushGameInfoModel> gameList = HttpDataHelper.GetGameList("", "安卓未就绪", "");
+
+            Console.WriteLine(gameList.Count);
+
+            Random rd = new Random();
+
+            foreach (var gameInfo in gameList)
+            {
+                try
+                {
+                    string[] shitInster =
+                        new string[] { "OK", "ER", "D", "N", "L", "PL", "EU", "US" };
+
+                    List<string> gameNameSplited = gameInfo.GameName.Split(' ').ToList();
+
+                    int index_t = rd.Next(0, shitInster.Length);
+                    int index_t2 = rd.Next(0, gameNameSplited.Count + 1);
+
+                    gameNameSplited.Insert(index_t2, shitInster[index_t]);
+                    StringBuilder sb = new StringBuilder();
+                    foreach (var s in gameNameSplited)
+                    {
+                        sb.Append(s);
+                        sb.Append(" ");
+                    }
+
+                    string newName = sb.ToString().Trim();
+
+                    Console.WriteLine("{0}的新广告名字 {1}", gameInfo.GameName, newName);
+                    Logger.Loglog(string.Format("{0}的新广告名字 {1}", gameInfo.GameName, newName));
+
+                    HttpDataHelper.UpdatePushAdNameInfoByID(newName, gameInfo.ID);
 
                     Console.WriteLine("{0} 成功", gameInfo.GameName);
                     Logger.Loglog(string.Format("{0} 成功", gameInfo.GameName));

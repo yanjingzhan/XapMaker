@@ -36,10 +36,10 @@
             this.toolStripButton_DelEdu = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton_AddOwn = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton_Amazon = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton_VerifyHotmailIsGood = new System.Windows.Forms.ToolStripButton();
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -135,6 +135,18 @@
             this.toolStripButton_Amazon.Text = "注册亚马逊账号";
             this.toolStripButton_Amazon.Click += new System.EventHandler(this.toolStripButton_Amazon_Click);
             // 
+            // toolStripButton2
+            // 
+            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripButton2.Font = new System.Drawing.Font("Microsoft YaHei UI", 14F, System.Drawing.FontStyle.Bold);
+            this.toolStripButton2.ForeColor = System.Drawing.Color.Chocolate;
+            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
+            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.Size = new System.Drawing.Size(76, 35);
+            this.toolStripButton2.Text = "TEST";
+            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
+            // 
             // toolStripButton_VerifyHotmailIsGood
             // 
             this.toolStripButton_VerifyHotmailIsGood.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
@@ -161,17 +173,6 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(24, 24);
             this.toolStripButton1.Text = "toolStripButton1";
-            // 
-            // toolStripButton2
-            // 
-            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.toolStripButton2.Font = new System.Drawing.Font("Microsoft YaHei UI", 14F, System.Drawing.FontStyle.Bold);
-            this.toolStripButton2.ForeColor = System.Drawing.Color.Chocolate;
-            this.toolStripButton2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton2.Image")));
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(76, 35);
-            this.toolStripButton2.Text = "TEST";
             // 
             // MainForm
             // 

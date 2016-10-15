@@ -232,7 +232,7 @@ namespace DreamSparkerEduPlayer
             int wait = new Random().Next((int)numericUpDown_Minute.Value - 5, (int)numericUpDown_Minute.Value + 2);
 
             SetInfo(string.Format("延时{0}分钟开始", wait));
-            await Task.Delay(TimeSpan.FromMinutes(wait));
+            //await Task.Delay(TimeSpan.FromMinutes(wait));
             SetInfo(string.Format("延时{0}分钟结束", wait));
 
             if(checkBox_ClearCookie.Checked)
@@ -443,6 +443,15 @@ namespace DreamSparkerEduPlayer
                 SetInfo("获取新的账号");
 
                 _currentDreamSparkerModel = HttpDataHelper.GetOneEduModelList(1, "amazon空闲中");
+
+                //test
+                _currentDreamSparkerModel = new DreamSparkerModel { 
+                    DevAccount = "testchagn@126.com",
+                    DevPassword = "testchange",
+                    Account = "testchagn@126.com",
+                    Password = "testchange",
+                    NewPassword = "testchange",
+                };
                 ShowLableInfo();
             }
             catch (Exception ex)
@@ -485,6 +494,11 @@ namespace DreamSparkerEduPlayer
             {
                 INIHelper.WriteIniData("AmazonRegisterFrom", "AutoRestart", "0", Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "conf.ini"));
             }
+        }
+
+        private void checkBox_ClearCookie_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
 
 

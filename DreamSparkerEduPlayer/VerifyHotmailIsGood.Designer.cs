@@ -61,13 +61,14 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.comboBox_ParentEmailWeb = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.checkBox_RestartEveryTime = new System.Windows.Forms.CheckBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.textBox_Info = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.webBrowser_Main = new System.Windows.Forms.WebBrowser();
             this.textBox_CurrentUrl = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.checkBox_RestartEveryTime = new System.Windows.Forms.CheckBox();
+            this.checkBox_ClearCookie = new System.Windows.Forms.CheckBox();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Timeout)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -272,13 +273,14 @@
             this.checkBox_CheckHotmail.TabIndex = 7;
             this.checkBox_CheckHotmail.Text = "检查账号是否过期";
             this.checkBox_CheckHotmail.UseVisualStyleBackColor = true;
+            this.checkBox_CheckHotmail.CheckedChanged += new System.EventHandler(this.checkBox_CheckHotmail_CheckedChanged);
             // 
             // checkBox_KillAnQuan
             // 
             this.checkBox_KillAnQuan.AutoSize = true;
             this.checkBox_KillAnQuan.Checked = true;
             this.checkBox_KillAnQuan.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.checkBox_KillAnQuan.Location = new System.Drawing.Point(163, 161);
+            this.checkBox_KillAnQuan.Location = new System.Drawing.Point(131, 163);
             this.checkBox_KillAnQuan.Name = "checkBox_KillAnQuan";
             this.checkBox_KillAnQuan.Size = new System.Drawing.Size(119, 19);
             this.checkBox_KillAnQuan.TabIndex = 5;
@@ -417,6 +419,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.checkBox_ClearCookie);
             this.groupBox1.Controls.Add(this.checkBox_RestartEveryTime);
             this.groupBox1.Controls.Add(this.checkBox_CheckHotmail);
             this.groupBox1.Controls.Add(this.checkBox_KillAnQuan);
@@ -439,6 +442,17 @@
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "控制";
+            // 
+            // checkBox_RestartEveryTime
+            // 
+            this.checkBox_RestartEveryTime.AutoSize = true;
+            this.checkBox_RestartEveryTime.Location = new System.Drawing.Point(230, 113);
+            this.checkBox_RestartEveryTime.Name = "checkBox_RestartEveryTime";
+            this.checkBox_RestartEveryTime.Size = new System.Drawing.Size(89, 19);
+            this.checkBox_RestartEveryTime.TabIndex = 9;
+            this.checkBox_RestartEveryTime.Text = "每次重启";
+            this.checkBox_RestartEveryTime.UseVisualStyleBackColor = true;
+            this.checkBox_RestartEveryTime.CheckedChanged += new System.EventHandler(this.checkBox_RestartEveryTime_CheckedChanged);
             // 
             // panel2
             // 
@@ -499,16 +513,16 @@
             this.panel1.Size = new System.Drawing.Size(1169, 194);
             this.panel1.TabIndex = 6;
             // 
-            // checkBox_RestartEveryTime
+            // checkBox_ClearCookie
             // 
-            this.checkBox_RestartEveryTime.AutoSize = true;
-            this.checkBox_RestartEveryTime.Location = new System.Drawing.Point(230, 113);
-            this.checkBox_RestartEveryTime.Name = "checkBox_RestartEveryTime";
-            this.checkBox_RestartEveryTime.Size = new System.Drawing.Size(89, 19);
-            this.checkBox_RestartEveryTime.TabIndex = 9;
-            this.checkBox_RestartEveryTime.Text = "每次重启";
-            this.checkBox_RestartEveryTime.UseVisualStyleBackColor = true;
-            this.checkBox_RestartEveryTime.CheckedChanged += new System.EventHandler(this.checkBox_RestartEveryTime_CheckedChanged);
+            this.checkBox_ClearCookie.AutoSize = true;
+            this.checkBox_ClearCookie.Location = new System.Drawing.Point(230, 139);
+            this.checkBox_ClearCookie.Name = "checkBox_ClearCookie";
+            this.checkBox_ClearCookie.Size = new System.Drawing.Size(107, 19);
+            this.checkBox_ClearCookie.TabIndex = 12;
+            this.checkBox_ClearCookie.Text = "清理Cookie";
+            this.checkBox_ClearCookie.UseVisualStyleBackColor = true;
+            this.checkBox_ClearCookie.CheckedChanged += new System.EventHandler(this.checkBox_ClearCookie_CheckedChanged);
             // 
             // VerifyHotmailIsGood
             // 
@@ -580,5 +594,6 @@
         private System.Windows.Forms.TextBox textBox_CurrentUrl;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.CheckBox checkBox_RestartEveryTime;
+        private System.Windows.Forms.CheckBox checkBox_ClearCookie;
     }
 }

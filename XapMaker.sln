@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityScreenShoter", "UnityS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AmazonPlayerGod", "AmazonPlayerGod\AmazonPlayerGod.csproj", "{A85796FE-781B-4A56-8336-E9EAB99370CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityRePackager", "UnityRePackager\UnityRePackager.csproj", "{1C156704-8889-4716-849B-626865708B95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityGameRrranger", "UnityGameRrranger\UnityGameRrranger.csproj", "{DD95F0BE-1F5D-42E8-8287-38C158621451}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{A85796FE-781B-4A56-8336-E9EAB99370CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A85796FE-781B-4A56-8336-E9EAB99370CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A85796FE-781B-4A56-8336-E9EAB99370CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C156704-8889-4716-849B-626865708B95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C156704-8889-4716-849B-626865708B95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C156704-8889-4716-849B-626865708B95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C156704-8889-4716-849B-626865708B95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD95F0BE-1F5D-42E8-8287-38C158621451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD95F0BE-1F5D-42E8-8287-38C158621451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD95F0BE-1F5D-42E8-8287-38C158621451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD95F0BE-1F5D-42E8-8287-38C158621451}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

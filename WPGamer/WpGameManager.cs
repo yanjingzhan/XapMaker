@@ -216,8 +216,14 @@ namespace WPGamer
 
                 //_pushGameInfoModelList_MoNiQi = HttpDataHelper.GetGameList(this.textBox_MoNiQi_GameName.Text, this.comboBox_MoNiQi_State.Text, GlobalData.PusherName);
 
-                _pushGameInfoModelList_MoNiQi = new List<PushGameInfoModel> { HttpDataHelper.GetOneGameInfoAndChangeStateRandom("未就绪", "制作中") };
-
+                if (checkBox_UseUnity.Checked)
+                {
+                    _pushGameInfoModelList_MoNiQi = new List<PushGameInfoModel> { HttpDataHelper.GetOneGameInfoAndChangeStateRandom("unity未就绪", "unity制作中") };
+                }
+                else
+                {
+                    _pushGameInfoModelList_MoNiQi = new List<PushGameInfoModel> { HttpDataHelper.GetOneGameInfoAndChangeStateRandom("未就绪", "制作中") };
+                }
                 if (_pushGameInfoModelList_MoNiQi == null || _pushGameInfoModelList_MoNiQi.Count == 0)
                 {
                     SetStatusInfo("没有获取到游戏信息");

@@ -190,6 +190,7 @@
             this.button_CopyGameDetails.TabIndex = 50;
             this.button_CopyGameDetails.Text = "复制";
             this.button_CopyGameDetails.UseVisualStyleBackColor = true;
+            this.button_CopyGameDetails.Click += new System.EventHandler(this.button_CopyGameDetails_Click);
             // 
             // textBox_GameDetails
             // 
@@ -224,6 +225,7 @@
             this.button_CopyGameName.TabIndex = 46;
             this.button_CopyGameName.Text = "复制";
             this.button_CopyGameName.UseVisualStyleBackColor = true;
+            this.button_CopyGameName.Click += new System.EventHandler(this.button_CopyGameName_Click);
             // 
             // button_CopyDevPassword
             // 
@@ -233,6 +235,7 @@
             this.button_CopyDevPassword.TabIndex = 45;
             this.button_CopyDevPassword.Text = "复制";
             this.button_CopyDevPassword.UseVisualStyleBackColor = true;
+            this.button_CopyDevPassword.Click += new System.EventHandler(this.button_CopyDevPassword_Click);
             // 
             // button_CopyDevAccount
             // 
@@ -242,6 +245,7 @@
             this.button_CopyDevAccount.TabIndex = 44;
             this.button_CopyDevAccount.Text = "复制";
             this.button_CopyDevAccount.UseVisualStyleBackColor = true;
+            this.button_CopyDevAccount.Click += new System.EventHandler(this.button_CopyDevAccount_Click);
             // 
             // textBox_DevPassword
             // 
@@ -295,6 +299,7 @@
             this.button_OpenPackageDir.TabIndex = 37;
             this.button_OpenPackageDir.Text = "打开";
             this.button_OpenPackageDir.UseVisualStyleBackColor = true;
+            this.button_OpenPackageDir.Click += new System.EventHandler(this.button_OpenPackageDir_Click);
             // 
             // textBox_PackageDir
             // 
@@ -629,6 +634,7 @@
             this.button_DevAccountDie.TabIndex = 6;
             this.button_DevAccountDie.Text = "账号被封了！";
             this.button_DevAccountDie.UseVisualStyleBackColor = true;
+            this.button_DevAccountDie.Click += new System.EventHandler(this.button_DevAccountDie_Click);
             // 
             // button_DisableIt
             // 
@@ -641,6 +647,7 @@
             this.button_DisableIt.TabIndex = 7;
             this.button_DisableIt.Text = "这个游戏用不了";
             this.button_DisableIt.UseVisualStyleBackColor = true;
+            this.button_DisableIt.Click += new System.EventHandler(this.button_DisableIt_Click);
             // 
             // button_SubmitGameInfo
             // 
@@ -651,6 +658,7 @@
             this.button_SubmitGameInfo.TabIndex = 5;
             this.button_SubmitGameInfo.Text = "游戏提交完成";
             this.button_SubmitGameInfo.UseVisualStyleBackColor = true;
+            this.button_SubmitGameInfo.Click += new System.EventHandler(this.button_SubmitGameInfo_Click);
             // 
             // button_Shot_GetNewGame
             // 

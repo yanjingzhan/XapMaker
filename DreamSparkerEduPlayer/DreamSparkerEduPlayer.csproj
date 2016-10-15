@@ -33,6 +33,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="HtmlAgilityPack">
@@ -88,7 +89,9 @@
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\AccountInfo.cs" />
     <Compile Include="Models\DreamSparkerModel.cs" />
+    <Compile Include="Models\LiveIdModel.cs" />
     <Compile Include="Models\MailModel.cs" />
     <Compile Include="OwnEduAdderForm.cs">
       <SubType>Form</SubType>

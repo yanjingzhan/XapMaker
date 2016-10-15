@@ -33,6 +33,7 @@
             this.webBrowser_Main = new System.Windows.Forms.WebBrowser();
             this.textBox_CurrentUrl = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.checkBox_RestartEveryTime = new System.Windows.Forms.CheckBox();
             this.checkBox_ClearCookie = new System.Windows.Forms.CheckBox();
             this.numericUpDown_Minute = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown_Second = new System.Windows.Forms.NumericUpDown();
@@ -60,7 +61,6 @@
             this.textBox_Info = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.checkBox_RestartEveryTime = new System.Windows.Forms.CheckBox();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_Minute)).BeginInit();
@@ -123,6 +123,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "控制";
             // 
+            // checkBox_RestartEveryTime
+            // 
+            this.checkBox_RestartEveryTime.AutoSize = true;
+            this.checkBox_RestartEveryTime.Location = new System.Drawing.Point(197, 164);
+            this.checkBox_RestartEveryTime.Name = "checkBox_RestartEveryTime";
+            this.checkBox_RestartEveryTime.Size = new System.Drawing.Size(89, 19);
+            this.checkBox_RestartEveryTime.TabIndex = 5;
+            this.checkBox_RestartEveryTime.Text = "每次重启";
+            this.checkBox_RestartEveryTime.UseVisualStyleBackColor = true;
+            this.checkBox_RestartEveryTime.CheckedChanged += new System.EventHandler(this.checkBox_RestartEveryTime_CheckedChanged);
+            // 
             // checkBox_ClearCookie
             // 
             this.checkBox_ClearCookie.AutoSize = true;
@@ -134,6 +145,7 @@
             this.checkBox_ClearCookie.TabIndex = 5;
             this.checkBox_ClearCookie.Text = "清除IE Cookie";
             this.checkBox_ClearCookie.UseVisualStyleBackColor = true;
+            this.checkBox_ClearCookie.CheckedChanged += new System.EventHandler(this.checkBox_ClearCookie_CheckedChanged);
             // 
             // numericUpDown_Minute
             // 
@@ -412,17 +424,6 @@
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // checkBox_RestartEveryTime
-            // 
-            this.checkBox_RestartEveryTime.AutoSize = true;
-            this.checkBox_RestartEveryTime.Location = new System.Drawing.Point(197, 164);
-            this.checkBox_RestartEveryTime.Name = "checkBox_RestartEveryTime";
-            this.checkBox_RestartEveryTime.Size = new System.Drawing.Size(89, 19);
-            this.checkBox_RestartEveryTime.TabIndex = 5;
-            this.checkBox_RestartEveryTime.Text = "每次重启";
-            this.checkBox_RestartEveryTime.UseVisualStyleBackColor = true;
-            this.checkBox_RestartEveryTime.CheckedChanged += new System.EventHandler(this.checkBox_RestartEveryTime_CheckedChanged);
             // 
             // AmazonRegisterFrom
             // 

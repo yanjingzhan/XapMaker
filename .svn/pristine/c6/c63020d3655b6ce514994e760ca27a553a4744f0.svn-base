@@ -1,0 +1,237 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using WPGamer.Models;
+using WPGamer.Utility;
+
+namespace WPGamer
+{
+    public partial class UnityPackageBuilder : Form
+    {
+        DataGridViewRow _currentDataGridViewRow_MoNiQi = new DataGridViewRow();
+        DataGridViewRow _currentDataGridViewRowDevAccount_MoNiQi = new DataGridViewRow();
+
+
+        List<PushGameInfoModel> _pushGameInfoModelList_MoNiQi;
+        List<DreamSparkerModel> _windowsDevAccountList_MoNiQi;
+
+        private string _currentLogo_MoNiQi;
+        private string _currentBgImage_MoNiQi;
+
+        public DataGridViewRow CurrentMoNiQiDataGridViewRow_MoNiQi
+        {
+            get { return _currentDataGridViewRow_MoNiQi; }
+            set
+            {
+
+                if (_currentDataGridViewRow_MoNiQi != value)
+                {
+                    _currentDataGridViewRow_MoNiQi = value;
+
+                    this.textBox_GameName.Text = _currentDataGridViewRow_MoNiQi.Cells["Column_MoNiQi_GameName"].Value.ToString();
+                    this.textBox_GameDetails.Text = _currentDataGridViewRow_MoNiQi.Cells["Column_MoNiQi_GameDetails"].Value.ToString();
+                    //this.textBox_MoNiQi_GameName_Update.Text = _currentDataGridViewRow_MoNiQi.Cells["Column_MoNiQi_ADName"].Value.ToString();
+                    //this.comboBox_MoNiQi_State_Update.Text = _currentDataGridViewRow_MoNiQi.Cells["Column_MoNiQi_State"].Value.ToString();
+
+                    //this.textBox_MoNiQi_PubcenterAppID_Update.Text = _currentDataGridViewRow_MoNiQi.Cells["Column_MoNiQi_PubcenterAppID"].Value.ToString();
+                    //this.textBox_MoNiQi_PubcenterAdID_Update.Text = _currentDataGridViewRow_MoNiQi.Cells["Column_MoNiQi_PubcenterAdID"].Value.ToString();
+                    //this.textBox_MoNiQi_SurfaceAccountID_Update.Text = _currentDataGridViewRow_MoNiQi.Cells["Column_MoNiQi_SurfaceAccountID"].Value.ToString();
+                    //this.textBox_MoNiQi_SurfaceAdID_Update.Text = _currentDataGridViewRow_MoNiQi.Cells["Column_MoNiQi_SurfaceAdID"].Value.ToString();
+                    //this.textBox_MoNiQi_GoogleBanner_Update.Text = _currentDataGridViewRow_MoNiQi.Cells["Column_MoNiQi_GoogleBanner"].Value.ToString();
+                    //this.textBox_MoNiQi_GoogleChaping_Update.Text = _currentDataGridViewRow_MoNiQi.Cells["Column_MoNiQi_GoogleChaping"].Value.ToString();
+
+                    _currentBgImage_MoNiQi = string.Empty;
+                    _currentLogo_MoNiQi = string.Empty;
+
+                }
+            }
+        }
+
+        public DataGridViewRow CurrentDataGridViewRowDevAccount_MoNiQi
+        {
+            get { return _currentDataGridViewRowDevAccount_MoNiQi; }
+            set
+            {
+
+                if (_currentDataGridViewRowDevAccount_MoNiQi != value)
+                {
+                    _currentDataGridViewRowDevAccount_MoNiQi = value;
+
+                    this.textBox_DevAccount.Text = _currentDataGridViewRowDevAccount_MoNiQi.Cells["Column_Unity_DevAccount"].Value.ToString().Trim();
+                    this.textBox_DevPassword.Text = _currentDataGridViewRowDevAccount_MoNiQi.Cells["Column_Unity_DevPassword"].Value.ToString().Trim();
+                }
+            }
+        }
+        public UnityPackageBuilder()
+        {
+            InitializeComponent();
+        }
+
+        private void SetStatusInfo(string info)
+        {
+            this.toolStripStatusLabel_Status.Text = DateTime.Now.ToString() + "----" + info;
+        }
+
+        private void button_UpdateTables_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                SetStatusInfo("正在获取……可能会比较慢,请稍候…………");
+
+                dataGridView_MoNiQi_GameList.Rows.Clear();
+
+                _pushGameInfoModelList_MoNiQi = HttpDataHelper.GetGameList("", "unity待提交", "");
+
+                if (_pushGameInfoModelList_MoNiQi == null || _pushGameInfoModelList_MoNiQi.Count == 0)
+                {
+                    SetStatusInfo("没有获取到游戏信息");
+                    return;
+                }
+
+                for (int i = 0; i < _pushGameInfoModelList_MoNiQi.Count; i++)
+                {
+                    DataGridViewRow dgvr = new DataGridViewRow();
+
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = i + 1 });
+
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = _pushGameInfoModelList_MoNiQi[i].ID });
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = _pushGameInfoModelList_MoNiQi[i].GameName });
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = _pushGameInfoModelList_MoNiQi[i].State });
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = _pushGameInfoModelList_MoNiQi[i].SurfaceAccountID });
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = _pushGameInfoModelList_MoNiQi[i].SurfaceAdID });
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = _pushGameInfoModelList_MoNiQi[i].GoogleBanner });
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = _pushGameInfoModelList_MoNiQi[i].GoogleChaping });
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = _pushGameInfoModelList_MoNiQi[i].PubcenterAppID });
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = _pushGameInfoModelList_MoNiQi[i].PubcenterAdID });
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = _pushGameInfoModelList_MoNiQi[i].AddTime });
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = _pushGameInfoModelList_MoNiQi[i].UpdateTime });
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = _pushGameInfoModelList_MoNiQi[i].SourceType });
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = _pushGameInfoModelList_MoNiQi[i].FileName });
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = _pushGameInfoModelList_MoNiQi[i].GameDetails });
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = _pushGameInfoModelList_MoNiQi[i].AdName });
+
+                    dataGridView_MoNiQi_GameList.Rows.Add(dgvr);
+                }
+
+                dataGridView_MoNiQi_GameList.Columns[0].Width = 150;
+
+                dataGridView_MoNiQi_WinAccountsList.Rows.Clear();
+                _windowsDevAccountList_MoNiQi = HttpDataHelper.GetDreamSparkerListByCount("Unity可用", 0);
+
+                if (_windowsDevAccountList_MoNiQi == null || _windowsDevAccountList_MoNiQi.Count == 0)
+                {
+                    SetStatusInfo("没有获取到开发者账号信息");
+                    return;
+                }
+
+                _windowsDevAccountList_MoNiQi.Sort((left, right) =>
+                {
+                    if (int.Parse(left.PushCount) > int.Parse(right.PushCount))
+                    {
+                        return 1;
+                    }
+                    else if (int.Parse(left.PushCount) == int.Parse(right.PushCount))
+                    {
+                        return 0;
+                    }
+                    else
+                    {
+                        return -1;
+                    }
+                });
+
+                for (int i = 0; i < _windowsDevAccountList_MoNiQi.Count; i++)
+                {
+                    DataGridViewRow dgvr = new DataGridViewRow();
+
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = i + 1 });
+
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = _windowsDevAccountList_MoNiQi[i].ID });
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = _windowsDevAccountList_MoNiQi[i].PushCount });
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = _windowsDevAccountList_MoNiQi[i].DevAccount });
+                    dgvr.Cells.Add(new DataGridViewTextBoxCell { Value = _windowsDevAccountList_MoNiQi[i].DevPassword });
+
+                    dataGridView_MoNiQi_WinAccountsList.Rows.Add(dgvr);
+                }
+
+                SetStatusInfo("获取成功");
+            }
+            catch (Exception ex)
+            {
+                SetStatusInfo("获取游戏失败，" + ex.Message);
+            }
+        }
+
+        private void dataGridView_MoNiQi_WinAccountsList_SelectionChanged(object sender, EventArgs e)
+        {
+            if (dataGridView_MoNiQi_WinAccountsList.SelectedCells.Count > 0)
+            {
+                int index_t = dataGridView_MoNiQi_WinAccountsList.SelectedCells[0].RowIndex;
+                CurrentDataGridViewRowDevAccount_MoNiQi = dataGridView_MoNiQi_WinAccountsList.Rows[index_t];
+            }
+        }
+
+        private void dataGridView_MoNiQi_GameList_SelectionChanged(object sender, EventArgs e)
+        {
+            if (dataGridView_MoNiQi_GameList.SelectedCells.Count > 0)
+            {
+                int index_t = dataGridView_MoNiQi_GameList.SelectedCells[0].RowIndex;
+                CurrentMoNiQiDataGridViewRow_MoNiQi = dataGridView_MoNiQi_GameList.Rows[index_t];
+            }
+        }
+
+        private void button_Shot_GetNewGame_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                PushGameInfoModel p_t = HttpDataHelper.GetOneGameByID(_currentDataGridViewRow_MoNiQi.Cells["Column_MoNiQi_ID"].Value.ToString());
+                if (p_t.State.ToLower() == "unity开发中")
+                {
+                    SetStatusInfo("这个游戏已经被别人发了，正在获取最新列表，可能比较慢……");
+
+                    button_UpdateTables_Click(sender, e);
+                    return;
+                }
+
+                HttpDataHelper.UpdatePushGameStateInfoByID("unity开发中", _currentDataGridViewRow_MoNiQi.Cells["Column_MoNiQi_ID"].Value.ToString());
+
+                string romsPath = Path.Combine(INIHelper.ReadIniData("user", "rompath", AppDomain.CurrentDomain.BaseDirectory, Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "config.ini")), "unity");
+                string gameFileDir = Path.Combine(romsPath, p_t.FixedGameName);
+
+                if (!Directory.Exists(gameFileDir))
+                {
+                    SetStatusInfo(string.Format("打包失败了，木有找到这个 {0} 游戏路径……", p_t.FixedGameName));
+                    return;
+                }
+
+                string gameFilePath = string.Empty;
+
+                foreach (var f in Directory.GetFiles(gameFilePath))
+                {
+                    if(Path.GetExtension(f).ToLower() == ".xap")
+                    {
+                        gameFilePath = f;
+                        break;
+                    }
+                }
+
+                if(string.IsNullOrWhiteSpace(gameFilePath))
+                {
+                    SetStatusInfo(string.Format("打包失败了，木有找到这个 {0} 游戏路径……", p_t.FixedGameName));
+                    return;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                SetStatusInfo("失败了，" + ex.Message);
+            }
+        }
+    }
+}

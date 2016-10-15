@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Runtime.InteropServices;
 using System.IO;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace WPGamer.Utility
+namespace UnityGameRrranger.Utility
 {
     public class INIHelper
     {
@@ -29,7 +30,9 @@ namespace WPGamer.Utility
             if (!File.Exists(iniFilePath))
             {
                 using (File.Create(iniFilePath))
-                { }
+                {
+
+                }
             }
 
             StringBuilder temp = new StringBuilder(1024);
@@ -45,8 +48,10 @@ namespace WPGamer.Utility
         {
             if (!File.Exists(iniFilePath))
             {
-                using (File.Create(iniFilePath))
-                { }
+                using(File.Create(iniFilePath))
+                {
+
+                }
             }
 
             return WritePrivateProfileString(Section, Key, Value, iniFilePath) == 0;

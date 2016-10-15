@@ -277,7 +277,8 @@ namespace WPGamer
                     {
                         if (Path.GetExtension(file).ToLower() == ".png")
                         {
-                            File.Copy(file, Path.Combine(xapPath, Path.GetFileName(file)));
+                            //File.Copy(file, Path.Combine(xapPath, Path.GetFileName(file)));
+                            System.Drawing.Image.FromFile(file).Save(Path.Combine(xapPath, Path.GetFileName(file)),System.Drawing.Imaging.ImageFormat.Png);
                         }
                     }
                 }
@@ -287,7 +288,8 @@ namespace WPGamer
                     {
                         if (Path.GetExtension(file).ToLower() == ".png")
                         {
-                            File.Copy(file, Path.Combine(xapPath, Path.GetFileName(file)));
+                            //File.Copy(file, Path.Combine(xapPath, Path.GetFileName(file)));
+                            System.Drawing.Image.FromFile(file).Save(Path.Combine(xapPath, Path.GetFileName(file)), System.Drawing.Imaging.ImageFormat.Png);
                         }
                     }
                 }

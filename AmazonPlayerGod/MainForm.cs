@@ -83,7 +83,7 @@ namespace AmazonPlayerGod
         public MainForm()
         {
             InitializeComponent();
-                        
+
             this.webBrowser_Main.DocumentCompleted += webBrowser_Main_DocumentCompleted;
             GetNewModel();
         }
@@ -186,7 +186,7 @@ namespace AmazonPlayerGod
         {
             if (_step == 0)
             {
-                if (webBrowser_Main.Url.ToString().Contains("https://developer.amazon.com/appsandservices"))
+                if (webBrowser_Main.Url.ToString().Contains("https://developer.amazon.com/appsandservices") || webBrowser_Main.Document.Body.OuterText.Contains("Create Account"))
                 {
                     _step = 1;
                     return UrlState.NeedGoToLogin;
@@ -513,11 +513,12 @@ namespace AmazonPlayerGod
             else
             {
                 SetInfo("没获取到新账号，停止");
+                timer1.Stop();
             }
         }
 
         private void button_Start_Click(object sender, EventArgs e)
-        {            
+        {
             GoToLogOut();
         }
 
@@ -601,6 +602,7 @@ namespace AmazonPlayerGod
 
             panel3.Controls.Add(webBrowser_Main);
         }
+
         private void ShowLableInfo()
         {
             this.label_CurrentEduMail.Text = _pushGameInfo.RealDevAccount;
@@ -619,6 +621,106 @@ namespace AmazonPlayerGod
                 this.textBox_Info.AppendText(DateTime.Now.ToString() + "," + msg);
                 this.textBox_Info.AppendText(Environment.NewLine);
             }
+        }
+
+        private void webBrowser_Main_DocumentCompleted_1(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+
+        }
+
+        private void textBox_CurrentUrl_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void numericUpDown_Second_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_NewPassword_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_CurrentPassword_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_CurrentEduMail_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_FailCount_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label_SucCount_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox_Info_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
 
 

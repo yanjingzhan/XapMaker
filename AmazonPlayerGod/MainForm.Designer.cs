@@ -68,6 +68,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1204, 457);
             this.panel3.TabIndex = 8;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // webBrowser_Main
             // 
@@ -78,6 +79,7 @@
             this.webBrowser_Main.ScriptErrorsSuppressed = true;
             this.webBrowser_Main.Size = new System.Drawing.Size(1204, 432);
             this.webBrowser_Main.TabIndex = 1;
+            this.webBrowser_Main.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser_Main_DocumentCompleted_1);
             // 
             // textBox_CurrentUrl
             // 
@@ -87,6 +89,7 @@
             this.textBox_CurrentUrl.ReadOnly = true;
             this.textBox_CurrentUrl.Size = new System.Drawing.Size(1204, 25);
             this.textBox_CurrentUrl.TabIndex = 0;
+            this.textBox_CurrentUrl.TextChanged += new System.EventHandler(this.textBox_CurrentUrl_TextChanged);
             // 
             // groupBox1
             // 
@@ -100,6 +103,7 @@
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "控制";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // numericUpDown_Second
             // 
@@ -117,6 +121,7 @@
             0,
             0,
             0});
+            this.numericUpDown_Second.ValueChanged += new System.EventHandler(this.numericUpDown_Second_ValueChanged);
             // 
             // label9
             // 
@@ -126,6 +131,7 @@
             this.label9.Size = new System.Drawing.Size(67, 15);
             this.label9.TabIndex = 9;
             this.label9.Text = "超时秒数";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // button_Start
             // 
@@ -146,6 +152,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1204, 194);
             this.panel1.TabIndex = 6;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // groupBox2
             // 
@@ -166,6 +173,7 @@
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "信息";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // label2
             // 
@@ -175,6 +183,7 @@
             this.label2.Size = new System.Drawing.Size(37, 15);
             this.label2.TabIndex = 2;
             this.label2.Text = "成功";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label4
             // 
@@ -184,6 +193,7 @@
             this.label4.Size = new System.Drawing.Size(37, 15);
             this.label4.TabIndex = 2;
             this.label4.Text = "失败";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label_NewPassword
             // 
@@ -194,6 +204,7 @@
             this.label_NewPassword.Size = new System.Drawing.Size(29, 31);
             this.label_NewPassword.TabIndex = 2;
             this.label_NewPassword.Text = "0";
+            this.label_NewPassword.Click += new System.EventHandler(this.label_NewPassword_Click);
             // 
             // label_CurrentPassword
             // 
@@ -204,6 +215,7 @@
             this.label_CurrentPassword.Size = new System.Drawing.Size(29, 31);
             this.label_CurrentPassword.TabIndex = 2;
             this.label_CurrentPassword.Text = "0";
+            this.label_CurrentPassword.Click += new System.EventHandler(this.label_CurrentPassword_Click);
             // 
             // label_CurrentEduMail
             // 
@@ -214,6 +226,7 @@
             this.label_CurrentEduMail.Size = new System.Drawing.Size(29, 31);
             this.label_CurrentEduMail.TabIndex = 2;
             this.label_CurrentEduMail.Text = "0";
+            this.label_CurrentEduMail.Click += new System.EventHandler(this.label_CurrentEduMail_Click);
             // 
             // label7
             // 
@@ -223,6 +236,7 @@
             this.label7.Size = new System.Drawing.Size(52, 15);
             this.label7.TabIndex = 2;
             this.label7.Text = "新密码";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label5
             // 
@@ -232,6 +246,7 @@
             this.label5.Size = new System.Drawing.Size(37, 15);
             this.label5.TabIndex = 2;
             this.label5.Text = "密码";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -241,6 +256,7 @@
             this.label6.Size = new System.Drawing.Size(37, 15);
             this.label6.TabIndex = 2;
             this.label6.Text = "当前";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label_FailCount
             // 
@@ -251,6 +267,7 @@
             this.label_FailCount.Size = new System.Drawing.Size(29, 31);
             this.label_FailCount.TabIndex = 2;
             this.label_FailCount.Text = "0";
+            this.label_FailCount.Click += new System.EventHandler(this.label_FailCount_Click);
             // 
             // label_SucCount
             // 
@@ -261,6 +278,7 @@
             this.label_SucCount.Size = new System.Drawing.Size(29, 31);
             this.label_SucCount.TabIndex = 2;
             this.label_SucCount.Text = "0";
+            this.label_SucCount.Click += new System.EventHandler(this.label_SucCount_Click);
             // 
             // textBox_Info
             // 
@@ -271,6 +289,7 @@
             this.textBox_Info.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox_Info.Size = new System.Drawing.Size(1204, 100);
             this.textBox_Info.TabIndex = 0;
+            this.textBox_Info.TextChanged += new System.EventHandler(this.textBox_Info_TextChanged);
             // 
             // panel2
             // 
@@ -280,6 +299,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1204, 100);
             this.panel2.TabIndex = 7;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // timer1
             // 
